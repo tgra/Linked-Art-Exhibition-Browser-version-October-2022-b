@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This repository contains code to create a static website for exhibition data, using Linked Art JSON-LD and next.js.
