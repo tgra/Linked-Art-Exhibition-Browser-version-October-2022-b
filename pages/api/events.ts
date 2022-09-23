@@ -17,12 +17,9 @@ var path = require('path');
 
 export default function handler(_req: NextApiRequest, res: NextApiResponse) {
     
-  //console.log(_req.query)
-  
-
     let dir = "data/event";
     let events = [];
-    let perPage = 100;
+    let perPage = 500;
     
     let page = 1;
 
@@ -70,4 +67,7 @@ export default function handler(_req: NextApiRequest, res: NextApiResponse) {
    
 
 }
+
+
+
 
