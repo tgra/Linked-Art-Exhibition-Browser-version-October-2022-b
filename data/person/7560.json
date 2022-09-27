@@ -1,0 +1,139 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7560",
+  "type": "Person",
+  "_label": "Pedro Cervantez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14689",
+      "type": "Name",
+      "_label": "Pedro Cervantez"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4171",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1915"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14689",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29378",
+      "type": "TimeSpan",
+      "_label": "Pedro Cervantez Birth timespan",
+      "begin_of_the_begin": "1915",
+      "end_of_the_end": "1915"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14689",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29379",
+      "type": "TimeSpan",
+      "_label": "Pedro Cervantez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14689",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14689",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/81",
+              "type": "Event",
+              "_label": "New Horizons in American Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-14-9 - 1936-12-10",
+                "begin_of_the_begin": "1936-14-9",
+                "end_of_the_end": "1936-12-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29238",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/145",
+              "type": "Event",
+              "_label": "Four American Traveling Exhibitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-3-4 - 1940-28-4",
+                "begin_of_the_begin": "1940-3-4",
+                "end_of_the_end": "1940-28-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29239",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/201",
+              "type": "Event",
+              "_label": "Modern Primitives: Artists of the People",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-21-10 - 1944-30-4",
+                "begin_of_the_begin": "1941-21-10",
+                "end_of_the_end": "1944-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29240",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

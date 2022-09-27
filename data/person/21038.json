@@ -1,0 +1,138 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21038",
+  "type": "Person",
+  "_label": "Nancy Buchanan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1299",
+      "type": "Name",
+      "_label": "Nancy Buchanan"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1154",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1946"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1299",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2598",
+      "type": "TimeSpan",
+      "_label": "Nancy Buchanan Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1299",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2599",
+      "type": "TimeSpan",
+      "_label": "Nancy Buchanan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1299",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1299",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17211",
+              "type": "Event",
+              "_label": "The Art of Memory / The Loss of History",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-23-11 - 1986-19-1",
+                "begin_of_the_begin": "1985-23-11",
+                "end_of_the_end": "1986-19-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3738",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17212",
+              "type": "Event",
+              "_label": "Re-Viewing History: Video-Documents",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-23-11 - 1986-19-1",
+                "begin_of_the_begin": "1985-23-11",
+                "end_of_the_end": "1986-19-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3739",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21953",
+              "type": "Event",
+              "_label": "Home Fronts: Between the Public and the Private",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-1-9 - ",
+                "begin_of_the_begin": "2000-1-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3740",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

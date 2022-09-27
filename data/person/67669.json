@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67669",
+  "type": "Person",
+  "_label": "The Raincoats",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14191",
+      "type": "Name",
+      "_label": "The Raincoats"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14191",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28382",
+      "type": "TimeSpan",
+      "_label": "The Raincoats Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14191",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28383",
+      "type": "TimeSpan",
+      "_label": "The Raincoats Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14191",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14191",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18621",
+              "type": "Event",
+              "_label": "The Raincoats",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-12-12 - ",
+                "begin_of_the_begin": "1982-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28099",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1452",
+  "type": "Person",
+  "_label": "Roberto Diago",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/319",
+      "type": "Name",
+      "_label": "Roberto Diago"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/252",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Cuban, 1920–1955"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/319",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/638",
+      "type": "TimeSpan",
+      "_label": "Roberto Diago Birth timespan",
+      "begin_of_the_begin": "1920",
+      "end_of_the_end": "1920"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/319",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/639",
+      "type": "TimeSpan",
+      "_label": "Roberto Diago Death timespan",
+      "begin_of_the_begin": "1955",
+      "end_of_the_end": "1955"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/319",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/319",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/305",
+              "type": "Event",
+              "_label": "Modern Cuban Painters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-17-3 - 1944-7-5",
+                "begin_of_the_begin": "1944-17-3",
+                "end_of_the_end": "1944-7-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1122",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/430",
+              "type": "Event",
+              "_label": "New Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-13-1 - 1948-21-3",
+                "begin_of_the_begin": "1948-13-1",
+                "end_of_the_end": "1948-21-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1123",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

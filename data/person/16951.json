@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/16951",
+  "type": "Person",
+  "_label": "Morton Livingston Schamberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/578",
+      "type": "Name",
+      "_label": "Morton Livingston Schamberg"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/578",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1156",
+      "type": "TimeSpan",
+      "_label": "Morton Livingston Schamberg Birth timespan",
+      "begin_of_the_begin": "1881",
+      "end_of_the_end": "1881"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/578",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1157",
+      "type": "TimeSpan",
+      "_label": "Morton Livingston Schamberg Death timespan",
+      "begin_of_the_begin": "1918",
+      "end_of_the_end": "1918"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/578",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/578",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/535",
+              "type": "Event",
+              "_label": "Abstract Painting and Sculpture in America",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-23-1 - 1951-25-3",
+                "begin_of_the_begin": "1951-23-1",
+                "end_of_the_end": "1951-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1873",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

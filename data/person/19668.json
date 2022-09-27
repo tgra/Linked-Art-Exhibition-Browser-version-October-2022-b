@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/19668",
+  "type": "Person",
+  "_label": "John Stezaker",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1094",
+      "type": "Name",
+      "_label": "John Stezaker"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/962",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1949"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1094",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2188",
+      "type": "TimeSpan",
+      "_label": "John Stezaker Birth timespan",
+      "begin_of_the_begin": "1949",
+      "end_of_the_end": "1949"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1094",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2189",
+      "type": "TimeSpan",
+      "_label": "John Stezaker Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1094",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1094",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17060",
+              "type": "Event",
+              "_label": "Collage: The Unmonumental Picture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-16-1 - 2008-30-3",
+                "begin_of_the_begin": "2008-16-1",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3165",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/5950",
+  "type": "Person",
+  "_label": "Alfred Wallis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10273",
+      "type": "Name",
+      "_label": "Alfred Wallis"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3725",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, 1855–1942"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10273",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20546",
+      "type": "TimeSpan",
+      "_label": "Alfred Wallis Birth timespan",
+      "begin_of_the_begin": "1855",
+      "end_of_the_end": "1855"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10273",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20547",
+      "type": "TimeSpan",
+      "_label": "Alfred Wallis Death timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10273",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10273",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/201",
+              "type": "Event",
+              "_label": "Modern Primitives: Artists of the People",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-21-10 - 1944-30-4",
+                "begin_of_the_begin": "1941-21-10",
+                "end_of_the_end": "1944-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21857",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/353",
+              "type": "Event",
+              "_label": "The Museum Collection of Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-20-6 - 1946-13-2",
+                "begin_of_the_begin": "1945-20-6",
+                "end_of_the_end": "1946-13-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21858",
+                  "type": "Place",
+                  "_label": "Sculpture Garden, 2nd and 3rd Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

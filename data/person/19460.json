@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/19460",
+  "type": "Person",
+  "_label": "Oskar Fischinger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1046",
+      "type": "Name",
+      "_label": "Oskar Fischinger"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/917",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1900–1967"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1046",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2092",
+      "type": "TimeSpan",
+      "_label": "Oskar Fischinger Birth timespan",
+      "begin_of_the_begin": "1900",
+      "end_of_the_end": "1900"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1046",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2093",
+      "type": "TimeSpan",
+      "_label": "Oskar Fischinger Death timespan",
+      "begin_of_the_begin": "1967",
+      "end_of_the_end": "1967"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1046",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1046",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3465",
+              "type": "Event",
+              "_label": "Animations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-14-10 - 2002-20-1",
+                "begin_of_the_begin": "2001-14-10",
+                "end_of_the_end": "2002-20-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3038",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

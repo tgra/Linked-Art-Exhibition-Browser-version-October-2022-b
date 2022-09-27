@@ -1,0 +1,366 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3392",
+  "type": "Person",
+  "_label": "Roy Lichtenstein",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6036",
+      "type": "Name",
+      "_label": "Roy Lichtenstein"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2573",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1923–1997"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6036",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12072",
+      "type": "TimeSpan",
+      "_label": "Roy Lichtenstein Birth timespan",
+      "begin_of_the_begin": "1923",
+      "end_of_the_end": "1923"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6036",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12073",
+      "type": "TimeSpan",
+      "_label": "Roy Lichtenstein Death timespan",
+      "begin_of_the_begin": "1997",
+      "end_of_the_end": "1997"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6036",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6036",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4407",
+              "type": "Event",
+              "_label": "The Atmosphere of '64",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-17-4 - 1964-1-6",
+                "begin_of_the_begin": "1964-17-4",
+                "end_of_the_end": "1964-1-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12278",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4203",
+              "type": "Event",
+              "_label": "The Other Tradition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-27-1 - 1966-7-3",
+                "begin_of_the_begin": "1966-27-1",
+                "end_of_the_end": "1966-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12279",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4201",
+              "type": "Event",
+              "_label": "New Art in Philadelphia",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-30-9 - 1966-11-11",
+                "begin_of_the_begin": "1966-30-9",
+                "end_of_the_end": "1966-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12280",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4190",
+              "type": "Event",
+              "_label": "The Spirit of the Comics",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-1-10 - 1969-9-11",
+                "begin_of_the_begin": "1969-1-10",
+                "end_of_the_end": "1969-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12281",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4177",
+              "type": "Event",
+              "_label": "Inside Philadelphia: Selections from Private Collections",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-11-11 - 1972-19-12",
+                "begin_of_the_begin": "1972-11-11",
+                "end_of_the_end": "1972-19-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12282",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4173",
+              "type": "Event",
+              "_label": "A Selection of American and European Paintings from the Richard Brown Baker Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-7-12 - 1974-27-1",
+                "begin_of_the_begin": "1973-7-12",
+                "end_of_the_end": "1974-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12283",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4148",
+              "type": "Event",
+              "_label": "Late Twentieth Century Art: From the Sydney and Frances Lewis Foundation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-22-3 - 1979-2-5",
+                "begin_of_the_begin": "1979-22-3",
+                "end_of_the_end": "1979-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12284",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4090",
+              "type": "Event",
+              "_label": "1967: At the Crossroads",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-13-3 - 1987-26-4",
+                "begin_of_the_begin": "1987-13-3",
+                "end_of_the_end": "1987-26-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12285",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4379",
+              "type": "Event",
+              "_label": "Personal Choice: Selections from Four Penn Alumni Collections",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-14-5 - 1993-18-4",
+                "begin_of_the_begin": "1993-14-5",
+                "end_of_the_end": "1993-18-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12286",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3800",
+              "type": "Event",
+              "_label": "Poetry (Spring 1981): Sardines",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-22-4 - 1981-16-5",
+                "begin_of_the_begin": "1981-22-4",
+                "end_of_the_end": "1981-16-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12287",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3225",
+              "type": "Event",
+              "_label": "The New Portrait",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-15-4 - 1984-10-6",
+                "begin_of_the_begin": "1984-15-4",
+                "end_of_the_end": "1984-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12288",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3124",
+              "type": "Event",
+              "_label": "Slow Art: Painting in New York Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-26-4 - 1992-21-6",
+                "begin_of_the_begin": "1992-26-4",
+                "end_of_the_end": "1992-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12289",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

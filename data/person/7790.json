@@ -1,0 +1,112 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7790",
+  "type": "Person",
+  "_label": "Bruce Pearson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14763",
+      "type": "Name",
+      "_label": "Bruce Pearson"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4245",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14763",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29526",
+      "type": "TimeSpan",
+      "_label": "Bruce Pearson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14763",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29527",
+      "type": "TimeSpan",
+      "_label": "Bruce Pearson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14763",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14763",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2978",
+              "type": "Event",
+              "_label": "National and International Studio Program Exhibition 1990–1991",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-3-3 - 1991-24-3",
+                "begin_of_the_begin": "1991-3-3",
+                "end_of_the_end": "1991-24-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29454",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2834",
+              "type": "Event",
+              "_label": "Greater New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-27-2 - 2000-30-5",
+                "begin_of_the_begin": "2000-27-2",
+                "end_of_the_end": "2000-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29455",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

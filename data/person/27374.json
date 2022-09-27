@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27374",
+  "type": "Person",
+  "_label": "Glenn Chamberlain",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2463",
+      "type": "Name",
+      "_label": "Glenn Chamberlain"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2463",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4926",
+      "type": "TimeSpan",
+      "_label": "Glenn Chamberlain Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2463",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4927",
+      "type": "TimeSpan",
+      "_label": "Glenn Chamberlain Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2463",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2463",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/58",
+              "type": "Event",
+              "_label": "National Exhibition of Art by the Public Works of Art Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1934-19-9 - 1934-7-10",
+                "begin_of_the_begin": "1934-19-9",
+                "end_of_the_end": "1934-7-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6863",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/81",
+              "type": "Event",
+              "_label": "New Horizons in American Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-14-9 - 1936-12-10",
+                "begin_of_the_begin": "1936-14-9",
+                "end_of_the_end": "1936-12-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6864",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

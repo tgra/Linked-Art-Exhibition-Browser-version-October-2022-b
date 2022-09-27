@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/25520",
+  "type": "Person",
+  "_label": "Yto Barrada",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2011",
+      "type": "Name",
+      "_label": "Yto Barrada"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1738",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, born 1971"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2011",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4022",
+      "type": "TimeSpan",
+      "_label": "Yto Barrada Birth timespan",
+      "begin_of_the_begin": "1971",
+      "end_of_the_end": "1971"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2011",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4023",
+      "type": "TimeSpan",
+      "_label": "Yto Barrada Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2011",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2011",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/16994",
+              "type": "Event",
+              "_label": "Here and Elsewhere",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-16-7 - 2014-28-9",
+                "begin_of_the_begin": "2014-16-7",
+                "end_of_the_end": "2014-28-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5697",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18153",
+              "type": "Event",
+              "_label": "A Life Full of Holes: The…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-7-4 - ",
+                "begin_of_the_begin": "2006-7-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5698",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

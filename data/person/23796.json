@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/23796",
+  "type": "Person",
+  "_label": "Kerry Tribe",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1793",
+      "type": "Name",
+      "_label": "Kerry Tribe"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1548",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1973"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1793",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3586",
+      "type": "TimeSpan",
+      "_label": "Kerry Tribe Birth timespan",
+      "begin_of_the_begin": "1973",
+      "end_of_the_end": "1973"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1793",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3587",
+      "type": "TimeSpan",
+      "_label": "Kerry Tribe Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1793",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1793",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21918",
+              "type": "Event",
+              "_label": "Videodrome II",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-2-10 - 2002-3-11",
+                "begin_of_the_begin": "2002-2-10",
+                "end_of_the_end": "2002-3-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5116",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21908",
+              "type": "Event",
+              "_label": "Adaptive Behavior",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-18-9 - 2004-13-11",
+                "begin_of_the_begin": "2004-18-9",
+                "end_of_the_end": "2004-13-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5117",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

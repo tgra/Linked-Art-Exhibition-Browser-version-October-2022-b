@@ -1,0 +1,165 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/384",
+  "type": "Person",
+  "_label": "Gifford Beal",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6444",
+      "type": "Name",
+      "_label": "Gifford Beal"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2866",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1879–1956"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6444",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12888",
+      "type": "TimeSpan",
+      "_label": "Gifford Beal Birth timespan",
+      "begin_of_the_begin": "1879",
+      "end_of_the_end": "1879"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6444",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12889",
+      "type": "TimeSpan",
+      "_label": "Gifford Beal Death timespan",
+      "begin_of_the_begin": "1956",
+      "end_of_the_end": "1956"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6444",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6444",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/10",
+              "type": "Event",
+              "_label": "Painting and Sculpture by Living Americans",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1930-3-12 - 1931-20-1",
+                "begin_of_the_begin": "1930-3-12",
+                "end_of_the_end": "1931-20-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13439",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/74",
+              "type": "Event",
+              "_label": "New Acquisitions: The Collection of Mrs. John D. Rockefeller, Jr.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-14-1 - 1936-16-2",
+                "begin_of_the_begin": "1936-14-1",
+                "end_of_the_end": "1936-16-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13440",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/117",
+              "type": "Event",
+              "_label": "Three Centuries of American Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-24-5 - 1938-31-7",
+                "begin_of_the_begin": "1938-24-5",
+                "end_of_the_end": "1938-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13441",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/218",
+              "type": "Event",
+              "_label": "The Artists' New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-28-1 - 1942-2-3",
+                "begin_of_the_begin": "1942-28-1",
+                "end_of_the_end": "1942-2-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13442",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

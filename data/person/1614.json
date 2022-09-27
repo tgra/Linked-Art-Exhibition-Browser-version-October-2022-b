@@ -1,0 +1,139 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1614",
+  "type": "Person",
+  "_label": "William Eggleston",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/441",
+      "type": "Name",
+      "_label": "William Eggleston"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/359",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1939"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/441",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/882",
+      "type": "TimeSpan",
+      "_label": "William Eggleston Birth timespan",
+      "begin_of_the_begin": "1939",
+      "end_of_the_end": "1939"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/441",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/883",
+      "type": "TimeSpan",
+      "_label": "William Eggleston Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/441",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/441",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4132",
+              "type": "Event",
+              "_label": "Photography: A Sense of Order",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-11-12 - 1982-27-1",
+                "begin_of_the_begin": "1981-11-12",
+                "end_of_the_end": "1982-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1497",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2844",
+              "type": "Event",
+              "_label": "The Promise of Photograhy: Selections from the DG Bank Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-12-9 - 1999-24-10",
+                "begin_of_the_begin": "1999-12-9",
+                "end_of_the_end": "1999-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1498",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3509",
+              "type": "Event",
+              "_label": "September 11",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-11-9 - 2012-9-1",
+                "begin_of_the_begin": "2011-11-9",
+                "end_of_the_end": "2012-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1499",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

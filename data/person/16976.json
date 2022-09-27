@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/16976",
+  "type": "Person",
+  "_label": "Zwelethu Mthethwa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/582",
+      "type": "Name",
+      "_label": "Zwelethu Mthethwa"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/488",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "South African, born 1960"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/582",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1164",
+      "type": "TimeSpan",
+      "_label": "Zwelethu Mthethwa Birth timespan",
+      "begin_of_the_begin": "1960",
+      "end_of_the_end": "1960"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/582",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1165",
+      "type": "TimeSpan",
+      "_label": "Zwelethu Mthethwa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/582",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/582",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3496",
+              "type": "Event",
+              "_label": "The Short Century: Independence and Liberation Movements in Africa, 1945–1994",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-10-2 - 2002-5-5",
+                "begin_of_the_begin": "2002-10-2",
+                "end_of_the_end": "2002-5-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1880",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

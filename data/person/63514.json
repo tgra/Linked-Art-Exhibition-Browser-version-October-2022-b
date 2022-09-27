@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63514",
+  "type": "Person",
+  "_label": "John Cohen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12200",
+      "type": "Name",
+      "_label": "John Cohen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12200",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24400",
+      "type": "TimeSpan",
+      "_label": "John Cohen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12200",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24401",
+      "type": "TimeSpan",
+      "_label": "John Cohen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12200",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12200",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7278",
+              "type": "Event",
+              "_label": "Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-14-3 - 1959-4-4",
+                "begin_of_the_begin": "1959-14-3",
+                "end_of_the_end": "1959-4-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25025",
+                  "type": "Place",
+                  "_label": "55 Washington Square South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63912",
+  "type": "Person",
+  "_label": "Beatriz Santiago Muñoz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12366",
+      "type": "Name",
+      "_label": "Beatriz Santiago Muñoz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12366",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24732",
+      "type": "TimeSpan",
+      "_label": "Beatriz Santiago Muñoz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12366",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24733",
+      "type": "TimeSpan",
+      "_label": "Beatriz Santiago Muñoz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12366",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12366",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/16979",
+              "type": "Event",
+              "_label": "Source Material: Les Guérillères",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-20-4 - 2016-12-6",
+                "begin_of_the_begin": "2016-20-4",
+                "end_of_the_end": "2016-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25296",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/16980",
+              "type": "Event",
+              "_label": "Beatriz Santiago Muñoz: Song, Strategy, Sign",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-20-4 - 2016-12-6",
+                "begin_of_the_begin": "2016-20-4",
+                "end_of_the_end": "2016-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25297",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

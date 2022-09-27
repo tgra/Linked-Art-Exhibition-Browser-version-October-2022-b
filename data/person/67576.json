@@ -1,0 +1,144 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67576",
+  "type": "Person",
+  "_label": "Composers Inside Electronics",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14104",
+      "type": "Name",
+      "_label": "Composers Inside Electronics"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14104",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28208",
+      "type": "TimeSpan",
+      "_label": "Composers Inside Electronics Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14104",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28209",
+      "type": "TimeSpan",
+      "_label": "Composers Inside Electronics Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14104",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14104",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18506",
+              "type": "Event",
+              "_label": "Rainforest",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-19-4 - ",
+                "begin_of_the_begin": "1975-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27997",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18240",
+              "type": "Event",
+              "_label": "Composers Inside Electron…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-20-9 - ",
+                "begin_of_the_begin": "1978-20-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27998",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18240",
+              "type": "Event",
+              "_label": "Composers Inside Electron…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-20-9 - ",
+                "begin_of_the_begin": "1978-20-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27999",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18507",
+              "type": "Event",
+              "_label": "Rainforest IV",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-22-9 - ",
+                "begin_of_the_begin": "2007-22-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28000",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

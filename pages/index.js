@@ -5,13 +5,14 @@ export default function Home({buildTimestamp}) {
   return (
     <div className="container">
       <Head>
-        <title>Alternative New York Exhibitions</title>
+        <title>MOMA and Alternative New York Exhibitions</title>
 
         
       </Head>
 
       <main>
-        <h1 className="title">Alternative New York Exhibitions</h1>
+        <h1 >Museum of Modern Art (MOMA) &amp; alternative New York exhibitions</h1>
+        <h1></h1>
 
         <p className="description">
           This is a demo visualisation of art exhibition data represented using the Linked Art data model.
@@ -24,9 +25,9 @@ export default function Home({buildTimestamp}) {
             <h3>Exhibitions</h3>
             <p><Link href="/exhibition">Explore exhibitions</Link></p>
           </a>
-          <a href="/artist" className="card">
-            <h3>Artists</h3>
-            <p><Link href="/artists">Explore artists</Link></p>
+          <a href="/person" className="card">
+            <h3>People</h3>
+            <p><Link href="/person">Explore people involved in exhibitions</Link></p>
           </a>
 
           <a

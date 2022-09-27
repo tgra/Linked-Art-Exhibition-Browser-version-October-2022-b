@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59012",
+  "type": "Person",
+  "_label": "Judith Sanchez Ruiz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9772",
+      "type": "Name",
+      "_label": "Judith Sanchez Ruiz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9772",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19544",
+      "type": "TimeSpan",
+      "_label": "Judith Sanchez Ruiz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9772",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19545",
+      "type": "TimeSpan",
+      "_label": "Judith Sanchez Ruiz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9772",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9772",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2872",
+              "type": "Event",
+              "_label": "Summer Dance Warm Up",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-7-7 - 2001-1-9",
+                "begin_of_the_begin": "2001-7-7",
+                "end_of_the_end": "2001-1-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21156",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

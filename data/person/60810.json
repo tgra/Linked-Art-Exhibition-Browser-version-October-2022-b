@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60810",
+  "type": "Person",
+  "_label": "Clay Ketter",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11628",
+      "type": "Name",
+      "_label": "Clay Ketter"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11628",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23256",
+      "type": "TimeSpan",
+      "_label": "Clay Ketter Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11628",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23257",
+      "type": "TimeSpan",
+      "_label": "Clay Ketter Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11628",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11628",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4337",
+              "type": "Event",
+              "_label": "Against Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-5-2 - 2000-16-4",
+                "begin_of_the_begin": "2000-5-2",
+                "end_of_the_end": "2000-16-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23915",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

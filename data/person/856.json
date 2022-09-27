@@ -1,0 +1,166 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/856",
+  "type": "Person",
+  "_label": "Pol Bury",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14918",
+      "type": "Name",
+      "_label": "Pol Bury"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4376",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Belgian, born 1922"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14918",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29836",
+      "type": "TimeSpan",
+      "_label": "Pol Bury Birth timespan",
+      "begin_of_the_begin": "1922",
+      "end_of_the_end": "1922"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14918",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29837",
+      "type": "TimeSpan",
+      "_label": "Pol Bury Death timespan",
+      "begin_of_the_begin": "2005",
+      "end_of_the_end": "2005"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14918",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14918",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4406",
+              "type": "Event",
+              "_label": "Group Zero",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-30-10 - 1964-11-12",
+                "begin_of_the_begin": "1964-30-10",
+                "end_of_the_end": "1964-11-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29921",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4201",
+              "type": "Event",
+              "_label": "New Art in Philadelphia",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-30-9 - 1966-11-11",
+                "begin_of_the_begin": "1966-30-9",
+                "end_of_the_end": "1966-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29922",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4198",
+              "type": "Event",
+              "_label": "Selected Works from the Collection of Mr. and Mrs. H. Gates Lloyd",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-18-10 - 1967-19-11",
+                "begin_of_the_begin": "1967-18-10",
+                "end_of_the_end": "1967-19-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29923",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17020",
+              "type": "Event",
+              "_label": "Ghosts in the Machine",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-18-7 - 2012-30-9",
+                "begin_of_the_begin": "2012-18-7",
+                "end_of_the_end": "2012-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29924",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

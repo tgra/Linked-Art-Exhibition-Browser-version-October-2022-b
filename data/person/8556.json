@@ -1,0 +1,244 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/8556",
+  "type": "Person",
+  "_label": "Knoll Associates, New York, NY",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14917",
+      "type": "Name",
+      "_label": "Knoll Associates, New York, NY"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14917",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29834",
+      "type": "TimeSpan",
+      "_label": "Knoll Associates, New York, NY Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14917",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29835",
+      "type": "TimeSpan",
+      "_label": "Knoll Associates, New York, NY Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14917",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14917",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/311",
+              "type": "Event",
+              "_label": "Design for Use",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-24-5 - 1944-22-10",
+                "begin_of_the_begin": "1944-24-5",
+                "end_of_the_end": "1944-22-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29913",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/400",
+              "type": "Event",
+              "_label": "Useful Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-26-11 - 1947-26-1",
+                "begin_of_the_begin": "1946-26-11",
+                "end_of_the_end": "1947-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29914",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/474",
+              "type": "Event",
+              "_label": "The House in the Museum Garden",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-12-4 - 1949-30-10",
+                "begin_of_the_begin": "1949-12-4",
+                "end_of_the_end": "1949-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29915",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/492",
+              "type": "Event",
+              "_label": "Modern Art in Your Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-5-10 - 1949-4-12",
+                "begin_of_the_begin": "1949-5-10",
+                "end_of_the_end": "1949-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29916",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/498",
+              "type": "Event",
+              "_label": "Design Show: Christmas 1949",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-15-11 - 1950-8-1",
+                "begin_of_the_begin": "1949-15-11",
+                "end_of_the_end": "1950-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29917",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/515",
+              "type": "Event",
+              "_label": "Prize Designs for Modern Furniture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-16-5 - 1950-16-7",
+                "begin_of_the_begin": "1950-16-5",
+                "end_of_the_end": "1950-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29918",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/532",
+              "type": "Event",
+              "_label": "Good Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-21-11 - 1951-28-1",
+                "begin_of_the_begin": "1950-21-11",
+                "end_of_the_end": "1951-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29919",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/542",
+              "type": "Event",
+              "_label": "New Lamps",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-27-3 - 1951-3-6",
+                "begin_of_the_begin": "1951-27-3",
+                "end_of_the_end": "1951-3-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29920",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/61092",
+  "type": "Person",
+  "_label": "Matana Roberts",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11920",
+      "type": "Name",
+      "_label": "Matana Roberts"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11920",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23840",
+      "type": "TimeSpan",
+      "_label": "Matana Roberts Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11920",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23841",
+      "type": "TimeSpan",
+      "_label": "Matana Roberts Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11920",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11920",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3991",
+              "type": "Event",
+              "_label": "The Freedom Principle: Experiments in Art and Music, 1965 to Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-14-9 - 2017-19-3",
+                "begin_of_the_begin": "2016-14-9",
+                "end_of_the_end": "2017-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24277",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18156",
+              "type": "Event",
+              "_label": "A Power Stronger Than Its…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-9-10 - ",
+                "begin_of_the_begin": "2008-9-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24278",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18174",
+              "type": "Event",
+              "_label": "Aluminum Music",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-15-4 - ",
+                "begin_of_the_begin": "2011-15-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24279",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

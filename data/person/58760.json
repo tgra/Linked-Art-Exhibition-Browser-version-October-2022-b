@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58760",
+  "type": "Person",
+  "_label": "Anita Saghbazarian",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9512",
+      "type": "Name",
+      "_label": "Anita Saghbazarian"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9512",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19024",
+      "type": "TimeSpan",
+      "_label": "Anita Saghbazarian Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9512",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19025",
+      "type": "TimeSpan",
+      "_label": "Anita Saghbazarian Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9512",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9512",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2794",
+              "type": "Event",
+              "_label": "National Studio Artists (Spring 1982)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-4-4 - 1982-30-5",
+                "begin_of_the_begin": "1982-4-4",
+                "end_of_the_end": "1982-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20762",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

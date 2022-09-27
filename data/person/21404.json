@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21404",
+  "type": "Person",
+  "_label": "Fujiko Nakaya",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1375",
+      "type": "Name",
+      "_label": "Fujiko Nakaya"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1222",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, born 1933"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1375",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2750",
+      "type": "TimeSpan",
+      "_label": "Fujiko Nakaya Birth timespan",
+      "begin_of_the_begin": "1933",
+      "end_of_the_end": "1933"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1375",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2751",
+      "type": "TimeSpan",
+      "_label": "Fujiko Nakaya Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1375",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1375",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17074",
+              "type": "Event",
+              "_label": "Trisha Brown: Dance and Art in Dialogue 1961-2001",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-10-10 - 2004-25-1",
+                "begin_of_the_begin": "2003-10-10",
+                "end_of_the_end": "2004-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3984",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

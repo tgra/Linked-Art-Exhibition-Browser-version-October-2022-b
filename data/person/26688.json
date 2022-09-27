@@ -1,0 +1,148 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/26688",
+  "type": "Person",
+  "_label": "Jacki Apple",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2198",
+      "type": "Name",
+      "_label": "Jacki Apple"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2198",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4396",
+      "type": "TimeSpan",
+      "_label": "Jacki Apple Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2198",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4397",
+      "type": "TimeSpan",
+      "_label": "Jacki Apple Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2198",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2198",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2986",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1977)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-1-1 - 1977-1-3",
+                "begin_of_the_begin": "1977-1-1",
+                "end_of_the_end": "1977-1-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6138",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3051",
+              "type": "Event",
+              "_label": "Jacki Apple: Heart of Palms",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-29-1 - 1978-29-1",
+                "begin_of_the_begin": "1978-29-1",
+                "end_of_the_end": "1978-29-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6139",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17266",
+              "type": "Event",
+              "_label": "Bill Beirne: Similarities and Differences",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-9-5 - 1981-16-7",
+                "begin_of_the_begin": "1981-9-5",
+                "end_of_the_end": "1981-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6140",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17267",
+              "type": "Event",
+              "_label": "Alternatives in Retrospect: An Historical Overview 1969 – 1975",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-9-5 - 1981-16-7",
+                "begin_of_the_begin": "1981-9-5",
+                "end_of_the_end": "1981-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6141",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

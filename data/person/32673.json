@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32673",
+  "type": "Person",
+  "_label": "Susanne Wenger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5814",
+      "type": "Name",
+      "_label": "Susanne Wenger"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5814",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11628",
+      "type": "TimeSpan",
+      "_label": "Susanne Wenger Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5814",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11629",
+      "type": "TimeSpan",
+      "_label": "Susanne Wenger Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5814",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5814",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3496",
+              "type": "Event",
+              "_label": "The Short Century: Independence and Liberation Movements in Africa, 1945–1994",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-10-2 - 2002-5-5",
+                "begin_of_the_begin": "2002-10-2",
+                "end_of_the_end": "2002-5-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11609",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21466",
+  "type": "Person",
+  "_label": "Max Almy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1395",
+      "type": "Name",
+      "_label": "Max Almy"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1241",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1948"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1395",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2790",
+      "type": "TimeSpan",
+      "_label": "Max Almy Birth timespan",
+      "begin_of_the_begin": "1948",
+      "end_of_the_end": "1948"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1395",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2791",
+      "type": "TimeSpan",
+      "_label": "Max Almy Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1395",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1395",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3172",
+              "type": "Event",
+              "_label": "Video (Winter 1981)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-15-2 - 1981-1-3",
+                "begin_of_the_begin": "1981-15-2",
+                "end_of_the_end": "1981-1-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4033",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2735",
+              "type": "Event",
+              "_label": "Video (Fall 1984): Political Works and \"Talking to Myself\"",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-14-10 - 1984-9-12",
+                "begin_of_the_begin": "1984-14-10",
+                "end_of_the_end": "1984-9-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4034",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17224",
+              "type": "Event",
+              "_label": "Difference: On Representation and Sexuality",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-8-12 - 1985-10-2",
+                "begin_of_the_begin": "1984-8-12",
+                "end_of_the_end": "1985-10-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4035",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

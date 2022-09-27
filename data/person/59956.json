@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59956",
+  "type": "Person",
+  "_label": "Ann Pibal",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10749",
+      "type": "Name",
+      "_label": "Ann Pibal"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10749",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21498",
+      "type": "TimeSpan",
+      "_label": "Ann Pibal Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10749",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21499",
+      "type": "TimeSpan",
+      "_label": "Ann Pibal Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10749",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10749",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3442",
+              "type": "Event",
+              "_label": "Greater New York 2005",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-13-3 - 2005-26-9",
+                "begin_of_the_begin": "2005-13-3",
+                "end_of_the_end": "2005-26-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22566",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3501",
+              "type": "Event",
+              "_label": "The Painted World",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-23-10 - 2006-13-3",
+                "begin_of_the_begin": "2005-23-10",
+                "end_of_the_end": "2006-13-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22567",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

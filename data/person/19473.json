@@ -1,0 +1,137 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/19473",
+  "type": "Person",
+  "_label": "Shalom Gorewitz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1051",
+      "type": "Name",
+      "_label": "Shalom Gorewitz"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/922",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1949"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1051",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2102",
+      "type": "TimeSpan",
+      "_label": "Shalom Gorewitz Birth timespan",
+      "begin_of_the_begin": "1949",
+      "end_of_the_end": "1949"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1051",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2103",
+      "type": "TimeSpan",
+      "_label": "Shalom Gorewitz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1051",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1051",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2760",
+              "type": "Event",
+              "_label": "Video (Spring 1985)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-5 - 1985-23-6",
+                "begin_of_the_begin": "1985-5-5",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3048",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18516",
+              "type": "Event",
+              "_label": "Return Jump",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-10-10 - ",
+                "begin_of_the_begin": "1982-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3049",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18304",
+              "type": "Event",
+              "_label": "Extant Work",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-9-2 - ",
+                "begin_of_the_begin": "1988-9-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3050",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60268",
+  "type": "Person",
+  "_label": "Max Brand",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11073",
+      "type": "Name",
+      "_label": "Max Brand"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11073",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22146",
+      "type": "TimeSpan",
+      "_label": "Max Brand Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11073",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22147",
+      "type": "TimeSpan",
+      "_label": "Max Brand Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11073",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11073",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3531",
+              "type": "Event",
+              "_label": "Max Brand: no solid footing – (trained) duck fighting a crow",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-19-4 - 2012-30-9",
+                "begin_of_the_begin": "2012-19-4",
+                "end_of_the_end": "2012-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23071",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

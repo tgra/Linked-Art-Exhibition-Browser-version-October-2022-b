@@ -1,0 +1,390 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2405",
+  "type": "Person",
+  "_label": "Keith Haring",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1826",
+      "type": "Name",
+      "_label": "Keith Haring"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1571",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1958–1990"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1826",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3652",
+      "type": "TimeSpan",
+      "_label": "Keith Haring Birth timespan",
+      "begin_of_the_begin": "1958",
+      "end_of_the_end": "1958"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1826",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3653",
+      "type": "TimeSpan",
+      "_label": "Keith Haring Death timespan",
+      "begin_of_the_begin": "1990",
+      "end_of_the_end": "1990"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1826",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1826",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4121",
+              "type": "Event",
+              "_label": "Investigations 2: Keith Haring",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-6 - 1983-31-7",
+                "begin_of_the_begin": "1983-11-6",
+                "end_of_the_end": "1983-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5235",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4111",
+              "type": "Event",
+              "_label": "The East Village Scene",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-12-10 - 1984-2-12",
+                "begin_of_the_begin": "1984-12-10",
+                "end_of_the_end": "1984-2-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5236",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4401",
+              "type": "Event",
+              "_label": "Devil on the Stairs: Looking Back on the Eighties",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-4-10 - 1991-5-1",
+                "begin_of_the_begin": "1990-4-10",
+                "end_of_the_end": "1991-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5237",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4379",
+              "type": "Event",
+              "_label": "Personal Choice: Selections from Four Penn Alumni Collections",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-14-5 - 1993-18-4",
+                "begin_of_the_begin": "1993-14-5",
+                "end_of_the_end": "1993-18-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5238",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3178",
+              "type": "Event",
+              "_label": "New York/New Wave",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-15-2 - 1981-5-4",
+                "begin_of_the_begin": "1981-15-2",
+                "end_of_the_end": "1981-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5239",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2786",
+              "type": "Event",
+              "_label": "Beast: Animal Imagery in Recent Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-10 - 1982-12-12",
+                "begin_of_the_begin": "1982-17-10",
+                "end_of_the_end": "1982-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5240",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3225",
+              "type": "Event",
+              "_label": "The New Portrait",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-15-4 - 1984-10-6",
+                "begin_of_the_begin": "1984-15-4",
+                "end_of_the_end": "1984-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5241",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2892",
+              "type": "Event",
+              "_label": "Around 1984: A Look at Art in the Eighties",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-21-5 - 2000-30-9",
+                "begin_of_the_begin": "2000-21-5",
+                "end_of_the_end": "2000-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5242",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17275",
+              "type": "Event",
+              "_label": "Events: Fashion Moda",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-13-12 - 1981-8-1",
+                "begin_of_the_begin": "1980-13-12",
+                "end_of_the_end": "1981-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5243",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17244",
+              "type": "Event",
+              "_label": "Language, Drama, Source and Vision",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-8-10 - 1983-27-11",
+                "begin_of_the_begin": "1983-8-10",
+                "end_of_the_end": "1983-27-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5244",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17071",
+              "type": "Event",
+              "_label": "East Village USA",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-9-12 - 2005-19-3",
+                "begin_of_the_begin": "2004-9-12",
+                "end_of_the_end": "2005-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5245",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17019",
+              "type": "Event",
+              "_label": "Come Closer: Art Around the Bowery, 1969–1989",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-19-9 - 2012-30-12",
+                "begin_of_the_begin": "2012-19-9",
+                "end_of_the_end": "2012-30-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5246",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18326",
+              "type": "Event",
+              "_label": "Four Duets",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-21-11 - ",
+                "begin_of_the_begin": "1982-21-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5247",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

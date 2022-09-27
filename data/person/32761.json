@@ -1,0 +1,125 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32761",
+  "type": "Person",
+  "_label": "Rosalyn Drexler",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5837",
+      "type": "Name",
+      "_label": "Rosalyn Drexler"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5837",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11674",
+      "type": "TimeSpan",
+      "_label": "Rosalyn Drexler Birth timespan",
+      "begin_of_the_begin": "1926",
+      "end_of_the_end": "1926"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5837",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11675",
+      "type": "TimeSpan",
+      "_label": "Rosalyn Drexler Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5837",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5837",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3025",
+              "type": "Event",
+              "_label": "Another Aspect of Pop Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-1-10 - 1978-19-11",
+                "begin_of_the_begin": "1978-1-10",
+                "end_of_the_end": "1978-19-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11698",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3225",
+              "type": "Event",
+              "_label": "The New Portrait",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-15-4 - 1984-10-6",
+                "begin_of_the_begin": "1984-15-4",
+                "end_of_the_end": "1984-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11699",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7315",
+              "type": "Event",
+              "_label": "Rosalyn Drexler: Sculptures",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-19-2 - 1960-10-3",
+                "begin_of_the_begin": "1960-19-2",
+                "end_of_the_end": "1960-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11700",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

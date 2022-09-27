@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/26258",
+  "type": "Person",
+  "_label": "Herb Brown",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2115",
+      "type": "Name",
+      "_label": "Herb Brown"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2115",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4230",
+      "type": "TimeSpan",
+      "_label": "Herb Brown Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2115",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4231",
+      "type": "TimeSpan",
+      "_label": "Herb Brown Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2115",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2115",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7307",
+              "type": "Event",
+              "_label": "Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-29-1 - 1960-18-2",
+                "begin_of_the_begin": "1960-29-1",
+                "end_of_the_end": "1960-18-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5962",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7316",
+              "type": "Event",
+              "_label": "Herb Brown",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-11-3 - 1960-31-3",
+                "begin_of_the_begin": "1960-11-3",
+                "end_of_the_end": "1960-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5963",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

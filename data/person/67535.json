@@ -1,0 +1,144 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67535",
+  "type": "Person",
+  "_label": "Arthur Russell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14063",
+      "type": "Name",
+      "_label": "Arthur Russell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14063",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28126",
+      "type": "TimeSpan",
+      "_label": "Arthur Russell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14063",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28127",
+      "type": "TimeSpan",
+      "_label": "Arthur Russell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14063",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14063",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18365",
+              "type": "Event",
+              "_label": "Instrumentals",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-27-4 - ",
+                "begin_of_the_begin": "1975-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27943",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18138",
+              "type": "Event",
+              "_label": "24 to 24 Music",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-27-4 - ",
+                "begin_of_the_begin": "1979-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27944",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18679",
+              "type": "Event",
+              "_label": "The World Of Echo & …",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-19-3 - ",
+                "begin_of_the_begin": "1984-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27945",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18645",
+              "type": "Event",
+              "_label": "View From a Volcano",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-30-6 - ",
+                "begin_of_the_begin": "2011-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27946",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/16776",
+  "type": "Person",
+  "_label": "Dinh Q. Lê",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/555",
+      "type": "Name",
+      "_label": "Dinh Q. Lê"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/463",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Vietnamese American, born 1968"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/555",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1110",
+      "type": "TimeSpan",
+      "_label": "Dinh Q. Lê Birth timespan",
+      "begin_of_the_begin": "1968",
+      "end_of_the_end": "1968"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/555",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1111",
+      "type": "TimeSpan",
+      "_label": "Dinh Q. Lê Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/555",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/555",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3547",
+              "type": "Event",
+              "_label": "Altered, Stitched and Gathered",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-14-12 - 2007-28-1",
+                "begin_of_the_begin": "2006-14-12",
+                "end_of_the_end": "2007-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1828",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17107",
+              "type": "Event",
+              "_label": "A Labor of Love",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-20-1 - 1996-14-4",
+                "begin_of_the_begin": "1996-20-1",
+                "end_of_the_end": "1996-14-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1829",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

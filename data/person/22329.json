@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/22329",
+  "type": "Person",
+  "_label": "Toshi Ichiyanagi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1525",
+      "type": "Name",
+      "_label": "Toshi Ichiyanagi"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1336",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, born 1933"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1525",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3050",
+      "type": "TimeSpan",
+      "_label": "Toshi Ichiyanagi Birth timespan",
+      "begin_of_the_begin": "1933",
+      "end_of_the_end": "1933"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1525",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3051",
+      "type": "TimeSpan",
+      "_label": "Toshi Ichiyanagi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1525",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1525",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7261",
+              "type": "Event",
+              "_label": "Ichiyanagi Toshi: Music",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-7-1 - 1961-8-1",
+                "begin_of_the_begin": "1961-7-1",
+                "end_of_the_end": "1961-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4361",
+                  "type": "Place",
+                  "_label": "112 Chambers Street, 3rd Floor (Yoko Ono’s Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3156",
+              "type": "Event",
+              "_label": "Sound",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-30-9 - 1979-18-11",
+                "begin_of_the_begin": "1979-30-9",
+                "end_of_the_end": "1979-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4362",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

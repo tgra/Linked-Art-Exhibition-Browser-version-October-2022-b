@@ -1,0 +1,164 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4840",
+  "type": "Person",
+  "_label": "Theodore Roszak",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6893",
+      "type": "Name",
+      "_label": "Theodore Roszak"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3268",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born Poland. 1907–1981"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6893",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13786",
+      "type": "TimeSpan",
+      "_label": "Theodore Roszak Birth timespan",
+      "begin_of_the_begin": "1907",
+      "end_of_the_end": "1907"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6893",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13787",
+      "type": "TimeSpan",
+      "_label": "Theodore Roszak Death timespan",
+      "begin_of_the_begin": "1981",
+      "end_of_the_end": "1981"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6893",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6893",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/393",
+              "type": "Event",
+              "_label": "Fourteen Americans",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-10-9 - 1946-8-12",
+                "begin_of_the_begin": "1946-10-9",
+                "end_of_the_end": "1946-8-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15484",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/506",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-31-1 - 1950-7-5",
+                "begin_of_the_begin": "1950-31-1",
+                "end_of_the_end": "1950-7-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15485",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/524",
+              "type": "Event",
+              "_label": "Carvers-Modelers-Welders: A Selection of Recent American Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-1-8 - 1950-10-9",
+                "begin_of_the_begin": "1950-1-8",
+                "end_of_the_end": "1950-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15486",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/535",
+              "type": "Event",
+              "_label": "Abstract Painting and Sculpture in America",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-23-1 - 1951-25-3",
+                "begin_of_the_begin": "1951-23-1",
+                "end_of_the_end": "1951-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15487",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

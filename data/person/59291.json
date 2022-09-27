@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59291",
+  "type": "Person",
+  "_label": "Peter Foldes",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10059",
+      "type": "Name",
+      "_label": "Peter Foldes"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10059",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20118",
+      "type": "TimeSpan",
+      "_label": "Peter Foldes Birth timespan",
+      "begin_of_the_begin": "1924",
+      "end_of_the_end": "1924"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10059",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20119",
+      "type": "TimeSpan",
+      "_label": "Peter Foldes Death timespan",
+      "begin_of_the_begin": "1977",
+      "end_of_the_end": "1977"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10059",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10059",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3465",
+              "type": "Event",
+              "_label": "Animations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-14-10 - 2002-20-1",
+                "begin_of_the_begin": "2001-14-10",
+                "end_of_the_end": "2002-20-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21579",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

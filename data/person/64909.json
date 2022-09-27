@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64909",
+  "type": "Person",
+  "_label": "Howard McCalebb",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12758",
+      "type": "Name",
+      "_label": "Howard McCalebb"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12758",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25516",
+      "type": "TimeSpan",
+      "_label": "Howard McCalebb Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12758",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25517",
+      "type": "TimeSpan",
+      "_label": "Howard McCalebb Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12758",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12758",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17272",
+              "type": "Event",
+              "_label": "Events: Artists Invite Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-13-2 - 1981-5-3",
+                "begin_of_the_begin": "1981-13-2",
+                "end_of_the_end": "1981-5-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25891",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67068",
+  "type": "Person",
+  "_label": "Valerie Lamontagne",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13684",
+      "type": "Name",
+      "_label": "Valerie Lamontagne"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13684",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27368",
+      "type": "TimeSpan",
+      "_label": "Valerie Lamontagne Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13684",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27369",
+      "type": "TimeSpan",
+      "_label": "Valerie Lamontagne Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13684",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13684",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21927",
+              "type": "Event",
+              "_label": "Location/Dislocation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-25-9 - 2001-7-10",
+                "begin_of_the_begin": "2001-25-9",
+                "end_of_the_end": "2001-7-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27433",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/975",
+  "type": "Person",
+  "_label": "A. M. Cassandre",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/15162",
+      "type": "Name",
+      "_label": "A. M. Cassandre"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4475",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1901–1968"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/15162",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30324",
+      "type": "TimeSpan",
+      "_label": "A. M. Cassandre Birth timespan",
+      "begin_of_the_begin": "1901",
+      "end_of_the_end": "1901"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/15162",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/30325",
+      "type": "TimeSpan",
+      "_label": "A. M. Cassandre Death timespan",
+      "begin_of_the_begin": "1968",
+      "end_of_the_end": "1968"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/15162",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/15162",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/72",
+              "type": "Event",
+              "_label": "Posters by Cassandre",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-14-1 - 1936-16-2",
+                "begin_of_the_begin": "1936-14-1",
+                "end_of_the_end": "1936-16-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30541",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/75",
+              "type": "Event",
+              "_label": "Cubism and Abstract Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-2-3 - 1936-19-4",
+                "begin_of_the_begin": "1936-2-3",
+                "end_of_the_end": "1936-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30542",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/181",
+              "type": "Event",
+              "_label": "A History of the Modern Poster",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-11-6 - 1941-26-6",
+                "begin_of_the_begin": "1941-11-6",
+                "end_of_the_end": "1941-26-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30543",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/211",
+              "type": "Event",
+              "_label": "Introduction to Modern Painting: Modern Posters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-3-12 - 1941-7-12",
+                "begin_of_the_begin": "1941-3-12",
+                "end_of_the_end": "1941-7-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30544",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/314",
+              "type": "Event",
+              "_label": "Posters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-24-5 - 1944-17-9",
+                "begin_of_the_begin": "1944-24-5",
+                "end_of_the_end": "1944-17-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30545",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/397",
+              "type": "Event",
+              "_label": "On Being a Cartoonist",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-15-10 - 1946-24-11",
+                "begin_of_the_begin": "1946-15-10",
+                "end_of_the_end": "1946-24-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30546",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/452",
+              "type": "Event",
+              "_label": "Collage",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-21-9 - 1948-5-12",
+                "begin_of_the_begin": "1948-21-9",
+                "end_of_the_end": "1948-5-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30547",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/492",
+              "type": "Event",
+              "_label": "Modern Art in Your Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-5-10 - 1949-4-12",
+                "begin_of_the_begin": "1949-5-10",
+                "end_of_the_end": "1949-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30548",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/517",
+              "type": "Event",
+              "_label": "Posters from the Bernard Davis Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-24-5 - 1950-25-7",
+                "begin_of_the_begin": "1950-24-5",
+                "end_of_the_end": "1950-25-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30549",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,364 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2278",
+  "type": "Person",
+  "_label": "Robert Grosvenor",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1634",
+      "type": "Name",
+      "_label": "Robert Grosvenor"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1429",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1937"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1634",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3268",
+      "type": "TimeSpan",
+      "_label": "Robert Grosvenor Birth timespan",
+      "begin_of_the_begin": "1937",
+      "end_of_the_end": "1937"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1634",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3269",
+      "type": "TimeSpan",
+      "_label": "Robert Grosvenor Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1634",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1634",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4200",
+              "type": "Event",
+              "_label": "Art for the City",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-26-1 - 1967-11-3",
+                "begin_of_the_begin": "1967-26-1",
+                "end_of_the_end": "1967-11-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4751",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4165",
+              "type": "Event",
+              "_label": "Painting Drawing and Sculpture of the '60s and the '70s from the Dorthy and Herbert Vogel Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-7-10 - 1975-18-11",
+                "begin_of_the_begin": "1975-7-10",
+                "end_of_the_end": "1975-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4752",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2702",
+              "type": "Event",
+              "_label": "5 Sculptors-7,000 Sq. Feet",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-10-6 - 1972-24-6",
+                "begin_of_the_begin": "1972-10-6",
+                "end_of_the_end": "1972-24-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4753",
+                  "type": "Place",
+                  "_label": "10 Bleecker Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3645",
+              "type": "Event",
+              "_label": "Artists Make Toys",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-1-1 - 1975-25-1",
+                "begin_of_the_begin": "1975-1-1",
+                "end_of_the_end": "1975-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4754",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3633",
+              "type": "Event",
+              "_label": "Collectors of the Seventies, Part I: Dorothy and Herbert Vogel",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-19-4 - 1975-17-5",
+                "begin_of_the_begin": "1975-19-4",
+                "end_of_the_end": "1975-17-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4755",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3658",
+              "type": "Event",
+              "_label": "Robert Grosvenor",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-15-2 - 1976-6-3",
+                "begin_of_the_begin": "1976-15-2",
+                "end_of_the_end": "1976-6-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4756",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2992",
+              "type": "Event",
+              "_label": "Rooms",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-9-6 - 1976-26-6",
+                "begin_of_the_begin": "1976-9-6",
+                "end_of_the_end": "1976-26-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4757",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2990",
+              "type": "Event",
+              "_label": "New York Avant-Garde/Works and Projects of the Seventies",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-9-10 - 1977-6-11",
+                "begin_of_the_begin": "1977-9-10",
+                "end_of_the_end": "1977-6-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4758",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2806",
+              "type": "Event",
+              "_label": "Robert Grosvenor",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-1 - 1984-18-3",
+                "begin_of_the_begin": "1984-22-1",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4759",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2944",
+              "type": "Event",
+              "_label": "Primarily Structural: Minimalist and Post-Minimalist Works on Paper",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-2 - 1999-3-4",
+                "begin_of_the_begin": "1999-7-2",
+                "end_of_the_end": "1999-3-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4760",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2948",
+              "type": "Event",
+              "_label": "100 Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-18-4 - 1999-6-6",
+                "begin_of_the_begin": "1999-18-4",
+                "end_of_the_end": "1999-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4761",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3279",
+              "type": "Event",
+              "_label": "FORTY",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-19-6 - 2016-29-8",
+                "begin_of_the_begin": "2016-19-6",
+                "end_of_the_end": "2016-29-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4762",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,190 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4992",
+  "type": "Person",
+  "_label": "Concetta Scaravaglione",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6962",
+      "type": "Name",
+      "_label": "Concetta Scaravaglione"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3330",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1900–1975"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6962",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13924",
+      "type": "TimeSpan",
+      "_label": "Concetta Scaravaglione Birth timespan",
+      "begin_of_the_begin": "1900",
+      "end_of_the_end": "1900"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6962",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13925",
+      "type": "TimeSpan",
+      "_label": "Concetta Scaravaglione Death timespan",
+      "begin_of_the_begin": "1975",
+      "end_of_the_end": "1975"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6962",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6962",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/5",
+              "type": "Event",
+              "_label": "46 Painters and Sculptors under 35 Years of Age",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1930-11-4 - 1930-27-4",
+                "begin_of_the_begin": "1930-11-4",
+                "end_of_the_end": "1930-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15800",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/81",
+              "type": "Event",
+              "_label": "New Horizons in American Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-14-9 - 1936-12-10",
+                "begin_of_the_begin": "1936-14-9",
+                "end_of_the_end": "1936-12-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15801",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/117",
+              "type": "Event",
+              "_label": "Three Centuries of American Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-24-5 - 1938-31-7",
+                "begin_of_the_begin": "1938-24-5",
+                "end_of_the_end": "1938-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15802",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/258",
+              "type": "Event",
+              "_label": "Twentieth Century Portraits",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-9-12 - 1943-24-1",
+                "begin_of_the_begin": "1942-9-12",
+                "end_of_the_end": "1943-24-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15803",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/310",
+              "type": "Event",
+              "_label": "Painting, Sculpture, Prints",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-24-5 - 1944-15-10",
+                "begin_of_the_begin": "1944-24-5",
+                "end_of_the_end": "1944-15-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15804",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,463 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2215",
+  "type": "Person",
+  "_label": "Morris Graves",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1497",
+      "type": "Name",
+      "_label": "Morris Graves"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1320",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1910–2001"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1497",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2994",
+      "type": "TimeSpan",
+      "_label": "Morris Graves Birth timespan",
+      "begin_of_the_begin": "1910",
+      "end_of_the_end": "1910"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1497",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2995",
+      "type": "TimeSpan",
+      "_label": "Morris Graves Death timespan",
+      "begin_of_the_begin": "2001",
+      "end_of_the_end": "2001"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1497",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1497",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4198",
+              "type": "Event",
+              "_label": "Selected Works from the Collection of Mr. and Mrs. H. Gates Lloyd",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-18-10 - 1967-19-11",
+                "begin_of_the_begin": "1967-18-10",
+                "end_of_the_end": "1967-19-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4272",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4158",
+              "type": "Event",
+              "_label": "Improbable Furniture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-10-3 - 1977-10-4",
+                "begin_of_the_begin": "1977-10-3",
+                "end_of_the_end": "1977-10-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4273",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/145",
+              "type": "Event",
+              "_label": "Four American Traveling Exhibitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-3-4 - 1940-28-4",
+                "begin_of_the_begin": "1940-3-4",
+                "end_of_the_end": "1940-28-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4274",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/217",
+              "type": "Event",
+              "_label": "Americans 1942: 18 Artists from 9 States",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-21-1 - 1942-8-3",
+                "begin_of_the_begin": "1942-21-1",
+                "end_of_the_end": "1942-8-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4275",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/296",
+              "type": "Event",
+              "_label": "Romantic Painting in America",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-17-11 - 1944-6-2",
+                "begin_of_the_begin": "1943-17-11",
+                "end_of_the_end": "1944-6-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4276",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/302",
+              "type": "Event",
+              "_label": "Modern Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-16-2 - 1944-10-5",
+                "begin_of_the_begin": "1944-16-2",
+                "end_of_the_end": "1944-10-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4277",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/310",
+              "type": "Event",
+              "_label": "Painting, Sculpture, Prints",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-24-5 - 1944-15-10",
+                "begin_of_the_begin": "1944-24-5",
+                "end_of_the_end": "1944-15-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4278",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/342",
+              "type": "Event",
+              "_label": "What is Modern Painting?",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-6-3 - 1945-25-3",
+                "begin_of_the_begin": "1945-6-3",
+                "end_of_the_end": "1945-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4279",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/353",
+              "type": "Event",
+              "_label": "The Museum Collection of Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-20-6 - 1946-13-2",
+                "begin_of_the_begin": "1945-20-6",
+                "end_of_the_end": "1946-13-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4280",
+                  "type": "Place",
+                  "_label": "Sculpture Garden, 2nd and 3rd Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/376",
+              "type": "Event",
+              "_label": "The Museum Collection of Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-19-2 - 1946-5-5",
+                "begin_of_the_begin": "1946-19-2",
+                "end_of_the_end": "1946-5-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4281",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/388",
+              "type": "Event",
+              "_label": "Paintings, Sculpture, and Graphic Arts from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-2-7 - 1954-12-9",
+                "begin_of_the_begin": "1946-2-7",
+                "end_of_the_end": "1954-12-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4282",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/411",
+              "type": "Event",
+              "_label": "Drawings in the Collection of The Museum of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1947-15-4 - 1947-1-6",
+                "begin_of_the_begin": "1947-15-4",
+                "end_of_the_end": "1947-1-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4283",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/465",
+              "type": "Event",
+              "_label": "American Paintings from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-23-12 - 1949-13-3",
+                "begin_of_the_begin": "1948-23-12",
+                "end_of_the_end": "1949-13-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4284",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/470",
+              "type": "Event",
+              "_label": "The 28th Annual Exhibition of Advertising and Editorial Art of the New York Art Directors Club",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-15-3 - 1949-17-4",
+                "begin_of_the_begin": "1949-15-3",
+                "end_of_the_end": "1949-17-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4285",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/522",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-25-7 - 1950-5-11",
+                "begin_of_the_begin": "1950-25-7",
+                "end_of_the_end": "1950-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4286",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/525",
+              "type": "Event",
+              "_label": "Painting and Sculpture from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-29-8 - 1950-15-10",
+                "begin_of_the_begin": "1950-29-8",
+                "end_of_the_end": "1950-15-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4287",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

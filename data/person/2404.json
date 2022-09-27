@@ -1,0 +1,115 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2404",
+  "type": "Person",
+  "_label": "David Hare",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1825",
+      "type": "Name",
+      "_label": "David Hare"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1570",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1917–1992"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1825",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3650",
+      "type": "TimeSpan",
+      "_label": "David Hare Birth timespan",
+      "begin_of_the_begin": "1917",
+      "end_of_the_end": "1917"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1825",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3651",
+      "type": "TimeSpan",
+      "_label": "David Hare Death timespan",
+      "begin_of_the_begin": "1992",
+      "end_of_the_end": "1992"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1825",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1825",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/393",
+              "type": "Event",
+              "_label": "Fourteen Americans",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-10-9 - 1946-8-12",
+                "begin_of_the_begin": "1946-10-9",
+                "end_of_the_end": "1946-8-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5233",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/524",
+              "type": "Event",
+              "_label": "Carvers-Modelers-Welders: A Selection of Recent American Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-1-8 - 1950-10-9",
+                "begin_of_the_begin": "1950-1-8",
+                "end_of_the_end": "1950-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5234",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

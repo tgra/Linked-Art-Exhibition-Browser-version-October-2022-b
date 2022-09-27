@@ -1,0 +1,88 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/22811",
+  "type": "Person",
+  "_label": "Edgar Arceneaux",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1643",
+      "type": "Name",
+      "_label": "Edgar Arceneaux"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1436",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1972"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1643",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3286",
+      "type": "TimeSpan",
+      "_label": "Edgar Arceneaux Birth timespan",
+      "begin_of_the_begin": "1972",
+      "end_of_the_end": "1972"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1643",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3287",
+      "type": "TimeSpan",
+      "_label": "Edgar Arceneaux Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1643",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1643",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18212",
+              "type": "Event",
+              "_label": "Borrowed Sun",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-5-11 - ",
+                "begin_of_the_begin": "2005-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4807",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

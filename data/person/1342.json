@@ -1,0 +1,141 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1342",
+  "type": "Person",
+  "_label": "James Edward Davis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/218",
+      "type": "Name",
+      "_label": "James Edward Davis"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/178",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1901–1974"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/218",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/436",
+      "type": "TimeSpan",
+      "_label": "James Edward Davis Birth timespan",
+      "begin_of_the_begin": "1901",
+      "end_of_the_end": "1901"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/218",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/437",
+      "type": "TimeSpan",
+      "_label": "James Edward Davis Death timespan",
+      "begin_of_the_begin": "1974",
+      "end_of_the_end": "1974"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/218",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/218",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/5",
+              "type": "Event",
+              "_label": "46 Painters and Sculptors under 35 Years of Age",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1930-11-4 - 1930-27-4",
+                "begin_of_the_begin": "1930-11-4",
+                "end_of_the_end": "1930-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/761",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17",
+              "type": "Event",
+              "_label": "Murals by American Painters and Photographers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1932-3-5 - 1932-31-5",
+                "begin_of_the_begin": "1932-3-5",
+                "end_of_the_end": "1932-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/762",
+                  "type": "Place",
+                  "_label": "1st and 2nd Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/338",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-15-2 - 1945-18-3",
+                "begin_of_the_begin": "1945-15-2",
+                "end_of_the_end": "1945-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/763",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

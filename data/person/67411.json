@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67411",
+  "type": "Person",
+  "_label": "Marylyn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13933",
+      "type": "Name",
+      "_label": "Marylyn"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13933",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27866",
+      "type": "TimeSpan",
+      "_label": "Marylyn Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13933",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27867",
+      "type": "TimeSpan",
+      "_label": "Marylyn Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13933",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13933",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18280",
+              "type": "Event",
+              "_label": "Dubbed in Glamour",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-21-11 - ",
+                "begin_of_the_begin": "1980-21-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27770",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

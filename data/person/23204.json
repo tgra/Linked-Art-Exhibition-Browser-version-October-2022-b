@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/23204",
+  "type": "Person",
+  "_label": "De Wain Valentine",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1723",
+      "type": "Name",
+      "_label": "De Wain Valentine"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1486",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1936"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1723",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3446",
+      "type": "TimeSpan",
+      "_label": "De Wain Valentine Birth timespan",
+      "begin_of_the_begin": "1936",
+      "end_of_the_end": "1936"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1723",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3447",
+      "type": "TimeSpan",
+      "_label": "De Wain Valentine Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1723",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1723",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4192",
+              "type": "Event",
+              "_label": "Plastics and New Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-15-1 - 1969-25-2",
+                "begin_of_the_begin": "1969-15-1",
+                "end_of_the_end": "1969-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4953",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2799",
+              "type": "Event",
+              "_label": "West/East: First Generation Environmental Sculptures",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-28-9 - 1982-14-3",
+                "begin_of_the_begin": "1980-28-9",
+                "end_of_the_end": "1982-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4954",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,640 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/18",
+  "type": "Person",
+  "_label": "Richard Artschwager",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/818",
+      "type": "Name",
+      "_label": "Richard Artschwager"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/718",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1923–2013"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/818",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1636",
+      "type": "TimeSpan",
+      "_label": "Richard Artschwager Birth timespan",
+      "begin_of_the_begin": "1923",
+      "end_of_the_end": "1923"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/818",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1637",
+      "type": "TimeSpan",
+      "_label": "Richard Artschwager Death timespan",
+      "begin_of_the_begin": "2013",
+      "end_of_the_end": "2013"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/818",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/818",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4165",
+              "type": "Event",
+              "_label": "Painting Drawing and Sculpture of the '60s and the '70s from the Dorthy and Herbert Vogel Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-7-10 - 1975-18-11",
+                "begin_of_the_begin": "1975-7-10",
+                "end_of_the_end": "1975-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2431",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4158",
+              "type": "Event",
+              "_label": "Improbable Furniture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-10-3 - 1977-10-4",
+                "begin_of_the_begin": "1977-10-3",
+                "end_of_the_end": "1977-10-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2432",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4145",
+              "type": "Event",
+              "_label": "Richard Artschwager's Theme(s)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-16-10 - 1979-18-11",
+                "begin_of_the_begin": "1979-16-10",
+                "end_of_the_end": "1979-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2433",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4139",
+              "type": "Event",
+              "_label": "Drawings: The Pluralist Decade",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-4-10 - 1980-9-11",
+                "begin_of_the_begin": "1980-4-10",
+                "end_of_the_end": "1980-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2434",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4401",
+              "type": "Event",
+              "_label": "Devil on the Stairs: Looking Back on the Eighties",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-4-10 - 1991-5-1",
+                "begin_of_the_begin": "1990-4-10",
+                "end_of_the_end": "1991-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2435",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4349",
+              "type": "Event",
+              "_label": "From Warhol to Mapplethorpe: Three Decades of Art at ICA",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-11-9 - 1998-31-10",
+                "begin_of_the_begin": "1998-11-9",
+                "end_of_the_end": "1998-31-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2436",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4319",
+              "type": "Event",
+              "_label": "The Photogenic: Photography Through Its Metaphors in Contemporary Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-22-3 - 2002-21-4",
+                "begin_of_the_begin": "2002-22-3",
+                "end_of_the_end": "2002-21-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2437",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4293",
+              "type": "Event",
+              "_label": "The Big Nothing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-1-5 - 2004-1-8",
+                "begin_of_the_begin": "2004-1-5",
+                "end_of_the_end": "2004-1-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2438",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4010",
+              "type": "Event",
+              "_label": "ICA@50: Pleasing Artists And Publics Since 1963",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-12-2 - 2014-17-8",
+                "begin_of_the_begin": "2014-12-2",
+                "end_of_the_end": "2014-17-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2439",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3633",
+              "type": "Event",
+              "_label": "Collectors of the Seventies, Part I: Dorothy and Herbert Vogel",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-19-4 - 1975-17-5",
+                "begin_of_the_begin": "1975-19-4",
+                "end_of_the_end": "1975-17-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2440",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3588",
+              "type": "Event",
+              "_label": "MoMA PS1 Long-Term Installations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-1-1 - ",
+                "begin_of_the_begin": "1976-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2441",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2992",
+              "type": "Event",
+              "_label": "Rooms",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-9-6 - 1976-26-6",
+                "begin_of_the_begin": "1976-9-6",
+                "end_of_the_end": "1976-26-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2442",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2990",
+              "type": "Event",
+              "_label": "New York Avant-Garde/Works and Projects of the Seventies",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-9-10 - 1977-6-11",
+                "begin_of_the_begin": "1977-9-10",
+                "end_of_the_end": "1977-6-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2443",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3680",
+              "type": "Event",
+              "_label": "Richard Artschwager",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-29-3 - 1978-26-4",
+                "begin_of_the_begin": "1978-29-3",
+                "end_of_the_end": "1978-26-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2444",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2723",
+              "type": "Event",
+              "_label": "The Detective Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-7-5 - 1978-30-6",
+                "begin_of_the_begin": "1978-7-5",
+                "end_of_the_end": "1978-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2445",
+                  "type": "Place",
+                  "_label": "Gorman Park, Queens",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3169",
+              "type": "Event",
+              "_label": "Eight Funny Artists: Wit and Irony in Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-4 - 1981-14-6",
+                "begin_of_the_begin": "1981-26-4",
+                "end_of_the_end": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2446",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2819",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1983)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-16-1 - 1983-13-3",
+                "begin_of_the_begin": "1983-16-1",
+                "end_of_the_end": "1983-13-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2447",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3731",
+              "type": "Event",
+              "_label": "Habitats",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-9-3 - 1983-9-4",
+                "begin_of_the_begin": "1983-9-3",
+                "end_of_the_end": "1983-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2448",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3297",
+              "type": "Event",
+              "_label": "Out of Site",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-16-12 - 1991-10-2",
+                "begin_of_the_begin": "1990-16-12",
+                "end_of_the_end": "1991-10-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2449",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3374",
+              "type": "Event",
+              "_label": "Reopening: Installations and Projects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-1-2",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2450",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3360",
+              "type": "Event",
+              "_label": "1969",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-5-10 - 2010-5-4",
+                "begin_of_the_begin": "2009-5-10",
+                "end_of_the_end": "2010-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2451",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3283",
+              "type": "Event",
+              "_label": "Greater New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-11-10 - 2016-7-3",
+                "begin_of_the_begin": "2015-11-10",
+                "end_of_the_end": "2016-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2452",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3279",
+              "type": "Event",
+              "_label": "FORTY",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-19-6 - 2016-29-8",
+                "begin_of_the_begin": "2016-19-6",
+                "end_of_the_end": "2016-29-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2453",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

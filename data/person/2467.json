@@ -1,0 +1,239 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2467",
+  "type": "Person",
+  "_label": "Erich Heckel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1896",
+      "type": "Name",
+      "_label": "Erich Heckel"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1633",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1883–1970"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1896",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3792",
+      "type": "TimeSpan",
+      "_label": "Erich Heckel Birth timespan",
+      "begin_of_the_begin": "1883",
+      "end_of_the_end": "1883"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1896",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3793",
+      "type": "TimeSpan",
+      "_label": "Erich Heckel Death timespan",
+      "begin_of_the_begin": "1970",
+      "end_of_the_end": "1970"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1896",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1896",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/12",
+              "type": "Event",
+              "_label": "German Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1931-12-3 - 1931-22-4",
+                "begin_of_the_begin": "1931-12-3",
+                "end_of_the_end": "1931-22-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5415",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/57",
+              "type": "Event",
+              "_label": "Color Reproductions: Modern Watercolors and Pastels",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1934-13-8 - 1934-21-9",
+                "begin_of_the_begin": "1934-13-8",
+                "end_of_the_end": "1934-21-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5416",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/74",
+              "type": "Event",
+              "_label": "New Acquisitions: The Collection of Mrs. John D. Rockefeller, Jr.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-14-1 - 1936-16-2",
+                "begin_of_the_begin": "1936-14-1",
+                "end_of_the_end": "1936-16-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5417",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/195",
+              "type": "Event",
+              "_label": "Twenty Lithographs: Graphic Art Processes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-16-9 - 1941-14-10",
+                "begin_of_the_begin": "1941-16-9",
+                "end_of_the_end": "1941-14-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5418",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/454",
+              "type": "Event",
+              "_label": "Print Gift of Victor S. Riesenfeld and Matisse: Jazz: Gift of the Artist",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-1-10 - 1948-31-10",
+                "begin_of_the_begin": "1948-1-10",
+                "end_of_the_end": "1948-31-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5419",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/479",
+              "type": "Event",
+              "_label": "Master Prints from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-10-5 - 1949-10-7",
+                "begin_of_the_begin": "1949-10-5",
+                "end_of_the_end": "1949-10-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5420",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/525",
+              "type": "Event",
+              "_label": "Painting and Sculpture from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-29-8 - 1950-15-10",
+                "begin_of_the_begin": "1950-29-8",
+                "end_of_the_end": "1950-15-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5421",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

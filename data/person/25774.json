@@ -1,0 +1,198 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/25774",
+  "type": "Person",
+  "_label": "Phillips Simkin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2057",
+      "type": "Name",
+      "_label": "Phillips Simkin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2057",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4114",
+      "type": "TimeSpan",
+      "_label": "Phillips Simkin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2057",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4115",
+      "type": "TimeSpan",
+      "_label": "Phillips Simkin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2057",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2057",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4175",
+              "type": "Event",
+              "_label": "Made in Philadelphia/In Urban Sites",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-24-3 - 1973-27-4",
+                "begin_of_the_begin": "1973-24-3",
+                "end_of_the_end": "1973-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5801",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4160",
+              "type": "Event",
+              "_label": "The Philadelphia Houston Exchange",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-8-10 - 1976-17-11",
+                "begin_of_the_begin": "1976-8-10",
+                "end_of_the_end": "1976-17-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5802",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4141",
+              "type": "Event",
+              "_label": "Made in Philadelphia 3",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-1-4 - 1980-23-5",
+                "begin_of_the_begin": "1980-1-4",
+                "end_of_the_end": "1980-23-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5803",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4400",
+              "type": "Event",
+              "_label": "Philadelphia Art Now: Artists Choose Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-19-1 - 1991-3-3",
+                "begin_of_the_begin": "1991-19-1",
+                "end_of_the_end": "1991-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5804",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3837",
+              "type": "Event",
+              "_label": "New Urban Landscapes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-1-10 - 1977-31-1",
+                "begin_of_the_begin": "1975-1-10",
+                "end_of_the_end": "1977-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5805",
+                  "type": "Place",
+                  "_label": "Various outdoor locations",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2999",
+              "type": "Event",
+              "_label": "A Month of Sundays",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-19-9 - 1976-10-10",
+                "begin_of_the_begin": "1976-19-9",
+                "end_of_the_end": "1976-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5806",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

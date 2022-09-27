@@ -1,0 +1,189 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/6294",
+  "type": "Person",
+  "_label": "Joe Zucker",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12087",
+      "type": "Name",
+      "_label": "Joe Zucker"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3844",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1941"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12087",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24174",
+      "type": "TimeSpan",
+      "_label": "Joe Zucker Birth timespan",
+      "begin_of_the_begin": "1941",
+      "end_of_the_end": "1941"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12087",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24175",
+      "type": "TimeSpan",
+      "_label": "Joe Zucker Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12087",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12087",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4139",
+              "type": "Event",
+              "_label": "Drawings: The Pluralist Decade",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-4-10 - 1980-9-11",
+                "begin_of_the_begin": "1980-4-10",
+                "end_of_the_end": "1980-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24675",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3645",
+              "type": "Event",
+              "_label": "Artists Make Toys",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-1-1 - 1975-25-1",
+                "begin_of_the_begin": "1975-1-1",
+                "end_of_the_end": "1975-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24676",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3800",
+              "type": "Event",
+              "_label": "Poetry (Spring 1981): Sardines",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-22-4 - 1981-16-5",
+                "begin_of_the_begin": "1981-22-4",
+                "end_of_the_end": "1981-16-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24677",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17293",
+              "type": "Event",
+              "_label": "The 1970's: New American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-15-6 - 1981-10-2",
+                "begin_of_the_begin": "1979-15-6",
+                "end_of_the_end": "1981-10-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24678",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17109",
+              "type": "Event",
+              "_label": "Temporarily Possessed: The Semi-Permanent Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-9 - 1995-17-12",
+                "begin_of_the_begin": "1995-15-9",
+                "end_of_the_end": "1995-17-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24679",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

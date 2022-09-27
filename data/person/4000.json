@@ -1,0 +1,384 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4000",
+  "type": "Person",
+  "_label": "Matt Mullican",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6517",
+      "type": "Name",
+      "_label": "Matt Mullican"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2932",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1951"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6517",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13034",
+      "type": "TimeSpan",
+      "_label": "Matt Mullican Birth timespan",
+      "begin_of_the_begin": "1951",
+      "end_of_the_end": "1951"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6517",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13035",
+      "type": "TimeSpan",
+      "_label": "Matt Mullican Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6517",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6517",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4065",
+              "type": "Event",
+              "_label": "The Puppet Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-18-1 - 2008-30-3",
+                "begin_of_the_begin": "2008-18-1",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13852",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3588",
+              "type": "Event",
+              "_label": "MoMA PS1 Long-Term Installations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-1-1 - ",
+                "begin_of_the_begin": "1976-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13853",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3809",
+              "type": "Event",
+              "_label": "Matt Mullican",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-4-1 - 1986-2-2",
+                "begin_of_the_begin": "1986-4-1",
+                "end_of_the_end": "1986-2-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13854",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2911",
+              "type": "Event",
+              "_label": "Heaven: Public View, Private View",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-1-2",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13855",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3374",
+              "type": "Event",
+              "_label": "Reopening: Installations and Projects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-1-2",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13856",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3605",
+              "type": "Event",
+              "_label": "The Edge of Awareness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-13-9 - 1998-18-10",
+                "begin_of_the_begin": "1998-13-9",
+                "end_of_the_end": "1998-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13857",
+                  "type": "Place",
+                  "_label": "PS1 and the United Nations",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2892",
+              "type": "Event",
+              "_label": "Around 1984: A Look at Art in the Eighties",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-21-5 - 2000-30-9",
+                "begin_of_the_begin": "2000-21-5",
+                "end_of_the_end": "2000-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13858",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3201",
+              "type": "Event",
+              "_label": "The Logic of Association",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-12-12 - 2011-4-4",
+                "begin_of_the_begin": "2010-12-12",
+                "end_of_the_end": "2011-4-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13859",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22006",
+              "type": "Event",
+              "_label": "Signs",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-27-4 - 1985-7-7",
+                "begin_of_the_begin": "1985-27-4",
+                "end_of_the_end": "1985-7-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13860",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18474",
+              "type": "Event",
+              "_label": "Performances",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-12-2 - ",
+                "begin_of_the_begin": "1978-12-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13861",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18475",
+              "type": "Event",
+              "_label": "Performances and Installa…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-1-12 - ",
+                "begin_of_the_begin": "1978-1-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13862",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18152",
+              "type": "Event",
+              "_label": "A Lecture / Performance w…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-4-11 - ",
+                "begin_of_the_begin": "1981-4-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13863",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18645",
+              "type": "Event",
+              "_label": "View From a Volcano",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-30-6 - ",
+                "begin_of_the_begin": "2011-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13864",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

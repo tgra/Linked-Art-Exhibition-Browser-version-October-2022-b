@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57151",
+  "type": "Person",
+  "_label": "Sheila Klein",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7852",
+      "type": "Name",
+      "_label": "Sheila Klein"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/7852",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15704",
+      "type": "TimeSpan",
+      "_label": "Sheila Klein Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/7852",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/15705",
+      "type": "TimeSpan",
+      "_label": "Sheila Klein Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/7852",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/7852",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3130",
+              "type": "Event",
+              "_label": "Special Projects (Fall 1981)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-18-10 - 1981-13-12",
+                "begin_of_the_begin": "1981-18-10",
+                "end_of_the_end": "1981-13-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18200",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

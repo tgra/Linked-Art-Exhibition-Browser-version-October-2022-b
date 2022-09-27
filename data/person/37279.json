@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/37279",
+  "type": "Person",
+  "_label": "Hirshhorn Museum and Sculpture Garden, Smithsonian Institution",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6397",
+      "type": "Name",
+      "_label": "Hirshhorn Museum and Sculpture Garden, Smithsonian Institution"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6397",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12794",
+      "type": "TimeSpan",
+      "_label": "Hirshhorn Museum and Sculpture Garden, Smithsonian Institution Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6397",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12795",
+      "type": "TimeSpan",
+      "_label": "Hirshhorn Museum and Sculpture Garden, Smithsonian Institution Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6397",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6397",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17084",
+              "type": "Event",
+              "_label": "William Kentridge",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-3-6 - 2001-16-9",
+                "begin_of_the_begin": "2001-3-6",
+                "end_of_the_end": "2001-16-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13300",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

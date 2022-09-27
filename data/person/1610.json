@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1610",
+  "type": "Person",
+  "_label": "Edouard-Léon-Louis Edy-Legrand",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/436",
+      "type": "Name",
+      "_label": "Edouard-Léon-Louis Edy-Legrand"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/355",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1892–1970"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/436",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/872",
+      "type": "TimeSpan",
+      "_label": "Edouard-Léon-Louis Edy-Legrand Birth timespan",
+      "begin_of_the_begin": "1892",
+      "end_of_the_end": "1892"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/436",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/873",
+      "type": "TimeSpan",
+      "_label": "Edouard-Léon-Louis Edy-Legrand Death timespan",
+      "begin_of_the_begin": "1970",
+      "end_of_the_end": "1970"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/436",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/436",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/76",
+              "type": "Event",
+              "_label": "Modern Painters and Sculptors as Illustrators",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-27-4 - 1936-2-9",
+                "begin_of_the_begin": "1936-27-4",
+                "end_of_the_end": "1936-2-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1486",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

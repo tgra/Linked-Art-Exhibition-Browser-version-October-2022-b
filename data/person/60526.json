@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60526",
+  "type": "Person",
+  "_label": "Stephen Pace",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11341",
+      "type": "Name",
+      "_label": "Stephen Pace"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11341",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22682",
+      "type": "TimeSpan",
+      "_label": "Stephen Pace Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11341",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22683",
+      "type": "TimeSpan",
+      "_label": "Stephen Pace Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11341",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11341",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3915",
+              "type": "Event",
+              "_label": "24",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-3-11 - 1958-22-11",
+                "begin_of_the_begin": "1958-3-11",
+                "end_of_the_end": "1958-22-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23450",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

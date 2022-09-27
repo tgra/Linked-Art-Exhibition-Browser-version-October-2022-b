@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/42066",
+  "type": "Person",
+  "_label": "Museum of Art, University of Arizona, Tucson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6596",
+      "type": "Name",
+      "_label": "Museum of Art, University of Arizona, Tucson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6596",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13192",
+      "type": "TimeSpan",
+      "_label": "Museum of Art, University of Arizona, Tucson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6596",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13193",
+      "type": "TimeSpan",
+      "_label": "Museum of Art, University of Arizona, Tucson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6596",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6596",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17260",
+              "type": "Event",
+              "_label": "New Work / New York: Tom Butter, Tom Evans, John Fekner, Judith Hudson, Peter Julian, Cheryl Laemmle",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-30-1 - 1982-25-3",
+                "begin_of_the_begin": "1982-30-1",
+                "end_of_the_end": "1982-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14226",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

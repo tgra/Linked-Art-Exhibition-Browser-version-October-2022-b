@@ -1,0 +1,315 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1830",
+  "type": "Person",
+  "_label": "Dan Flavin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/841",
+      "type": "Name",
+      "_label": "Dan Flavin"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/740",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1933–1996"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/841",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1682",
+      "type": "TimeSpan",
+      "_label": "Dan Flavin Birth timespan",
+      "begin_of_the_begin": "1933",
+      "end_of_the_end": "1933"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/841",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1683",
+      "type": "TimeSpan",
+      "_label": "Dan Flavin Death timespan",
+      "begin_of_the_begin": "1996",
+      "end_of_the_end": "1996"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/841",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/841",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3953",
+              "type": "Event",
+              "_label": "New Work: Part I",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-8-1 - 1963-2-2",
+                "begin_of_the_begin": "1963-8-1",
+                "end_of_the_end": "1963-2-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2527",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3969",
+              "type": "Event",
+              "_label": "New Work Part III",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-8-4 - 1964-2-5",
+                "begin_of_the_begin": "1964-8-4",
+                "end_of_the_end": "1964-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2528",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3973",
+              "type": "Event",
+              "_label": "New Work (Contemporary American Group Show)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-24-10 - 1964-14-11",
+                "begin_of_the_begin": "1964-24-10",
+                "end_of_the_end": "1964-14-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2529",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3974",
+              "type": "Event",
+              "_label": "Dan Flavin: fluorescent light",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-18-11 - 1964-12-12",
+                "begin_of_the_begin": "1964-18-11",
+                "end_of_the_end": "1964-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2530",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3982",
+              "type": "Event",
+              "_label": "Flavin, Judd, Morris, Williams",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-26-5 - 1965-12-6",
+                "begin_of_the_begin": "1965-26-5",
+                "end_of_the_end": "1965-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2531",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4405",
+              "type": "Event",
+              "_label": "Current Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-18-3 - 1965-10-5",
+                "begin_of_the_begin": "1965-18-3",
+                "end_of_the_end": "1965-10-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2532",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4165",
+              "type": "Event",
+              "_label": "Painting Drawing and Sculpture of the '60s and the '70s from the Dorthy and Herbert Vogel Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-7-10 - 1975-18-11",
+                "begin_of_the_begin": "1975-7-10",
+                "end_of_the_end": "1975-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2533",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4379",
+              "type": "Event",
+              "_label": "Personal Choice: Selections from Four Penn Alumni Collections",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-14-5 - 1993-18-4",
+                "begin_of_the_begin": "1993-14-5",
+                "end_of_the_end": "1993-18-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2534",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7284",
+              "type": "Event",
+              "_label": "Dan Flavin: Constructions and Watercolors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-8-5 - ",
+                "begin_of_the_begin": "1961-8-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2535",
+                  "type": "Place",
+                  "_label": "55 Washington Square South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2944",
+              "type": "Event",
+              "_label": "Primarily Structural: Minimalist and Post-Minimalist Works on Paper",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-2 - 1999-3-4",
+                "begin_of_the_begin": "1999-7-2",
+                "end_of_the_end": "1999-3-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2536",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

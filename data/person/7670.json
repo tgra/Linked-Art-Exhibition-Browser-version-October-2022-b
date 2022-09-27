@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7670",
+  "type": "Person",
+  "_label": "Oliver Wasow",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14718",
+      "type": "Name",
+      "_label": "Oliver Wasow"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4200",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1960"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14718",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29436",
+      "type": "TimeSpan",
+      "_label": "Oliver Wasow Birth timespan",
+      "begin_of_the_begin": "1960",
+      "end_of_the_end": "1960"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14718",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29437",
+      "type": "TimeSpan",
+      "_label": "Oliver Wasow Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14718",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14718",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17154",
+              "type": "Event",
+              "_label": "Strange Attractors: Signs of Chaos",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-14-9 - 1989-26-11",
+                "begin_of_the_begin": "1989-14-9",
+                "end_of_the_end": "1989-26-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29344",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

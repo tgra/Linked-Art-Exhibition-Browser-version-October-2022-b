@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21772",
+  "type": "Person",
+  "_label": "Naum Slutzky",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1454",
+      "type": "Name",
+      "_label": "Naum Slutzky"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1285",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Ukrainian, 1894–1965; at Bauhaus 1919–1924"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1454",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2908",
+      "type": "TimeSpan",
+      "_label": "Naum Slutzky Birth timespan",
+      "begin_of_the_begin": "1894",
+      "end_of_the_end": "1894"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1454",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2909",
+      "type": "TimeSpan",
+      "_label": "Naum Slutzky Death timespan",
+      "begin_of_the_begin": "1965",
+      "end_of_the_end": "1965"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1454",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1454",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/125",
+              "type": "Event",
+              "_label": "Bauhaus: 1919–1928",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-7-12 - 1939-30-1",
+                "begin_of_the_begin": "1938-7-12",
+                "end_of_the_end": "1939-30-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4172",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/28313",
+  "type": "Person",
+  "_label": "Francis Costa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3377",
+      "type": "Name",
+      "_label": "Francis Costa"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3377",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/6754",
+      "type": "TimeSpan",
+      "_label": "Francis Costa Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3377",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/6755",
+      "type": "TimeSpan",
+      "_label": "Francis Costa Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3377",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3377",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/111",
+              "type": "Event",
+              "_label": "Subway Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-8-2 - 1938-7-3",
+                "begin_of_the_begin": "1938-8-2",
+                "end_of_the_end": "1938-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8115",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/151",
+              "type": "Event",
+              "_label": "PM Competition: The Artist as Reporter",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-15-4 - 1940-7-5",
+                "begin_of_the_begin": "1940-15-4",
+                "end_of_the_end": "1940-7-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8116",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

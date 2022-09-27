@@ -1,0 +1,491 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1845",
+  "type": "Person",
+  "_label": "Jean Follett",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/854",
+      "type": "Name",
+      "_label": "Jean Follett"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/753",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1917–1991"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/854",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1708",
+      "type": "TimeSpan",
+      "_label": "Jean Follett Birth timespan",
+      "begin_of_the_begin": "1917",
+      "end_of_the_end": "1917"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/854",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1709",
+      "type": "TimeSpan",
+      "_label": "Jean Follett Death timespan",
+      "begin_of_the_begin": "1991",
+      "end_of_the_end": "1991"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/854",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/854",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3926",
+              "type": "Event",
+              "_label": "Gallery Group Show: Paintings, Sculpture and Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-13-12 - 1961-7-1",
+                "begin_of_the_begin": "1960-13-12",
+                "end_of_the_end": "1961-7-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2564",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3932",
+              "type": "Event",
+              "_label": "Gallery Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-30-5 - 1961-25-6",
+                "begin_of_the_begin": "1961-30-5",
+                "end_of_the_end": "1961-25-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2565",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3933",
+              "type": "Event",
+              "_label": "Jean Follett, Charles Ginnever, Claes Oldenburg, Lucas Samaras, Myron Stout, Mark di Suvero",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-19-9 - 1961-14-10",
+                "begin_of_the_begin": "1961-19-9",
+                "end_of_the_end": "1961-14-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2566",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7087",
+              "type": "Event",
+              "_label": "Jean Follett: An Exhibition of Retrospective and Recent Paintings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-9-2 - 1953-28-2",
+                "begin_of_the_begin": "1953-9-2",
+                "end_of_the_end": "1953-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2567",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3858",
+              "type": "Event",
+              "_label": "Contemporary Americans",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-29-9 - 1953-10-10",
+                "begin_of_the_begin": "1953-29-9",
+                "end_of_the_end": "1953-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2568",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7102",
+              "type": "Event",
+              "_label": "Drawings, Watercolors, Pastels",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-5-1 - 1954-16-1",
+                "begin_of_the_begin": "1954-5-1",
+                "end_of_the_end": "1954-16-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2569",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7105",
+              "type": "Event",
+              "_label": "Jean Follett, Paintings and Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-8-3 - 1954-20-3",
+                "begin_of_the_begin": "1954-8-3",
+                "end_of_the_end": "1954-20-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2570",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3845",
+              "type": "Event",
+              "_label": "Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-1-10 - 1954-27-10",
+                "begin_of_the_begin": "1954-1-10",
+                "end_of_the_end": "1954-27-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2571",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7112",
+              "type": "Event",
+              "_label": "Inaugural Show in New Space",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-1-12 - 1954-31-12",
+                "begin_of_the_begin": "1954-1-12",
+                "end_of_the_end": "1954-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2572",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7128",
+              "type": "Event",
+              "_label": "Jean Follett, Paintings and Constructions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-30-3 - 1956-14-4",
+                "begin_of_the_begin": "1956-30-3",
+                "end_of_the_end": "1956-14-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2573",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3899",
+              "type": "Event",
+              "_label": "Jean Follett",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-15-4 - 1957-4-5",
+                "begin_of_the_begin": "1957-15-4",
+                "end_of_the_end": "1957-4-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2574",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7140",
+              "type": "Event",
+              "_label": "Drawings and Small Works",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-1-10 - 1957-27-10",
+                "begin_of_the_begin": "1957-1-10",
+                "end_of_the_end": "1957-27-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2575",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7141",
+              "type": "Event",
+              "_label": "Old-New",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-4-11 - 1957-23-11",
+                "begin_of_the_begin": "1957-4-11",
+                "end_of_the_end": "1957-23-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2576",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3844",
+              "type": "Event",
+              "_label": "Lilly Brody, Jean Follett, Myron Stout: Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-12-5 - 1958-31-5",
+                "begin_of_the_begin": "1958-12-5",
+                "end_of_the_end": "1958-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2577",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3915",
+              "type": "Event",
+              "_label": "24",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-3-11 - 1958-22-11",
+                "begin_of_the_begin": "1958-3-11",
+                "end_of_the_end": "1958-22-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2578",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7163",
+              "type": "Event",
+              "_label": "Beauchamp, Chamberlain, Follett, Forst, Lansner, Pasilis, Pritchard, Stout, Samaras, Stankiewicz",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-18-5 - 1959-6-6",
+                "begin_of_the_begin": "1959-18-5",
+                "end_of_the_end": "1959-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2579",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7310",
+              "type": "Event",
+              "_label": "Below Zero 1960",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-18-12 - 1960-5-1",
+                "begin_of_the_begin": "1959-18-12",
+                "end_of_the_end": "1960-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2580",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

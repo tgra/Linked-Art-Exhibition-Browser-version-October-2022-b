@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65137",
+  "type": "Person",
+  "_label": "Jesse Murry",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12849",
+      "type": "Name",
+      "_label": "Jesse Murry"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12849",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25698",
+      "type": "TimeSpan",
+      "_label": "Jesse Murry Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12849",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25699",
+      "type": "TimeSpan",
+      "_label": "Jesse Murry Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12849",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12849",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17252",
+              "type": "Event",
+              "_label": "Currents: The Reverend Howard Finster",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-7-8 - 1982-22-9",
+                "begin_of_the_begin": "1982-7-8",
+                "end_of_the_end": "1982-22-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26047",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/10046",
+  "type": "Person",
+  "_label": "Lewis Carroll (Charles Lutwidge Dodgson)",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5",
+      "type": "Name",
+      "_label": "Lewis Carroll (Charles Lutwidge Dodgson)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, 1832–1898"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10",
+      "type": "TimeSpan",
+      "_label": "Lewis Carroll (Charles Lutwidge Dodgson) Birth timespan",
+      "begin_of_the_begin": "1832",
+      "end_of_the_end": "1832"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11",
+      "type": "TimeSpan",
+      "_label": "Lewis Carroll (Charles Lutwidge Dodgson) Death timespan",
+      "begin_of_the_begin": "1898",
+      "end_of_the_end": "1898"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/84",
+              "type": "Event",
+              "_label": "Fantastic Art, Dada, Surrealism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-7-12 - 1937-17-1",
+                "begin_of_the_begin": "1936-7-12",
+                "end_of_the_end": "1937-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/527",
+              "type": "Event",
+              "_label": "Photographs by Lewis Carroll",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-26-9 - 1950-3-12",
+                "begin_of_the_begin": "1950-26-9",
+                "end_of_the_end": "1950-3-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

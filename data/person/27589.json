@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27589",
+  "type": "Person",
+  "_label": "E.B. Walker",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2686",
+      "type": "Name",
+      "_label": "E.B. Walker"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2686",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5372",
+      "type": "TimeSpan",
+      "_label": "E.B. Walker Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2686",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5373",
+      "type": "TimeSpan",
+      "_label": "E.B. Walker Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2686",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2686",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/23",
+              "type": "Event",
+              "_label": "American Folk Art: The Art of the Common Man in America, 1750–1900",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1932-30-11 - 1933-14-1",
+                "begin_of_the_begin": "1932-30-11",
+                "end_of_the_end": "1933-14-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7197",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

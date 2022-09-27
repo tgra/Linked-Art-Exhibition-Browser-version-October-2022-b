@@ -1,0 +1,189 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/16559",
+  "type": "Person",
+  "_label": "Pierre Huyghe",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/500",
+      "type": "Name",
+      "_label": "Pierre Huyghe"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/411",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, born 1962"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/500",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1000",
+      "type": "TimeSpan",
+      "_label": "Pierre Huyghe Birth timespan",
+      "begin_of_the_begin": "1962",
+      "end_of_the_end": "1962"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/500",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1001",
+      "type": "TimeSpan",
+      "_label": "Pierre Huyghe Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/500",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/500",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4318",
+              "type": "Event",
+              "_label": "Shoot the Singer: Music on Video",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-2-3 - 2002-21-4",
+                "begin_of_the_begin": "2002-2-3",
+                "end_of_the_end": "2002-21-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1636",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4261",
+              "type": "Event",
+              "_label": "Ensemble",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-7-9 - 2007-16-12",
+                "begin_of_the_begin": "2007-7-9",
+                "end_of_the_end": "2007-16-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1637",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4065",
+              "type": "Event",
+              "_label": "The Puppet Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-18-1 - 2008-30-3",
+                "begin_of_the_begin": "2008-18-1",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1638",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3465",
+              "type": "Event",
+              "_label": "Animations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-14-10 - 2002-20-1",
+                "begin_of_the_begin": "2001-14-10",
+                "end_of_the_end": "2002-20-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1639",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21911",
+              "type": "Event",
+              "_label": "Point of View: A Contemporary Anthology of the Moving Image",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-27-2 - 2004-11-4",
+                "begin_of_the_begin": "2004-27-2",
+                "end_of_the_end": "2004-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1640",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/20012",
+  "type": "Person",
+  "_label": "James King",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1135",
+      "type": "Name",
+      "_label": "James King"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1000",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1982"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1135",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2270",
+      "type": "TimeSpan",
+      "_label": "James King Birth timespan",
+      "begin_of_the_begin": "1982",
+      "end_of_the_end": "1982"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1135",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2271",
+      "type": "TimeSpan",
+      "_label": "James King Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1135",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1135",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2770",
+              "type": "Event",
+              "_label": "Synesthetics: Writers and Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-13-1 - 1985-10-3",
+                "begin_of_the_begin": "1985-13-1",
+                "end_of_the_end": "1985-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3271",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

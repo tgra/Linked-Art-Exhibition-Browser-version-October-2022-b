@@ -1,0 +1,539 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4552",
+  "type": "Person",
+  "_label": "Richard Prince",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6761",
+      "type": "Name",
+      "_label": "Richard Prince"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3150",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1949"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6761",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13522",
+      "type": "TimeSpan",
+      "_label": "Richard Prince Birth timespan",
+      "begin_of_the_begin": "1949",
+      "end_of_the_end": "1949"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6761",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13523",
+      "type": "TimeSpan",
+      "_label": "Richard Prince Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6761",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6761",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4129",
+              "type": "Event",
+              "_label": "Image Scavengers: Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-8-12 - 1983-30-1",
+                "begin_of_the_begin": "1982-8-12",
+                "end_of_the_end": "1983-30-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15006",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2988",
+              "type": "Event",
+              "_label": "Hermetic Aspects of Contemporary Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-15-1 - 1978-25-2",
+                "begin_of_the_begin": "1978-15-1",
+                "end_of_the_end": "1978-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15007",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3164",
+              "type": "Event",
+              "_label": "Photography (Spring 1981): Couches, Diamonds and Pie",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-4 - 1981-14-6",
+                "begin_of_the_begin": "1981-26-4",
+                "end_of_the_end": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15008",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2828",
+              "type": "Event",
+              "_label": "Photography (Spring 1983): Multiple Choice",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-10-4 - 1983-5-6",
+                "begin_of_the_begin": "1983-10-4",
+                "end_of_the_end": "1983-5-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15009",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2803",
+              "type": "Event",
+              "_label": "Timeline: The Chronicle of US Intervention in Central and Latin America",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-1 - 1984-18-3",
+                "begin_of_the_begin": "1984-22-1",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15010",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3796",
+              "type": "Event",
+              "_label": "Music & Literature: Thursdays Evenings at The Clocktower",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-3 - 1984-19-4",
+                "begin_of_the_begin": "1984-22-3",
+                "end_of_the_end": "1984-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15011",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2770",
+              "type": "Event",
+              "_label": "Synesthetics: Writers and Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-13-1 - 1985-10-3",
+                "begin_of_the_begin": "1985-13-1",
+                "end_of_the_end": "1985-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15012",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3718",
+              "type": "Event",
+              "_label": "The Pop Project, Part IV: Nostalgia as Resistance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-12-5 - 1988-12-6",
+                "begin_of_the_begin": "1988-12-5",
+                "end_of_the_end": "1988-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15013",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2892",
+              "type": "Event",
+              "_label": "Around 1984: A Look at Art in the Eighties",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-21-5 - 2000-30-9",
+                "begin_of_the_begin": "2000-21-5",
+                "end_of_the_end": "2000-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15014",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3561",
+              "type": "Event",
+              "_label": "Defamation of Character",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-29-10 - 2007-15-1",
+                "begin_of_the_begin": "2006-29-10",
+                "end_of_the_end": "2007-15-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15015",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2931",
+              "type": "Event",
+              "_label": "Not For Sale",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-11-2 - 2007-30-4",
+                "begin_of_the_begin": "2007-11-2",
+                "end_of_the_end": "2007-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15016",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17278",
+              "type": "Event",
+              "_label": "Richard Prince",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-26-9 - 1980-27-10",
+                "begin_of_the_begin": "1980-26-9",
+                "end_of_the_end": "1980-27-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15017",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17244",
+              "type": "Event",
+              "_label": "Language, Drama, Source and Vision",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-8-10 - 1983-27-11",
+                "begin_of_the_begin": "1983-8-10",
+                "end_of_the_end": "1983-27-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15018",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17211",
+              "type": "Event",
+              "_label": "The Art of Memory / The Loss of History",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-23-11 - 1986-19-1",
+                "begin_of_the_begin": "1985-23-11",
+                "end_of_the_end": "1986-19-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15019",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17171",
+              "type": "Event",
+              "_label": "Nitelife",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-4-4 - 1988-9-4",
+                "begin_of_the_begin": "1988-4-4",
+                "end_of_the_end": "1988-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15020",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17144",
+              "type": "Event",
+              "_label": "The Decade Show: Frameworks of Identity in the 1980s",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-12-5 - 1990-19-8",
+                "begin_of_the_begin": "1990-12-5",
+                "end_of_the_end": "1990-19-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15021",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17071",
+              "type": "Event",
+              "_label": "East Village USA",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-9-12 - 2005-19-3",
+                "begin_of_the_begin": "2004-9-12",
+                "end_of_the_end": "2005-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15022",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17044",
+              "type": "Event",
+              "_label": "Skin Fruit: Selections from the Dakis Joannou Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-3-3 - 2010-6-6",
+                "begin_of_the_begin": "2010-3-3",
+                "end_of_the_end": "2010-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15023",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17035",
+              "type": "Event",
+              "_label": "After Hours: Murals on the Bowery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-7-3 - 2011-7-7",
+                "begin_of_the_begin": "2011-7-3",
+                "end_of_the_end": "2011-7-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15024",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

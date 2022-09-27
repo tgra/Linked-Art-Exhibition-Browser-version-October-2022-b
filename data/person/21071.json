@@ -1,0 +1,286 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21071",
+  "type": "Person",
+  "_label": "Stuart Sherman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1313",
+      "type": "Name",
+      "_label": "Stuart Sherman"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1168",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1946–2001"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1313",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2626",
+      "type": "TimeSpan",
+      "_label": "Stuart Sherman Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1313",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2627",
+      "type": "TimeSpan",
+      "_label": "Stuart Sherman Death timespan",
+      "begin_of_the_begin": "2001",
+      "end_of_the_end": "2001"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1313",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1313",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2989",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1977–1978)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-3-12 - 1978-29-1",
+                "begin_of_the_begin": "1977-3-12",
+                "end_of_the_end": "1978-29-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3785",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2808",
+              "type": "Event",
+              "_label": "Film (Winter 1984)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-4-2 - 1984-4-3",
+                "begin_of_the_begin": "1984-4-2",
+                "end_of_the_end": "1984-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3786",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3801",
+              "type": "Event",
+              "_label": "Film (Spring 1989)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-20-4 - 1989-22-4",
+                "begin_of_the_begin": "1989-20-4",
+                "end_of_the_end": "1989-22-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3787",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17267",
+              "type": "Event",
+              "_label": "Alternatives in Retrospect: An Historical Overview 1969 – 1975",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-9-5 - 1981-16-7",
+                "begin_of_the_begin": "1981-9-5",
+                "end_of_the_end": "1981-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3788",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18586",
+              "type": "Event",
+              "_label": "Tenth Spectacle (Portrait…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-6-12 - ",
+                "begin_of_the_begin": "1978-6-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3789",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18515",
+              "type": "Event",
+              "_label": "Retrospective: Solo and G…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-20-3 - ",
+                "begin_of_the_begin": "1981-20-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3790",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18350",
+              "type": "Event",
+              "_label": "His Master's Voice",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-24-11 - ",
+                "begin_of_the_begin": "1982-24-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3791",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18311",
+              "type": "Event",
+              "_label": "FILMWORKS '80: A Three-Ev…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-4-5 - ",
+                "begin_of_the_begin": "1989-4-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3792",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18645",
+              "type": "Event",
+              "_label": "View From a Volcano",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-30-6 - ",
+                "begin_of_the_begin": "2011-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3793",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

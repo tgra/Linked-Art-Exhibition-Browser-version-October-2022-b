@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/706",
+  "type": "Person",
+  "_label": "Joe Brainard",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14524",
+      "type": "Name",
+      "_label": "Joe Brainard"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4016",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1942–1994"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14524",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29048",
+      "type": "TimeSpan",
+      "_label": "Joe Brainard Birth timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14524",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29049",
+      "type": "TimeSpan",
+      "_label": "Joe Brainard Death timespan",
+      "begin_of_the_begin": "1994",
+      "end_of_the_end": "1994"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14524",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14524",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3468",
+              "type": "Event",
+              "_label": "Joe Brainard: A Retrospective",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-30-9 - 2001-25-11",
+                "begin_of_the_begin": "2001-30-9",
+                "end_of_the_end": "2001-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28581",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

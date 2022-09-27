@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27513",
+  "type": "Person",
+  "_label": "Vincent Gilnsky",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2608",
+      "type": "Name",
+      "_label": "Vincent Gilnsky"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2608",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5216",
+      "type": "TimeSpan",
+      "_label": "Vincent Gilnsky Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2608",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5217",
+      "type": "TimeSpan",
+      "_label": "Vincent Gilnsky Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2608",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2608",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/5",
+              "type": "Event",
+              "_label": "46 Painters and Sculptors under 35 Years of Age",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1930-11-4 - 1930-27-4",
+                "begin_of_the_begin": "1930-11-4",
+                "end_of_the_end": "1930-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7081",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65334",
+  "type": "Person",
+  "_label": "Julia Brown",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12938",
+      "type": "Name",
+      "_label": "Julia Brown"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12938",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25876",
+      "type": "TimeSpan",
+      "_label": "Julia Brown Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12938",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25877",
+      "type": "TimeSpan",
+      "_label": "Julia Brown Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12938",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12938",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17218",
+              "type": "Event",
+              "_label": "Allen Ruppersberg: The Secret of Life and Death",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-21-9 - 1985-10-11",
+                "begin_of_the_begin": "1985-21-9",
+                "end_of_the_end": "1985-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26200",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/19546",
+  "type": "Person",
+  "_label": "Linda Montano",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1071",
+      "type": "Name",
+      "_label": "Linda Montano"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/940",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1942"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1071",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2142",
+      "type": "TimeSpan",
+      "_label": "Linda Montano Birth timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1071",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2143",
+      "type": "TimeSpan",
+      "_label": "Linda Montano Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1071",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1071",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2798",
+              "type": "Event",
+              "_label": "Performance (Spring 1982): Performance Rites: the Word, the Flesh, the Fracas, and the Light",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-11-4 - 1982-2-5",
+                "begin_of_the_begin": "1982-11-4",
+                "end_of_the_end": "1982-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3093",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22027",
+              "type": "Event",
+              "_label": "Not Just For Laughs: The Art of Subversion",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-21-11 - 1982-21-1",
+                "begin_of_the_begin": "1981-21-11",
+                "end_of_the_end": "1982-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3094",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17244",
+              "type": "Event",
+              "_label": "Language, Drama, Source and Vision",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-8-10 - 1983-27-11",
+                "begin_of_the_begin": "1983-8-10",
+                "end_of_the_end": "1983-27-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3095",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17223",
+              "type": "Event",
+              "_label": "Seven Years of Living Art: Linda Montano",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-8-12 - 1991-7-12",
+                "begin_of_the_begin": "1984-8-12",
+                "end_of_the_end": "1991-7-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3096",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17209",
+              "type": "Event",
+              "_label": "Choices: Making an Art of Everyday Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-1-2 - 1986-30-3",
+                "begin_of_the_begin": "1986-1-2",
+                "end_of_the_end": "1986-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3097",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17133",
+              "type": "Event",
+              "_label": "Linda's Last Performance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-6-12 - ",
+                "begin_of_the_begin": "1991-6-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3098",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17108",
+              "type": "Event",
+              "_label": "Art/Life Counseling, Ten Years Later",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-9 - 1995-17-12",
+                "begin_of_the_begin": "1995-15-9",
+                "end_of_the_end": "1995-17-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3099",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17109",
+              "type": "Event",
+              "_label": "Temporarily Possessed: The Semi-Permanent Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-9 - 1995-17-12",
+                "begin_of_the_begin": "1995-15-9",
+                "end_of_the_end": "1995-17-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3100",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18353",
+              "type": "Event",
+              "_label": "House Cleaning, Food, Sex…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-19-1 - ",
+                "begin_of_the_begin": "1991-19-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3101",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

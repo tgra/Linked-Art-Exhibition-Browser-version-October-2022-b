@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/20555",
+  "type": "Person",
+  "_label": "Kurt Schmidt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1183",
+      "type": "Name",
+      "_label": "Kurt Schmidt"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1046",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1901–1991; at Bauhaus 1920–25"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1183",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2366",
+      "type": "TimeSpan",
+      "_label": "Kurt Schmidt Birth timespan",
+      "begin_of_the_begin": "1901",
+      "end_of_the_end": "1901"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1183",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2367",
+      "type": "TimeSpan",
+      "_label": "Kurt Schmidt Death timespan",
+      "begin_of_the_begin": "1991",
+      "end_of_the_end": "1991"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1183",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1183",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/125",
+              "type": "Event",
+              "_label": "Bauhaus: 1919–1928",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-7-12 - 1939-30-1",
+                "begin_of_the_begin": "1938-7-12",
+                "end_of_the_end": "1939-30-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3426",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

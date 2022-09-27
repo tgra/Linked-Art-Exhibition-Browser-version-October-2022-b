@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/22969",
+  "type": "Person",
+  "_label": "Danh Vo",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1676",
+      "type": "Name",
+      "_label": "Danh Vo"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1460",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Danish, born Vietnam 1975"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1676",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3352",
+      "type": "TimeSpan",
+      "_label": "Danh Vo Birth timespan",
+      "begin_of_the_begin": "1975",
+      "end_of_the_end": "1975"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1676",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3353",
+      "type": "TimeSpan",
+      "_label": "Danh Vo Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1676",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1676",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17026",
+              "type": "Event",
+              "_label": "The Ungovernables: 2012 New Museum Triennial",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-15-2 - 2012-22-4",
+                "begin_of_the_begin": "2012-15-2",
+                "end_of_the_end": "2012-22-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4875",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18421",
+              "type": "Event",
+              "_label": "Metal",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-27-9 - ",
+                "begin_of_the_begin": "2014-27-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4876",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

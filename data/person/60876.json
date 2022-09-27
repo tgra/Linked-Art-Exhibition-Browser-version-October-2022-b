@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60876",
+  "type": "Person",
+  "_label": "Brian Tolle",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11696",
+      "type": "Name",
+      "_label": "Brian Tolle"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11696",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23392",
+      "type": "TimeSpan",
+      "_label": "Brian Tolle Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11696",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23393",
+      "type": "TimeSpan",
+      "_label": "Brian Tolle Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11696",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11696",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4281",
+              "type": "Event",
+              "_label": "Brian Tolle",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-21-1 - 2006-26-3",
+                "begin_of_the_begin": "2006-21-1",
+                "end_of_the_end": "2006-26-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24002",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

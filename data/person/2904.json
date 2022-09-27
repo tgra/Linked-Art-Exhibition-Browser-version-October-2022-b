@@ -1,0 +1,191 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2904",
+  "type": "Person",
+  "_label": "On Kawara",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4111",
+      "type": "Name",
+      "_label": "On Kawara"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2261",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, born 1933"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4111",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8222",
+      "type": "TimeSpan",
+      "_label": "On Kawara Birth timespan",
+      "begin_of_the_begin": "1933",
+      "end_of_the_end": "1933"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4111",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8223",
+      "type": "TimeSpan",
+      "_label": "On Kawara Death timespan",
+      "begin_of_the_begin": "2014",
+      "end_of_the_end": "2014"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4111",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4111",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4090",
+              "type": "Event",
+              "_label": "1967: At the Crossroads",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-13-3 - 1987-26-4",
+                "begin_of_the_begin": "1987-13-3",
+                "end_of_the_end": "1987-26-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9147",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4300",
+              "type": "Event",
+              "_label": "Traces of Friday: Art, Tourism, Displacement",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-4-9 - 2003-14-12",
+                "begin_of_the_begin": "2003-4-9",
+                "end_of_the_end": "2003-14-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9148",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2903",
+              "type": "Event",
+              "_label": "Deep Storage",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-5-7 - 1998-30-8",
+                "begin_of_the_begin": "1998-5-7",
+                "end_of_the_end": "1998-30-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9149",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17141",
+              "type": "Event",
+              "_label": "Rhetorical Image",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-9-12 - 1991-3-2",
+                "begin_of_the_begin": "1990-9-12",
+                "end_of_the_end": "1991-3-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9150",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17142",
+              "type": "Event",
+              "_label": "Rhetorical Image Resource Room",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-9-12 - 1991-3-2",
+                "begin_of_the_begin": "1990-9-12",
+                "end_of_the_end": "1991-3-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9151",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

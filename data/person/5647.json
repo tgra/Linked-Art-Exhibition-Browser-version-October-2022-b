@@ -1,0 +1,139 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/5647",
+  "type": "Person",
+  "_label": "Louis Comfort Tiffany",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7313",
+      "type": "Name",
+      "_label": "Louis Comfort Tiffany"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3615",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1848–1933"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/7313",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/14626",
+      "type": "TimeSpan",
+      "_label": "Louis Comfort Tiffany Birth timespan",
+      "begin_of_the_begin": "1848",
+      "end_of_the_end": "1848"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/7313",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/14627",
+      "type": "TimeSpan",
+      "_label": "Louis Comfort Tiffany Death timespan",
+      "begin_of_the_begin": "1933",
+      "end_of_the_end": "1933"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/7313",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/7313",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/32",
+              "type": "Event",
+              "_label": "Objects: 1900 and Today",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1933-10-4 - 1933-25-4",
+                "begin_of_the_begin": "1933-10-4",
+                "end_of_the_end": "1933-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/17173",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/483",
+              "type": "Event",
+              "_label": "Art Nouveau from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-12-7 - 1949-5-9",
+                "begin_of_the_begin": "1949-12-7",
+                "end_of_the_end": "1949-5-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/17174",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/521",
+              "type": "Event",
+              "_label": "Three Modern Styles",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-11-7 - 1950-5-9",
+                "begin_of_the_begin": "1950-11-7",
+                "end_of_the_end": "1950-5-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/17175",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

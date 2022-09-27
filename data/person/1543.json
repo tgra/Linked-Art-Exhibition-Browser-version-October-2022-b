@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1543",
+  "type": "Person",
+  "_label": "Lynne Drexler",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/394",
+      "type": "Name",
+      "_label": "Lynne Drexler"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/317",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/394",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/788",
+      "type": "TimeSpan",
+      "_label": "Lynne Drexler Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/394",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/789",
+      "type": "TimeSpan",
+      "_label": "Lynne Drexler Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/394",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/394",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7181",
+              "type": "Event",
+              "_label": "Lynne Drexler",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-3-2 - 1961-23-2",
+                "begin_of_the_begin": "1961-3-2",
+                "end_of_the_end": "1961-23-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1333",
+                  "type": "Place",
+                  "_label": "90 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

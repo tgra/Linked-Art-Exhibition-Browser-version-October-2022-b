@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1804",
+  "type": "Person",
+  "_label": "R. M. Fischer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/820",
+      "type": "Name",
+      "_label": "R. M. Fischer"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/720",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1947"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/820",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1640",
+      "type": "TimeSpan",
+      "_label": "R. M. Fischer Birth timespan",
+      "begin_of_the_begin": "1947",
+      "end_of_the_end": "1947"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/820",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1641",
+      "type": "TimeSpan",
+      "_label": "R. M. Fischer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/820",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/820",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4107",
+              "type": "Event",
+              "_label": "Investigations 13: R.M. Fischer, American Electric",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-12-6 - 1985-28-7",
+                "begin_of_the_begin": "1985-12-6",
+                "end_of_the_end": "1985-28-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2455",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3179",
+              "type": "Event",
+              "_label": "Lighting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-15-2 - 1981-5-4",
+                "begin_of_the_begin": "1981-15-2",
+                "end_of_the_end": "1981-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2456",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

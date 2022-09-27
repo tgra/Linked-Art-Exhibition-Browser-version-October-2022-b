@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57357",
+  "type": "Person",
+  "_label": "Constancia Vokietaitis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8060",
+      "type": "Name",
+      "_label": "Constancia Vokietaitis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8060",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16120",
+      "type": "TimeSpan",
+      "_label": "Constancia Vokietaitis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8060",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16121",
+      "type": "TimeSpan",
+      "_label": "Constancia Vokietaitis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8060",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8060",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2967",
+              "type": "Event",
+              "_label": "Darryl Sapien and Constancia Vokietaitis: The Principle of the Arch",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-19-3 - 1977-20-3",
+                "begin_of_the_begin": "1977-19-3",
+                "end_of_the_end": "1977-20-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18552",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

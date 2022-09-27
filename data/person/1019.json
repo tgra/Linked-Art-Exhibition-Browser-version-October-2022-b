@@ -1,0 +1,366 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1019",
+  "type": "Person",
+  "_label": "John Chamberlain",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14",
+      "type": "Name",
+      "_label": "John Chamberlain"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/12",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1927–2011"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28",
+      "type": "TimeSpan",
+      "_label": "John Chamberlain Birth timespan",
+      "begin_of_the_begin": "1927",
+      "end_of_the_end": "1927"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29",
+      "type": "TimeSpan",
+      "_label": "John Chamberlain Death timespan",
+      "begin_of_the_begin": "2011",
+      "end_of_the_end": "2011"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3926",
+              "type": "Event",
+              "_label": "Gallery Group Show: Paintings, Sculpture and Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-13-12 - 1961-7-1",
+                "begin_of_the_begin": "1960-13-12",
+                "end_of_the_end": "1961-7-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/100",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3945",
+              "type": "Event",
+              "_label": "Contemporary Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-10-4 - 1962-27-4",
+                "begin_of_the_begin": "1962-10-4",
+                "end_of_the_end": "1962-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/101",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3912",
+              "type": "Event",
+              "_label": "Three Men: Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-12-5 - 1958-31-5",
+                "begin_of_the_begin": "1958-12-5",
+                "end_of_the_end": "1958-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/102",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3915",
+              "type": "Event",
+              "_label": "24",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-3-11 - 1958-22-11",
+                "begin_of_the_begin": "1958-3-11",
+                "end_of_the_end": "1958-22-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/103",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7163",
+              "type": "Event",
+              "_label": "Beauchamp, Chamberlain, Follett, Forst, Lansner, Pasilis, Pritchard, Stout, Samaras, Stankiewicz",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-18-5 - 1959-6-6",
+                "begin_of_the_begin": "1959-18-5",
+                "end_of_the_end": "1959-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/104",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4407",
+              "type": "Event",
+              "_label": "The Atmosphere of '64",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-17-4 - 1964-1-6",
+                "begin_of_the_begin": "1964-17-4",
+                "end_of_the_end": "1964-1-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/105",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4204",
+              "type": "Event",
+              "_label": "7 Sculptors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-1-12 - 1966-17-1",
+                "begin_of_the_begin": "1965-1-12",
+                "end_of_the_end": "1966-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/106",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4189",
+              "type": "Event",
+              "_label": "The Highway",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-14-1 - 1970-25-2",
+                "begin_of_the_begin": "1970-14-1",
+                "end_of_the_end": "1970-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/107",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4165",
+              "type": "Event",
+              "_label": "Painting Drawing and Sculpture of the '60s and the '70s from the Dorthy and Herbert Vogel Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-7-10 - 1975-18-11",
+                "begin_of_the_begin": "1975-7-10",
+                "end_of_the_end": "1975-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/108",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2844",
+              "type": "Event",
+              "_label": "The Promise of Photograhy: Selections from the DG Bank Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-12-9 - 1999-24-10",
+                "begin_of_the_begin": "1999-12-9",
+                "end_of_the_end": "1999-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/109",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3360",
+              "type": "Event",
+              "_label": "1969",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-5-10 - 2010-5-4",
+                "begin_of_the_begin": "2009-5-10",
+                "end_of_the_end": "2010-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/110",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3509",
+              "type": "Event",
+              "_label": "September 11",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-11-9 - 2012-9-1",
+                "begin_of_the_begin": "2011-11-9",
+                "end_of_the_end": "2012-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/111",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/17039",
+  "type": "Person",
+  "_label": "Ms. Jean Shin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/595",
+      "type": "Name",
+      "_label": "Ms. Jean Shin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/595",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1190",
+      "type": "TimeSpan",
+      "_label": "Ms. Jean Shin Birth timespan",
+      "begin_of_the_begin": "1971",
+      "end_of_the_end": "1971"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/595",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1191",
+      "type": "TimeSpan",
+      "_label": "Ms. Jean Shin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/595",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/595",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21909",
+              "type": "Event",
+              "_label": "Counter Culture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-10-7 - 2004-14-8",
+                "begin_of_the_begin": "2004-10-7",
+                "end_of_the_end": "2004-14-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1922",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

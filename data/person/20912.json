@@ -1,0 +1,489 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/20912",
+  "type": "Person",
+  "_label": "Philip Glass",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1256",
+      "type": "Name",
+      "_label": "Philip Glass"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1256",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2512",
+      "type": "TimeSpan",
+      "_label": "Philip Glass Birth timespan",
+      "begin_of_the_begin": "1937",
+      "end_of_the_end": "1937"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1256",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2513",
+      "type": "TimeSpan",
+      "_label": "Philip Glass Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1256",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1256",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4139",
+              "type": "Event",
+              "_label": "Drawings: The Pluralist Decade",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-4-10 - 1980-9-11",
+                "begin_of_the_begin": "1980-4-10",
+                "end_of_the_end": "1980-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3578",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4397",
+              "type": "Event",
+              "_label": "Interactions: Collaborations in the Visual and Performing Arts",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-23-5 - 1991-7-7",
+                "begin_of_the_begin": "1991-23-5",
+                "end_of_the_end": "1991-7-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3579",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3612",
+              "type": "Event",
+              "_label": "The Brooklyn Bridge Event",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1971-21-5 - 1971-24-5",
+                "begin_of_the_begin": "1971-21-5",
+                "end_of_the_end": "1971-24-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3580",
+                  "type": "Place",
+                  "_label": "The Brooklyn Bridge",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2700",
+              "type": "Event",
+              "_label": "January Concerts",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-12-1 - 1973-28-1",
+                "begin_of_the_begin": "1973-12-1",
+                "end_of_the_end": "1973-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3581",
+                  "type": "Place",
+                  "_label": "10 Bleecker Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3833",
+              "type": "Event",
+              "_label": "Philip Glass Ensemble: \"Music in Twelve Parts\"",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-2-2 - 1975-23-2",
+                "begin_of_the_begin": "1975-2-2",
+                "end_of_the_end": "1975-23-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3582",
+                  "type": "Place",
+                  "_label": "The Idea Warehouse",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2990",
+              "type": "Event",
+              "_label": "New York Avant-Garde/Works and Projects of the Seventies",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-9-10 - 1977-6-11",
+                "begin_of_the_begin": "1977-9-10",
+                "end_of_the_end": "1977-6-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3583",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3235",
+              "type": "Event",
+              "_label": "Special Projects (Spring 1999)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-2 - 1999-3-4",
+                "begin_of_the_begin": "1999-7-2",
+                "end_of_the_end": "1999-3-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3584",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18558",
+              "type": "Event",
+              "_label": "Soup and Tart",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1974-30-11 - ",
+                "begin_of_the_begin": "1974-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3585",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18292",
+              "type": "Event",
+              "_label": "Ensemble & Chorus Pr…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-19-3 - ",
+                "begin_of_the_begin": "1976-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3586",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18426",
+              "type": "Event",
+              "_label": "Modern Love and The Lucy …",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-21-10 - ",
+                "begin_of_the_begin": "1977-21-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3587",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18443",
+              "type": "Event",
+              "_label": "New Music, New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-8-6 - ",
+                "begin_of_the_begin": "1979-8-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3588",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18583",
+              "type": "Event",
+              "_label": "Television Society Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-24-10 - ",
+                "begin_of_the_begin": "1980-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3589",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18175",
+              "type": "Event",
+              "_label": "Aluminum Nights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-14-6 - ",
+                "begin_of_the_begin": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3590",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18340",
+              "type": "Event",
+              "_label": "Good Morning, Mr. Orwell",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-1-1 - ",
+                "begin_of_the_begin": "1984-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3591",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18698",
+              "type": "Event",
+              "_label": "Two Moon July",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-16-10 - ",
+                "begin_of_the_begin": "1986-16-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3592",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18219",
+              "type": "Event",
+              "_label": "Burp: Soup and Tart Revis…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-24-10 - ",
+                "begin_of_the_begin": "1991-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3593",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18155",
+              "type": "Event",
+              "_label": "A Place for Artists: Refl…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-4-5 - ",
+                "begin_of_the_begin": "2011-4-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3594",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18645",
+              "type": "Event",
+              "_label": "View From a Volcano",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-30-6 - ",
+                "begin_of_the_begin": "2011-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3595",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

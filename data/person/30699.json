@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/30699",
+  "type": "Person",
+  "_label": "Magdalena Jetelova",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5312",
+      "type": "Name",
+      "_label": "Magdalena Jetelova"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2364",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Czech, born 1946"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5312",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10624",
+      "type": "TimeSpan",
+      "_label": "Magdalena Jetelova Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5312",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10625",
+      "type": "TimeSpan",
+      "_label": "Magdalena Jetelova Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5312",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5312",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2844",
+              "type": "Event",
+              "_label": "The Promise of Photograhy: Selections from the DG Bank Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-12-9 - 1999-24-10",
+                "begin_of_the_begin": "1999-12-9",
+                "end_of_the_end": "1999-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10696",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

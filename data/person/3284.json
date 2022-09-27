@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3284",
+  "type": "Person",
+  "_label": "Gustave Le Gray",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5862",
+      "type": "Name",
+      "_label": "Gustave Le Gray"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2481",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1820–1882"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5862",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11724",
+      "type": "TimeSpan",
+      "_label": "Gustave Le Gray Birth timespan",
+      "begin_of_the_begin": "1820",
+      "end_of_the_end": "1820"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5862",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11725",
+      "type": "TimeSpan",
+      "_label": "Gustave Le Gray Death timespan",
+      "begin_of_the_begin": "1882",
+      "end_of_the_end": "1882"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5862",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5862",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/500",
+              "type": "Event",
+              "_label": "Roots of French Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-29-11 - 1950-15-1",
+                "begin_of_the_begin": "1949-29-11",
+                "end_of_the_end": "1950-15-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11808",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

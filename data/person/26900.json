@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/26900",
+  "type": "Person",
+  "_label": "Neal Benezra",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2230",
+      "type": "Name",
+      "_label": "Neal Benezra"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2230",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4460",
+      "type": "TimeSpan",
+      "_label": "Neal Benezra Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2230",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4461",
+      "type": "TimeSpan",
+      "_label": "Neal Benezra Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2230",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2230",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17084",
+              "type": "Event",
+              "_label": "William Kentridge",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-3-6 - 2001-16-9",
+                "begin_of_the_begin": "2001-3-6",
+                "end_of_the_end": "2001-16-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6205",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

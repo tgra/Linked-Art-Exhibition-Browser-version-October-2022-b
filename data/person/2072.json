@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2072",
+  "type": "Person",
+  "_label": "Gregory Gillespie",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1206",
+      "type": "Name",
+      "_label": "Gregory Gillespie"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1067",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1936"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1206",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2412",
+      "type": "TimeSpan",
+      "_label": "Gregory Gillespie Birth timespan",
+      "begin_of_the_begin": "1936",
+      "end_of_the_end": "1936"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1206",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2413",
+      "type": "TimeSpan",
+      "_label": "Gregory Gillespie Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1206",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1206",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4148",
+              "type": "Event",
+              "_label": "Late Twentieth Century Art: From the Sydney and Frances Lewis Foundation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-22-3 - 1979-2-5",
+                "begin_of_the_begin": "1979-22-3",
+                "end_of_the_end": "1979-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3463",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63540",
+  "type": "Person",
+  "_label": "49th Parallel Gallery",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12221",
+      "type": "Name",
+      "_label": "49th Parallel Gallery"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12221",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24442",
+      "type": "TimeSpan",
+      "_label": "49th Parallel Gallery Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12221",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24443",
+      "type": "TimeSpan",
+      "_label": "49th Parallel Gallery Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12221",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12221",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17185",
+              "type": "Event",
+              "_label": "Betty Goodwin: New Work",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-11-9 - 1987-8-11",
+                "begin_of_the_begin": "1987-11-9",
+                "end_of_the_end": "1987-8-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25050",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

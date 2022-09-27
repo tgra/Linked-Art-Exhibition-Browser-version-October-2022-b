@@ -1,0 +1,314 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/18826",
+  "type": "Person",
+  "_label": "Andrea Fraser",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/923",
+      "type": "Name",
+      "_label": "Andrea Fraser"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/813",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1965"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/923",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1846",
+      "type": "TimeSpan",
+      "_label": "Andrea Fraser Birth timespan",
+      "begin_of_the_begin": "1965",
+      "end_of_the_end": "1965"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/923",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1847",
+      "type": "TimeSpan",
+      "_label": "Andrea Fraser Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/923",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/923",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4285",
+              "type": "Event",
+              "_label": "Framing Exposure: Process and Politics",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-30-4 - 2005-31-7",
+                "begin_of_the_begin": "2005-30-4",
+                "end_of_the_end": "2005-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2733",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4275",
+              "type": "Event",
+              "_label": "Make Your Own Life: Artists In and Out of Cologne",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-21-4 - 2006-31-7",
+                "begin_of_the_begin": "2006-21-4",
+                "end_of_the_end": "2006-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2734",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3020",
+              "type": "Event",
+              "_label": "Parallax View: New York-Köln",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-18-4 - 1993-20-6",
+                "begin_of_the_begin": "1993-18-4",
+                "end_of_the_end": "1993-20-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2735",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3721",
+              "type": "Event",
+              "_label": "Model Home",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-8-2 - 1996-31-3",
+                "begin_of_the_begin": "1996-8-2",
+                "end_of_the_end": "1996-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2736",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3724",
+              "type": "Event",
+              "_label": "Parasite Artist Organization Group",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-1-11 - 1998-30-3",
+                "begin_of_the_begin": "1997-1-11",
+                "end_of_the_end": "1998-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2737",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3559",
+              "type": "Event",
+              "_label": "Into Me/Out of Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-25-9",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2738",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3503",
+              "type": "Event",
+              "_label": "That was Then, This is Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-22-6 - 2008-5-10",
+                "begin_of_the_begin": "2008-22-6",
+                "end_of_the_end": "2008-5-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2739",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17201",
+              "type": "Event",
+              "_label": "Damaged Goods: Desire and the Economy of the Object",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-21-6 - 1986-10-8",
+                "begin_of_the_begin": "1986-21-6",
+                "end_of_the_end": "1986-10-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2740",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17109",
+              "type": "Event",
+              "_label": "Temporarily Possessed: The Semi-Permanent Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-9 - 1995-17-12",
+                "begin_of_the_begin": "1995-15-9",
+                "end_of_the_end": "1995-17-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2741",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17014",
+              "type": "Event",
+              "_label": "NYC 1993: Experimental Jet Set, Trash and No Star",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-13-2 - 2013-26-5",
+                "begin_of_the_begin": "2013-13-2",
+                "end_of_the_end": "2013-26-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2742",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

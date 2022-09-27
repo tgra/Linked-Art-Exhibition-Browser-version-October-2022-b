@@ -1,0 +1,187 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7130",
+  "type": "Person",
+  "_label": "Gilbert & George",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14560",
+      "type": "Name",
+      "_label": "Gilbert & George"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4048",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14560",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29120",
+      "type": "TimeSpan",
+      "_label": "Gilbert & George Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14560",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29121",
+      "type": "TimeSpan",
+      "_label": "Gilbert & George Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14560",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14560",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4148",
+              "type": "Event",
+              "_label": "Late Twentieth Century Art: From the Sydney and Frances Lewis Foundation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-22-3 - 1979-2-5",
+                "begin_of_the_begin": "1979-22-3",
+                "end_of_the_end": "1979-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28752",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2768",
+              "type": "Event",
+              "_label": "El Arte Narrativo Y Pintura Mexicana",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-5 - 1985-23-6",
+                "begin_of_the_begin": "1985-5-5",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28753",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3498",
+              "type": "Event",
+              "_label": "Video Acts: Single Channel Video Works from the Collections of Pamela and Richard Kramlich and New Art Trust",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-10-11 - 2003-13-4",
+                "begin_of_the_begin": "2002-10-11",
+                "end_of_the_end": "2003-13-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28754",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3559",
+              "type": "Event",
+              "_label": "Into Me/Out of Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-25-9",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28755",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17251",
+              "type": "Event",
+              "_label": "Extended Sensibilities: Homosexual Presence in Contemporary Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-16-10 - 1982-30-12",
+                "begin_of_the_begin": "1982-16-10",
+                "end_of_the_end": "1982-30-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28756",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

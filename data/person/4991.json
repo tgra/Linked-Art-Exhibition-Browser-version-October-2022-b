@@ -1,0 +1,391 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4991",
+  "type": "Person",
+  "_label": "Italo Scanga",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6961",
+      "type": "Name",
+      "_label": "Italo Scanga"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3329",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1932–2001"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6961",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13922",
+      "type": "TimeSpan",
+      "_label": "Italo Scanga Birth timespan",
+      "begin_of_the_begin": "1932",
+      "end_of_the_end": "1932"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6961",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13923",
+      "type": "TimeSpan",
+      "_label": "Italo Scanga Death timespan",
+      "begin_of_the_begin": "2001",
+      "end_of_the_end": "2001"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6961",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6961",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4175",
+              "type": "Event",
+              "_label": "Made in Philadelphia/In Urban Sites",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-24-3 - 1973-27-4",
+                "begin_of_the_begin": "1973-24-3",
+                "end_of_the_end": "1973-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15787",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4160",
+              "type": "Event",
+              "_label": "The Philadelphia Houston Exchange",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-8-10 - 1976-17-11",
+                "begin_of_the_begin": "1976-8-10",
+                "end_of_the_end": "1976-17-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15788",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4146",
+              "type": "Event",
+              "_label": "Material Pleasures: The Fabric Workshop at ICA",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-13-6 - 1979-21-7",
+                "begin_of_the_begin": "1979-13-6",
+                "end_of_the_end": "1979-21-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15789",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4144",
+              "type": "Event",
+              "_label": "Masks/ Tents/ Vessels/ Talismans",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-5-12 - 1980-13-1",
+                "begin_of_the_begin": "1979-5-12",
+                "end_of_the_end": "1980-13-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15790",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4141",
+              "type": "Event",
+              "_label": "Made in Philadelphia 3",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-1-4 - 1980-23-5",
+                "begin_of_the_begin": "1980-1-4",
+                "end_of_the_end": "1980-23-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15791",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4092",
+              "type": "Event",
+              "_label": "Italo Scanga: 1972-1985",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-11-12 - 1987-25-1",
+                "begin_of_the_begin": "1986-11-12",
+                "end_of_the_end": "1987-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15792",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3645",
+              "type": "Event",
+              "_label": "Artists Make Toys",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-1-1 - 1975-25-1",
+                "begin_of_the_begin": "1975-1-1",
+                "end_of_the_end": "1975-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15793",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3789",
+              "type": "Event",
+              "_label": "Italo Scanga",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-3-5 - 1978-16-6",
+                "begin_of_the_begin": "1978-3-5",
+                "end_of_the_end": "1978-16-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15794",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2917",
+              "type": "Event",
+              "_label": "Figuratively Sculpting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-18-10 - 1981-31-12",
+                "begin_of_the_begin": "1981-18-10",
+                "end_of_the_end": "1981-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15795",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2785",
+              "type": "Event",
+              "_label": "Salvaged: Altered Everyday Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-1 - 1984-18-3",
+                "begin_of_the_begin": "1984-22-1",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15796",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3225",
+              "type": "Event",
+              "_label": "The New Portrait",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-15-4 - 1984-10-6",
+                "begin_of_the_begin": "1984-15-4",
+                "end_of_the_end": "1984-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15797",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2729",
+              "type": "Event",
+              "_label": "Figures: Sculpture in the Auditorium",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-13-1 - 1985-10-3",
+                "begin_of_the_begin": "1985-13-1",
+                "end_of_the_end": "1985-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15798",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2768",
+              "type": "Event",
+              "_label": "El Arte Narrativo Y Pintura Mexicana",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-5 - 1985-23-6",
+                "begin_of_the_begin": "1985-5-5",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15799",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

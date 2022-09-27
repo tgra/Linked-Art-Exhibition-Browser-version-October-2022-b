@@ -1,0 +1,216 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2139",
+  "type": "Person",
+  "_label": "Natalia Goncharova",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1369",
+      "type": "Name",
+      "_label": "Natalia Goncharova"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1217",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Russian, 1881–1962"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1369",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2738",
+      "type": "TimeSpan",
+      "_label": "Natalia Goncharova Birth timespan",
+      "begin_of_the_begin": "1881",
+      "end_of_the_end": "1881"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1369",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2739",
+      "type": "TimeSpan",
+      "_label": "Natalia Goncharova Death timespan",
+      "begin_of_the_begin": "1962",
+      "end_of_the_end": "1962"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1369",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1369",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/46",
+              "type": "Event",
+              "_label": "International Exhibition of Theatre Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1934-15-1 - 1934-25-2",
+                "begin_of_the_begin": "1934-15-1",
+                "end_of_the_end": "1934-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3962",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/75",
+              "type": "Event",
+              "_label": "Cubism and Abstract Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-2-3 - 1936-19-4",
+                "begin_of_the_begin": "1936-2-3",
+                "end_of_the_end": "1936-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3963",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/146",
+              "type": "Event",
+              "_label": "Preview: Dance Archives",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-6-3 - 1940-7-4",
+                "begin_of_the_begin": "1940-6-3",
+                "end_of_the_end": "1940-7-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3964",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/225",
+              "type": "Event",
+              "_label": "New Acquisitions and Extended Loans: Cubist and Abstract Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-25-3 - 1942-3-5",
+                "begin_of_the_begin": "1942-25-3",
+                "end_of_the_end": "1942-3-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3965",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/313",
+              "type": "Event",
+              "_label": "Dance and Theatre Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-24-5 - 1944-17-9",
+                "begin_of_the_begin": "1944-24-5",
+                "end_of_the_end": "1944-17-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3966",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/430",
+              "type": "Event",
+              "_label": "New Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-13-1 - 1948-21-3",
+                "begin_of_the_begin": "1948-13-1",
+                "end_of_the_end": "1948-21-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3967",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

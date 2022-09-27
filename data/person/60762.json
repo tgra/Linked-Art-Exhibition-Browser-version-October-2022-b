@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60762",
+  "type": "Person",
+  "_label": "Nahum B. Zenil",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11577",
+      "type": "Name",
+      "_label": "Nahum B. Zenil"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11577",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23154",
+      "type": "TimeSpan",
+      "_label": "Nahum B. Zenil Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11577",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23155",
+      "type": "TimeSpan",
+      "_label": "Nahum B. Zenil Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11577",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11577",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4387",
+              "type": "Event",
+              "_label": "El Corazón Sangrante (The Bleeding Heart)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-22-4 - 1992-5-7",
+                "begin_of_the_begin": "1992-22-4",
+                "end_of_the_end": "1992-5-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23846",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

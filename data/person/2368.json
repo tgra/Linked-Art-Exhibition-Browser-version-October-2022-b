@@ -1,0 +1,166 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2368",
+  "type": "Person",
+  "_label": "Hermann Haller",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1787",
+      "type": "Name",
+      "_label": "Hermann Haller"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1542",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Swiss, 1880–1950"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1787",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3574",
+      "type": "TimeSpan",
+      "_label": "Hermann Haller Birth timespan",
+      "begin_of_the_begin": "1880",
+      "end_of_the_end": "1880"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1787",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3575",
+      "type": "TimeSpan",
+      "_label": "Hermann Haller Death timespan",
+      "begin_of_the_begin": "1950",
+      "end_of_the_end": "1950"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1787",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1787",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/42",
+              "type": "Event",
+              "_label": "Gifts and Loans from the Collection of Mrs. Sadie A. May",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1933-16-11 - 1933-8-12",
+                "begin_of_the_begin": "1933-16-11",
+                "end_of_the_end": "1933-8-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5098",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/60",
+              "type": "Event",
+              "_label": "Modern Works of Art: 5th Anniversary Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1934-19-11 - 1935-20-1",
+                "begin_of_the_begin": "1934-19-11",
+                "end_of_the_end": "1935-20-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5099",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/66",
+              "type": "Event",
+              "_label": "Summer Exhibition: The Museum Collection and a Private Collection on Loan",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1935-4-6 - 1935-24-9",
+                "begin_of_the_begin": "1935-4-6",
+                "end_of_the_end": "1935-24-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5100",
+                  "type": "Place",
+                  "_label": "2nd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/258",
+              "type": "Event",
+              "_label": "Twentieth Century Portraits",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-9-12 - 1943-24-1",
+                "begin_of_the_begin": "1942-9-12",
+                "end_of_the_end": "1943-24-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5101",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

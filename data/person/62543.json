@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/62543",
+  "type": "Person",
+  "_label": "Willa Nasatir",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12045",
+      "type": "Name",
+      "_label": "Willa Nasatir"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12045",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24090",
+      "type": "TimeSpan",
+      "_label": "Willa Nasatir Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12045",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24091",
+      "type": "TimeSpan",
+      "_label": "Willa Nasatir Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12045",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12045",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21814",
+              "type": "Event",
+              "_label": "Trigger: Gender as a Tool and a Weapon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-27-9 - 2018-21-1",
+                "begin_of_the_begin": "2017-27-9",
+                "end_of_the_end": "2018-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24549",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

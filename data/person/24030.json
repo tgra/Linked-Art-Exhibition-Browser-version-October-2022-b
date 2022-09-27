@@ -1,0 +1,213 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/24030",
+  "type": "Person",
+  "_label": "Stephen Vitiello",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1824",
+      "type": "Name",
+      "_label": "Stephen Vitiello"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1569",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1964"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1824",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3648",
+      "type": "TimeSpan",
+      "_label": "Stephen Vitiello Birth timespan",
+      "begin_of_the_begin": "1964",
+      "end_of_the_end": "1964"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1824",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3649",
+      "type": "TimeSpan",
+      "_label": "Stephen Vitiello Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1824",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1824",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4319",
+              "type": "Event",
+              "_label": "The Photogenic: Photography Through Its Metaphors in Contemporary Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-22-3 - 2002-21-4",
+                "begin_of_the_begin": "2002-22-3",
+                "end_of_the_end": "2002-21-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5227",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2834",
+              "type": "Event",
+              "_label": "Greater New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-27-2 - 2000-30-5",
+                "begin_of_the_begin": "2000-27-2",
+                "end_of_the_end": "2000-30-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5228",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3726",
+              "type": "Event",
+              "_label": "National and International Studio Program Exhibition (2000–2001): Strangers/Étrangers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-26-4 - 2001-16-6",
+                "begin_of_the_begin": "2001-26-4",
+                "end_of_the_end": "2001-16-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5229",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2859",
+              "type": "Event",
+              "_label": "Organizing Chaos",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-24-5 - 2007-8-10",
+                "begin_of_the_begin": "2007-24-5",
+                "end_of_the_end": "2007-8-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5230",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3509",
+              "type": "Event",
+              "_label": "September 11",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-11-9 - 2012-9-1",
+                "begin_of_the_begin": "2011-11-9",
+                "end_of_the_end": "2012-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5231",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18199",
+              "type": "Event",
+              "_label": "Between Thought and Sound…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-7-9 - ",
+                "begin_of_the_begin": "2007-7-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5232",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

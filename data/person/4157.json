@@ -1,0 +1,289 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4157",
+  "type": "Person",
+  "_label": "Emil Nolde",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6578",
+      "type": "Name",
+      "_label": "Emil Nolde"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2987",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1867–1956"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6578",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13156",
+      "type": "TimeSpan",
+      "_label": "Emil Nolde Birth timespan",
+      "begin_of_the_begin": "1867",
+      "end_of_the_end": "1867"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6578",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13157",
+      "type": "TimeSpan",
+      "_label": "Emil Nolde Death timespan",
+      "begin_of_the_begin": "1956",
+      "end_of_the_end": "1956"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6578",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6578",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/12",
+              "type": "Event",
+              "_label": "German Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1931-12-3 - 1931-22-4",
+                "begin_of_the_begin": "1931-12-3",
+                "end_of_the_end": "1931-22-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14132",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/57",
+              "type": "Event",
+              "_label": "Color Reproductions: Modern Watercolors and Pastels",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1934-13-8 - 1934-21-9",
+                "begin_of_the_begin": "1934-13-8",
+                "end_of_the_end": "1934-21-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14133",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/60",
+              "type": "Event",
+              "_label": "Modern Works of Art: 5th Anniversary Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1934-19-11 - 1935-20-1",
+                "begin_of_the_begin": "1934-19-11",
+                "end_of_the_end": "1935-20-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14134",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/129",
+              "type": "Event",
+              "_label": "Painting, Sculpture, Prints",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1939-10-5 - 1939-30-9",
+                "begin_of_the_begin": "1939-10-5",
+                "end_of_the_end": "1939-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14135",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/235",
+              "type": "Event",
+              "_label": "New Acquisitions: Free German Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-24-6 - 1942-24-8",
+                "begin_of_the_begin": "1942-24-6",
+                "end_of_the_end": "1942-24-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14136",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/353",
+              "type": "Event",
+              "_label": "The Museum Collection of Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-20-6 - 1946-13-2",
+                "begin_of_the_begin": "1945-20-6",
+                "end_of_the_end": "1946-13-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14137",
+                  "type": "Place",
+                  "_label": "Sculpture Garden, 2nd and 3rd Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/479",
+              "type": "Event",
+              "_label": "Master Prints from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-10-5 - 1949-10-7",
+                "begin_of_the_begin": "1949-10-5",
+                "end_of_the_end": "1949-10-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14138",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/506",
+              "type": "Event",
+              "_label": "Recent Acquisitions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-31-1 - 1950-7-5",
+                "begin_of_the_begin": "1950-31-1",
+                "end_of_the_end": "1950-7-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14139",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/525",
+              "type": "Event",
+              "_label": "Painting and Sculpture from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-29-8 - 1950-15-10",
+                "begin_of_the_begin": "1950-29-8",
+                "end_of_the_end": "1950-15-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14140",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

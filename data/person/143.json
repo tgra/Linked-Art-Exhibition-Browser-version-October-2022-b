@@ -1,0 +1,239 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/143",
+  "type": "Person",
+  "_label": "William Anastasi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/285",
+      "type": "Name",
+      "_label": "William Anastasi"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/228",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1933"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/285",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/570",
+      "type": "TimeSpan",
+      "_label": "William Anastasi Birth timespan",
+      "begin_of_the_begin": "1933",
+      "end_of_the_end": "1933"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/285",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/571",
+      "type": "TimeSpan",
+      "_label": "William Anastasi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/285",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/285",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2990",
+              "type": "Event",
+              "_label": "New York Avant-Garde/Works and Projects of the Seventies",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-9-10 - 1977-6-11",
+                "begin_of_the_begin": "1977-9-10",
+                "end_of_the_end": "1977-6-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1001",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3043",
+              "type": "Event",
+              "_label": "Couples",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-3-12 - 1979-21-1",
+                "begin_of_the_begin": "1978-3-12",
+                "end_of_the_end": "1979-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1002",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3326",
+              "type": "Event",
+              "_label": "Special Projects (Fall 1979): Sound",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-30-9 - 1979-18-11",
+                "begin_of_the_begin": "1979-30-9",
+                "end_of_the_end": "1979-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1003",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3756",
+              "type": "Event",
+              "_label": "Film as Installation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-23-4 - 1980-17-5",
+                "begin_of_the_begin": "1980-23-4",
+                "end_of_the_end": "1980-17-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1004",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3768",
+              "type": "Event",
+              "_label": "Film as Installation II",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-20-4 - 1983-21-5",
+                "begin_of_the_begin": "1983-20-4",
+                "end_of_the_end": "1983-21-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1005",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3609",
+              "type": "Event",
+              "_label": "Casinò Fantasma",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-24-5 - 1990-15-7",
+                "begin_of_the_begin": "1990-24-5",
+                "end_of_the_end": "1990-15-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1006",
+                  "type": "Place",
+                  "_label": "The 44th Venice Biennale",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17190",
+              "type": "Event",
+              "_label": "Reading Art: William Anastasi, Su-Chen Hung, Larry Johnson",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-27-2 - 1987-12-4",
+                "begin_of_the_begin": "1987-27-2",
+                "end_of_the_end": "1987-12-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1007",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59655",
+  "type": "Person",
+  "_label": "Peter Wollen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10434",
+      "type": "Name",
+      "_label": "Peter Wollen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10434",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20868",
+      "type": "TimeSpan",
+      "_label": "Peter Wollen Birth timespan",
+      "begin_of_the_begin": "1938",
+      "end_of_the_end": "1938"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10434",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20869",
+      "type": "TimeSpan",
+      "_label": "Peter Wollen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10434",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10434",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2719",
+              "type": "Event",
+              "_label": "Tunnel of Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-11-2 - 1995-26-3",
+                "begin_of_the_begin": "1994-11-2",
+                "end_of_the_end": "1995-26-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22061",
+                  "type": "Place",
+                  "_label": "Calais, France",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18583",
+              "type": "Event",
+              "_label": "Television Society Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-24-10 - ",
+                "begin_of_the_begin": "1980-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22062",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18312",
+              "type": "Event",
+              "_label": "Filmworks '82",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-25-5 - ",
+                "begin_of_the_begin": "1982-25-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22063",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18311",
+              "type": "Event",
+              "_label": "FILMWORKS '80: A Three-Ev…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-4-5 - ",
+                "begin_of_the_begin": "1989-4-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22064",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

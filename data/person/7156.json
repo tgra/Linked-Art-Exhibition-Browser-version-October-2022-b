@@ -1,0 +1,314 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7156",
+  "type": "Person",
+  "_label": "Andrea Zittel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14570",
+      "type": "Name",
+      "_label": "Andrea Zittel"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4058",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1965"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14570",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29140",
+      "type": "TimeSpan",
+      "_label": "Andrea Zittel Birth timespan",
+      "begin_of_the_begin": "1965",
+      "end_of_the_end": "1965"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14570",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29141",
+      "type": "TimeSpan",
+      "_label": "Andrea Zittel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14570",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14570",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4337",
+              "type": "Event",
+              "_label": "Against Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-5-2 - 2000-16-4",
+                "begin_of_the_begin": "2000-5-2",
+                "end_of_the_end": "2000-16-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28827",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2913",
+              "type": "Event",
+              "_label": "The Winter of Love (L'Hiver de l'Amour)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-9-10 - 1995-8-1",
+                "begin_of_the_begin": "1994-9-10",
+                "end_of_the_end": "1995-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28828",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3374",
+              "type": "Event",
+              "_label": "Reopening: Installations and Projects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-1-2",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28829",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2897",
+              "type": "Event",
+              "_label": "Children of Berlin: Cultural Developments 1989–1999",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-11 - 2000-2-1",
+                "begin_of_the_begin": "1999-7-11",
+                "end_of_the_end": "2000-2-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28830",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3559",
+              "type": "Event",
+              "_label": "Into Me/Out of Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-25-9",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28831",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17125",
+              "type": "Event",
+              "_label": "The Final Frontier",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-7-5 - 1993-15-8",
+                "begin_of_the_begin": "1993-7-5",
+                "end_of_the_end": "1993-15-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28832",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17126",
+              "type": "Event",
+              "_label": "Breeding Unit for Reassigning Flight: Andrea Zittel",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-7-5 - 1993-15-8",
+                "begin_of_the_begin": "1993-7-5",
+                "end_of_the_end": "1993-15-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28833",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17065",
+              "type": "Event",
+              "_label": "Andrea Zittel: Critical Space",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-26-1 - 2006-27-5",
+                "begin_of_the_begin": "2006-26-1",
+                "end_of_the_end": "2006-27-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28834",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17014",
+              "type": "Event",
+              "_label": "NYC 1993: Experimental Jet Set, Trash and No Star",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-13-2 - 2013-26-5",
+                "begin_of_the_begin": "2013-13-2",
+                "end_of_the_end": "2013-26-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28835",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17003",
+              "type": "Event",
+              "_label": "Occupied Territory: A New Museum Trilogy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-22-1 - 2014-13-4",
+                "begin_of_the_begin": "2014-22-1",
+                "end_of_the_end": "2014-13-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28836",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

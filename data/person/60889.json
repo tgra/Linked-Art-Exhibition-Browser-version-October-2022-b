@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60889",
+  "type": "Person",
+  "_label": "Filmgruppe West",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11709",
+      "type": "Name",
+      "_label": "Filmgruppe West"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11709",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23418",
+      "type": "TimeSpan",
+      "_label": "Filmgruppe West Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11709",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23419",
+      "type": "TimeSpan",
+      "_label": "Filmgruppe West Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11709",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11709",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4275",
+              "type": "Event",
+              "_label": "Make Your Own Life: Artists In and Out of Cologne",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-21-4 - 2006-31-7",
+                "begin_of_the_begin": "2006-21-4",
+                "end_of_the_end": "2006-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24016",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

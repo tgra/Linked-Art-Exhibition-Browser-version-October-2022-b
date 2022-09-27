@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/18565",
+  "type": "Person",
+  "_label": "Scott King",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/875",
+      "type": "Name",
+      "_label": "Scott King"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/768",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1969"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/875",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1750",
+      "type": "TimeSpan",
+      "_label": "Scott King Birth timespan",
+      "begin_of_the_begin": "1969",
+      "end_of_the_end": "1969"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/875",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1751",
+      "type": "TimeSpan",
+      "_label": "Scott King Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/875",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/875",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3503",
+              "type": "Event",
+              "_label": "That was Then, This is Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-22-6 - 2008-5-10",
+                "begin_of_the_begin": "2008-22-6",
+                "end_of_the_end": "2008-5-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2644",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,261 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4004",
+  "type": "Person",
+  "_label": "Edvard Munch",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6519",
+      "type": "Name",
+      "_label": "Edvard Munch"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2934",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Norwegian, 1863–1944"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6519",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13038",
+      "type": "TimeSpan",
+      "_label": "Edvard Munch Birth timespan",
+      "begin_of_the_begin": "1863",
+      "end_of_the_end": "1863"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6519",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13039",
+      "type": "TimeSpan",
+      "_label": "Edvard Munch Death timespan",
+      "begin_of_the_begin": "1944",
+      "end_of_the_end": "1944"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6519",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6519",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/129",
+              "type": "Event",
+              "_label": "Painting, Sculpture, Prints",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1939-10-5 - 1939-30-9",
+                "begin_of_the_begin": "1939-10-5",
+                "end_of_the_end": "1939-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13867",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/310",
+              "type": "Event",
+              "_label": "Painting, Sculpture, Prints",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-24-5 - 1944-15-10",
+                "begin_of_the_begin": "1944-24-5",
+                "end_of_the_end": "1944-15-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13868",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/445",
+              "type": "Event",
+              "_label": "Portraits in Prints",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-1-6 - 1948-6-9",
+                "begin_of_the_begin": "1948-1-6",
+                "end_of_the_end": "1948-6-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13869",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/462",
+              "type": "Event",
+              "_label": "Timeless Aspects of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-16-11 - 1949-23-1",
+                "begin_of_the_begin": "1948-16-11",
+                "end_of_the_end": "1949-23-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13870",
+                  "type": "Place",
+                  "_label": "Ground Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/479",
+              "type": "Event",
+              "_label": "Master Prints from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-10-5 - 1949-10-7",
+                "begin_of_the_begin": "1949-10-5",
+                "end_of_the_end": "1949-10-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13871",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/483",
+              "type": "Event",
+              "_label": "Art Nouveau from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-12-7 - 1949-5-9",
+                "begin_of_the_begin": "1949-12-7",
+                "end_of_the_end": "1949-5-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13872",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/519",
+              "type": "Event",
+              "_label": "Edvard Munch",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-30-6 - 1950-12-8",
+                "begin_of_the_begin": "1950-30-6",
+                "end_of_the_end": "1950-12-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13873",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/521",
+              "type": "Event",
+              "_label": "Three Modern Styles",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-11-7 - 1950-5-9",
+                "begin_of_the_begin": "1950-11-7",
+                "end_of_the_end": "1950-5-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13874",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

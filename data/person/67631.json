@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67631",
+  "type": "Person",
+  "_label": "Emmanuel Ghent",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14156",
+      "type": "Name",
+      "_label": "Emmanuel Ghent"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14156",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28312",
+      "type": "TimeSpan",
+      "_label": "Emmanuel Ghent Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14156",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28313",
+      "type": "TimeSpan",
+      "_label": "Emmanuel Ghent Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14156",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14156",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18364",
+              "type": "Event",
+              "_label": "Instrumental and Computer…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-11-1 - ",
+                "begin_of_the_begin": "1980-11-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28061",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

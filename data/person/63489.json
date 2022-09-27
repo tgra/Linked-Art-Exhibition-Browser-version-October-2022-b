@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63489",
+  "type": "Person",
+  "_label": "Judith Malina",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12176",
+      "type": "Name",
+      "_label": "Judith Malina"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12176",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24352",
+      "type": "TimeSpan",
+      "_label": "Judith Malina Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12176",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24353",
+      "type": "TimeSpan",
+      "_label": "Judith Malina Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12176",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12176",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7330",
+              "type": "Event",
+              "_label": "Julian Beck and Judith Malina: Revolution as an Alternative",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-10-3 - ",
+                "begin_of_the_begin": "1963-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24965",
+                  "type": "Place",
+                  "_label": "106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/22482",
+  "type": "Person",
+  "_label": "Laurel Nakadate",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1569",
+      "type": "Name",
+      "_label": "Laurel Nakadate"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1374",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1975"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1569",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3138",
+      "type": "TimeSpan",
+      "_label": "Laurel Nakadate Birth timespan",
+      "begin_of_the_begin": "1975",
+      "end_of_the_end": "1975"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1569",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3139",
+      "type": "TimeSpan",
+      "_label": "Laurel Nakadate Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1569",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1569",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3442",
+              "type": "Event",
+              "_label": "Greater New York 2005",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-13-3 - 2005-26-9",
+                "begin_of_the_begin": "2005-13-3",
+                "end_of_the_end": "2005-26-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4487",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3541",
+              "type": "Event",
+              "_label": "Laurel Nakadate: Only the Lonely",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-23-1 - 2011-15-8",
+                "begin_of_the_begin": "2011-23-1",
+                "end_of_the_end": "2011-15-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4488",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

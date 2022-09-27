@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65424",
+  "type": "Person",
+  "_label": "Kazys Varnelis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12973",
+      "type": "Name",
+      "_label": "Kazys Varnelis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12973",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25946",
+      "type": "TimeSpan",
+      "_label": "Kazys Varnelis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12973",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25947",
+      "type": "TimeSpan",
+      "_label": "Kazys Varnelis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12973",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12973",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17041",
+              "type": "Event",
+              "_label": "The Last Newspaper: Contemporary Art, Curating Histories, Alternative Models",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-6-10 - 2011-9-1",
+                "begin_of_the_begin": "2010-6-10",
+                "end_of_the_end": "2011-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26273",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

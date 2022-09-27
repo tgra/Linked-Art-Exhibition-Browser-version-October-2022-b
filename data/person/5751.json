@@ -1,0 +1,439 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/5751",
+  "type": "Person",
+  "_label": "Richard Tuttle",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8216",
+      "type": "Name",
+      "_label": "Richard Tuttle"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3651",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1941"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8216",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16432",
+      "type": "TimeSpan",
+      "_label": "Richard Tuttle Birth timespan",
+      "begin_of_the_begin": "1941",
+      "end_of_the_end": "1941"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8216",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16433",
+      "type": "TimeSpan",
+      "_label": "Richard Tuttle Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8216",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8216",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4173",
+              "type": "Event",
+              "_label": "A Selection of American and European Paintings from the Richard Brown Baker Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-7-12 - 1974-27-1",
+                "begin_of_the_begin": "1973-7-12",
+                "end_of_the_end": "1974-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18814",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4165",
+              "type": "Event",
+              "_label": "Painting Drawing and Sculpture of the '60s and the '70s from the Dorthy and Herbert Vogel Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-7-10 - 1975-18-11",
+                "begin_of_the_begin": "1975-7-10",
+                "end_of_the_end": "1975-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18815",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4146",
+              "type": "Event",
+              "_label": "Material Pleasures: The Fabric Workshop at ICA",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-13-6 - 1979-21-7",
+                "begin_of_the_begin": "1979-13-6",
+                "end_of_the_end": "1979-21-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18816",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4090",
+              "type": "Event",
+              "_label": "1967: At the Crossroads",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-13-3 - 1987-26-4",
+                "begin_of_the_begin": "1987-13-3",
+                "end_of_the_end": "1987-26-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18817",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4321",
+              "type": "Event",
+              "_label": "Richard Tuttle, In Parts 1998-2001",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-8-12 - 2002-10-2",
+                "begin_of_the_begin": "2001-8-12",
+                "end_of_the_end": "2002-10-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18818",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3644",
+              "type": "Event",
+              "_label": "Richard Tuttle: Paper Octagonals 1969–1970",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-3-5 - 1973-27-5",
+                "begin_of_the_begin": "1973-3-5",
+                "end_of_the_end": "1973-27-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18819",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3645",
+              "type": "Event",
+              "_label": "Artists Make Toys",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-1-1 - 1975-25-1",
+                "begin_of_the_begin": "1975-1-1",
+                "end_of_the_end": "1975-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18820",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3633",
+              "type": "Event",
+              "_label": "Collectors of the Seventies, Part I: Dorothy and Herbert Vogel",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-19-4 - 1975-17-5",
+                "begin_of_the_begin": "1975-19-4",
+                "end_of_the_end": "1975-17-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18821",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2992",
+              "type": "Event",
+              "_label": "Rooms",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-9-6 - 1976-26-6",
+                "begin_of_the_begin": "1976-9-6",
+                "end_of_the_end": "1976-26-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18822",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2718",
+              "type": "Event",
+              "_label": "The Magazine Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-1-11 - 1976-30-11",
+                "begin_of_the_begin": "1976-1-11",
+                "end_of_the_end": "1976-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18823",
+                  "type": "Place",
+                  "_label": "Artforum Magazine",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2982",
+              "type": "Event",
+              "_label": "Watercolors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-7-12 - 1981-25-1",
+                "begin_of_the_begin": "1980-7-12",
+                "end_of_the_end": "1981-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18824",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2819",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1983)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-16-1 - 1983-13-3",
+                "begin_of_the_begin": "1983-16-1",
+                "end_of_the_end": "1983-13-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18825",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2922",
+              "type": "Event",
+              "_label": "Richard Tuttle",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-17-1 - 1988-10-3",
+                "begin_of_the_begin": "1988-17-1",
+                "end_of_the_end": "1988-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18826",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2944",
+              "type": "Event",
+              "_label": "Primarily Structural: Minimalist and Post-Minimalist Works on Paper",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-2 - 1999-3-4",
+                "begin_of_the_begin": "1999-7-2",
+                "end_of_the_end": "1999-3-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18827",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2931",
+              "type": "Event",
+              "_label": "Not For Sale",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-11-2 - 2007-30-4",
+                "begin_of_the_begin": "2007-11-2",
+                "end_of_the_end": "2007-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18828",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,438 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7337",
+  "type": "Person",
+  "_label": "Carolee Schneemann",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14626",
+      "type": "Name",
+      "_label": "Carolee Schneemann"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4110",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1939"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14626",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29252",
+      "type": "TimeSpan",
+      "_label": "Carolee Schneemann Birth timespan",
+      "begin_of_the_begin": "1939",
+      "end_of_the_end": "1939"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14626",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29253",
+      "type": "TimeSpan",
+      "_label": "Carolee Schneemann Death timespan",
+      "begin_of_the_begin": "2019",
+      "end_of_the_end": "2019"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14626",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14626",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4007",
+              "type": "Event",
+              "_label": "Readykeulous by Ridykeulous: This is What Liberation Feels Like™",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-19-9 - 2014-28-12",
+                "begin_of_the_begin": "2014-19-9",
+                "end_of_the_end": "2014-28-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29014",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2774",
+              "type": "Event",
+              "_label": "Film (Winter 1983): Films of the 60's",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-16-1 - 1983-6-3",
+                "begin_of_the_begin": "1983-16-1",
+                "end_of_the_end": "1983-6-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29015",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3768",
+              "type": "Event",
+              "_label": "Film as Installation II",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-20-4 - 1983-21-5",
+                "begin_of_the_begin": "1983-20-4",
+                "end_of_the_end": "1983-21-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29016",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2785",
+              "type": "Event",
+              "_label": "Salvaged: Altered Everyday Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-1 - 1984-18-3",
+                "begin_of_the_begin": "1984-22-1",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29017",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3008",
+              "type": "Event",
+              "_label": "Film (Spring 1986)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-10-5 - 1986-8-6",
+                "begin_of_the_begin": "1986-10-5",
+                "end_of_the_end": "1986-8-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29018",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2708",
+              "type": "Event",
+              "_label": "Boudoir in Exile",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-28-4 - 1994-14-5",
+                "begin_of_the_begin": "1994-28-4",
+                "end_of_the_end": "1994-14-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29019",
+                  "type": "Place",
+                  "_label": "54 White St., Tribeca",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3224",
+              "type": "Event",
+              "_label": "Animal.Anima.Animus",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-20-6 - 1999-29-8",
+                "begin_of_the_begin": "1999-20-6",
+                "end_of_the_end": "1999-29-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29020",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3559",
+              "type": "Event",
+              "_label": "Into Me/Out of Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-25-9",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29021",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3543",
+              "type": "Event",
+              "_label": "Modern Women: Single Channel",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-23-1 - 2011-22-8",
+                "begin_of_the_begin": "2011-23-1",
+                "end_of_the_end": "2011-22-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29022",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3272",
+              "type": "Event",
+              "_label": "Carolee Schneemann: Kinetic Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-22-10 - 2018-1-2",
+                "begin_of_the_begin": "2017-22-10",
+                "end_of_the_end": "2018-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29023",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/28424",
+              "type": "Event",
+              "_label": "FluxAttitudes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-27-9 - 1993-3-1",
+                "begin_of_the_begin": "1992-27-9",
+                "end_of_the_end": "1993-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29024",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17104",
+              "type": "Event",
+              "_label": "Carolee Schneemann: Up To And Including Her Limits",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-24-11 - 1997-26-1",
+                "begin_of_the_begin": "1996-24-11",
+                "end_of_the_end": "1997-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29025",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18558",
+              "type": "Event",
+              "_label": "Soup and Tart",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1974-30-11 - ",
+                "begin_of_the_begin": "1974-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29026",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18708",
+              "type": "Event",
+              "_label": "Up To And Including Her L…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-13-2 - ",
+                "begin_of_the_begin": "1976-13-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29027",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18645",
+              "type": "Event",
+              "_label": "View From a Volcano",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-30-6 - ",
+                "begin_of_the_begin": "2011-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29028",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

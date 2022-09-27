@@ -1,0 +1,213 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/22358",
+  "type": "Person",
+  "_label": "Kathy Acker",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1536",
+      "type": "Name",
+      "_label": "Kathy Acker"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1347",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1947–1997"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1536",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3072",
+      "type": "TimeSpan",
+      "_label": "Kathy Acker Birth timespan",
+      "begin_of_the_begin": "1947",
+      "end_of_the_end": "1947"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1536",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3073",
+      "type": "TimeSpan",
+      "_label": "Kathy Acker Death timespan",
+      "begin_of_the_begin": "1997",
+      "end_of_the_end": "1997"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1536",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1536",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4007",
+              "type": "Event",
+              "_label": "Readykeulous by Ridykeulous: This is What Liberation Feels Like™",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-19-9 - 2014-28-12",
+                "begin_of_the_begin": "2014-19-9",
+                "end_of_the_end": "2014-28-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4387",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3178",
+              "type": "Event",
+              "_label": "New York/New Wave",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-15-2 - 1981-5-4",
+                "begin_of_the_begin": "1981-15-2",
+                "end_of_the_end": "1981-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4388",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3796",
+              "type": "Event",
+              "_label": "Music & Literature: Thursdays Evenings at The Clocktower",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-3 - 1984-19-4",
+                "begin_of_the_begin": "1984-22-3",
+                "end_of_the_end": "1984-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4389",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18381",
+              "type": "Event",
+              "_label": "Kathy Acker and Constance…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-25-1 - ",
+                "begin_of_the_begin": "1976-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4390",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18341",
+              "type": "Event",
+              "_label": "Great Expectations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-11-3 - ",
+                "begin_of_the_begin": "1980-11-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4391",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18382",
+              "type": "Event",
+              "_label": "Kathy Acker Fall Literatu…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-29-9 - ",
+                "begin_of_the_begin": "1993-29-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4392",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

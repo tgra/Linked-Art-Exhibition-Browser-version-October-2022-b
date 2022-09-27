@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60865",
+  "type": "Person",
+  "_label": "Bernadette Corporation",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11685",
+      "type": "Name",
+      "_label": "Bernadette Corporation"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11685",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23370",
+      "type": "TimeSpan",
+      "_label": "Bernadette Corporation Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11685",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23371",
+      "type": "TimeSpan",
+      "_label": "Bernadette Corporation Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11685",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11685",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4293",
+              "type": "Event",
+              "_label": "The Big Nothing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-1-5 - 2004-1-8",
+                "begin_of_the_begin": "2004-1-5",
+                "end_of_the_end": "2004-1-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23988",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4275",
+              "type": "Event",
+              "_label": "Make Your Own Life: Artists In and Out of Cologne",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-21-4 - 2006-31-7",
+                "begin_of_the_begin": "2006-21-4",
+                "end_of_the_end": "2006-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23989",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4016",
+              "type": "Event",
+              "_label": "White Petals Surround Your Yellow Heart",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-6-2 - 2013-28-7",
+                "begin_of_the_begin": "2013-6-2",
+                "end_of_the_end": "2013-28-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23990",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

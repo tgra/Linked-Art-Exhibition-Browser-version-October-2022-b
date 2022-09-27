@@ -1,0 +1,112 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/24943",
+  "type": "Person",
+  "_label": "Donna Cameron",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1946",
+      "type": "Name",
+      "_label": "Donna Cameron"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1678",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1946",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3892",
+      "type": "TimeSpan",
+      "_label": "Donna Cameron Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1946",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3893",
+      "type": "TimeSpan",
+      "_label": "Donna Cameron Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1946",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1946",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3822",
+              "type": "Event",
+              "_label": "Film (Spring 1987): New Works by Women",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-4-6 - 1987-25-6",
+                "begin_of_the_begin": "1987-4-6",
+                "end_of_the_end": "1987-25-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5532",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3716",
+              "type": "Event",
+              "_label": "Film (Spring 1988): Kitsch, Psychedelia, Headlines, Quotations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-2-6 - 1988-12-6",
+                "begin_of_the_begin": "1988-2-6",
+                "end_of_the_end": "1988-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5533",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

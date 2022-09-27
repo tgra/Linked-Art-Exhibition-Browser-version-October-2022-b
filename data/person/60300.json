@@ -1,0 +1,145 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60300",
+  "type": "Person",
+  "_label": "Earl Howard",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11107",
+      "type": "Name",
+      "_label": "Earl Howard"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11107",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22214",
+      "type": "TimeSpan",
+      "_label": "Earl Howard Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11107",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22215",
+      "type": "TimeSpan",
+      "_label": "Earl Howard Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11107",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11107",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2760",
+              "type": "Event",
+              "_label": "Video (Spring 1985)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-5 - 1985-23-6",
+                "begin_of_the_begin": "1985-5-5",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23107",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18536",
+              "type": "Event",
+              "_label": "Seven Tenses of Cinema",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-12-9 - ",
+                "begin_of_the_begin": "1980-12-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23108",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18294",
+              "type": "Event",
+              "_label": "Ensemble Works",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-10-11 - ",
+                "begin_of_the_begin": "1981-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23109",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18244",
+              "type": "Event",
+              "_label": "Contemporary Music Series",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-8-11 - ",
+                "begin_of_the_begin": "1983-8-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23110",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

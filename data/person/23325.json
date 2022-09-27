@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/23325",
+  "type": "Person",
+  "_label": "Daniel Joseph Martinez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1756",
+      "type": "Name",
+      "_label": "Daniel Joseph Martinez"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1513",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1957"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1756",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3512",
+      "type": "TimeSpan",
+      "_label": "Daniel Joseph Martinez Birth timespan",
+      "begin_of_the_begin": "1957",
+      "end_of_the_end": "1957"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1756",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3513",
+      "type": "TimeSpan",
+      "_label": "Daniel Joseph Martinez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1756",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1756",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17014",
+              "type": "Event",
+              "_label": "NYC 1993: Experimental Jet Set, Trash and No Star",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-13-2 - 2013-26-5",
+                "begin_of_the_begin": "2013-13-2",
+                "end_of_the_end": "2013-26-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5042",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

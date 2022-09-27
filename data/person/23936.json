@@ -1,0 +1,288 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/23936",
+  "type": "Person",
+  "_label": "Lynn Hershman Leeson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1810",
+      "type": "Name",
+      "_label": "Lynn Hershman Leeson"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1563",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1941"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1810",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3620",
+      "type": "TimeSpan",
+      "_label": "Lynn Hershman Leeson Birth timespan",
+      "begin_of_the_begin": "1941",
+      "end_of_the_end": "1941"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1810",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3621",
+      "type": "TimeSpan",
+      "_label": "Lynn Hershman Leeson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1810",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1810",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4135",
+              "type": "Event",
+              "_label": "Street Sights 2",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-15-4 - 1981-10-5",
+                "begin_of_the_begin": "1981-15-4",
+                "end_of_the_end": "1981-10-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5191",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4353",
+              "type": "Event",
+              "_label": "Photography After Photography: Memory and Representation in the Digital Age",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-5-9 - 1997-26-10",
+                "begin_of_the_begin": "1997-5-9",
+                "end_of_the_end": "1997-26-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5192",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2992",
+              "type": "Event",
+              "_label": "Rooms",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-9-6 - 1976-26-6",
+                "begin_of_the_begin": "1976-9-6",
+                "end_of_the_end": "1976-26-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5193",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3728",
+              "type": "Event",
+              "_label": "Lynn Hershman: Selected Past Projects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-21-10 - 1976-10-11",
+                "begin_of_the_begin": "1976-21-10",
+                "end_of_the_end": "1976-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5194",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2709",
+              "type": "Event",
+              "_label": "Lynn Hershman: 25 Windows, a Portrait/Project for Bonwit Teller",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-28-10 - 1976-2-11",
+                "begin_of_the_begin": "1976-28-10",
+                "end_of_the_end": "1976-2-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5195",
+                  "type": "Place",
+                  "_label": "721 5th Avenue",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2990",
+              "type": "Event",
+              "_label": "New York Avant-Garde/Works and Projects of the Seventies",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-9-10 - 1977-6-11",
+                "begin_of_the_begin": "1977-9-10",
+                "end_of_the_end": "1977-6-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5196",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2903",
+              "type": "Event",
+              "_label": "Deep Storage",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-5-7 - 1998-30-8",
+                "begin_of_the_begin": "1998-5-7",
+                "end_of_the_end": "1998-30-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5197",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17264",
+              "type": "Event",
+              "_label": "Persona",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-18-9 - 1981-12-11",
+                "begin_of_the_begin": "1981-18-9",
+                "end_of_the_end": "1981-12-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5198",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18405",
+              "type": "Event",
+              "_label": "Lynn Hershman Leeson",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-5-2 - ",
+                "begin_of_the_begin": "1999-5-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5199",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

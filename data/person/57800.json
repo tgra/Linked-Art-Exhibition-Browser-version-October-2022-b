@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57800",
+  "type": "Person",
+  "_label": "Andrew Moore",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8514",
+      "type": "Name",
+      "_label": "Andrew Moore"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8514",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17028",
+      "type": "TimeSpan",
+      "_label": "Andrew Moore Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8514",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17029",
+      "type": "TimeSpan",
+      "_label": "Andrew Moore Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8514",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8514",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3161",
+              "type": "Event",
+              "_label": "Special Projects (Spring 1987)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-26-4 - 1987-21-6",
+                "begin_of_the_begin": "1987-26-4",
+                "end_of_the_end": "1987-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19290",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3793",
+              "type": "Event",
+              "_label": "CommuNYCations: Mixed-Use District",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-18-10 - 1990-18-11",
+                "begin_of_the_begin": "1990-18-10",
+                "end_of_the_end": "1990-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19291",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/491",
+  "type": "Person",
+  "_label": "Ruth Bernhard",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6924",
+      "type": "Name",
+      "_label": "Ruth Bernhard"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3294",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born Germany. 1905–2006"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6924",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13848",
+      "type": "TimeSpan",
+      "_label": "Ruth Bernhard Birth timespan",
+      "begin_of_the_begin": "1905",
+      "end_of_the_end": "1905"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6924",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13849",
+      "type": "TimeSpan",
+      "_label": "Ruth Bernhard Death timespan",
+      "begin_of_the_begin": "2006",
+      "end_of_the_end": "2006"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6924",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6924",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/167",
+              "type": "Event",
+              "_label": "Sixty Photographs: A Survey of Camera Esthetics",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-31-12 - 1941-12-1",
+                "begin_of_the_begin": "1940-31-12",
+                "end_of_the_end": "1941-12-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15668",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/203",
+              "type": "Event",
+              "_label": "Image of Freedom",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-29-10 - 1942-1-2",
+                "begin_of_the_begin": "1941-29-10",
+                "end_of_the_end": "1942-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15669",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

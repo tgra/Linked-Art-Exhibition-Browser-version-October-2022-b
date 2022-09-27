@@ -1,0 +1,166 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1181",
+  "type": "Person",
+  "_label": "William Copley",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/112",
+      "type": "Name",
+      "_label": "William Copley"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/101",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1919–1996"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/112",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/224",
+      "type": "TimeSpan",
+      "_label": "William Copley Birth timespan",
+      "begin_of_the_begin": "1919",
+      "end_of_the_end": "1919"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/112",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/225",
+      "type": "TimeSpan",
+      "_label": "William Copley Death timespan",
+      "begin_of_the_begin": "1996",
+      "end_of_the_end": "1996"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/112",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/112",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4203",
+              "type": "Event",
+              "_label": "The Other Tradition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-27-1 - 1966-7-3",
+                "begin_of_the_begin": "1966-27-1",
+                "end_of_the_end": "1966-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/421",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17299",
+              "type": "Event",
+              "_label": "\"Bad\" Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-14-1 - 1978-28-2",
+                "begin_of_the_begin": "1978-14-1",
+                "end_of_the_end": "1978-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/422",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22002",
+              "type": "Event",
+              "_label": "William Copley: The Tomb of the Unknown Whore",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-4 - 1986-12-6",
+                "begin_of_the_begin": "1986-12-4",
+                "end_of_the_end": "1986-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/423",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17107",
+              "type": "Event",
+              "_label": "A Labor of Love",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-20-1 - 1996-14-4",
+                "begin_of_the_begin": "1996-20-1",
+                "end_of_the_end": "1996-14-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/424",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

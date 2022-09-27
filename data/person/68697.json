@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/68697",
+  "type": "Person",
+  "_label": "Day Gleeson / Dennis Thomas",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14396",
+      "type": "Name",
+      "_label": "Day Gleeson / Dennis Thomas"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14396",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28792",
+      "type": "TimeSpan",
+      "_label": "Day Gleeson / Dennis Thomas Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14396",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28793",
+      "type": "TimeSpan",
+      "_label": "Day Gleeson / Dennis Thomas Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14396",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14396",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17188",
+              "type": "Event",
+              "_label": "Fake: A Meditation on Authenticity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-7-5 - 1987-12-7",
+                "begin_of_the_begin": "1987-7-5",
+                "end_of_the_end": "1987-12-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28406",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

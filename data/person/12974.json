@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/12974",
+  "type": "Person",
+  "_label": "Paul Taylor",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/193",
+      "type": "Name",
+      "_label": "Paul Taylor"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/193",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/386",
+      "type": "TimeSpan",
+      "_label": "Paul Taylor Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/193",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/387",
+      "type": "TimeSpan",
+      "_label": "Paul Taylor Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/193",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/193",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17165",
+              "type": "Event",
+              "_label": "Impresario: Malcolm McLaren and the British New Wave",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-16-9 - 1988-20-11",
+                "begin_of_the_begin": "1988-16-9",
+                "end_of_the_end": "1988-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/647",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

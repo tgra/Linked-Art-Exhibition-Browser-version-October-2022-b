@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/33109",
+  "type": "Person",
+  "_label": "Anthony Thompson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5937",
+      "type": "Name",
+      "_label": "Anthony Thompson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5937",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11874",
+      "type": "TimeSpan",
+      "_label": "Anthony Thompson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5937",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11875",
+      "type": "TimeSpan",
+      "_label": "Anthony Thompson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5937",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5937",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3031",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1978–1979)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-3-12 - 1979-21-1",
+                "begin_of_the_begin": "1978-3-12",
+                "end_of_the_end": "1979-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11996",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

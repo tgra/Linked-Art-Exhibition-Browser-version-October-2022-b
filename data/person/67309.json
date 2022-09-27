@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67309",
+  "type": "Person",
+  "_label": "James Baker",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13830",
+      "type": "Name",
+      "_label": "James Baker"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13830",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27660",
+      "type": "TimeSpan",
+      "_label": "James Baker Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13830",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27661",
+      "type": "TimeSpan",
+      "_label": "James Baker Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13830",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13830",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18327",
+              "type": "Event",
+              "_label": "Four Sister Dances",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-9-3 - ",
+                "begin_of_the_begin": "1989-9-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27645",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

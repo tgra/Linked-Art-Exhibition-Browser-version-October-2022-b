@@ -1,0 +1,223 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64018",
+  "type": "Person",
+  "_label": "Brian Wallis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12407",
+      "type": "Name",
+      "_label": "Brian Wallis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12407",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24814",
+      "type": "TimeSpan",
+      "_label": "Brian Wallis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12407",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24815",
+      "type": "TimeSpan",
+      "_label": "Brian Wallis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12407",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12407",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/22010",
+              "type": "Event",
+              "_label": "Barbara Ess",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-12-2 - 1985-7-4",
+                "begin_of_the_begin": "1985-12-2",
+                "end_of_the_end": "1985-7-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25347",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17216",
+              "type": "Event",
+              "_label": "Vikky Alexander: New",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-21-9 - 1985-10-11",
+                "begin_of_the_begin": "1985-21-9",
+                "end_of_the_end": "1985-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25348",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17214",
+              "type": "Event",
+              "_label": "Michael Lebron: An Angel of God",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-23-11 - 1986-19-1",
+                "begin_of_the_begin": "1985-23-11",
+                "end_of_the_end": "1986-19-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25349",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17207",
+              "type": "Event",
+              "_label": "Wallace and Donahue",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-1-2 - 1986-30-3",
+                "begin_of_the_begin": "1986-1-2",
+                "end_of_the_end": "1986-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25350",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17206",
+              "type": "Event",
+              "_label": "Edgar Heap of Birds: Born from Sharp Rocks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-4 - 1986-12-6",
+                "begin_of_the_begin": "1986-12-4",
+                "end_of_the_end": "1986-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25351",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17201",
+              "type": "Event",
+              "_label": "Damaged Goods: Desire and the Economy of the Object",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-21-6 - 1986-10-8",
+                "begin_of_the_begin": "1986-21-6",
+                "end_of_the_end": "1986-10-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25352",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17195",
+              "type": "Event",
+              "_label": "Hans Haacke: Unfinished Business",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-12 - 1987-15-2",
+                "begin_of_the_begin": "1986-12-12",
+                "end_of_the_end": "1987-15-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25353",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

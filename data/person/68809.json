@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/68809",
+  "type": "Person",
+  "_label": "Slavko Tihec",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14437",
+      "type": "Name",
+      "_label": "Slavko Tihec"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14437",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28874",
+      "type": "TimeSpan",
+      "_label": "Slavko Tihec Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14437",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28875",
+      "type": "TimeSpan",
+      "_label": "Slavko Tihec Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14437",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14437",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4201",
+              "type": "Event",
+              "_label": "New Art in Philadelphia",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-30-9 - 1966-11-11",
+                "begin_of_the_begin": "1966-30-9",
+                "end_of_the_end": "1966-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28449",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

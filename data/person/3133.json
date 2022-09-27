@@ -1,0 +1,265 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3133",
+  "type": "Person",
+  "_label": "Nicholas Krushenick",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5526",
+      "type": "Name",
+      "_label": "Nicholas Krushenick"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2403",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1929–1999"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5526",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11052",
+      "type": "TimeSpan",
+      "_label": "Nicholas Krushenick Birth timespan",
+      "begin_of_the_begin": "1929",
+      "end_of_the_end": "1929"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5526",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11053",
+      "type": "TimeSpan",
+      "_label": "Nicholas Krushenick Death timespan",
+      "begin_of_the_begin": "1999",
+      "end_of_the_end": "1999"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5526",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5526",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7232",
+              "type": "Event",
+              "_label": "Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-25-10 - 1957-14-11",
+                "begin_of_the_begin": "1957-25-10",
+                "end_of_the_end": "1957-14-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11021",
+                  "type": "Place",
+                  "_label": "89 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7233",
+              "type": "Event",
+              "_label": "Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-15-11 - 1957-5-12",
+                "begin_of_the_begin": "1957-15-11",
+                "end_of_the_end": "1957-5-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11022",
+                  "type": "Place",
+                  "_label": "89 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7245",
+              "type": "Event",
+              "_label": "Takeshi Asada, Bob Kobayashi, Nicholas Krushenick",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-13-2 - 1959-11-3",
+                "begin_of_the_begin": "1959-13-2",
+                "end_of_the_end": "1959-11-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11023",
+                  "type": "Place",
+                  "_label": "89 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7235",
+              "type": "Event",
+              "_label": "Nicholas Krushenick",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-1-10 - ",
+                "begin_of_the_begin": "1960-1-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11024",
+                  "type": "Place",
+                  "_label": "89 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4190",
+              "type": "Event",
+              "_label": "The Spirit of the Comics",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-1-10 - 1969-9-11",
+                "begin_of_the_begin": "1969-1-10",
+                "end_of_the_end": "1969-9-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11025",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4173",
+              "type": "Event",
+              "_label": "A Selection of American and European Paintings from the Richard Brown Baker Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1973-7-12 - 1974-27-1",
+                "begin_of_the_begin": "1973-7-12",
+                "end_of_the_end": "1974-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11026",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3025",
+              "type": "Event",
+              "_label": "Another Aspect of Pop Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-1-10 - 1978-19-11",
+                "begin_of_the_begin": "1978-1-10",
+                "end_of_the_end": "1978-19-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11027",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7307",
+              "type": "Event",
+              "_label": "Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-29-1 - 1960-18-2",
+                "begin_of_the_begin": "1960-29-1",
+                "end_of_the_end": "1960-18-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11028",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

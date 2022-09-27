@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/26696",
+  "type": "Person",
+  "_label": "Chris Wiley",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2201",
+      "type": "Name",
+      "_label": "Chris Wiley"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1895",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1981"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2201",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4402",
+      "type": "TimeSpan",
+      "_label": "Chris Wiley Birth timespan",
+      "begin_of_the_begin": "1981",
+      "end_of_the_end": "1981"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2201",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4403",
+      "type": "TimeSpan",
+      "_label": "Chris Wiley Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2201",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2201",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3246",
+              "type": "Event",
+              "_label": "Taster's Choice",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-23-3 - 2014-25-5",
+                "begin_of_the_begin": "2014-23-3",
+                "end_of_the_end": "2014-25-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6144",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

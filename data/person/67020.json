@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67020",
+  "type": "Person",
+  "_label": "Townhouse Gallery of Contemporary Art, Cairo, Egypt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13661",
+      "type": "Name",
+      "_label": "Townhouse Gallery of Contemporary Art, Cairo, Egypt"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13661",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27322",
+      "type": "TimeSpan",
+      "_label": "Townhouse Gallery of Contemporary Art, Cairo, Egypt Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13661",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27323",
+      "type": "TimeSpan",
+      "_label": "Townhouse Gallery of Contemporary Art, Cairo, Egypt Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13661",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13661",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21856",
+              "type": "Event",
+              "_label": "Museum as Hub: Antikhana",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-11-7 - 2008-21-9",
+                "begin_of_the_begin": "2008-11-7",
+                "end_of_the_end": "2008-21-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27390",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21849",
+              "type": "Event",
+              "_label": "Museum as Hub: In and Out of Context",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-8-8 - 2010-8-6",
+                "begin_of_the_begin": "2009-8-8",
+                "end_of_the_end": "2010-8-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27391",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

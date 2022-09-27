@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4762",
+  "type": "Person",
+  "_label": "William Roberts",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6860",
+      "type": "Name",
+      "_label": "William Roberts"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3237",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, 1895–1980"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6860",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13720",
+      "type": "TimeSpan",
+      "_label": "William Roberts Birth timespan",
+      "begin_of_the_begin": "1895",
+      "end_of_the_end": "1895"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6860",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13721",
+      "type": "TimeSpan",
+      "_label": "William Roberts Death timespan",
+      "begin_of_the_begin": "1980",
+      "end_of_the_end": "1980"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6860",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6860",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/177",
+              "type": "Event",
+              "_label": "Britain at War",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-23-5 - 1941-2-9",
+                "begin_of_the_begin": "1941-23-5",
+                "end_of_the_end": "1941-2-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15362",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

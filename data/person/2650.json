@@ -1,0 +1,241 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2650",
+  "type": "Person",
+  "_label": "Ralph Humphrey",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2167",
+      "type": "Name",
+      "_label": "Ralph Humphrey"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1872",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1932–1990"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2167",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4334",
+      "type": "TimeSpan",
+      "_label": "Ralph Humphrey Birth timespan",
+      "begin_of_the_begin": "1932",
+      "end_of_the_end": "1932"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2167",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4335",
+      "type": "TimeSpan",
+      "_label": "Ralph Humphrey Death timespan",
+      "begin_of_the_begin": "1990",
+      "end_of_the_end": "1990"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2167",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2167",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3981",
+              "type": "Event",
+              "_label": "Ralph Humphrey",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-5-5 - 1965-29-5",
+                "begin_of_the_begin": "1965-5-5",
+                "end_of_the_end": "1965-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6071",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4199",
+              "type": "Event",
+              "_label": "A Romantic Minimalism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-13-9 - 1967-11-10",
+                "begin_of_the_begin": "1967-13-9",
+                "end_of_the_end": "1967-11-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6072",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4177",
+              "type": "Event",
+              "_label": "Inside Philadelphia: Selections from Private Collections",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-11-11 - 1972-19-12",
+                "begin_of_the_begin": "1972-11-11",
+                "end_of_the_end": "1972-19-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6073",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4165",
+              "type": "Event",
+              "_label": "Painting Drawing and Sculpture of the '60s and the '70s from the Dorthy and Herbert Vogel Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-7-10 - 1975-18-11",
+                "begin_of_the_begin": "1975-7-10",
+                "end_of_the_end": "1975-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6074",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4148",
+              "type": "Event",
+              "_label": "Late Twentieth Century Art: From the Sydney and Frances Lewis Foundation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-22-3 - 1979-2-5",
+                "begin_of_the_begin": "1979-22-3",
+                "end_of_the_end": "1979-2-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6075",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3633",
+              "type": "Event",
+              "_label": "Collectors of the Seventies, Part I: Dorothy and Herbert Vogel",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-19-4 - 1975-17-5",
+                "begin_of_the_begin": "1975-19-4",
+                "end_of_the_end": "1975-17-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6076",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2778",
+              "type": "Event",
+              "_label": "Abstract Painting: 1960–69",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-16-1 - 1983-13-3",
+                "begin_of_the_begin": "1983-16-1",
+                "end_of_the_end": "1983-13-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6077",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

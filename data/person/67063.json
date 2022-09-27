@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67063",
+  "type": "Person",
+  "_label": "Uri Tzaig",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13682",
+      "type": "Name",
+      "_label": "Uri Tzaig"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13682",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27364",
+      "type": "TimeSpan",
+      "_label": "Uri Tzaig Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13682",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27365",
+      "type": "TimeSpan",
+      "_label": "Uri Tzaig Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13682",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13682",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17095",
+              "type": "Event",
+              "_label": "Videodrome",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-22-10 - 1999-11-11",
+                "begin_of_the_begin": "1999-22-10",
+                "end_of_the_end": "1999-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27430",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21915",
+              "type": "Event",
+              "_label": "Living Inside the Grid",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-28-2 - 2003-15-7",
+                "begin_of_the_begin": "2003-28-2",
+                "end_of_the_end": "2003-15-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27431",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

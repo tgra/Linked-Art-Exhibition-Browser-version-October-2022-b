@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60510",
+  "type": "Person",
+  "_label": "Aristidemos Kaldis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11325",
+      "type": "Name",
+      "_label": "Aristidemos Kaldis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11325",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22650",
+      "type": "TimeSpan",
+      "_label": "Aristidemos Kaldis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11325",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22651",
+      "type": "TimeSpan",
+      "_label": "Aristidemos Kaldis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11325",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11325",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3926",
+              "type": "Event",
+              "_label": "Gallery Group Show: Paintings, Sculpture and Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-13-12 - 1961-7-1",
+                "begin_of_the_begin": "1960-13-12",
+                "end_of_the_end": "1961-7-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23401",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

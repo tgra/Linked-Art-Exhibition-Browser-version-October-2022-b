@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/29854",
+  "type": "Person",
+  "_label": "John Metzoff",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4744",
+      "type": "Name",
+      "_label": "John Metzoff"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4744",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9488",
+      "type": "TimeSpan",
+      "_label": "John Metzoff Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4744",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9489",
+      "type": "TimeSpan",
+      "_label": "John Metzoff Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4744",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4744",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/422",
+              "type": "Event",
+              "_label": "100 Useful Objects of Fine Design (available under $100)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1947-16-9 - 1948-25-1",
+                "begin_of_the_begin": "1947-16-9",
+                "end_of_the_end": "1948-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9931",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

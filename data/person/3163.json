@@ -1,0 +1,141 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3163",
+  "type": "Person",
+  "_label": "František Kupka",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5604",
+      "type": "Name",
+      "_label": "František Kupka"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2417",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Czech, 1871–1957"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5604",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11208",
+      "type": "TimeSpan",
+      "_label": "František Kupka Birth timespan",
+      "begin_of_the_begin": "1871",
+      "end_of_the_end": "1871"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5604",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11209",
+      "type": "TimeSpan",
+      "_label": "František Kupka Death timespan",
+      "begin_of_the_begin": "1957",
+      "end_of_the_end": "1957"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5604",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5604",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4184",
+              "type": "Event",
+              "_label": "Against Order: Chance and Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-14-11 - 1970-22-12",
+                "begin_of_the_begin": "1970-14-11",
+                "end_of_the_end": "1970-22-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11192",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/75",
+              "type": "Event",
+              "_label": "Cubism and Abstract Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-2-3 - 1936-19-4",
+                "begin_of_the_begin": "1936-2-3",
+                "end_of_the_end": "1936-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11193",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/388",
+              "type": "Event",
+              "_label": "Paintings, Sculpture, and Graphic Arts from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-2-7 - 1954-12-9",
+                "begin_of_the_begin": "1946-2-7",
+                "end_of_the_end": "1954-12-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11194",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

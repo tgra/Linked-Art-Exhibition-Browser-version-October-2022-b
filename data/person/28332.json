@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/28332",
+  "type": "Person",
+  "_label": "Paul Weller",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3395",
+      "type": "Name",
+      "_label": "Paul Weller"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3395",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/6790",
+      "type": "TimeSpan",
+      "_label": "Paul Weller Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3395",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/6791",
+      "type": "TimeSpan",
+      "_label": "Paul Weller Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3395",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3395",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/111",
+              "type": "Event",
+              "_label": "Subway Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-8-2 - 1938-7-3",
+                "begin_of_the_begin": "1938-8-2",
+                "end_of_the_end": "1938-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8138",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/151",
+              "type": "Event",
+              "_label": "PM Competition: The Artist as Reporter",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-15-4 - 1940-7-5",
+                "begin_of_the_begin": "1940-15-4",
+                "end_of_the_end": "1940-7-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8139",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

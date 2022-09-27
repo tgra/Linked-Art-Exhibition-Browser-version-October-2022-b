@@ -1,0 +1,216 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2700",
+  "type": "Person",
+  "_label": "Will Insley",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2246",
+      "type": "Name",
+      "_label": "Will Insley"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1921",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1929–2011"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2246",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4492",
+      "type": "TimeSpan",
+      "_label": "Will Insley Birth timespan",
+      "begin_of_the_begin": "1929",
+      "end_of_the_end": "1929"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2246",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4493",
+      "type": "TimeSpan",
+      "_label": "Will Insley Death timespan",
+      "begin_of_the_begin": "2011",
+      "end_of_the_end": "2011"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2246",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2246",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4191",
+              "type": "Event",
+              "_label": "Between Object and Environment: Sculpture in an Extended Format",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-2-4 - 1969-3-5",
+                "begin_of_the_begin": "1969-2-4",
+                "end_of_the_end": "1969-3-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6248",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4180",
+              "type": "Event",
+              "_label": "Grids",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-27-1 - 1972-1-3",
+                "begin_of_the_begin": "1972-27-1",
+                "end_of_the_end": "1972-1-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6249",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4165",
+              "type": "Event",
+              "_label": "Painting Drawing and Sculpture of the '60s and the '70s from the Dorthy and Herbert Vogel Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-7-10 - 1975-18-11",
+                "begin_of_the_begin": "1975-7-10",
+                "end_of_the_end": "1975-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6250",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4151",
+              "type": "Event",
+              "_label": "Dwellings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-20-10 - 1978-25-11",
+                "begin_of_the_begin": "1978-20-10",
+                "end_of_the_end": "1978-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6251",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4126",
+              "type": "Event",
+              "_label": "Connections: Bridges/ Ladders/ Ramps/ Staircases/ Tunnels",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-3 - 1983-24-4",
+                "begin_of_the_begin": "1983-11-3",
+                "end_of_the_end": "1983-24-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6252",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2778",
+              "type": "Event",
+              "_label": "Abstract Painting: 1960–69",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-16-1 - 1983-13-3",
+                "begin_of_the_begin": "1983-16-1",
+                "end_of_the_end": "1983-13-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6253",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

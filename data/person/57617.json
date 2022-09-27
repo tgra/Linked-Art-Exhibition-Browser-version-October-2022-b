@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57617",
+  "type": "Person",
+  "_label": "R.S. Wolkenstein",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8328",
+      "type": "Name",
+      "_label": "R.S. Wolkenstein"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8328",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16656",
+      "type": "TimeSpan",
+      "_label": "R.S. Wolkenstein Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8328",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16657",
+      "type": "TimeSpan",
+      "_label": "R.S. Wolkenstein Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8328",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8328",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2808",
+              "type": "Event",
+              "_label": "Film (Winter 1984)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-4-2 - 1984-4-3",
+                "begin_of_the_begin": "1984-4-2",
+                "end_of_the_end": "1984-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19026",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

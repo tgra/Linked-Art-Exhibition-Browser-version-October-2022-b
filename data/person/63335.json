@@ -1,0 +1,147 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63335",
+  "type": "Person",
+  "_label": "Berenice D'Vorzon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12127",
+      "type": "Name",
+      "_label": "Berenice D'Vorzon"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12127",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24254",
+      "type": "TimeSpan",
+      "_label": "Berenice D'Vorzon Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12127",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24255",
+      "type": "TimeSpan",
+      "_label": "Berenice D'Vorzon Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12127",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12127",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7232",
+              "type": "Event",
+              "_label": "Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-25-10 - 1957-14-11",
+                "begin_of_the_begin": "1957-25-10",
+                "end_of_the_end": "1957-14-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24833",
+                  "type": "Place",
+                  "_label": "89 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7233",
+              "type": "Event",
+              "_label": "Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-15-11 - 1957-5-12",
+                "begin_of_the_begin": "1957-15-11",
+                "end_of_the_end": "1957-5-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24834",
+                  "type": "Place",
+                  "_label": "89 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7240",
+              "type": "Event",
+              "_label": "George Sugarman, Bernice D’Vorzon, Sal Romano",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-28-3 - 1958-17-4",
+                "begin_of_the_begin": "1958-28-3",
+                "end_of_the_end": "1958-17-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24835",
+                  "type": "Place",
+                  "_label": "89 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7246",
+              "type": "Event",
+              "_label": "Berenice D’Vorzon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-1-3 - ",
+                "begin_of_the_begin": "1959-1-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24836",
+                  "type": "Place",
+                  "_label": "89 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

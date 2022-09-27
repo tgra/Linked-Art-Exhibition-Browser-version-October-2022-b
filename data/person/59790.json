@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59790",
+  "type": "Person",
+  "_label": "Pat Tavenner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10574",
+      "type": "Name",
+      "_label": "Pat Tavenner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10574",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21148",
+      "type": "TimeSpan",
+      "_label": "Pat Tavenner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10574",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21149",
+      "type": "TimeSpan",
+      "_label": "Pat Tavenner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10574",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10574",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3204",
+              "type": "Event",
+              "_label": "Artists' Stamps and Stamp Images",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-9-12 - 1980-27-1",
+                "begin_of_the_begin": "1979-9-12",
+                "end_of_the_end": "1980-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22299",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

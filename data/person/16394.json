@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/16394",
+  "type": "Person",
+  "_label": "Colette, Paris",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/463",
+      "type": "Name",
+      "_label": "Colette, Paris"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/463",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/926",
+      "type": "TimeSpan",
+      "_label": "Colette, Paris Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/463",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/927",
+      "type": "TimeSpan",
+      "_label": "Colette, Paris Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/463",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/463",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4142",
+              "type": "Event",
+              "_label": "Street Sights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-1-5 - 1980-18-5",
+                "begin_of_the_begin": "1980-1-5",
+                "end_of_the_end": "1980-18-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1552",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3279",
+              "type": "Event",
+              "_label": "FORTY",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-19-6 - 2016-29-8",
+                "begin_of_the_begin": "2016-19-6",
+                "end_of_the_end": "2016-29-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1553",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

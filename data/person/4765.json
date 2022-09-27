@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4765",
+  "type": "Person",
+  "_label": "Louisa W. Robins",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6862",
+      "type": "Name",
+      "_label": "Louisa W. Robins"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3239",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6862",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13724",
+      "type": "TimeSpan",
+      "_label": "Louisa W. Robins Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6862",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13725",
+      "type": "TimeSpan",
+      "_label": "Louisa W. Robins Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6862",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6862",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/44",
+              "type": "Event",
+              "_label": "Painting and Sculpture from 16 American Cities",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1933-11-12 - 1934-7-1",
+                "begin_of_the_begin": "1933-11-12",
+                "end_of_the_end": "1934-7-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15364",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

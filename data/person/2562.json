@@ -1,0 +1,216 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2562",
+  "type": "Person",
+  "_label": "Morris Hirshfield",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2027",
+      "type": "Name",
+      "_label": "Morris Hirshfield"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1753",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born Poland. 1872–1946"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2027",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4054",
+      "type": "TimeSpan",
+      "_label": "Morris Hirshfield Birth timespan",
+      "begin_of_the_begin": "1872",
+      "end_of_the_end": "1872"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2027",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4055",
+      "type": "TimeSpan",
+      "_label": "Morris Hirshfield Death timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2027",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2027",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/134",
+              "type": "Event",
+              "_label": "Contemporary Unknown American Painters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1939-18-10 - 1939-18-11",
+                "begin_of_the_begin": "1939-18-10",
+                "end_of_the_end": "1939-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5734",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/201",
+              "type": "Event",
+              "_label": "Modern Primitives: Artists of the People",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-21-10 - 1944-30-4",
+                "begin_of_the_begin": "1941-21-10",
+                "end_of_the_end": "1944-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5735",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/258",
+              "type": "Event",
+              "_label": "Twentieth Century Portraits",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-9-12 - 1943-24-1",
+                "begin_of_the_begin": "1942-9-12",
+                "end_of_the_end": "1943-24-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5736",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/283",
+              "type": "Event",
+              "_label": "The Paintings of Morris Hirshfield",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-23-6 - 1943-1-8",
+                "begin_of_the_begin": "1943-23-6",
+                "end_of_the_end": "1943-1-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5737",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/389",
+              "type": "Event",
+              "_label": "Paintings from New York Private Collections",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-2-7 - 1946-22-9",
+                "begin_of_the_begin": "1946-2-7",
+                "end_of_the_end": "1946-22-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5738",
+                  "type": "Place",
+                  "_label": "1st Floor, Galleries and Garden Cooridor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/465",
+              "type": "Event",
+              "_label": "American Paintings from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-23-12 - 1949-13-3",
+                "begin_of_the_begin": "1948-23-12",
+                "end_of_the_end": "1949-13-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5739",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

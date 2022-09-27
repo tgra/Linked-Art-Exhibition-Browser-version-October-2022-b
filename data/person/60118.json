@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60118",
+  "type": "Person",
+  "_label": "Bobby Neel Adams",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10917",
+      "type": "Name",
+      "_label": "Bobby Neel Adams"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10917",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21834",
+      "type": "TimeSpan",
+      "_label": "Bobby Neel Adams Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10917",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21835",
+      "type": "TimeSpan",
+      "_label": "Bobby Neel Adams Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10917",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10917",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2858",
+              "type": "Event",
+              "_label": "Orpheus Selection: In Search of Darkness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-24-6 - 2007-24-9",
+                "begin_of_the_begin": "2007-24-6",
+                "end_of_the_end": "2007-24-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22835",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

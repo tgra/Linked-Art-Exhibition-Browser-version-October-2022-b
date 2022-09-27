@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64086",
+  "type": "Person",
+  "_label": "Carol Halstead",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12427",
+      "type": "Name",
+      "_label": "Carol Halstead"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12427",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24854",
+      "type": "TimeSpan",
+      "_label": "Carol Halstead Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12427",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24855",
+      "type": "TimeSpan",
+      "_label": "Carol Halstead Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12427",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12427",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17096",
+              "type": "Event",
+              "_label": "The Time of Our Lives",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-15-7 - 1999-17-10",
+                "begin_of_the_begin": "1999-15-7",
+                "end_of_the_end": "1999-17-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25381",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

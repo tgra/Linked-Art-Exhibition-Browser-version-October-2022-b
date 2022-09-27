@@ -1,0 +1,141 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/18453",
+  "type": "Person",
+  "_label": "Stanley Brouwn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/856",
+      "type": "Name",
+      "_label": "Stanley Brouwn"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/755",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Dutch, born Suriname 1935"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/856",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1712",
+      "type": "TimeSpan",
+      "_label": "Stanley Brouwn Birth timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/856",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1713",
+      "type": "TimeSpan",
+      "_label": "Stanley Brouwn Death timespan",
+      "begin_of_the_begin": "2017",
+      "end_of_the_end": "2017"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/856",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/856",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4300",
+              "type": "Event",
+              "_label": "Traces of Friday: Art, Tourism, Displacement",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-4-9 - 2003-14-12",
+                "begin_of_the_begin": "2003-4-9",
+                "end_of_the_end": "2003-14-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2583",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3803",
+              "type": "Event",
+              "_label": "Here and There: Travels, Part III: Travelers at Work",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-23-3 - 1989-7-5",
+                "begin_of_the_begin": "1989-23-3",
+                "end_of_the_end": "1989-7-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2584",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3193",
+              "type": "Event",
+              "_label": "The Talent Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-12-12 - 2011-4-4",
+                "begin_of_the_begin": "2010-12-12",
+                "end_of_the_end": "2011-4-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2585",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3784",
+  "type": "Person",
+  "_label": "Mario Merz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6425",
+      "type": "Name",
+      "_label": "Mario Merz"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2848",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, 1925–2003"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6425",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12850",
+      "type": "TimeSpan",
+      "_label": "Mario Merz Birth timespan",
+      "begin_of_the_begin": "1925",
+      "end_of_the_end": "1925"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6425",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12851",
+      "type": "TimeSpan",
+      "_label": "Mario Merz Death timespan",
+      "begin_of_the_begin": "2003",
+      "end_of_the_end": "2003"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6425",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6425",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2988",
+              "type": "Event",
+              "_label": "Hermetic Aspects of Contemporary Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-15-1 - 1978-25-2",
+                "begin_of_the_begin": "1978-15-1",
+                "end_of_the_end": "1978-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13377",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2786",
+              "type": "Event",
+              "_label": "Beast: Animal Imagery in Recent Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-10 - 1982-12-12",
+                "begin_of_the_begin": "1982-17-10",
+                "end_of_the_end": "1982-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13378",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2758",
+              "type": "Event",
+              "_label": "The Knot: Arte Povera at P.S. 1",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-6-10 - 1985-15-12",
+                "begin_of_the_begin": "1985-6-10",
+                "end_of_the_end": "1985-15-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13379",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2953",
+              "type": "Event",
+              "_label": "Mario Merz: L’Horizon de Lumière Traverse Notre Vertical du Jour",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-18-10 - 1999-17-1",
+                "begin_of_the_begin": "1998-18-10",
+                "end_of_the_end": "1999-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13380",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

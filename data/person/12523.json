@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/12523",
+  "type": "Person",
+  "_label": "Hansjörg Mayer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/144",
+      "type": "Name",
+      "_label": "Hansjörg Mayer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/144",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/288",
+      "type": "TimeSpan",
+      "_label": "Hansjörg Mayer Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/144",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/289",
+      "type": "TimeSpan",
+      "_label": "Hansjörg Mayer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/144",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/144",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4275",
+              "type": "Event",
+              "_label": "Make Your Own Life: Artists In and Out of Cologne",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-21-4 - 2006-31-7",
+                "begin_of_the_begin": "2006-21-4",
+                "end_of_the_end": "2006-31-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/513",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

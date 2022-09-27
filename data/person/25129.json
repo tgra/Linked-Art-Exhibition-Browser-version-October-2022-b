@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/25129",
+  "type": "Person",
+  "_label": "Carla Accardi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1970",
+      "type": "Name",
+      "_label": "Carla Accardi"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1701",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, born 1924"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1970",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3940",
+      "type": "TimeSpan",
+      "_label": "Carla Accardi Birth timespan",
+      "begin_of_the_begin": "1924",
+      "end_of_the_end": "1924"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1970",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3941",
+      "type": "TimeSpan",
+      "_label": "Carla Accardi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1970",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1970",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2841",
+              "type": "Event",
+              "_label": "Minimalia: An Italian Vision in 20th Century Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-10-10 - 2000-9-1",
+                "begin_of_the_begin": "1999-10-10",
+                "end_of_the_end": "2000-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5579",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2869",
+              "type": "Event",
+              "_label": "Carla Accardi: Triplice Tenda",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-20-5 - 2001-3-9",
+                "begin_of_the_begin": "2001-20-5",
+                "end_of_the_end": "2001-3-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5580",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

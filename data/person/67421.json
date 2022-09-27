@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67421",
+  "type": "Person",
+  "_label": "Mike Kuchar",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13944",
+      "type": "Name",
+      "_label": "Mike Kuchar"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13944",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27888",
+      "type": "TimeSpan",
+      "_label": "Mike Kuchar Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13944",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27889",
+      "type": "TimeSpan",
+      "_label": "Mike Kuchar Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13944",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13944",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18385",
+              "type": "Event",
+              "_label": "Kucharia!",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-25-4 - ",
+                "begin_of_the_begin": "1998-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27782",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

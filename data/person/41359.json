@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/41359",
+  "type": "Person",
+  "_label": "Albright-Knox Art Gallery",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6567",
+      "type": "Name",
+      "_label": "Albright-Knox Art Gallery"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6567",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13134",
+      "type": "TimeSpan",
+      "_label": "Albright-Knox Art Gallery Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6567",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13135",
+      "type": "TimeSpan",
+      "_label": "Albright-Knox Art Gallery Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6567",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6567",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17298",
+              "type": "Event",
+              "_label": "Alfred Jensen: Paintings and Diagrams From the Years 1957-1977",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-18-3 - 1978-21-4",
+                "begin_of_the_begin": "1978-18-3",
+                "end_of_the_end": "1978-21-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14089",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

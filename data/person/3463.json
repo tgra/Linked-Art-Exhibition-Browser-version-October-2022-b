@@ -1,0 +1,241 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3463",
+  "type": "Person",
+  "_label": "Lee Lozano",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6112",
+      "type": "Name",
+      "_label": "Lee Lozano"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2630",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1930–1999"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6112",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12224",
+      "type": "TimeSpan",
+      "_label": "Lee Lozano Birth timespan",
+      "begin_of_the_begin": "1930",
+      "end_of_the_end": "1930"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6112",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12225",
+      "type": "TimeSpan",
+      "_label": "Lee Lozano Death timespan",
+      "begin_of_the_begin": "1999",
+      "end_of_the_end": "1999"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6112",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6112",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3973",
+              "type": "Event",
+              "_label": "New Work (Contemporary American Group Show)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-24-10 - 1964-14-11",
+                "begin_of_the_begin": "1964-24-10",
+                "end_of_the_end": "1964-14-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12484",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2778",
+              "type": "Event",
+              "_label": "Abstract Painting: 1960–69",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-16-1 - 1983-13-3",
+                "begin_of_the_begin": "1983-16-1",
+                "end_of_the_end": "1983-13-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12485",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3383",
+              "type": "Event",
+              "_label": "Tribute to Richard Bellamy: A Few Works Selected by Miles",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-26-4 - 1998-13-5",
+                "begin_of_the_begin": "1998-26-4",
+                "end_of_the_end": "1998-13-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12486",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3407",
+              "type": "Event",
+              "_label": "Lee Lozano, Drawn from Life: 1961–1971",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-22-1 - 2004-13-9",
+                "begin_of_the_begin": "2004-22-1",
+                "end_of_the_end": "2004-13-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12487",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3458",
+              "type": "Event",
+              "_label": "Collection (or, How I Spent a Year)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-22-1 - 2004-17-5",
+                "begin_of_the_begin": "2004-22-1",
+                "end_of_the_end": "2004-17-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12488",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3559",
+              "type": "Event",
+              "_label": "Into Me/Out of Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-25-9",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12489",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3360",
+              "type": "Event",
+              "_label": "1969",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-5-10 - 2010-5-4",
+                "begin_of_the_begin": "2009-5-10",
+                "end_of_the_end": "2010-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12490",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

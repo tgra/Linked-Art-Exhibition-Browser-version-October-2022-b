@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/25748",
+  "type": "Person",
+  "_label": "Joseph Byrd",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2049",
+      "type": "Name",
+      "_label": "Joseph Byrd"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1773",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1937"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2049",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4098",
+      "type": "TimeSpan",
+      "_label": "Joseph Byrd Birth timespan",
+      "begin_of_the_begin": "1937",
+      "end_of_the_end": "1937"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2049",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4099",
+      "type": "TimeSpan",
+      "_label": "Joseph Byrd Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2049",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2049",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7263",
+              "type": "Event",
+              "_label": "Joseph Byrd: Music and Poetry",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-4-3 - 1961-5-3",
+                "begin_of_the_begin": "1961-4-3",
+                "end_of_the_end": "1961-5-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5783",
+                  "type": "Place",
+                  "_label": "112 Chambers Street, 3rd Floor (Yoko Ono’s Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

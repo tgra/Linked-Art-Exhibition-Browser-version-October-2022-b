@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/16938",
+  "type": "Person",
+  "_label": "Beatrice Wood",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/574",
+      "type": "Name",
+      "_label": "Beatrice Wood"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/481",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1893–1998"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/574",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1148",
+      "type": "TimeSpan",
+      "_label": "Beatrice Wood Birth timespan",
+      "begin_of_the_begin": "1893",
+      "end_of_the_end": "1893"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/574",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1149",
+      "type": "TimeSpan",
+      "_label": "Beatrice Wood Death timespan",
+      "begin_of_the_begin": "1998",
+      "end_of_the_end": "1998"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/574",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/574",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4054",
+              "type": "Event",
+              "_label": "Dirt On Delight: Impulses That Form Clay",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-15-1 - 2009-21-6",
+                "begin_of_the_begin": "2009-15-1",
+                "end_of_the_end": "2009-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1867",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

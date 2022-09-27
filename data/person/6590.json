@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/6590",
+  "type": "Person",
+  "_label": "James Casebere",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13199",
+      "type": "Name",
+      "_label": "James Casebere"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3908",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1953"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13199",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26398",
+      "type": "TimeSpan",
+      "_label": "James Casebere Birth timespan",
+      "begin_of_the_begin": "1953",
+      "end_of_the_end": "1953"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13199",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26399",
+      "type": "TimeSpan",
+      "_label": "James Casebere Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13199",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13199",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4326",
+              "type": "Event",
+              "_label": "The Architectural Unconscious: James Casebere and Glen Seator",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-5-5 - 2001-29-7",
+                "begin_of_the_begin": "2001-5-5",
+                "end_of_the_end": "2001-29-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26724",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

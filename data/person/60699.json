@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60699",
+  "type": "Person",
+  "_label": "Luis Frangella",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11516",
+      "type": "Name",
+      "_label": "Luis Frangella"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11516",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23032",
+      "type": "TimeSpan",
+      "_label": "Luis Frangella Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11516",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23033",
+      "type": "TimeSpan",
+      "_label": "Luis Frangella Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11516",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11516",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4111",
+              "type": "Event",
+              "_label": "The East Village Scene",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-12-10 - 1984-2-12",
+                "begin_of_the_begin": "1984-12-10",
+                "end_of_the_end": "1984-2-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23776",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17071",
+              "type": "Event",
+              "_label": "East Village USA",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-9-12 - 2005-19-3",
+                "begin_of_the_begin": "2004-9-12",
+                "end_of_the_end": "2005-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23777",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60026",
+  "type": "Person",
+  "_label": "Mike Hoolboom",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10822",
+      "type": "Name",
+      "_label": "Mike Hoolboom"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10822",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21644",
+      "type": "TimeSpan",
+      "_label": "Mike Hoolboom Birth timespan",
+      "begin_of_the_begin": "1959",
+      "end_of_the_end": "1959"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10822",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21645",
+      "type": "TimeSpan",
+      "_label": "Mike Hoolboom Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10822",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10822",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3424",
+              "type": "Event",
+              "_label": "Reprocessing Reality",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-6-4 - 2006-29-5",
+                "begin_of_the_begin": "2006-6-4",
+                "end_of_the_end": "2006-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22683",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

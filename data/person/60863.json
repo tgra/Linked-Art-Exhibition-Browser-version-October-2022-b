@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60863",
+  "type": "Person",
+  "_label": "Valerie Tevere",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11683",
+      "type": "Name",
+      "_label": "Valerie Tevere"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11683",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23366",
+      "type": "TimeSpan",
+      "_label": "Valerie Tevere Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11683",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23367",
+      "type": "TimeSpan",
+      "_label": "Valerie Tevere Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11683",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11683",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4300",
+              "type": "Event",
+              "_label": "Traces of Friday: Art, Tourism, Displacement",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-4-9 - 2003-14-12",
+                "begin_of_the_begin": "2003-4-9",
+                "end_of_the_end": "2003-14-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23983",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3996",
+              "type": "Event",
+              "_label": "Angel Nevarez and Valerie Tevere",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-3-2 - 2016-27-3",
+                "begin_of_the_begin": "2016-3-2",
+                "end_of_the_end": "2016-27-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23984",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17041",
+              "type": "Event",
+              "_label": "The Last Newspaper: Contemporary Art, Curating Histories, Alternative Models",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-6-10 - 2011-9-1",
+                "begin_of_the_begin": "2010-6-10",
+                "end_of_the_end": "2011-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23985",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

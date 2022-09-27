@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58804",
+  "type": "Person",
+  "_label": "Valborg Fletre Linn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9557",
+      "type": "Name",
+      "_label": "Valborg Fletre Linn"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9557",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19114",
+      "type": "TimeSpan",
+      "_label": "Valborg Fletre Linn Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9557",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19115",
+      "type": "TimeSpan",
+      "_label": "Valborg Fletre Linn Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9557",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9557",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2730",
+              "type": "Event",
+              "_label": "Fashion (Fall 1984): Valborg Fletre Linn",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-14-10 - 1984-9-12",
+                "begin_of_the_begin": "1984-14-10",
+                "end_of_the_end": "1984-9-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20834",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

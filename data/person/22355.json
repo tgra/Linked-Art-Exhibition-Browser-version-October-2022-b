@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/22355",
+  "type": "Person",
+  "_label": "Carter Mull",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1535",
+      "type": "Name",
+      "_label": "Carter Mull"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1346",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1977"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1535",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3070",
+      "type": "TimeSpan",
+      "_label": "Carter Mull Birth timespan",
+      "begin_of_the_begin": "1977",
+      "end_of_the_end": "1977"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1535",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3071",
+      "type": "TimeSpan",
+      "_label": "Carter Mull Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1535",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1535",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4019",
+              "type": "Event",
+              "_label": "Glitter and Folds",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-6-2 - 2013-31-3",
+                "begin_of_the_begin": "2013-6-2",
+                "end_of_the_end": "2013-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4386",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

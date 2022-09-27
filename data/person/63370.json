@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63370",
+  "type": "Person",
+  "_label": "XXX Macarena",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12141",
+      "type": "Name",
+      "_label": "XXX Macarena"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12141",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24282",
+      "type": "TimeSpan",
+      "_label": "XXX Macarena Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12141",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24283",
+      "type": "TimeSpan",
+      "_label": "XXX Macarena Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12141",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12141",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18663",
+              "type": "Event",
+              "_label": "XXX Macarena",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-24-9 - ",
+                "begin_of_the_begin": "2009-24-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24863",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/19095",
+  "type": "Person",
+  "_label": "Dee Dee Halleck",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/982",
+      "type": "Name",
+      "_label": "Dee Dee Halleck"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/982",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1964",
+      "type": "TimeSpan",
+      "_label": "Dee Dee Halleck Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/982",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1965",
+      "type": "TimeSpan",
+      "_label": "Dee Dee Halleck Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/982",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/982",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/22004",
+              "type": "Event",
+              "_label": "New York Foundation for the Arts Video Fellows 1985",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-1-2 - 1986-30-3",
+                "begin_of_the_begin": "1986-1-2",
+                "end_of_the_end": "1986-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2897",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18558",
+              "type": "Event",
+              "_label": "Soup and Tart",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1974-30-11 - ",
+                "begin_of_the_begin": "1974-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2898",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18219",
+              "type": "Event",
+              "_label": "Burp: Soup and Tart Revis…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-24-10 - ",
+                "begin_of_the_begin": "1991-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2899",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

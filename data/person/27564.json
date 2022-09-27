@@ -1,0 +1,166 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27564",
+  "type": "Person",
+  "_label": "Henry Billings",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2661",
+      "type": "Name",
+      "_label": "Henry Billings"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2066",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1901–1987"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2661",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5322",
+      "type": "TimeSpan",
+      "_label": "Henry Billings Birth timespan",
+      "begin_of_the_begin": "1901",
+      "end_of_the_end": "1901"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2661",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5323",
+      "type": "TimeSpan",
+      "_label": "Henry Billings Death timespan",
+      "begin_of_the_begin": "1987",
+      "end_of_the_end": "1987"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2661",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2661",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17",
+              "type": "Event",
+              "_label": "Murals by American Painters and Photographers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1932-3-5 - 1932-31-5",
+                "begin_of_the_begin": "1932-3-5",
+                "end_of_the_end": "1932-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7158",
+                  "type": "Place",
+                  "_label": "1st and 2nd Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/151",
+              "type": "Event",
+              "_label": "PM Competition: The Artist as Reporter",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-15-4 - 1940-7-5",
+                "begin_of_the_begin": "1940-15-4",
+                "end_of_the_end": "1940-7-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7159",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/166",
+              "type": "Event",
+              "_label": "We Like Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-27-12 - 1941-12-1",
+                "begin_of_the_begin": "1940-27-12",
+                "end_of_the_end": "1941-12-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7160",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/223",
+              "type": "Event",
+              "_label": "Art in War: OEM Purchases from a National Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-13-3 - 1942-25-3",
+                "begin_of_the_begin": "1942-13-3",
+                "end_of_the_end": "1942-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7161",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,196 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57767",
+  "type": "Person",
+  "_label": "Vivienne Dick",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8479",
+      "type": "Name",
+      "_label": "Vivienne Dick"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8479",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16958",
+      "type": "TimeSpan",
+      "_label": "Vivienne Dick Birth timespan",
+      "begin_of_the_begin": "1950",
+      "end_of_the_end": "1950"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8479",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16959",
+      "type": "TimeSpan",
+      "_label": "Vivienne Dick Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8479",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8479",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2751",
+              "type": "Event",
+              "_label": "Film (Fall 1986)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-26-10 - 1986-26-12",
+                "begin_of_the_begin": "1986-26-10",
+                "end_of_the_end": "1986-26-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19214",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3283",
+              "type": "Event",
+              "_label": "Greater New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-11-10 - 2016-7-3",
+                "begin_of_the_begin": "2015-11-10",
+                "end_of_the_end": "2016-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19215",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18508",
+              "type": "Event",
+              "_label": "Re Runs '79 Screening",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-11-9 - ",
+                "begin_of_the_begin": "1979-11-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19216",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18280",
+              "type": "Event",
+              "_label": "Dubbed in Glamour",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-21-11 - ",
+                "begin_of_the_begin": "1980-21-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19217",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18312",
+              "type": "Event",
+              "_label": "Filmworks '82",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-25-5 - ",
+                "begin_of_the_begin": "1982-25-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19218",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18311",
+              "type": "Event",
+              "_label": "FILMWORKS '80: A Three-Ev…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-4-5 - ",
+                "begin_of_the_begin": "1989-4-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19219",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

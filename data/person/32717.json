@@ -1,0 +1,216 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32717",
+  "type": "Person",
+  "_label": "Milet Andrejevic",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5824",
+      "type": "Name",
+      "_label": "Milet Andrejevic"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2472",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1925–1989"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5824",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11648",
+      "type": "TimeSpan",
+      "_label": "Milet Andrejevic Birth timespan",
+      "begin_of_the_begin": "1925",
+      "end_of_the_end": "1925"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5824",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11649",
+      "type": "TimeSpan",
+      "_label": "Milet Andrejevic Death timespan",
+      "begin_of_the_begin": "1989",
+      "end_of_the_end": "1989"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5824",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5824",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3935",
+              "type": "Event",
+              "_label": "Milet Andreyevich: Paintings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-14-11 - 1961-2-12",
+                "begin_of_the_begin": "1961-14-11",
+                "end_of_the_end": "1961-2-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11644",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3945",
+              "type": "Event",
+              "_label": "Contemporary Painting and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-10-4 - 1962-27-4",
+                "begin_of_the_begin": "1962-10-4",
+                "end_of_the_end": "1962-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11645",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3953",
+              "type": "Event",
+              "_label": "New Work: Part I",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-8-1 - 1963-2-2",
+                "begin_of_the_begin": "1963-8-1",
+                "end_of_the_end": "1963-2-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11646",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3956",
+              "type": "Event",
+              "_label": "Milet Andrejevic: Paintings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-19-3 - 1963-13-4",
+                "begin_of_the_begin": "1963-19-3",
+                "end_of_the_end": "1963-13-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11647",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3959",
+              "type": "Event",
+              "_label": "Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-24-9 - 1963-15-10",
+                "begin_of_the_begin": "1963-24-9",
+                "end_of_the_end": "1963-15-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11648",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2993",
+              "type": "Event",
+              "_label": "A Painting Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-2-5 - 1977-29-5",
+                "begin_of_the_begin": "1977-2-5",
+                "end_of_the_end": "1977-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11649",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

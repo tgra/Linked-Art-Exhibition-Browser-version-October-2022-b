@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65657",
+  "type": "Person",
+  "_label": "Lois Nesbitt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13085",
+      "type": "Name",
+      "_label": "Lois Nesbitt"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13085",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26170",
+      "type": "TimeSpan",
+      "_label": "Lois Nesbitt Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13085",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26171",
+      "type": "TimeSpan",
+      "_label": "Lois Nesbitt Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13085",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13085",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21990",
+              "type": "Event",
+              "_label": "The Big Nothing or Le Presque Rien",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-15-1 - 1992-19-4",
+                "begin_of_the_begin": "1992-15-1",
+                "end_of_the_end": "1992-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26453",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17128",
+              "type": "Event",
+              "_label": "In Transit",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-15-1 - 1993-11-4",
+                "begin_of_the_begin": "1993-15-1",
+                "end_of_the_end": "1993-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26454",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

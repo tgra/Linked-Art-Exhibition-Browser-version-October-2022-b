@@ -1,0 +1,148 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32864",
+  "type": "Person",
+  "_label": "Dieter Froese",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5869",
+      "type": "Name",
+      "_label": "Dieter Froese"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5869",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11738",
+      "type": "TimeSpan",
+      "_label": "Dieter Froese Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5869",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11739",
+      "type": "TimeSpan",
+      "_label": "Dieter Froese Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5869",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5869",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3612",
+              "type": "Event",
+              "_label": "The Brooklyn Bridge Event",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1971-21-5 - 1971-24-5",
+                "begin_of_the_begin": "1971-21-5",
+                "end_of_the_end": "1971-24-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11819",
+                  "type": "Place",
+                  "_label": "The Brooklyn Bridge",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3831",
+              "type": "Event",
+              "_label": "Ideas at the Idea Warehouse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-16-6 - 1975-11-7",
+                "begin_of_the_begin": "1975-16-6",
+                "end_of_the_end": "1975-11-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11820",
+                  "type": "Place",
+                  "_label": "The Idea Warehouse",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2992",
+              "type": "Event",
+              "_label": "Rooms",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-9-6 - 1976-26-6",
+                "begin_of_the_begin": "1976-9-6",
+                "end_of_the_end": "1976-26-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11821",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17267",
+              "type": "Event",
+              "_label": "Alternatives in Retrospect: An Historical Overview 1969 – 1975",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-9-5 - 1981-16-7",
+                "begin_of_the_begin": "1981-9-5",
+                "end_of_the_end": "1981-16-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11822",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

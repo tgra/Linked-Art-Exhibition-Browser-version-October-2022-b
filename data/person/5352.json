@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/5352",
+  "type": "Person",
+  "_label": "Daniel Spoerri",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7191",
+      "type": "Name",
+      "_label": "Daniel Spoerri"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3501",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Swiss, born Romania 1930"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/7191",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/14382",
+      "type": "TimeSpan",
+      "_label": "Daniel Spoerri Birth timespan",
+      "begin_of_the_begin": "1930",
+      "end_of_the_end": "1930"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/7191",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/14383",
+      "type": "TimeSpan",
+      "_label": "Daniel Spoerri Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/7191",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/7191",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3978",
+              "type": "Event",
+              "_label": "Daniel Spoerri, Room 631",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-3-3 - 1965-15-3",
+                "begin_of_the_begin": "1965-3-3",
+                "end_of_the_end": "1965-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16646",
+                  "type": "Place",
+                  "_label": "Other",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4158",
+              "type": "Event",
+              "_label": "Improbable Furniture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-10-3 - 1977-10-4",
+                "begin_of_the_begin": "1977-10-3",
+                "end_of_the_end": "1977-10-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16647",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

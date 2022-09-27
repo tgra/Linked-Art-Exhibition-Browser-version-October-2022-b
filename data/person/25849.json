@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/25849",
+  "type": "Person",
+  "_label": "Sangdon Kim",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2068",
+      "type": "Name",
+      "_label": "Sangdon Kim"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1786",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Korean"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2068",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4136",
+      "type": "TimeSpan",
+      "_label": "Sangdon Kim Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2068",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4137",
+      "type": "TimeSpan",
+      "_label": "Sangdon Kim Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2068",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2068",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21858",
+              "type": "Event",
+              "_label": "Museum as Hub: Dongducheon: A Walk to Remember, a Walk to Envision",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-9-5 - 2008-6-7",
+                "begin_of_the_begin": "2008-9-5",
+                "end_of_the_end": "2008-6-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5825",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

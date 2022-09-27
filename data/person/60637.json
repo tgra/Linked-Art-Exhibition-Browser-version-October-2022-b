@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60637",
+  "type": "Person",
+  "_label": "Louisa Matthíasdóttir",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11455",
+      "type": "Name",
+      "_label": "Louisa Matthíasdóttir"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11455",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22910",
+      "type": "TimeSpan",
+      "_label": "Louisa Matthíasdóttir Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11455",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22911",
+      "type": "TimeSpan",
+      "_label": "Louisa Matthíasdóttir Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11455",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11455",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4249",
+              "type": "Event",
+              "_label": "Louisa Matthiasdottir: Paintings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-2-5 - 1958-22-5",
+                "begin_of_the_begin": "1958-2-5",
+                "end_of_the_end": "1958-22-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23698",
+                  "type": "Place",
+                  "_label": "90 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

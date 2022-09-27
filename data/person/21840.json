@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21840",
+  "type": "Person",
+  "_label": "Lisa Kereszi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1462",
+      "type": "Name",
+      "_label": "Lisa Kereszi"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1291",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1973"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1462",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2924",
+      "type": "TimeSpan",
+      "_label": "Lisa Kereszi Birth timespan",
+      "begin_of_the_begin": "1973",
+      "end_of_the_end": "1973"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1462",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2925",
+      "type": "TimeSpan",
+      "_label": "Lisa Kereszi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1462",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1462",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21906",
+              "type": "Event",
+              "_label": "Sixth Annual Altoids Curiously Strong Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-29-10 - 2004-20-11",
+                "begin_of_the_begin": "2004-29-10",
+                "end_of_the_end": "2004-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4189",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2276",
+  "type": "Person",
+  "_label": "Sid Grossman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1632",
+      "type": "Name",
+      "_label": "Sid Grossman"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1427",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1913–1955"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1632",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3264",
+      "type": "TimeSpan",
+      "_label": "Sid Grossman Birth timespan",
+      "begin_of_the_begin": "1913",
+      "end_of_the_end": "1913"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1632",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3265",
+      "type": "TimeSpan",
+      "_label": "Sid Grossman Death timespan",
+      "begin_of_the_begin": "1955",
+      "end_of_the_end": "1955"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1632",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1632",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/203",
+              "type": "Event",
+              "_label": "Image of Freedom",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-29-10 - 1942-1-2",
+                "begin_of_the_begin": "1941-29-10",
+                "end_of_the_end": "1942-1-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4744",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/218",
+              "type": "Event",
+              "_label": "The Artists' New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-28-1 - 1942-2-3",
+                "begin_of_the_begin": "1942-28-1",
+                "end_of_the_end": "1942-2-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4745",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/439",
+              "type": "Event",
+              "_label": "In and Out of Focus: A Survey of Today's Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-6-4 - 1948-11-7",
+                "begin_of_the_begin": "1948-6-4",
+                "end_of_the_end": "1948-11-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4746",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

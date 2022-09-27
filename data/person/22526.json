@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/22526",
+  "type": "Person",
+  "_label": "Collaborative Projects, Inc.",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1587",
+      "type": "Name",
+      "_label": "Collaborative Projects, Inc."
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1587",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3174",
+      "type": "TimeSpan",
+      "_label": "Collaborative Projects, Inc. Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1587",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3175",
+      "type": "TimeSpan",
+      "_label": "Collaborative Projects, Inc. Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1587",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1587",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17276",
+              "type": "Event",
+              "_label": "Events: Fashion Moda, Taller Boricua, Artists Invite Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-13-12 - 1981-5-3",
+                "begin_of_the_begin": "1980-13-12",
+                "end_of_the_end": "1981-5-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4532",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

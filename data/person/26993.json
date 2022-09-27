@@ -1,0 +1,150 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/26993",
+  "type": "Person",
+  "_label": "Mona Hatoum",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2245",
+      "type": "Name",
+      "_label": "Mona Hatoum"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2245",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4490",
+      "type": "TimeSpan",
+      "_label": "Mona Hatoum Birth timespan",
+      "begin_of_the_begin": "1952",
+      "end_of_the_end": "1952"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2245",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4491",
+      "type": "TimeSpan",
+      "_label": "Mona Hatoum Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2245",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2245",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2892",
+              "type": "Event",
+              "_label": "Around 1984: A Look at Art in the Eighties",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-21-5 - 2000-30-9",
+                "begin_of_the_begin": "2000-21-5",
+                "end_of_the_end": "2000-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6244",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3559",
+              "type": "Event",
+              "_label": "Into Me/Out of Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-25-9",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6245",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17135",
+              "type": "Event",
+              "_label": "The Interrupted Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-13-9 - 1991-29-12",
+                "begin_of_the_begin": "1991-13-9",
+                "end_of_the_end": "1991-29-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6246",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17103",
+              "type": "Event",
+              "_label": "Mona Hatoum",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-4-12 - 1998-22-2",
+                "begin_of_the_begin": "1997-4-12",
+                "end_of_the_end": "1998-22-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6247",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

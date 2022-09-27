@@ -1,0 +1,113 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/5844",
+  "type": "Person",
+  "_label": "Ben Vautier",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9179",
+      "type": "Name",
+      "_label": "Ben Vautier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3688",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, born Italy 1935"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9179",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18358",
+      "type": "TimeSpan",
+      "_label": "Ben Vautier Birth timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9179",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18359",
+      "type": "TimeSpan",
+      "_label": "Ben Vautier Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9179",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9179",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3547",
+              "type": "Event",
+              "_label": "Altered, Stitched and Gathered",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-14-12 - 2007-28-1",
+                "begin_of_the_begin": "2006-14-12",
+                "end_of_the_end": "2007-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20304",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18340",
+              "type": "Event",
+              "_label": "Good Morning, Mr. Orwell",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-1-1 - ",
+                "begin_of_the_begin": "1984-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20305",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,166 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1708",
+  "type": "Person",
+  "_label": "Luciano Fabro",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/602",
+      "type": "Name",
+      "_label": "Luciano Fabro"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/505",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, 1936–2007"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/602",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1204",
+      "type": "TimeSpan",
+      "_label": "Luciano Fabro Birth timespan",
+      "begin_of_the_begin": "1936",
+      "end_of_the_end": "1936"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/602",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1205",
+      "type": "TimeSpan",
+      "_label": "Luciano Fabro Death timespan",
+      "begin_of_the_begin": "2007",
+      "end_of_the_end": "2007"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/602",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/602",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2758",
+              "type": "Event",
+              "_label": "The Knot: Arte Povera at P.S. 1",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-6-10 - 1985-15-12",
+                "begin_of_the_begin": "1985-6-10",
+                "end_of_the_end": "1985-15-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1937",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3609",
+              "type": "Event",
+              "_label": "Casinò Fantasma",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-24-5 - 1990-15-7",
+                "begin_of_the_begin": "1990-24-5",
+                "end_of_the_end": "1990-15-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1938",
+                  "type": "Place",
+                  "_label": "The 44th Venice Biennale",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2841",
+              "type": "Event",
+              "_label": "Minimalia: An Italian Vision in 20th Century Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-10-10 - 2000-9-1",
+                "begin_of_the_begin": "1999-10-10",
+                "end_of_the_end": "2000-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1939",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17041",
+              "type": "Event",
+              "_label": "The Last Newspaper: Contemporary Art, Curating Histories, Alternative Models",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-6-10 - 2011-9-1",
+                "begin_of_the_begin": "2010-6-10",
+                "end_of_the_end": "2011-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1940",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

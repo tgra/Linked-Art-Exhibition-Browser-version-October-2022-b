@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58871",
+  "type": "Person",
+  "_label": "Mo Bahc",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9624",
+      "type": "Name",
+      "_label": "Mo Bahc"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9624",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19248",
+      "type": "TimeSpan",
+      "_label": "Mo Bahc Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9624",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19249",
+      "type": "TimeSpan",
+      "_label": "Mo Bahc Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9624",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9624",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3705",
+              "type": "Event",
+              "_label": "CommuNYCations: Public Mirror: Artists Against Racial Prejudice",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-13-9 - 1990-7-10",
+                "begin_of_the_begin": "1990-13-9",
+                "end_of_the_end": "1990-7-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20932",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

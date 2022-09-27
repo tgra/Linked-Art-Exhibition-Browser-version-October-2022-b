@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60678",
+  "type": "Person",
+  "_label": "Martha Madigan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11495",
+      "type": "Name",
+      "_label": "Martha Madigan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11495",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22990",
+      "type": "TimeSpan",
+      "_label": "Martha Madigan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11495",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22991",
+      "type": "TimeSpan",
+      "_label": "Martha Madigan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11495",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11495",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4137",
+              "type": "Event",
+              "_label": "Photography: Made in Philadelphia 5",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-5-12 - 1981-25-1",
+                "begin_of_the_begin": "1980-5-12",
+                "end_of_the_end": "1981-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23750",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17295",
+              "type": "Event",
+              "_label": "The Invented Landscape",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-17-2 - 1979-14-4",
+                "begin_of_the_begin": "1979-17-2",
+                "end_of_the_end": "1979-14-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23751",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

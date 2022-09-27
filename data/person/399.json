@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/399",
+  "type": "Person",
+  "_label": "Bernd Becher",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6511",
+      "type": "Name",
+      "_label": "Bernd Becher"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2926",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, 1931–2007"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6511",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13022",
+      "type": "TimeSpan",
+      "_label": "Bernd Becher Birth timespan",
+      "begin_of_the_begin": "1931",
+      "end_of_the_end": "1931"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6511",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13023",
+      "type": "TimeSpan",
+      "_label": "Bernd Becher Death timespan",
+      "begin_of_the_begin": "2007",
+      "end_of_the_end": "2007"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6511",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6511",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4165",
+              "type": "Event",
+              "_label": "Painting Drawing and Sculpture of the '60s and the '70s from the Dorthy and Herbert Vogel Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-7-10 - 1975-18-11",
+                "begin_of_the_begin": "1975-7-10",
+                "end_of_the_end": "1975-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13810",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4402",
+              "type": "Event",
+              "_label": "Signs of Life: Process and Materials 1960–1990",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-15-6 - 1990-12-8",
+                "begin_of_the_begin": "1990-15-6",
+                "end_of_the_end": "1990-12-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13811",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

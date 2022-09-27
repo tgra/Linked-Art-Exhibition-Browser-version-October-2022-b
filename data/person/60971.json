@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60971",
+  "type": "Person",
+  "_label": "James Hoff",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11794",
+      "type": "Name",
+      "_label": "James Hoff"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11794",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23588",
+      "type": "TimeSpan",
+      "_label": "James Hoff Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11794",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23589",
+      "type": "TimeSpan",
+      "_label": "James Hoff Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11794",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11794",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4017",
+              "type": "Event",
+              "_label": "Excursus IV: Primary Information",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-20-3 - 2013-15-6",
+                "begin_of_the_begin": "2013-20-3",
+                "end_of_the_end": "2013-15-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24118",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18330",
+              "type": "Event",
+              "_label": "From Minimalism into Algo…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-8-1 - ",
+                "begin_of_the_begin": "2016-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24119",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

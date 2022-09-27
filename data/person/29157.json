@@ -1,0 +1,122 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/29157",
+  "type": "Person",
+  "_label": "Morris Ketchum",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4233",
+      "type": "Name",
+      "_label": "Morris Ketchum"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4233",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8466",
+      "type": "TimeSpan",
+      "_label": "Morris Ketchum Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4233",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8467",
+      "type": "TimeSpan",
+      "_label": "Morris Ketchum Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4233",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4233",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/311",
+              "type": "Event",
+              "_label": "Design for Use",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-24-5 - 1944-22-10",
+                "begin_of_the_begin": "1944-24-5",
+                "end_of_the_end": "1944-22-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9286",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/371",
+              "type": "Event",
+              "_label": "New Dormitories for Smith College",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-5-2 - 1946-14-4",
+                "begin_of_the_begin": "1946-5-2",
+                "end_of_the_end": "1946-14-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9287",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/467",
+              "type": "Event",
+              "_label": "Hidden Talent Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-1-2 - 1949-6-3",
+                "begin_of_the_begin": "1949-1-2",
+                "end_of_the_end": "1949-6-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9288",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

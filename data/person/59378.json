@@ -1,0 +1,125 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59378",
+  "type": "Person",
+  "_label": "Shirley Tse",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10147",
+      "type": "Name",
+      "_label": "Shirley Tse"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10147",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20294",
+      "type": "TimeSpan",
+      "_label": "Shirley Tse Birth timespan",
+      "begin_of_the_begin": "1960",
+      "end_of_the_end": "1960"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10147",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20295",
+      "type": "TimeSpan",
+      "_label": "Shirley Tse Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10147",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10147",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3499",
+              "type": "Event",
+              "_label": "Building Structures",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-23-9 - 2003-31-1",
+                "begin_of_the_begin": "2002-23-9",
+                "end_of_the_end": "2003-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21682",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17082",
+              "type": "Event",
+              "_label": "New Additions to the Altoids Curiously Strong Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-25-1 - 2002-17-2",
+                "begin_of_the_begin": "2002-25-1",
+                "end_of_the_end": "2002-17-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21683",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21920",
+              "type": "Event",
+              "_label": "Out of Site: Fictional Architectural Spaces",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-28-6 - 2002-13-10",
+                "begin_of_the_begin": "2002-28-6",
+                "end_of_the_end": "2002-13-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21684",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

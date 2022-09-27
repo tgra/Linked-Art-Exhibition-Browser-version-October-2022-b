@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/5503",
+  "type": "Person",
+  "_label": "Patrick J. Sullivan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7256",
+      "type": "Name",
+      "_label": "Patrick J. Sullivan"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3566",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1894–1967"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/7256",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/14512",
+      "type": "TimeSpan",
+      "_label": "Patrick J. Sullivan Birth timespan",
+      "begin_of_the_begin": "1894",
+      "end_of_the_end": "1894"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/7256",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/14513",
+      "type": "TimeSpan",
+      "_label": "Patrick J. Sullivan Death timespan",
+      "begin_of_the_begin": "1967",
+      "end_of_the_end": "1967"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/7256",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/7256",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/201",
+              "type": "Event",
+              "_label": "Modern Primitives: Artists of the People",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-21-10 - 1944-30-4",
+                "begin_of_the_begin": "1941-21-10",
+                "end_of_the_end": "1944-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16961",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/266",
+              "type": "Event",
+              "_label": "Americans 1943: Realists and Magic-Realists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-10-2 - 1943-21-3",
+                "begin_of_the_begin": "1943-10-2",
+                "end_of_the_end": "1943-21-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16962",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/28827",
+  "type": "Person",
+  "_label": "Herman Cherry",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3904",
+      "type": "Name",
+      "_label": "Herman Cherry"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3904",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7808",
+      "type": "TimeSpan",
+      "_label": "Herman Cherry Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3904",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7809",
+      "type": "TimeSpan",
+      "_label": "Herman Cherry Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3904",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3904",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4205",
+              "type": "Event",
+              "_label": "Christmas Show: Works by 68 Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-14-12 - 1954-10-1",
+                "begin_of_the_begin": "1953-14-12",
+                "end_of_the_end": "1954-10-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8856",
+                  "type": "Place",
+                  "_label": "90 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4244",
+              "type": "Event",
+              "_label": "Herman Cherry: Drawings and Paintings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-17-1 - 1958-6-2",
+                "begin_of_the_begin": "1958-17-1",
+                "end_of_the_end": "1958-6-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8857",
+                  "type": "Place",
+                  "_label": "90 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/402",
+              "type": "Event",
+              "_label": "Children's Holiday Fair of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-3-12 - 1947-5-1",
+                "begin_of_the_begin": "1946-3-12",
+                "end_of_the_end": "1947-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8858",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/428",
+              "type": "Event",
+              "_label": "Children's Holiday Fair of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1947-2-12 - 1948-4-1",
+                "begin_of_the_begin": "1947-2-12",
+                "end_of_the_end": "1948-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8859",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/464",
+              "type": "Event",
+              "_label": "Children's Holiday Fair of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1948-8-12 - 1949-16-1",
+                "begin_of_the_begin": "1948-8-12",
+                "end_of_the_end": "1949-16-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8860",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

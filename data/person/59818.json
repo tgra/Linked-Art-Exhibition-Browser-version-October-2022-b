@@ -1,0 +1,125 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59818",
+  "type": "Person",
+  "_label": "Virgil Marti",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10604",
+      "type": "Name",
+      "_label": "Virgil Marti"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10604",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21208",
+      "type": "TimeSpan",
+      "_label": "Virgil Marti Birth timespan",
+      "begin_of_the_begin": "1962",
+      "end_of_the_end": "1962"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10604",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21209",
+      "type": "TimeSpan",
+      "_label": "Virgil Marti Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10604",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10604",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4301",
+              "type": "Event",
+              "_label": "Virgil Marti: The Flowers of Romance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-4-9 - 2003-14-12",
+                "begin_of_the_begin": "2003-4-9",
+                "end_of_the_end": "2003-14-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22351",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4039",
+              "type": "Event",
+              "_label": "Set Pieces: Curated by Virgil Marti From the Collection of the Philadelphia Museum of Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-15-9 - 2011-13-2",
+                "begin_of_the_begin": "2010-15-9",
+                "end_of_the_end": "2011-13-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22352",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3721",
+              "type": "Event",
+              "_label": "Model Home",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-8-2 - 1996-31-3",
+                "begin_of_the_begin": "1996-8-2",
+                "end_of_the_end": "1996-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22353",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

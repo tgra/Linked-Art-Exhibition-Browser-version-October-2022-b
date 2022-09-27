@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60920",
+  "type": "Person",
+  "_label": "Jeffry Mitchell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11740",
+      "type": "Name",
+      "_label": "Jeffry Mitchell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11740",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23480",
+      "type": "TimeSpan",
+      "_label": "Jeffry Mitchell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11740",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23481",
+      "type": "TimeSpan",
+      "_label": "Jeffry Mitchell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11740",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11740",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4054",
+              "type": "Event",
+              "_label": "Dirt On Delight: Impulses That Form Clay",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-15-1 - 2009-21-6",
+                "begin_of_the_begin": "2009-15-1",
+                "end_of_the_end": "2009-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24055",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21991",
+              "type": "Event",
+              "_label": "My Spirit",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-15-1 - 1992-19-4",
+                "begin_of_the_begin": "1992-15-1",
+                "end_of_the_end": "1992-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24056",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

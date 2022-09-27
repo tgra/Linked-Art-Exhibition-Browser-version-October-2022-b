@@ -1,0 +1,216 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1180",
+  "type": "Person",
+  "_label": "John Coplans",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/111",
+      "type": "Name",
+      "_label": "John Coplans"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/100",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, 1920–2003"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/111",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/222",
+      "type": "TimeSpan",
+      "_label": "John Coplans Birth timespan",
+      "begin_of_the_begin": "1920",
+      "end_of_the_end": "1920"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/111",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/223",
+      "type": "TimeSpan",
+      "_label": "John Coplans Death timespan",
+      "begin_of_the_begin": "2003",
+      "end_of_the_end": "2003"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/111",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/111",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4112",
+              "type": "Event",
+              "_label": "Investigations 10: Face to Face Recent Portrait Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-13-6 - 1984-29-7",
+                "begin_of_the_begin": "1984-13-6",
+                "end_of_the_end": "1984-29-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/415",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4371",
+              "type": "Event",
+              "_label": "Face-Off: The Portrait in Recent Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-9-9 - 1994-30-10",
+                "begin_of_the_begin": "1994-9-9",
+                "end_of_the_end": "1994-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/416",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3225",
+              "type": "Event",
+              "_label": "The New Portrait",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-15-4 - 1984-10-6",
+                "begin_of_the_begin": "1984-15-4",
+                "end_of_the_end": "1984-10-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/417",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2906",
+              "type": "Event",
+              "_label": "John Coplans: A Self-Portrait",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-29-10 - 1998-29-3",
+                "begin_of_the_begin": "1997-29-10",
+                "end_of_the_end": "1998-29-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/418",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17186",
+              "type": "Event",
+              "_label": "The Other Man: Alternative Representations of Masculinity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-8-5 - 1987-12-7",
+                "begin_of_the_begin": "1987-8-5",
+                "end_of_the_end": "1987-12-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/419",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17144",
+              "type": "Event",
+              "_label": "The Decade Show: Frameworks of Identity in the 1980s",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-12-5 - 1990-19-8",
+                "begin_of_the_begin": "1990-12-5",
+                "end_of_the_end": "1990-19-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/420",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

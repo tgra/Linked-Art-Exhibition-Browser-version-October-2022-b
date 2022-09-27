@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32975",
+  "type": "Person",
+  "_label": "Jerri Allyn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5895",
+      "type": "Name",
+      "_label": "Jerri Allyn"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5895",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11790",
+      "type": "TimeSpan",
+      "_label": "Jerri Allyn Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5895",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11791",
+      "type": "TimeSpan",
+      "_label": "Jerri Allyn Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5895",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5895",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3345",
+              "type": "Event",
+              "_label": "Out of the Studio: Multi-Disciplinary Community",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-25-1 - 1987-15-3",
+                "begin_of_the_begin": "1987-25-1",
+                "end_of_the_end": "1987-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11877",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17194",
+              "type": "Event",
+              "_label": "HOMO VIDEO: Where We Are Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-12 - 1987-15-2",
+                "begin_of_the_begin": "1986-12-12",
+                "end_of_the_end": "1987-15-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11878",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17177",
+              "type": "Event",
+              "_label": "American Dining: A Working Woman's Moment",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-20-11 - 1988-9-1",
+                "begin_of_the_begin": "1987-20-11",
+                "end_of_the_end": "1988-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11879",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

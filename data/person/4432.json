@@ -1,0 +1,141 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4432",
+  "type": "Person",
+  "_label": "Otto Piene",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6706",
+      "type": "Name",
+      "_label": "Otto Piene"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3102",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1928"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6706",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13412",
+      "type": "TimeSpan",
+      "_label": "Otto Piene Birth timespan",
+      "begin_of_the_begin": "1928",
+      "end_of_the_end": "1928"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6706",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13413",
+      "type": "TimeSpan",
+      "_label": "Otto Piene Death timespan",
+      "begin_of_the_begin": "2014",
+      "end_of_the_end": "2014"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6706",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6706",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4406",
+              "type": "Event",
+              "_label": "Group Zero",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-30-10 - 1964-11-12",
+                "begin_of_the_begin": "1964-30-10",
+                "end_of_the_end": "1964-11-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14769",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4010",
+              "type": "Event",
+              "_label": "ICA@50: Pleasing Artists And Publics Since 1963",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-12-2 - 2014-17-8",
+                "begin_of_the_begin": "2014-12-2",
+                "end_of_the_end": "2014-17-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14770",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17020",
+              "type": "Event",
+              "_label": "Ghosts in the Machine",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-18-7 - 2012-30-9",
+                "begin_of_the_begin": "2012-18-7",
+                "end_of_the_end": "2012-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14771",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

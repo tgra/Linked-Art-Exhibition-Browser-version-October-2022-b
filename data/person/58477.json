@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58477",
+  "type": "Person",
+  "_label": "Rod Rhodes",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9216",
+      "type": "Name",
+      "_label": "Rod Rhodes"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9216",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18432",
+      "type": "TimeSpan",
+      "_label": "Rod Rhodes Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9216",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18433",
+      "type": "TimeSpan",
+      "_label": "Rod Rhodes Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9216",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9216",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2810",
+              "type": "Event",
+              "_label": "Special Projects (Fall 1983)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-25-9 - 1983-20-11",
+                "begin_of_the_begin": "1983-25-9",
+                "end_of_the_end": "1983-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20347",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3687",
+              "type": "Event",
+              "_label": "Rod Rhodes and Ted Victoria: Immaculate Constructions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-14-3 - 1985-7-4",
+                "begin_of_the_begin": "1985-14-3",
+                "end_of_the_end": "1985-7-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20348",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3729",
+              "type": "Event",
+              "_label": "The Periphery, Part II: Rod Rhodes and Paul Thek",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-16-11 - 1989-24-12",
+                "begin_of_the_begin": "1989-16-11",
+                "end_of_the_end": "1989-24-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20349",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

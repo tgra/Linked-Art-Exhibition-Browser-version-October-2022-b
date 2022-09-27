@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/5817",
+  "type": "Person",
+  "_label": "James Van Der Zee",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8895",
+      "type": "Name",
+      "_label": "James Van Der Zee"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3674",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1886–1983"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8895",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17790",
+      "type": "TimeSpan",
+      "_label": "James Van Der Zee Birth timespan",
+      "begin_of_the_begin": "1886",
+      "end_of_the_end": "1886"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8895",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17791",
+      "type": "TimeSpan",
+      "_label": "James Van Der Zee Death timespan",
+      "begin_of_the_begin": "1983",
+      "end_of_the_end": "1983"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8895",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8895",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4140",
+              "type": "Event",
+              "_label": "Fleeting Gestures: Treasures of Dance Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-14-6 - 1980-27-7",
+                "begin_of_the_begin": "1980-14-6",
+                "end_of_the_end": "1980-27-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19878",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17135",
+              "type": "Event",
+              "_label": "The Interrupted Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-13-9 - 1991-29-12",
+                "begin_of_the_begin": "1991-13-9",
+                "end_of_the_end": "1991-29-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19879",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

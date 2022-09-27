@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21031",
+  "type": "Person",
+  "_label": "Matthew Geller",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1296",
+      "type": "Name",
+      "_label": "Matthew Geller"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1151",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1954"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1296",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2592",
+      "type": "TimeSpan",
+      "_label": "Matthew Geller Birth timespan",
+      "begin_of_the_begin": "1954",
+      "end_of_the_end": "1954"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1296",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2593",
+      "type": "TimeSpan",
+      "_label": "Matthew Geller Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1296",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1296",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21997",
+              "type": "Event",
+              "_label": "From Receiver To Remote Control: The TV Set",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-12-9 - 1990-25-11",
+                "begin_of_the_begin": "1990-12-9",
+                "end_of_the_end": "1990-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3723",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

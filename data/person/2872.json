@@ -1,0 +1,1286 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2872",
+  "type": "Person",
+  "_label": "Allan Kaprow",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3792",
+      "type": "Name",
+      "_label": "Allan Kaprow"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2222",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1927–2006"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3792",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7584",
+      "type": "TimeSpan",
+      "_label": "Allan Kaprow Birth timespan",
+      "begin_of_the_begin": "1927",
+      "end_of_the_end": "1927"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3792",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7585",
+      "type": "TimeSpan",
+      "_label": "Allan Kaprow Death timespan",
+      "begin_of_the_begin": "2006",
+      "end_of_the_end": "2006"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3792",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3792",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7082",
+              "type": "Event",
+              "_label": "Hansa Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-8-12 - 1953-23-12",
+                "begin_of_the_begin": "1952-8-12",
+                "end_of_the_end": "1953-23-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8660",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3856",
+              "type": "Event",
+              "_label": "Allan Kaprow: Paintings Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-4-5 - 1953-18-5",
+                "begin_of_the_begin": "1953-4-5",
+                "end_of_the_end": "1953-18-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8661",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3858",
+              "type": "Event",
+              "_label": "Contemporary Americans",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-29-9 - 1953-10-10",
+                "begin_of_the_begin": "1953-29-9",
+                "end_of_the_end": "1953-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8662",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7102",
+              "type": "Event",
+              "_label": "Drawings, Watercolors, Pastels",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-5-1 - 1954-16-1",
+                "begin_of_the_begin": "1954-5-1",
+                "end_of_the_end": "1954-16-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8663",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3867",
+              "type": "Event",
+              "_label": "Allan Kaprow: Paintings Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-6-4 - 1954-17-4",
+                "begin_of_the_begin": "1954-6-4",
+                "end_of_the_end": "1954-17-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8664",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3845",
+              "type": "Event",
+              "_label": "Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-1-10 - 1954-27-10",
+                "begin_of_the_begin": "1954-1-10",
+                "end_of_the_end": "1954-27-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8665",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3843",
+              "type": "Event",
+              "_label": "6 Exemplary Paintings and 1 Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-14-10 - 1955-2-11",
+                "begin_of_the_begin": "1955-14-10",
+                "end_of_the_end": "1955-2-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8666",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3881",
+              "type": "Event",
+              "_label": "Xmas Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-5-12 - 1955-24-12",
+                "begin_of_the_begin": "1955-5-12",
+                "end_of_the_end": "1955-24-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8667",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3896",
+              "type": "Event",
+              "_label": "Allan Kaprow",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-11-2 - 1957-2-3",
+                "begin_of_the_begin": "1957-11-2",
+                "end_of_the_end": "1957-2-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8668",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7140",
+              "type": "Event",
+              "_label": "Drawings and Small Works",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-1-10 - 1957-27-10",
+                "begin_of_the_begin": "1957-1-10",
+                "end_of_the_end": "1957-27-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8669",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7141",
+              "type": "Event",
+              "_label": "Old-New",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-4-11 - 1957-23-11",
+                "begin_of_the_begin": "1957-4-11",
+                "end_of_the_end": "1957-23-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8670",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3909",
+              "type": "Event",
+              "_label": "Allan Kaprow: An Environment",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-10-3 - 1958-29-3",
+                "begin_of_the_begin": "1958-10-3",
+                "end_of_the_end": "1958-29-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8671",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3915",
+              "type": "Event",
+              "_label": "24",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-3-11 - 1958-22-11",
+                "begin_of_the_begin": "1958-3-11",
+                "end_of_the_end": "1958-22-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8672",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3916",
+              "type": "Event",
+              "_label": "Allan Kaprow: An Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-25-11 - 1958-13-12",
+                "begin_of_the_begin": "1958-25-11",
+                "end_of_the_end": "1958-13-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8673",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4184",
+              "type": "Event",
+              "_label": "Against Order: Chance and Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1970-14-11 - 1970-22-12",
+                "begin_of_the_begin": "1970-14-11",
+                "end_of_the_end": "1970-22-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8674",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7279",
+              "type": "Event",
+              "_label": "Ray Gun Spex",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-1-2 - 1960-2-3",
+                "begin_of_the_begin": "1960-1-2",
+                "end_of_the_end": "1960-2-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8675",
+                  "type": "Place",
+                  "_label": "55 Washington Square South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7281",
+              "type": "Event",
+              "_label": "Allan Kaprow: An Apple Shrine",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-30-11 - 1960-24-12",
+                "begin_of_the_begin": "1960-30-11",
+                "end_of_the_end": "1960-24-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8676",
+                  "type": "Place",
+                  "_label": "55 Washington Square South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7281",
+              "type": "Event",
+              "_label": "Allan Kaprow: An Apple Shrine",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-30-11 - 1960-24-12",
+                "begin_of_the_begin": "1960-30-11",
+                "end_of_the_end": "1960-24-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8677",
+                  "type": "Place",
+                  "_label": "55 Washington Square South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7282",
+              "type": "Event",
+              "_label": "Gloria Graves",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-8-2 - 1961-28-2",
+                "begin_of_the_begin": "1961-8-2",
+                "end_of_the_end": "1961-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8678",
+                  "type": "Place",
+                  "_label": "55 Washington Square South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7283",
+              "type": "Event",
+              "_label": "Martha Edelheidt",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-14-4 - 1961-5-5",
+                "begin_of_the_begin": "1961-14-4",
+                "end_of_the_end": "1961-5-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8679",
+                  "type": "Place",
+                  "_label": "55 Washington Square South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7284",
+              "type": "Event",
+              "_label": "Dan Flavin: Constructions and Watercolors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-8-5 - ",
+                "begin_of_the_begin": "1961-8-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8680",
+                  "type": "Place",
+                  "_label": "55 Washington Square South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7286",
+              "type": "Event",
+              "_label": "Panel Discussion: The Real Bohemia",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-3-12 - ",
+                "begin_of_the_begin": "1961-3-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8681",
+                  "type": "Place",
+                  "_label": "55 Washington Square South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17020",
+              "type": "Event",
+              "_label": "Ghosts in the Machine",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-18-7 - 2012-30-9",
+                "begin_of_the_begin": "2012-18-7",
+                "end_of_the_end": "2012-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8682",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7321",
+              "type": "Event",
+              "_label": "Allan Kaprow: 18 Happenings in 6 Parts",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-2-10 - 1959-11-10",
+                "begin_of_the_begin": "1959-2-10",
+                "end_of_the_end": "1959-11-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8683",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7321",
+              "type": "Event",
+              "_label": "Allan Kaprow: 18 Happenings in 6 Parts",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-2-10 - 1959-11-10",
+                "begin_of_the_begin": "1959-2-10",
+                "end_of_the_end": "1959-11-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8684",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7311",
+              "type": "Event",
+              "_label": "George Brecht",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-16-10 - 1959-5-11",
+                "begin_of_the_begin": "1959-16-10",
+                "end_of_the_end": "1959-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8685",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7312",
+              "type": "Event",
+              "_label": "Lucas Samaras: Oils, Pastels",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-6-11 - 1959-26-11",
+                "begin_of_the_begin": "1959-6-11",
+                "end_of_the_end": "1959-26-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8686",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7313",
+              "type": "Event",
+              "_label": "Robert Whitman: Constructions, Drawings, Pastels, Paintings, Floor and Hanging Pieces",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-27-11 - 1959-16-12",
+                "begin_of_the_begin": "1959-27-11",
+                "end_of_the_end": "1959-16-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8687",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7310",
+              "type": "Event",
+              "_label": "Below Zero 1960",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-18-12 - 1960-5-1",
+                "begin_of_the_begin": "1959-18-12",
+                "end_of_the_end": "1960-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8688",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7310",
+              "type": "Event",
+              "_label": "Below Zero 1960",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-18-12 - 1960-5-1",
+                "begin_of_the_begin": "1959-18-12",
+                "end_of_the_end": "1960-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8689",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7309",
+              "type": "Event",
+              "_label": "Happenings Series: Magic Train Ride, The Big Laugh, Small Cannon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-8-1 - 1960-11-1",
+                "begin_of_the_begin": "1960-8-1",
+                "end_of_the_end": "1960-11-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8690",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7309",
+              "type": "Event",
+              "_label": "Happenings Series: Magic Train Ride, The Big Laugh, Small Cannon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-8-1 - 1960-11-1",
+                "begin_of_the_begin": "1960-8-1",
+                "end_of_the_end": "1960-11-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8691",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7314",
+              "type": "Event",
+              "_label": "Grooms: Red",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-9-1 - 1960-28-1",
+                "begin_of_the_begin": "1960-9-1",
+                "end_of_the_end": "1960-28-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8692",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7307",
+              "type": "Event",
+              "_label": "Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-29-1 - 1960-18-2",
+                "begin_of_the_begin": "1960-29-1",
+                "end_of_the_end": "1960-18-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8693",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7315",
+              "type": "Event",
+              "_label": "Rosalyn Drexler: Sculptures",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-19-2 - 1960-10-3",
+                "begin_of_the_begin": "1960-19-2",
+                "end_of_the_end": "1960-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8694",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7316",
+              "type": "Event",
+              "_label": "Herb Brown",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-11-3 - 1960-31-3",
+                "begin_of_the_begin": "1960-11-3",
+                "end_of_the_end": "1960-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8695",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7317",
+              "type": "Event",
+              "_label": "Jim Dine",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-1-4 - 1960-14-4",
+                "begin_of_the_begin": "1960-1-4",
+                "end_of_the_end": "1960-14-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8696",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7318",
+              "type": "Event",
+              "_label": "Renée Rubin Miller",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-15-4 - 1960-5-5",
+                "begin_of_the_begin": "1960-15-4",
+                "end_of_the_end": "1960-5-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8697",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7319",
+              "type": "Event",
+              "_label": "Claes Oldenburg: The Street",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-6-5 - 1960-19-5",
+                "begin_of_the_begin": "1960-6-5",
+                "end_of_the_end": "1960-19-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8698",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7320",
+              "type": "Event",
+              "_label": "Martha Edelheit",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-20-5 - 1960-9-6",
+                "begin_of_the_begin": "1960-20-5",
+                "end_of_the_end": "1960-9-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8699",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7322",
+              "type": "Event",
+              "_label": "Jim Dine: Car Crash",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-1-11 - 1960-6-11",
+                "begin_of_the_begin": "1960-1-11",
+                "end_of_the_end": "1960-6-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8700",
+                  "type": "Place",
+                  "_label": "44 East 3rd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7323",
+              "type": "Event",
+              "_label": "Robert Whitman: The American Moon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-29-11 - 1960-4-12",
+                "begin_of_the_begin": "1960-29-11",
+                "end_of_the_end": "1960-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8701",
+                  "type": "Place",
+                  "_label": "44 East 3rd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7308",
+              "type": "Event",
+              "_label": "Varieties: Jim Dine (A Shining Bed), Simone Morris (See Saw), Claes Oldenburg: (Chimneyfire and Erasers)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-16-12 - 1960-18-12",
+                "begin_of_the_begin": "1960-16-12",
+                "end_of_the_end": "1960-18-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8702",
+                  "type": "Place",
+                  "_label": "44 East 3rd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7324",
+              "type": "Event",
+              "_label": "Oldenburg: Circus (Ironworks/Fotodeath)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-21-2 - 1961-26-2",
+                "begin_of_the_begin": "1961-21-2",
+                "end_of_the_end": "1961-26-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8703",
+                  "type": "Place",
+                  "_label": "44 East 3rd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7325",
+              "type": "Event",
+              "_label": "Allan Kaprow: Spring Happening",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-22-3 - 1961-27-3",
+                "begin_of_the_begin": "1961-22-3",
+                "end_of_the_end": "1961-27-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8704",
+                  "type": "Place",
+                  "_label": "44 East 3rd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7325",
+              "type": "Event",
+              "_label": "Allan Kaprow: Spring Happening",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-22-3 - 1961-27-3",
+                "begin_of_the_begin": "1961-22-3",
+                "end_of_the_end": "1961-27-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8705",
+                  "type": "Place",
+                  "_label": "44 East 3rd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7326",
+              "type": "Event",
+              "_label": "Robert Whitman: Mouth",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1961-18-4 - ",
+                "begin_of_the_begin": "1961-18-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8706",
+                  "type": "Place",
+                  "_label": "44 East 3rd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7306",
+              "type": "Event",
+              "_label": "An Evening of Sound-Theatre-Happenings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-11-6 - ",
+                "begin_of_the_begin": "1990-11-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8707",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7306",
+              "type": "Event",
+              "_label": "An Evening of Sound-Theatre-Happenings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-11-6 - ",
+                "begin_of_the_begin": "1990-11-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8708",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

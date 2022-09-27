@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32179",
+  "type": "Person",
+  "_label": "Allan McNab",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5731",
+      "type": "Name",
+      "_label": "Allan McNab"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5731",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11462",
+      "type": "TimeSpan",
+      "_label": "Allan McNab Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5731",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11463",
+      "type": "TimeSpan",
+      "_label": "Allan McNab Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5731",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5731",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/300",
+              "type": "Event",
+              "_label": "Norman Bel Geddes' War Maneuver Models",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-26-1 - 1944-5-3",
+                "begin_of_the_begin": "1944-26-1",
+                "end_of_the_end": "1944-5-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11424",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

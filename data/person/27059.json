@@ -1,0 +1,122 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27059",
+  "type": "Person",
+  "_label": "Ralph Lemon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2258",
+      "type": "Name",
+      "_label": "Ralph Lemon"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2258",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4516",
+      "type": "TimeSpan",
+      "_label": "Ralph Lemon Birth timespan",
+      "begin_of_the_begin": "1952",
+      "end_of_the_end": "1952"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2258",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4517",
+      "type": "TimeSpan",
+      "_label": "Ralph Lemon Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2258",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2258",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18134",
+              "type": "Event",
+              "_label": "(The efflorescence of) Wa…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-11-5 - ",
+                "begin_of_the_begin": "2007-11-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6344",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18416",
+              "type": "Event",
+              "_label": "Meditation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-17-10 - ",
+                "begin_of_the_begin": "2010-17-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6345",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18528",
+              "type": "Event",
+              "_label": "Scaffold Room",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-30-10 - ",
+                "begin_of_the_begin": "2015-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6346",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

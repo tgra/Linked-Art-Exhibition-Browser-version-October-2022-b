@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60522",
+  "type": "Person",
+  "_label": "Leatrice Rose",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11337",
+      "type": "Name",
+      "_label": "Leatrice Rose"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11337",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22674",
+      "type": "TimeSpan",
+      "_label": "Leatrice Rose Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11337",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22675",
+      "type": "TimeSpan",
+      "_label": "Leatrice Rose Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11337",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11337",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3858",
+              "type": "Event",
+              "_label": "Contemporary Americans",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-29-9 - 1953-10-10",
+                "begin_of_the_begin": "1953-29-9",
+                "end_of_the_end": "1953-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23444",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3864",
+              "type": "Event",
+              "_label": "Leatrice Rose",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-19-1 - 1954-6-2",
+                "begin_of_the_begin": "1954-19-1",
+                "end_of_the_end": "1954-6-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23445",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

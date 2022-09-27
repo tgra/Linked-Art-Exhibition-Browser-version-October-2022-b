@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/66396",
+  "type": "Person",
+  "_label": "Rande Bache",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13398",
+      "type": "Name",
+      "_label": "Rande Bache"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13398",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26796",
+      "type": "TimeSpan",
+      "_label": "Rande Bache Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13398",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26797",
+      "type": "TimeSpan",
+      "_label": "Rande Bache Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13398",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13398",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/22018",
+              "type": "Event",
+              "_label": "Rande Bache, Stephen Frailey",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-25-1 - 1984-19-2",
+                "begin_of_the_begin": "1984-25-1",
+                "end_of_the_end": "1984-19-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26997",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22018",
+              "type": "Event",
+              "_label": "Rande Bache, Stephen Frailey",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-25-1 - 1984-19-2",
+                "begin_of_the_begin": "1984-25-1",
+                "end_of_the_end": "1984-19-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26998",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

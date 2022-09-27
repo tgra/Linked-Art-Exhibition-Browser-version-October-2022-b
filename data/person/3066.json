@@ -1,0 +1,141 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3066",
+  "type": "Person",
+  "_label": "Jirí Kolár",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5306",
+      "type": "Name",
+      "_label": "Jirí Kolár"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2359",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Czech, 1914–2002"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5306",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10612",
+      "type": "TimeSpan",
+      "_label": "Jirí Kolár Birth timespan",
+      "begin_of_the_begin": "1914",
+      "end_of_the_end": "1914"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5306",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10613",
+      "type": "TimeSpan",
+      "_label": "Jirí Kolár Death timespan",
+      "begin_of_the_begin": "2002",
+      "end_of_the_end": "2002"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5306",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5306",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17141",
+              "type": "Event",
+              "_label": "Rhetorical Image",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-9-12 - 1991-3-2",
+                "begin_of_the_begin": "1990-9-12",
+                "end_of_the_end": "1991-3-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10660",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17142",
+              "type": "Event",
+              "_label": "Rhetorical Image Resource Room",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-9-12 - 1991-3-2",
+                "begin_of_the_begin": "1990-9-12",
+                "end_of_the_end": "1991-3-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10661",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17109",
+              "type": "Event",
+              "_label": "Temporarily Possessed: The Semi-Permanent Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-9 - 1995-17-12",
+                "begin_of_the_begin": "1995-15-9",
+                "end_of_the_end": "1995-17-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10662",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

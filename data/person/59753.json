@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59753",
+  "type": "Person",
+  "_label": "Don Hazlitt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10535",
+      "type": "Name",
+      "_label": "Don Hazlitt"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10535",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21070",
+      "type": "TimeSpan",
+      "_label": "Don Hazlitt Birth timespan",
+      "begin_of_the_begin": "1948",
+      "end_of_the_end": "1948"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10535",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21071",
+      "type": "TimeSpan",
+      "_label": "Don Hazlitt Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10535",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10535",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2723",
+              "type": "Event",
+              "_label": "The Detective Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-7-5 - 1978-30-6",
+                "begin_of_the_begin": "1978-7-5",
+                "end_of_the_end": "1978-30-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22255",
+                  "type": "Place",
+                  "_label": "Gorman Park, Queens",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

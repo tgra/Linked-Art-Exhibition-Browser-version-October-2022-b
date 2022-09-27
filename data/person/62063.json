@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/62063",
+  "type": "Person",
+  "_label": "Debra Jenks",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12001",
+      "type": "Name",
+      "_label": "Debra Jenks"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12001",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24002",
+      "type": "TimeSpan",
+      "_label": "Debra Jenks Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12001",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24003",
+      "type": "TimeSpan",
+      "_label": "Debra Jenks Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12001",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12001",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/22030",
+              "type": "Event",
+              "_label": "Deconstruction / Reconstruction: The Transformation of Photographic Information into Metaphor",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-12-7 - 1980-18-9",
+                "begin_of_the_begin": "1980-12-7",
+                "end_of_the_end": "1980-18-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24453",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

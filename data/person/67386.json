@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67386",
+  "type": "Person",
+  "_label": "Lauren Hutton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13908",
+      "type": "Name",
+      "_label": "Lauren Hutton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13908",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27816",
+      "type": "TimeSpan",
+      "_label": "Lauren Hutton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13908",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27817",
+      "type": "TimeSpan",
+      "_label": "Lauren Hutton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13908",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13908",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18223",
+              "type": "Event",
+              "_label": "Cafe Barbie",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-10-11 - ",
+                "begin_of_the_begin": "1994-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27743",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

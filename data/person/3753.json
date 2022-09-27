@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3753",
+  "type": "Person",
+  "_label": "Richard Meier",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6410",
+      "type": "Name",
+      "_label": "Richard Meier"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2833",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1934"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6410",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12820",
+      "type": "TimeSpan",
+      "_label": "Richard Meier Birth timespan",
+      "begin_of_the_begin": "1934",
+      "end_of_the_end": "1934"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6410",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12821",
+      "type": "TimeSpan",
+      "_label": "Richard Meier Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6410",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6410",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4154",
+              "type": "Event",
+              "_label": "Architecture: Seven Architects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-15-12 - 1978-2-2",
+                "begin_of_the_begin": "1977-15-12",
+                "end_of_the_end": "1978-2-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13319",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4362",
+  "type": "Person",
+  "_label": "A.R. Penck (Ralf Winkler)",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6668",
+      "type": "Name",
+      "_label": "A.R. Penck (Ralf Winkler)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3066",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1939"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6668",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13336",
+      "type": "TimeSpan",
+      "_label": "A.R. Penck (Ralf Winkler) Birth timespan",
+      "begin_of_the_begin": "1939",
+      "end_of_the_end": "1939"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6668",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13337",
+      "type": "TimeSpan",
+      "_label": "A.R. Penck (Ralf Winkler) Death timespan",
+      "begin_of_the_begin": "2017",
+      "end_of_the_end": "2017"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6668",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6668",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4118",
+              "type": "Event",
+              "_label": "Expressions/New Art from Germany",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-16-12 - 1984-17-2",
+                "begin_of_the_begin": "1983-16-12",
+                "end_of_the_end": "1984-17-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14556",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2823",
+              "type": "Event",
+              "_label": "Expressions: New Art from Germany",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-25-9 - 1983-20-11",
+                "begin_of_the_begin": "1983-25-9",
+                "end_of_the_end": "1983-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14557",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2768",
+              "type": "Event",
+              "_label": "El Arte Narrativo Y Pintura Mexicana",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-5 - 1985-23-6",
+                "begin_of_the_begin": "1985-5-5",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14558",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

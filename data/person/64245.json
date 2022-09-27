@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64245",
+  "type": "Person",
+  "_label": "Constanze Ruhm",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12487",
+      "type": "Name",
+      "_label": "Constanze Ruhm"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12487",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24974",
+      "type": "TimeSpan",
+      "_label": "Constanze Ruhm Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12487",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24975",
+      "type": "TimeSpan",
+      "_label": "Constanze Ruhm Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12487",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12487",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21971",
+              "type": "Event",
+              "_label": "knot.project/N.Y.C.",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-30-5 - 1996-21-6",
+                "begin_of_the_begin": "1996-30-5",
+                "end_of_the_end": "1996-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25451",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

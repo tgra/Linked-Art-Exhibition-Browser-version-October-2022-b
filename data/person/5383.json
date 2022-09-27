@@ -1,0 +1,590 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/5383",
+  "type": "Person",
+  "_label": "Richard Stankiewicz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/7203",
+      "type": "Name",
+      "_label": "Richard Stankiewicz"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3513",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1922–1983"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/7203",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/14406",
+      "type": "TimeSpan",
+      "_label": "Richard Stankiewicz Birth timespan",
+      "begin_of_the_begin": "1922",
+      "end_of_the_end": "1922"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/7203",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/14407",
+      "type": "TimeSpan",
+      "_label": "Richard Stankiewicz Death timespan",
+      "begin_of_the_begin": "1983",
+      "end_of_the_end": "1983"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/7203",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/7203",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3926",
+              "type": "Event",
+              "_label": "Gallery Group Show: Paintings, Sculpture and Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-13-12 - 1961-7-1",
+                "begin_of_the_begin": "1960-13-12",
+                "end_of_the_end": "1961-7-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16673",
+                  "type": "Place",
+                  "_label": "Green Gallery",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7080",
+              "type": "Event",
+              "_label": "Paintings and Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-24-11 - 1952-7-12",
+                "begin_of_the_begin": "1952-24-11",
+                "end_of_the_end": "1952-7-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16674",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7081",
+              "type": "Event",
+              "_label": "Richard Stankiewicz: Works in Terra Cotta",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-26-11 - 1952-12-12",
+                "begin_of_the_begin": "1952-26-11",
+                "end_of_the_end": "1952-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16675",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7082",
+              "type": "Event",
+              "_label": "Hansa Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1952-8-12 - 1953-23-12",
+                "begin_of_the_begin": "1952-8-12",
+                "end_of_the_end": "1953-23-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16676",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7083",
+              "type": "Event",
+              "_label": "Richard Stankiewicz: Fantastic Creatures and Satiric Poses",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-5-1 - ",
+                "begin_of_the_begin": "1953-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16677",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3858",
+              "type": "Event",
+              "_label": "Contemporary Americans",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-29-9 - 1953-10-10",
+                "begin_of_the_begin": "1953-29-9",
+                "end_of_the_end": "1953-10-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16678",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7100",
+              "type": "Event",
+              "_label": "Richard Stankiewicz: Works of 1953",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1953-1-11 - 1953-7-12",
+                "begin_of_the_begin": "1953-1-11",
+                "end_of_the_end": "1953-7-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16679",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3845",
+              "type": "Event",
+              "_label": "Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-1-10 - 1954-27-10",
+                "begin_of_the_begin": "1954-1-10",
+                "end_of_the_end": "1954-27-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16680",
+                  "type": "Place",
+                  "_label": "70 East 12th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7112",
+              "type": "Event",
+              "_label": "Inaugural Show in New Space",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-1-12 - 1954-31-12",
+                "begin_of_the_begin": "1954-1-12",
+                "end_of_the_end": "1954-31-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16681",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7113",
+              "type": "Event",
+              "_label": "Richard Stankiewicz",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-1-12 - 1955-1-1",
+                "begin_of_the_begin": "1954-1-12",
+                "end_of_the_end": "1955-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16682",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3843",
+              "type": "Event",
+              "_label": "6 Exemplary Paintings and 1 Sculpture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-14-10 - 1955-2-11",
+                "begin_of_the_begin": "1955-14-10",
+                "end_of_the_end": "1955-2-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16683",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3881",
+              "type": "Event",
+              "_label": "Xmas Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1955-5-12 - 1955-24-12",
+                "begin_of_the_begin": "1955-5-12",
+                "end_of_the_end": "1955-24-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16684",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3882",
+              "type": "Event",
+              "_label": "Richard Stankiewicz: An Exhibition of Steel and Iron Sculpture, Works of 1956",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-2-1 - 1956-18-1",
+                "begin_of_the_begin": "1956-2-1",
+                "end_of_the_end": "1956-18-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16685",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3893",
+              "type": "Event",
+              "_label": "Richard Stankiewicz",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-10-12 - 1956-29-10",
+                "begin_of_the_begin": "1956-10-12",
+                "end_of_the_end": "1956-29-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16686",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7140",
+              "type": "Event",
+              "_label": "Drawings and Small Works",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-1-10 - 1957-27-10",
+                "begin_of_the_begin": "1957-1-10",
+                "end_of_the_end": "1957-27-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16687",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7141",
+              "type": "Event",
+              "_label": "Old-New",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-4-11 - 1957-23-11",
+                "begin_of_the_begin": "1957-4-11",
+                "end_of_the_end": "1957-23-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16688",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3905",
+              "type": "Event",
+              "_label": "Richard Stankiewicz",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1957-16-12 - 1958-4-1",
+                "begin_of_the_begin": "1957-16-12",
+                "end_of_the_end": "1958-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16689",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3915",
+              "type": "Event",
+              "_label": "24",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1958-3-11 - 1958-22-11",
+                "begin_of_the_begin": "1958-3-11",
+                "end_of_the_end": "1958-22-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16690",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7163",
+              "type": "Event",
+              "_label": "Beauchamp, Chamberlain, Follett, Forst, Lansner, Pasilis, Pritchard, Stout, Samaras, Stankiewicz",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-18-5 - 1959-6-6",
+                "begin_of_the_begin": "1959-18-5",
+                "end_of_the_end": "1959-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16691",
+                  "type": "Place",
+                  "_label": "210 Central Park South",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7310",
+              "type": "Event",
+              "_label": "Below Zero 1960",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-18-12 - 1960-5-1",
+                "begin_of_the_begin": "1959-18-12",
+                "end_of_the_end": "1960-5-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16692",
+                  "type": "Place",
+                  "_label": "61 4th Avenue, 2nd Floor (Rear Loft)",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7336",
+              "type": "Event",
+              "_label": "Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-11-10 - 1963-10-11",
+                "begin_of_the_begin": "1963-11-10",
+                "end_of_the_end": "1963-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/16693",
+                  "type": "Place",
+                  "_label": "St. Mark's Church-in-the-Boewry, 106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

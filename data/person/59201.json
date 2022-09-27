@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59201",
+  "type": "Person",
+  "_label": "Evgeny Mitta",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9967",
+      "type": "Name",
+      "_label": "Evgeny Mitta"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9967",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19934",
+      "type": "TimeSpan",
+      "_label": "Evgeny Mitta Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9967",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19935",
+      "type": "TimeSpan",
+      "_label": "Evgeny Mitta Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9967",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9967",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3698",
+              "type": "Event",
+              "_label": "Perspectives of Conceptualism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-14-3 - 1991-21-4",
+                "begin_of_the_begin": "1991-14-3",
+                "end_of_the_end": "1991-21-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21473",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

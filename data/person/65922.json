@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65922",
+  "type": "Person",
+  "_label": "Melissa Dubbin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13206",
+      "type": "Name",
+      "_label": "Melissa Dubbin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13206",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26412",
+      "type": "TimeSpan",
+      "_label": "Melissa Dubbin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13206",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26413",
+      "type": "TimeSpan",
+      "_label": "Melissa Dubbin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13206",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13206",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17069",
+              "type": "Event",
+              "_label": "Transmission II: Airborne",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-9-4 - 2005-4-6",
+                "begin_of_the_begin": "2005-9-4",
+                "end_of_the_end": "2005-4-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26733",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

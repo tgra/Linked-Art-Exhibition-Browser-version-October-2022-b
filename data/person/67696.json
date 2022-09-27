@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67696",
+  "type": "Person",
+  "_label": "Viola Yeşiltaç",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14219",
+      "type": "Name",
+      "_label": "Viola Yeşiltaç"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14219",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28438",
+      "type": "TimeSpan",
+      "_label": "Viola Yeşiltaç Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14219",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28439",
+      "type": "TimeSpan",
+      "_label": "Viola Yeşiltaç Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14219",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14219",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18448",
+              "type": "Event",
+              "_label": "No Entrance, No Exit",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-13-1 - ",
+                "begin_of_the_begin": "2015-13-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28133",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2852",
+  "type": "Person",
+  "_label": "Gerome Kamrowski",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3587",
+      "type": "Name",
+      "_label": "Gerome Kamrowski"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2202",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1914–2004"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3587",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7174",
+      "type": "TimeSpan",
+      "_label": "Gerome Kamrowski Birth timespan",
+      "begin_of_the_begin": "1914",
+      "end_of_the_end": "1914"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3587",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7175",
+      "type": "TimeSpan",
+      "_label": "Gerome Kamrowski Death timespan",
+      "begin_of_the_begin": "2004",
+      "end_of_the_end": "2004"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3587",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3587",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/535",
+              "type": "Event",
+              "_label": "Abstract Painting and Sculpture in America",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-23-1 - 1951-25-3",
+                "begin_of_the_begin": "1951-23-1",
+                "end_of_the_end": "1951-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8386",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

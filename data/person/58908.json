@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58908",
+  "type": "Person",
+  "_label": "Paul Henri Ramirez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9663",
+      "type": "Name",
+      "_label": "Paul Henri Ramirez"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9663",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19326",
+      "type": "TimeSpan",
+      "_label": "Paul Henri Ramirez Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9663",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19327",
+      "type": "TimeSpan",
+      "_label": "Paul Henri Ramirez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9663",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9663",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3632",
+              "type": "Event",
+              "_label": "Short-Term Residencies at the Clocktower Gallery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-2-10 - 1995-24-12",
+                "begin_of_the_begin": "1995-2-10",
+                "end_of_the_end": "1995-24-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20982",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

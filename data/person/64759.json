@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64759",
+  "type": "Person",
+  "_label": "Gitte Villesen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12692",
+      "type": "Name",
+      "_label": "Gitte Villesen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12692",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25384",
+      "type": "TimeSpan",
+      "_label": "Gitte Villesen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12692",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25385",
+      "type": "TimeSpan",
+      "_label": "Gitte Villesen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12692",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12692",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17101",
+              "type": "Event",
+              "_label": "Video Copenhagen",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-19-3 - 1998-31-5",
+                "begin_of_the_begin": "1998-19-3",
+                "end_of_the_end": "1998-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25794",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,164 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/17676",
+  "type": "Person",
+  "_label": "Amy Gartrell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/700",
+      "type": "Name",
+      "_label": "Amy Gartrell"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/600",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1974"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/700",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1400",
+      "type": "TimeSpan",
+      "_label": "Amy Gartrell Birth timespan",
+      "begin_of_the_begin": "1974",
+      "end_of_the_end": "1974"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/700",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1401",
+      "type": "TimeSpan",
+      "_label": "Amy Gartrell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/700",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/700",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2948",
+              "type": "Event",
+              "_label": "100 Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-18-4 - 1999-6-6",
+                "begin_of_the_begin": "1999-18-4",
+                "end_of_the_end": "1999-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2158",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2848",
+              "type": "Event",
+              "_label": "Special Projects (Summer 2000)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-2-7 - 2000-30-9",
+                "begin_of_the_begin": "2000-2-7",
+                "end_of_the_end": "2000-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2159",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3389",
+              "type": "Event",
+              "_label": "Curious Crystals of Unusual Purity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-27-6 - 2004-27-9",
+                "begin_of_the_begin": "2004-27-6",
+                "end_of_the_end": "2004-27-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2160",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21903",
+              "type": "Event",
+              "_label": "Seventh Annual Altoids Curiously Strong Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-29-9 - 2005-29-10",
+                "begin_of_the_begin": "2005-29-9",
+                "end_of_the_end": "2005-29-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2161",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

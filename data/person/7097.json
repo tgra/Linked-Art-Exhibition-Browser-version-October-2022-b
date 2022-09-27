@@ -1,0 +1,314 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7097",
+  "type": "Person",
+  "_label": "Kim Jones",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14539",
+      "type": "Name",
+      "_label": "Kim Jones"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4029",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1944"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14539",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29078",
+      "type": "TimeSpan",
+      "_label": "Kim Jones Birth timespan",
+      "begin_of_the_begin": "1944",
+      "end_of_the_end": "1944"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14539",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29079",
+      "type": "TimeSpan",
+      "_label": "Kim Jones Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14539",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14539",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2780",
+              "type": "Event",
+              "_label": "Special Projects (Fall 1982)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-10 - 1982-12-12",
+                "begin_of_the_begin": "1982-17-10",
+                "end_of_the_end": "1982-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28662",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3195",
+              "type": "Event",
+              "_label": "Performance at P.S. 1",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-10-12 - 1983-10-12",
+                "begin_of_the_begin": "1983-10-12",
+                "end_of_the_end": "1983-10-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28663",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3738",
+              "type": "Event",
+              "_label": "National and International Studio Program 1983–1984 Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-12-1 - 1984-12-2",
+                "begin_of_the_begin": "1984-12-1",
+                "end_of_the_end": "1984-12-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28664",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2785",
+              "type": "Event",
+              "_label": "Salvaged: Altered Everyday Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-1 - 1984-18-3",
+                "begin_of_the_begin": "1984-22-1",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28665",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3741",
+              "type": "Event",
+              "_label": "National and International Studio Program Exhibition 1984–1985",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-25-1 - 1985-3-3",
+                "begin_of_the_begin": "1985-25-1",
+                "end_of_the_end": "1985-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28666",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3297",
+              "type": "Event",
+              "_label": "Out of Site",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-16-12 - 1991-10-2",
+                "begin_of_the_begin": "1990-16-12",
+                "end_of_the_end": "1991-10-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28667",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2858",
+              "type": "Event",
+              "_label": "Orpheus Selection: In Search of Darkness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-24-6 - 2007-24-9",
+                "begin_of_the_begin": "2007-24-6",
+                "end_of_the_end": "2007-24-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28668",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17208",
+              "type": "Event",
+              "_label": "Kim Jones as the Mudman",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-1-2 - 1986-28-3",
+                "begin_of_the_begin": "1986-1-2",
+                "end_of_the_end": "1986-28-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28669",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17109",
+              "type": "Event",
+              "_label": "Temporarily Possessed: The Semi-Permanent Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-15-9 - 1995-17-12",
+                "begin_of_the_begin": "1995-15-9",
+                "end_of_the_end": "1995-17-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28670",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17060",
+              "type": "Event",
+              "_label": "Collage: The Unmonumental Picture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-16-1 - 2008-30-3",
+                "begin_of_the_begin": "2008-16-1",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28671",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

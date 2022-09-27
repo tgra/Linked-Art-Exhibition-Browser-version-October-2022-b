@@ -1,0 +1,173 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32693",
+  "type": "Person",
+  "_label": "Morgan Fisher",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5818",
+      "type": "Name",
+      "_label": "Morgan Fisher"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5818",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11636",
+      "type": "TimeSpan",
+      "_label": "Morgan Fisher Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5818",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11637",
+      "type": "TimeSpan",
+      "_label": "Morgan Fisher Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5818",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5818",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4010",
+              "type": "Event",
+              "_label": "ICA@50: Pleasing Artists And Publics Since 1963",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-12-2 - 2014-17-8",
+                "begin_of_the_begin": "2014-12-2",
+                "end_of_the_end": "2014-17-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11624",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3756",
+              "type": "Event",
+              "_label": "Film as Installation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-23-4 - 1980-17-5",
+                "begin_of_the_begin": "1980-23-4",
+                "end_of_the_end": "1980-17-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11625",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3181",
+              "type": "Event",
+              "_label": "Film (Winter 1981): Morgan Fisher: Color Balance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-15-2 - 1981-5-4",
+                "begin_of_the_begin": "1981-15-2",
+                "end_of_the_end": "1981-5-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11626",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3768",
+              "type": "Event",
+              "_label": "Film as Installation II",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-20-4 - 1983-21-5",
+                "begin_of_the_begin": "1983-20-4",
+                "end_of_the_end": "1983-21-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11627",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3716",
+              "type": "Event",
+              "_label": "Film (Spring 1988): Kitsch, Psychedelia, Headlines, Quotations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-2-6 - 1988-12-6",
+                "begin_of_the_begin": "1988-2-6",
+                "end_of_the_end": "1988-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11628",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

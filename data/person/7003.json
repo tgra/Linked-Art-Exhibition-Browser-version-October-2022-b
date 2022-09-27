@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7003",
+  "type": "Person",
+  "_label": "Angelo Testa",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14510",
+      "type": "Name",
+      "_label": "Angelo Testa"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4003",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1921–1984"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14510",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29020",
+      "type": "TimeSpan",
+      "_label": "Angelo Testa Birth timespan",
+      "begin_of_the_begin": "1921",
+      "end_of_the_end": "1921"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14510",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29021",
+      "type": "TimeSpan",
+      "_label": "Angelo Testa Death timespan",
+      "begin_of_the_begin": "1984",
+      "end_of_the_end": "1984"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14510",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14510",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/359",
+              "type": "Event",
+              "_label": "Textile Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-29-8 - 1945-23-9",
+                "begin_of_the_begin": "1945-29-8",
+                "end_of_the_end": "1945-23-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28536",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/492",
+              "type": "Event",
+              "_label": "Modern Art in Your Life",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-5-10 - 1949-4-12",
+                "begin_of_the_begin": "1949-5-10",
+                "end_of_the_end": "1949-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28537",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

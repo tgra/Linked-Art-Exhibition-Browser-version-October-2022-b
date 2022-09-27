@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60550",
+  "type": "Person",
+  "_label": "John Stevenson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11366",
+      "type": "Name",
+      "_label": "John Stevenson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11366",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22732",
+      "type": "TimeSpan",
+      "_label": "John Stevenson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11366",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22733",
+      "type": "TimeSpan",
+      "_label": "John Stevenson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11366",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11366",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4191",
+              "type": "Event",
+              "_label": "Between Object and Environment: Sculpture in an Extended Format",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-2-4 - 1969-3-5",
+                "begin_of_the_begin": "1969-2-4",
+                "end_of_the_end": "1969-3-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23482",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

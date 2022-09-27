@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/10641",
+  "type": "Person",
+  "_label": "Bernarda Bryson Shahn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/46",
+      "type": "Name",
+      "_label": "Bernarda Bryson Shahn"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/46",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/92",
+      "type": "TimeSpan",
+      "_label": "Bernarda Bryson Shahn Birth timespan",
+      "begin_of_the_begin": "1903",
+      "end_of_the_end": "1903"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/46",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/93",
+      "type": "TimeSpan",
+      "_label": "Bernarda Bryson Shahn Death timespan",
+      "begin_of_the_begin": "2004",
+      "end_of_the_end": "2004"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/46",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/46",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/151",
+              "type": "Event",
+              "_label": "PM Competition: The Artist as Reporter",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-15-4 - 1940-7-5",
+                "begin_of_the_begin": "1940-15-4",
+                "end_of_the_end": "1940-7-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/231",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

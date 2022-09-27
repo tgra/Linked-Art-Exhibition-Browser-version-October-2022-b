@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/68498",
+  "type": "Person",
+  "_label": "Miguel Angel Guzmán",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14349",
+      "type": "Name",
+      "_label": "Miguel Angel Guzmán"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14349",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28698",
+      "type": "TimeSpan",
+      "_label": "Miguel Angel Guzmán Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14349",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28699",
+      "type": "TimeSpan",
+      "_label": "Miguel Angel Guzmán Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14349",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14349",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21809",
+              "type": "Event",
+              "_label": "Alexandra Pirici: Co-natural",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2018-6-2 - 2018-15-4",
+                "begin_of_the_begin": "2018-6-2",
+                "end_of_the_end": "2018-15-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28352",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

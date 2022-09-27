@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/61083",
+  "type": "Person",
+  "_label": "Douglas R. Ewart",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11911",
+      "type": "Name",
+      "_label": "Douglas R. Ewart"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11911",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23822",
+      "type": "TimeSpan",
+      "_label": "Douglas R. Ewart Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11911",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23823",
+      "type": "TimeSpan",
+      "_label": "Douglas R. Ewart Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11911",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11911",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3991",
+              "type": "Event",
+              "_label": "The Freedom Principle: Experiments in Art and Music, 1965 to Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-14-9 - 2017-19-3",
+                "begin_of_the_begin": "2016-14-9",
+                "end_of_the_end": "2017-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24266",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18598",
+              "type": "Event",
+              "_label": "The Empty Chair: an inter…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-24-2 - ",
+                "begin_of_the_begin": "1990-24-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24267",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

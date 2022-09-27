@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/66576",
+  "type": "Person",
+  "_label": "Russell Ferguson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13478",
+      "type": "Name",
+      "_label": "Russell Ferguson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13478",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26956",
+      "type": "TimeSpan",
+      "_label": "Russell Ferguson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13478",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26957",
+      "type": "TimeSpan",
+      "_label": "Russell Ferguson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13478",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13478",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17171",
+              "type": "Event",
+              "_label": "Nitelife",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-4-4 - 1988-9-4",
+                "begin_of_the_begin": "1988-4-4",
+                "end_of_the_end": "1988-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27115",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17067",
+              "type": "Event",
+              "_label": "Patty Chang: Shangri-La",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-8-7 - 2005-10-9",
+                "begin_of_the_begin": "2005-8-7",
+                "end_of_the_end": "2005-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27116",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17052",
+              "type": "Event",
+              "_label": "New Commissions (Three M Project): Mathias Poledna: Crystal Palace",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-28-1 - 2009-8-3",
+                "begin_of_the_begin": "2009-28-1",
+                "end_of_the_end": "2009-8-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27117",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

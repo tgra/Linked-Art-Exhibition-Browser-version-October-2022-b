@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59353",
+  "type": "Person",
+  "_label": "Smelly (Dai Okazaki)",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10122",
+      "type": "Name",
+      "_label": "Smelly (Dai Okazaki)"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10122",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20244",
+      "type": "TimeSpan",
+      "_label": "Smelly (Dai Okazaki) Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10122",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20245",
+      "type": "TimeSpan",
+      "_label": "Smelly (Dai Okazaki) Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10122",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10122",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3471",
+              "type": "Event",
+              "_label": "Buzz Club: News from Japan",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-1-7 - 2001-30-9",
+                "begin_of_the_begin": "2001-1-7",
+                "end_of_the_end": "2001-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21650",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

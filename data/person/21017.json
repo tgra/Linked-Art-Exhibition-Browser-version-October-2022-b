@@ -1,0 +1,234 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21017",
+  "type": "Person",
+  "_label": "John Sanborn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1286",
+      "type": "Name",
+      "_label": "John Sanborn"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1141",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1954"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1286",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2572",
+      "type": "TimeSpan",
+      "_label": "John Sanborn Birth timespan",
+      "begin_of_the_begin": "1954",
+      "end_of_the_end": "1954"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1286",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2573",
+      "type": "TimeSpan",
+      "_label": "John Sanborn Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1286",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1286",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3155",
+              "type": "Event",
+              "_label": "Obstacles: Manhattan Miniature Golf",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-1-10 - 1978-15-11",
+                "begin_of_the_begin": "1978-1-10",
+                "end_of_the_end": "1978-15-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3684",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2818",
+              "type": "Event",
+              "_label": "Video (Winter 1984): Abstraction and Image Processing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-1 - 1984-18-3",
+                "begin_of_the_begin": "1984-22-1",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3685",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18609",
+              "type": "Event",
+              "_label": "The Last Video Tapes of M…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-31-3 - ",
+                "begin_of_the_begin": "1977-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3686",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18643",
+              "type": "Event",
+              "_label": "Videotapes from FIVF - Pa…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-22-4 - ",
+                "begin_of_the_begin": "1979-22-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3687",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18508",
+              "type": "Event",
+              "_label": "Re Runs '79 Screening",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-11-9 - ",
+                "begin_of_the_begin": "1979-11-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3688",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18340",
+              "type": "Event",
+              "_label": "Good Morning, Mr. Orwell",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-1-1 - ",
+                "begin_of_the_begin": "1984-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3689",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18698",
+              "type": "Event",
+              "_label": "Two Moon July",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-16-10 - ",
+                "begin_of_the_begin": "1986-16-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3690",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59187",
+  "type": "Person",
+  "_label": "Susan Mareneck",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9952",
+      "type": "Name",
+      "_label": "Susan Mareneck"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9952",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19904",
+      "type": "TimeSpan",
+      "_label": "Susan Mareneck Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9952",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19905",
+      "type": "TimeSpan",
+      "_label": "Susan Mareneck Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9952",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9952",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3793",
+              "type": "Event",
+              "_label": "CommuNYCations: Mixed-Use District",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-18-10 - 1990-18-11",
+                "begin_of_the_begin": "1990-18-10",
+                "end_of_the_end": "1990-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21452",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

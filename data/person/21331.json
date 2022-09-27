@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21331",
+  "type": "Person",
+  "_label": "Enrico David",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1353",
+      "type": "Name",
+      "_label": "Enrico David"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1202",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, born 1966"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1353",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2706",
+      "type": "TimeSpan",
+      "_label": "Enrico David Birth timespan",
+      "begin_of_the_begin": "1966",
+      "end_of_the_end": "1966"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1353",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2707",
+      "type": "TimeSpan",
+      "_label": "Enrico David Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1353",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1353",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17027",
+              "type": "Event",
+              "_label": "Enrico David: Head Gas",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-18-1 - 2012-19-4",
+                "begin_of_the_begin": "2012-18-1",
+                "end_of_the_end": "2012-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3936",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

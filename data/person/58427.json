@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58427",
+  "type": "Person",
+  "_label": "Luca Vitone",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9165",
+      "type": "Name",
+      "_label": "Luca Vitone"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9165",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18330",
+      "type": "TimeSpan",
+      "_label": "Luca Vitone Birth timespan",
+      "begin_of_the_begin": "1964",
+      "end_of_the_end": "1964"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9165",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18331",
+      "type": "TimeSpan",
+      "_label": "Luca Vitone Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9165",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9165",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3233",
+              "type": "Event",
+              "_label": "Luca Vitone: Hole",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-30-4 - 2000-18-6",
+                "begin_of_the_begin": "2000-30-4",
+                "end_of_the_end": "2000-18-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20290",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

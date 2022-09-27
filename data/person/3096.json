@@ -1,0 +1,141 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3096",
+  "type": "Person",
+  "_label": "Jannis Kounellis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5341",
+      "type": "Name",
+      "_label": "Jannis Kounellis"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2379",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Greek, born 1936"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5341",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10682",
+      "type": "TimeSpan",
+      "_label": "Jannis Kounellis Birth timespan",
+      "begin_of_the_begin": "1936",
+      "end_of_the_end": "1936"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5341",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10683",
+      "type": "TimeSpan",
+      "_label": "Jannis Kounellis Death timespan",
+      "begin_of_the_begin": "2017",
+      "end_of_the_end": "2017"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5341",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5341",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2988",
+              "type": "Event",
+              "_label": "Hermetic Aspects of Contemporary Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-15-1 - 1978-25-2",
+                "begin_of_the_begin": "1978-15-1",
+                "end_of_the_end": "1978-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10775",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2758",
+              "type": "Event",
+              "_label": "The Knot: Arte Povera at P.S. 1",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-6-10 - 1985-15-12",
+                "begin_of_the_begin": "1985-6-10",
+                "end_of_the_end": "1985-15-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10776",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2841",
+              "type": "Event",
+              "_label": "Minimalia: An Italian Vision in 20th Century Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-10-10 - 2000-9-1",
+                "begin_of_the_begin": "1999-10-10",
+                "end_of_the_end": "2000-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10777",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

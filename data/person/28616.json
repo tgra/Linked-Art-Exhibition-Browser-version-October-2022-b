@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/28616",
+  "type": "Person",
+  "_label": "Georg Bernhard",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3687",
+      "type": "Name",
+      "_label": "Georg Bernhard"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3687",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7374",
+      "type": "TimeSpan",
+      "_label": "Georg Bernhard Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3687",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7375",
+      "type": "TimeSpan",
+      "_label": "Georg Bernhard Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3687",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3687",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/181",
+              "type": "Event",
+              "_label": "A History of the Modern Poster",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-11-6 - 1941-26-6",
+                "begin_of_the_begin": "1941-11-6",
+                "end_of_the_end": "1941-26-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8537",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

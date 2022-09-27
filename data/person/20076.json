@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/20076",
+  "type": "Person",
+  "_label": "Martin Wattenberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1138",
+      "type": "Name",
+      "_label": "Martin Wattenberg"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1003",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1970"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1138",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2276",
+      "type": "TimeSpan",
+      "_label": "Martin Wattenberg Birth timespan",
+      "begin_of_the_begin": "1970",
+      "end_of_the_end": "1970"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1138",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2277",
+      "type": "TimeSpan",
+      "_label": "Martin Wattenberg Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1138",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1138",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21923",
+              "type": "Event",
+              "_label": "Cin-o-matic: Memory and Cinematic Perception",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-19-10 - 2001-30-12",
+                "begin_of_the_begin": "2001-19-10",
+                "end_of_the_end": "2001-30-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3275",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

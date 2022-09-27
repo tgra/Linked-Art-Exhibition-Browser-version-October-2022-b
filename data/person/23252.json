@@ -1,0 +1,270 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/23252",
+  "type": "Person",
+  "_label": "John Kelly",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1733",
+      "type": "Name",
+      "_label": "John Kelly"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1733",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3466",
+      "type": "TimeSpan",
+      "_label": "John Kelly Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1733",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3467",
+      "type": "TimeSpan",
+      "_label": "John Kelly Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1733",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1733",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4042",
+              "type": "Event",
+              "_label": "Queer Voice",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-22-4 - 2010-1-8",
+                "begin_of_the_begin": "2010-22-4",
+                "end_of_the_end": "2010-1-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4969",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3167",
+              "type": "Event",
+              "_label": "Heads",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-26-4 - 1981-14-6",
+                "begin_of_the_begin": "1981-26-4",
+                "end_of_the_end": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4970",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3008",
+              "type": "Event",
+              "_label": "Film (Spring 1986)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-10-5 - 1986-8-6",
+                "begin_of_the_begin": "1986-10-5",
+                "end_of_the_end": "1986-8-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4971",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2708",
+              "type": "Event",
+              "_label": "Boudoir in Exile",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-28-4 - 1994-14-5",
+                "begin_of_the_begin": "1994-28-4",
+                "end_of_the_end": "1994-14-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4972",
+                  "type": "Place",
+                  "_label": "54 White St., Tribeca",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2909",
+              "type": "Event",
+              "_label": "1999: P.S.1 Studio Program Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-2 - 1999-3-4",
+                "begin_of_the_begin": "1999-7-2",
+                "end_of_the_end": "1999-3-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4973",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17071",
+              "type": "Event",
+              "_label": "East Village USA",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-9-12 - 2005-19-3",
+                "begin_of_the_begin": "2004-9-12",
+                "end_of_the_end": "2005-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4974",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18415",
+              "type": "Event",
+              "_label": "Maybe It's Cold Outside",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-13-2 - ",
+                "begin_of_the_begin": "1991-13-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4975",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18399",
+              "type": "Event",
+              "_label": "Live Satelite Broadcast f…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-1-12 - ",
+                "begin_of_the_begin": "1991-1-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4976",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18468",
+              "type": "Event",
+              "_label": "Paradise Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-12-9 - ",
+                "begin_of_the_begin": "2002-12-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4977",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

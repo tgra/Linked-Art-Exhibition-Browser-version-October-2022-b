@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63728",
+  "type": "Person",
+  "_label": "Andi Faryl Schreiber",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12299",
+      "type": "Name",
+      "_label": "Andi Faryl Schreiber"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12299",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24598",
+      "type": "TimeSpan",
+      "_label": "Andi Faryl Schreiber Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12299",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24599",
+      "type": "TimeSpan",
+      "_label": "Andi Faryl Schreiber Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12299",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12299",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17093",
+              "type": "Event",
+              "_label": "Picturing the Modern Amazon",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-30-3 - 2000-25-6",
+                "begin_of_the_begin": "2000-30-3",
+                "end_of_the_end": "2000-25-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25190",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

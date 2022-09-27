@@ -1,0 +1,290 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4225",
+  "type": "Person",
+  "_label": "Elizabeth Olds",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6602",
+      "type": "Name",
+      "_label": "Elizabeth Olds"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3008",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1897–1991"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6602",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13204",
+      "type": "TimeSpan",
+      "_label": "Elizabeth Olds Birth timespan",
+      "begin_of_the_begin": "1897",
+      "end_of_the_end": "1897"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6602",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13205",
+      "type": "TimeSpan",
+      "_label": "Elizabeth Olds Death timespan",
+      "begin_of_the_begin": "1991",
+      "end_of_the_end": "1991"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6602",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6602",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/111",
+              "type": "Event",
+              "_label": "Subway Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-8-2 - 1938-7-3",
+                "begin_of_the_begin": "1938-8-2",
+                "end_of_the_end": "1938-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14235",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/151",
+              "type": "Event",
+              "_label": "PM Competition: The Artist as Reporter",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-15-4 - 1940-7-5",
+                "begin_of_the_begin": "1940-15-4",
+                "end_of_the_end": "1940-7-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14236",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/164",
+              "type": "Event",
+              "_label": "American Color Prints under $10",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-26-11 - 1940-28-12",
+                "begin_of_the_begin": "1940-26-11",
+                "end_of_the_end": "1940-28-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14237",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/183",
+              "type": "Event",
+              "_label": "Animals in Art; Designing a Stage Setting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-1-7 - 1941-15-7",
+                "begin_of_the_begin": "1941-1-7",
+                "end_of_the_end": "1941-15-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14238",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/209",
+              "type": "Event",
+              "_label": "Silk Screen Prints Under $10",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-2-12 - 1942-4-1",
+                "begin_of_the_begin": "1941-2-12",
+                "end_of_the_end": "1942-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14239",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/213",
+              "type": "Event",
+              "_label": "Pictures for Children",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-10-12 - 1942-25-1",
+                "begin_of_the_begin": "1941-10-12",
+                "end_of_the_end": "1942-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14240",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/223",
+              "type": "Event",
+              "_label": "Art in War: OEM Purchases from a National Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-13-3 - 1942-25-3",
+                "begin_of_the_begin": "1942-13-3",
+                "end_of_the_end": "1942-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14241",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/381",
+              "type": "Event",
+              "_label": "Original Illustrations of Children's Books",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-16-4 - 1946-2-6",
+                "begin_of_the_begin": "1946-16-4",
+                "end_of_the_end": "1946-2-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14242",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/384",
+              "type": "Event",
+              "_label": "Designed for Children",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-11-6 - 1946-6-10",
+                "begin_of_the_begin": "1946-11-6",
+                "end_of_the_end": "1946-6-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14243",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59340",
+  "type": "Person",
+  "_label": "Masaki Tamra",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10109",
+      "type": "Name",
+      "_label": "Masaki Tamra"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10109",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20218",
+      "type": "TimeSpan",
+      "_label": "Masaki Tamra Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10109",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20219",
+      "type": "TimeSpan",
+      "_label": "Masaki Tamra Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10109",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10109",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3471",
+              "type": "Event",
+              "_label": "Buzz Club: News from Japan",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-1-7 - 2001-30-9",
+                "begin_of_the_begin": "2001-1-7",
+                "end_of_the_end": "2001-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21637",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

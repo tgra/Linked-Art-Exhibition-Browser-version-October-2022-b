@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57679",
+  "type": "Person",
+  "_label": "Katrini Krinsky",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8391",
+      "type": "Name",
+      "_label": "Katrini Krinsky"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8391",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16782",
+      "type": "TimeSpan",
+      "_label": "Katrini Krinsky Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8391",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16783",
+      "type": "TimeSpan",
+      "_label": "Katrini Krinsky Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8391",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8391",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2760",
+              "type": "Event",
+              "_label": "Video (Spring 1985)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-5-5 - 1985-23-6",
+                "begin_of_the_begin": "1985-5-5",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19099",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

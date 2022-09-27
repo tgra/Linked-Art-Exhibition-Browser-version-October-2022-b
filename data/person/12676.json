@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/12676",
+  "type": "Person",
+  "_label": "Farm Security Administration",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/165",
+      "type": "Name",
+      "_label": "Farm Security Administration"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/165",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/330",
+      "type": "TimeSpan",
+      "_label": "Farm Security Administration Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/165",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/331",
+      "type": "TimeSpan",
+      "_label": "Farm Security Administration Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/165",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/165",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/131",
+              "type": "Event",
+              "_label": "Houses and Housing: Industrial Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1939-10-5 - 1939-30-9",
+                "begin_of_the_begin": "1939-10-5",
+                "end_of_the_end": "1939-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/578",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

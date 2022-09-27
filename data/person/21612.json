@@ -1,0 +1,101 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21612",
+  "type": "Person",
+  "_label": "Albrecht Dürer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1419",
+      "type": "Name",
+      "_label": "Albrecht Dürer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1419",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2838",
+      "type": "TimeSpan",
+      "_label": "Albrecht Dürer Birth timespan",
+      "begin_of_the_begin": "1471",
+      "end_of_the_end": "1471"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1419",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2839",
+      "type": "TimeSpan",
+      "_label": "Albrecht Dürer Death timespan",
+      "begin_of_the_begin": "1528",
+      "end_of_the_end": "1528"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1419",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1419",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/84",
+              "type": "Event",
+              "_label": "Fantastic Art, Dada, Surrealism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-7-12 - 1937-17-1",
+                "begin_of_the_begin": "1936-7-12",
+                "end_of_the_end": "1937-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4097",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/183",
+              "type": "Event",
+              "_label": "Animals in Art; Designing a Stage Setting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-1-7 - 1941-15-7",
+                "begin_of_the_begin": "1941-1-7",
+                "end_of_the_end": "1941-15-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4098",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

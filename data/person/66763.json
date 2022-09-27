@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/66763",
+  "type": "Person",
+  "_label": "Stanislav Filko",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13559",
+      "type": "Name",
+      "_label": "Stanislav Filko"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13559",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27118",
+      "type": "TimeSpan",
+      "_label": "Stanislav Filko Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13559",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27119",
+      "type": "TimeSpan",
+      "_label": "Stanislav Filko Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13559",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13559",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17032",
+              "type": "Event",
+              "_label": "Ostalgia",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-14-7 - 2011-15-9",
+                "begin_of_the_begin": "2011-14-7",
+                "end_of_the_end": "2011-15-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27235",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17004",
+              "type": "Event",
+              "_label": "Museum as Hub: Report on the Construction of a Spaceship Module",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-22-1 - 2014-13-4",
+                "begin_of_the_begin": "2014-22-1",
+                "end_of_the_end": "2014-13-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27236",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

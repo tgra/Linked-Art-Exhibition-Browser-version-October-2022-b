@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60814",
+  "type": "Person",
+  "_label": "Clint Takeda",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11632",
+      "type": "Name",
+      "_label": "Clint Takeda"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11632",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23264",
+      "type": "TimeSpan",
+      "_label": "Clint Takeda Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11632",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23265",
+      "type": "TimeSpan",
+      "_label": "Clint Takeda Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11632",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11632",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4327",
+              "type": "Event",
+              "_label": "Clint Takeda",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-24-2 - 2001-22-4",
+                "begin_of_the_begin": "2001-24-2",
+                "end_of_the_end": "2001-22-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23920",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

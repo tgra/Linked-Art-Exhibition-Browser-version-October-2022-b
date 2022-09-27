@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/42007",
+  "type": "Person",
+  "_label": "Dorothy Iannone",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6592",
+      "type": "Name",
+      "_label": "Dorothy Iannone"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6592",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13184",
+      "type": "TimeSpan",
+      "_label": "Dorothy Iannone Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6592",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13185",
+      "type": "TimeSpan",
+      "_label": "Dorothy Iannone Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6592",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6592",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17047",
+              "type": "Event",
+              "_label": "Dorothy Iannone: Lioness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-22-7 - 2009-18-10",
+                "begin_of_the_begin": "2009-22-7",
+                "end_of_the_end": "2009-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/14215",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

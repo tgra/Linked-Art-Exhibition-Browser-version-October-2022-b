@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63472",
+  "type": "Person",
+  "_label": "Joan Herbst",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12159",
+      "type": "Name",
+      "_label": "Joan Herbst"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12159",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24318",
+      "type": "TimeSpan",
+      "_label": "Joan Herbst Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12159",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24319",
+      "type": "TimeSpan",
+      "_label": "Joan Herbst Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12159",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12159",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7269",
+              "type": "Event",
+              "_label": "The Burning Building",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-4-12 - 1959-11-12",
+                "begin_of_the_begin": "1959-4-12",
+                "end_of_the_end": "1959-11-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24924",
+                  "type": "Place",
+                  "_label": "148 Delancey Street, 3rd Floor",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7275",
+              "type": "Event",
+              "_label": "Joan Herbst: The Red King and the Witch - A Puppet Play",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-6-5 - 1960-9-5",
+                "begin_of_the_begin": "1960-6-5",
+                "end_of_the_end": "1960-9-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24925",
+                  "type": "Place",
+                  "_label": "148 Delancey Street, 3rd Floor",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

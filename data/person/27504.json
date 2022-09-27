@@ -1,0 +1,190 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27504",
+  "type": "Person",
+  "_label": "Andrew Carnduff Ritchie",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2598",
+      "type": "Name",
+      "_label": "Andrew Carnduff Ritchie"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2048",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born Scotland, 1907–1978"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2598",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5196",
+      "type": "TimeSpan",
+      "_label": "Andrew Carnduff Ritchie Birth timespan",
+      "begin_of_the_begin": "1907",
+      "end_of_the_end": "1907"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2598",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5197",
+      "type": "TimeSpan",
+      "_label": "Andrew Carnduff Ritchie Death timespan",
+      "begin_of_the_begin": "1978",
+      "end_of_the_end": "1978"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2598",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2598",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/508",
+              "type": "Event",
+              "_label": "Charles Demuth",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-7-3 - 1950-11-6",
+                "begin_of_the_begin": "1950-7-3",
+                "end_of_the_end": "1950-11-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7052",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/509",
+              "type": "Event",
+              "_label": "Franklin Watkins",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-21-3 - 1950-11-6",
+                "begin_of_the_begin": "1950-21-3",
+                "end_of_the_end": "1950-11-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7053",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/513",
+              "type": "Event",
+              "_label": "New Talent Exhibition in the Penthouse: Drumlevitch, King, Parker",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-28-4 - 1950-7-6",
+                "begin_of_the_begin": "1950-28-4",
+                "end_of_the_end": "1950-7-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7054",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/535",
+              "type": "Event",
+              "_label": "Abstract Painting and Sculpture in America",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-23-1 - 1951-25-3",
+                "begin_of_the_begin": "1951-23-1",
+                "end_of_the_end": "1951-25-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7055",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/540",
+              "type": "Event",
+              "_label": "Lebrun: Crucifixion",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-27-2 - 1951-15-4",
+                "begin_of_the_begin": "1951-27-2",
+                "end_of_the_end": "1951-15-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7056",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

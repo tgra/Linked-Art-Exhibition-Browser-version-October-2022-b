@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/664",
+  "type": "Person",
+  "_label": "Dorr Bothwell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13400",
+      "type": "Name",
+      "_label": "Dorr Bothwell"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3920",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1902–2000"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13400",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26800",
+      "type": "TimeSpan",
+      "_label": "Dorr Bothwell Birth timespan",
+      "begin_of_the_begin": "1902",
+      "end_of_the_end": "1902"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13400",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26801",
+      "type": "TimeSpan",
+      "_label": "Dorr Bothwell Death timespan",
+      "begin_of_the_begin": "2000",
+      "end_of_the_end": "2000"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13400",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13400",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/381",
+              "type": "Event",
+              "_label": "Original Illustrations of Children's Books",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-16-4 - 1946-2-6",
+                "begin_of_the_begin": "1946-16-4",
+                "end_of_the_end": "1946-2-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27000",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/551",
+              "type": "Event",
+              "_label": "Some American Prints, 1949–50, from the Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1951-3-7 - 1951-13-9",
+                "begin_of_the_begin": "1951-3-7",
+                "end_of_the_end": "1951-13-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27001",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2988",
+  "type": "Person",
+  "_label": "Alain Kirili",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4771",
+      "type": "Name",
+      "_label": "Alain Kirili"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2311",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, born 1946"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4771",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9542",
+      "type": "TimeSpan",
+      "_label": "Alain Kirili Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4771",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9543",
+      "type": "TimeSpan",
+      "_label": "Alain Kirili Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4771",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4771",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3621",
+              "type": "Event",
+              "_label": "Alain Kirili: Open Studio Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-21-5 - 1976-31-5",
+                "begin_of_the_begin": "1976-21-5",
+                "end_of_the_end": "1976-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9977",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2992",
+              "type": "Event",
+              "_label": "Rooms",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-9-6 - 1976-26-6",
+                "begin_of_the_begin": "1976-9-6",
+                "end_of_the_end": "1976-26-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9978",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2986",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1977)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-1-1 - 1977-1-3",
+                "begin_of_the_begin": "1977-1-1",
+                "end_of_the_end": "1977-1-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9979",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2962",
+              "type": "Event",
+              "_label": "Special Projects (May 1977)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-1-5 - 1977-29-5",
+                "begin_of_the_begin": "1977-1-5",
+                "end_of_the_end": "1977-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9980",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2961",
+              "type": "Event",
+              "_label": "Indoor/Outdoor Sculpture Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-16-4 - 1978-21-5",
+                "begin_of_the_begin": "1978-16-4",
+                "end_of_the_end": "1978-21-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9981",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3765",
+              "type": "Event",
+              "_label": "Postpuritanism: A Sculpture Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-26-11 - 1980-20-12",
+                "begin_of_the_begin": "1980-26-11",
+                "end_of_the_end": "1980-20-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9982",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

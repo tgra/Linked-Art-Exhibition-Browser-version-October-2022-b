@@ -1,0 +1,173 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/35434",
+  "type": "Person",
+  "_label": "David Smith",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6227",
+      "type": "Name",
+      "_label": "David Smith"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6227",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12454",
+      "type": "TimeSpan",
+      "_label": "David Smith Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6227",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12455",
+      "type": "TimeSpan",
+      "_label": "David Smith Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6227",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6227",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4408",
+              "type": "Event",
+              "_label": "David Smith: Sculpture & Drawings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1964-1-2 - 1964-26-3",
+                "begin_of_the_begin": "1964-1-2",
+                "end_of_the_end": "1964-26-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12741",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4204",
+              "type": "Event",
+              "_label": "7 Sculptors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-1-12 - 1966-17-1",
+                "begin_of_the_begin": "1965-1-12",
+                "end_of_the_end": "1966-17-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12742",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4201",
+              "type": "Event",
+              "_label": "New Art in Philadelphia",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-30-9 - 1966-11-11",
+                "begin_of_the_begin": "1966-30-9",
+                "end_of_the_end": "1966-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12743",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4198",
+              "type": "Event",
+              "_label": "Selected Works from the Collection of Mr. and Mrs. H. Gates Lloyd",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-18-10 - 1967-19-11",
+                "begin_of_the_begin": "1967-18-10",
+                "end_of_the_end": "1967-19-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12744",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4177",
+              "type": "Event",
+              "_label": "Inside Philadelphia: Selections from Private Collections",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-11-11 - 1972-19-12",
+                "begin_of_the_begin": "1972-11-11",
+                "end_of_the_end": "1972-19-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12745",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

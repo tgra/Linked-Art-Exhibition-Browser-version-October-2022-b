@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3046",
+  "type": "Person",
+  "_label": "Robert Kobayashi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5133",
+      "type": "Name",
+      "_label": "Robert Kobayashi"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2343",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1925"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5133",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10266",
+      "type": "TimeSpan",
+      "_label": "Robert Kobayashi Birth timespan",
+      "begin_of_the_begin": "1925",
+      "end_of_the_end": "1925"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5133",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10267",
+      "type": "TimeSpan",
+      "_label": "Robert Kobayashi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5133",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5133",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7245",
+              "type": "Event",
+              "_label": "Takeshi Asada, Bob Kobayashi, Nicholas Krushenick",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-13-2 - 1959-11-3",
+                "begin_of_the_begin": "1959-13-2",
+                "end_of_the_end": "1959-11-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10457",
+                  "type": "Place",
+                  "_label": "89 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

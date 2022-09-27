@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60947",
+  "type": "Person",
+  "_label": "Dionisis Kavallieratos",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11768",
+      "type": "Name",
+      "_label": "Dionisis Kavallieratos"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11768",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23536",
+      "type": "TimeSpan",
+      "_label": "Dionisis Kavallieratos Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11768",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23537",
+      "type": "TimeSpan",
+      "_label": "Dionisis Kavallieratos Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11768",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11768",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4032",
+              "type": "Event",
+              "_label": "Blowing On A Hairy Shoulder / Grief Hunters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-7-9 - 2011-4-12",
+                "begin_of_the_begin": "2011-7-9",
+                "end_of_the_end": "2011-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24089",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60853",
+  "type": "Person",
+  "_label": "Fanuele Architecte",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11673",
+      "type": "Name",
+      "_label": "Fanuele Architecte"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11673",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23346",
+      "type": "TimeSpan",
+      "_label": "Fanuele Architecte Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11673",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23347",
+      "type": "TimeSpan",
+      "_label": "Fanuele Architecte Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11673",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11673",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4308",
+              "type": "Event",
+              "_label": "Intricacy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-18-1 - 2003-6-4",
+                "begin_of_the_begin": "2003-18-1",
+                "end_of_the_end": "2003-6-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23973",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

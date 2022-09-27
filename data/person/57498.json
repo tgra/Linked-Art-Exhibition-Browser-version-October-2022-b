@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57498",
+  "type": "Person",
+  "_label": "Thomas Schliesser",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8203",
+      "type": "Name",
+      "_label": "Thomas Schliesser"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8203",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16406",
+      "type": "TimeSpan",
+      "_label": "Thomas Schliesser Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8203",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16407",
+      "type": "TimeSpan",
+      "_label": "Thomas Schliesser Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8203",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8203",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3638",
+              "type": "Event",
+              "_label": "National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-21-11 - 1985-22-12",
+                "begin_of_the_begin": "1985-21-11",
+                "end_of_the_end": "1985-22-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18795",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27209",
+  "type": "Person",
+  "_label": "N.B. Lerner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2296",
+      "type": "Name",
+      "_label": "N.B. Lerner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2296",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4592",
+      "type": "TimeSpan",
+      "_label": "N.B. Lerner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2296",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4593",
+      "type": "TimeSpan",
+      "_label": "N.B. Lerner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2296",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2296",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/244",
+              "type": "Event",
+              "_label": "How to make a Photogram",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-16-9 - 1942-2-11",
+                "begin_of_the_begin": "1942-16-9",
+                "end_of_the_end": "1942-2-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6527",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/244",
+              "type": "Event",
+              "_label": "How to make a Photogram",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-16-9 - 1942-2-11",
+                "begin_of_the_begin": "1942-16-9",
+                "end_of_the_end": "1942-2-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6528",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/20521",
+  "type": "Person",
+  "_label": "Trisha Donnelly",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1176",
+      "type": "Name",
+      "_label": "Trisha Donnelly"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1039",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1974"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1176",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2352",
+      "type": "TimeSpan",
+      "_label": "Trisha Donnelly Birth timespan",
+      "begin_of_the_begin": "1974",
+      "end_of_the_end": "1974"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1176",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2353",
+      "type": "TimeSpan",
+      "_label": "Trisha Donnelly Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1176",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1176",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4062",
+              "type": "Event",
+              "_label": "Trisha Donnelly",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-18-1 - 2008-3-8",
+                "begin_of_the_begin": "2008-18-1",
+                "end_of_the_end": "2008-3-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3393",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3458",
+              "type": "Event",
+              "_label": "Collection (or, How I Spent a Year)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-22-1 - 2004-17-5",
+                "begin_of_the_begin": "2004-22-1",
+                "end_of_the_end": "2004-17-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3394",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3389",
+              "type": "Event",
+              "_label": "Curious Crystals of Unusual Purity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-27-6 - 2004-27-9",
+                "begin_of_the_begin": "2004-27-6",
+                "end_of_the_end": "2004-27-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3395",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3434",
+              "type": "Event",
+              "_label": "Trisha Donnelly",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-30-10 - 2006-30-1",
+                "begin_of_the_begin": "2005-30-10",
+                "end_of_the_end": "2006-30-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3396",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17082",
+              "type": "Event",
+              "_label": "New Additions to the Altoids Curiously Strong Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-25-1 - 2002-17-2",
+                "begin_of_the_begin": "2002-25-1",
+                "end_of_the_end": "2002-17-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3397",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17058",
+              "type": "Event",
+              "_label": "The Sound of Things: Unmonumental Audio",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-13-2 - 2008-30-3",
+                "begin_of_the_begin": "2008-13-2",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3398",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59524",
+  "type": "Person",
+  "_label": "Garrett List",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10299",
+      "type": "Name",
+      "_label": "Garrett List"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10299",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20598",
+      "type": "TimeSpan",
+      "_label": "Garrett List Birth timespan",
+      "begin_of_the_begin": "1943",
+      "end_of_the_end": "1943"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10299",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20599",
+      "type": "TimeSpan",
+      "_label": "Garrett List Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10299",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10299",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3051",
+              "type": "Event",
+              "_label": "Jacki Apple: Heart of Palms",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-29-1 - 1978-29-1",
+                "begin_of_the_begin": "1978-29-1",
+                "end_of_the_end": "1978-29-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21887",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18299",
+              "type": "Event",
+              "_label": "Evening of New Music",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-9-10 - ",
+                "begin_of_the_begin": "1972-9-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21888",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18443",
+              "type": "Event",
+              "_label": "New Music, New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-8-6 - ",
+                "begin_of_the_begin": "1979-8-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21889",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18175",
+              "type": "Event",
+              "_label": "Aluminum Nights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-14-6 - ",
+                "begin_of_the_begin": "1981-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21890",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

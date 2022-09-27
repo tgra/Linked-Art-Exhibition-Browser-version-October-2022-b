@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58764",
+  "type": "Person",
+  "_label": "Donald Kuspit",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9516",
+      "type": "Name",
+      "_label": "Donald Kuspit"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9516",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19032",
+      "type": "TimeSpan",
+      "_label": "Donald Kuspit Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9516",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19033",
+      "type": "TimeSpan",
+      "_label": "Donald Kuspit Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9516",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9516",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2780",
+              "type": "Event",
+              "_label": "Special Projects (Fall 1982)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-10 - 1982-12-12",
+                "begin_of_the_begin": "1982-17-10",
+                "end_of_the_end": "1982-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20767",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17239",
+              "type": "Event",
+              "_label": "Art and Ideology",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-4-2 - 1984-18-3",
+                "begin_of_the_begin": "1984-4-2",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20768",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

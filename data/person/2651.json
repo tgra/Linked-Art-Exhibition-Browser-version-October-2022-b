@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2651",
+  "type": "Person",
+  "_label": "Hundertwasser (Friedrich Stowasser)",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2168",
+      "type": "Name",
+      "_label": "Hundertwasser (Friedrich Stowasser)"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1873",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Austrian, 1928–2000"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2168",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4336",
+      "type": "TimeSpan",
+      "_label": "Hundertwasser (Friedrich Stowasser) Birth timespan",
+      "begin_of_the_begin": "1928",
+      "end_of_the_end": "1928"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2168",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4337",
+      "type": "TimeSpan",
+      "_label": "Hundertwasser (Friedrich Stowasser) Death timespan",
+      "begin_of_the_begin": "2000",
+      "end_of_the_end": "2000"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2168",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2168",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4201",
+              "type": "Event",
+              "_label": "New Art in Philadelphia",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1966-30-9 - 1966-11-11",
+                "begin_of_the_begin": "1966-30-9",
+                "end_of_the_end": "1966-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6078",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

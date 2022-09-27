@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67403",
+  "type": "Person",
+  "_label": "Manuel DeLanda",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13926",
+      "type": "Name",
+      "_label": "Manuel DeLanda"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13926",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27852",
+      "type": "TimeSpan",
+      "_label": "Manuel DeLanda Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13926",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27853",
+      "type": "TimeSpan",
+      "_label": "Manuel DeLanda Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13926",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13926",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18312",
+              "type": "Event",
+              "_label": "Filmworks '82",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-25-5 - ",
+                "begin_of_the_begin": "1982-25-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27763",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

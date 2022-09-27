@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65287",
+  "type": "Person",
+  "_label": "Josef Dabernig",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12918",
+      "type": "Name",
+      "_label": "Josef Dabernig"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12918",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25836",
+      "type": "TimeSpan",
+      "_label": "Josef Dabernig Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12918",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25837",
+      "type": "TimeSpan",
+      "_label": "Josef Dabernig Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12918",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12918",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21918",
+              "type": "Event",
+              "_label": "Videodrome II",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-2-10 - 2002-3-11",
+                "begin_of_the_begin": "2002-2-10",
+                "end_of_the_end": "2002-3-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26171",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17004",
+              "type": "Event",
+              "_label": "Museum as Hub: Report on the Construction of a Spaceship Module",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-22-1 - 2014-13-4",
+                "begin_of_the_begin": "2014-22-1",
+                "end_of_the_end": "2014-13-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26172",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

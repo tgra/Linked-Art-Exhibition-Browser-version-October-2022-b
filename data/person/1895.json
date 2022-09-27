@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1895",
+  "type": "Person",
+  "_label": "Claud Lovat Fraser",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/963",
+      "type": "Name",
+      "_label": "Claud Lovat Fraser"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/850",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, 1890–1921"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/963",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1926",
+      "type": "TimeSpan",
+      "_label": "Claud Lovat Fraser Birth timespan",
+      "begin_of_the_begin": "1890",
+      "end_of_the_end": "1890"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/963",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1927",
+      "type": "TimeSpan",
+      "_label": "Claud Lovat Fraser Death timespan",
+      "begin_of_the_begin": "1921",
+      "end_of_the_end": "1921"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/963",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/963",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/46",
+              "type": "Event",
+              "_label": "International Exhibition of Theatre Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1934-15-1 - 1934-25-2",
+                "begin_of_the_begin": "1934-15-1",
+                "end_of_the_end": "1934-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2840",
+                  "type": "Place",
+                  "_label": "1st, 2nd, 3rd and 4th Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

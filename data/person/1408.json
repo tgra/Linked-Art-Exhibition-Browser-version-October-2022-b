@@ -1,0 +1,141 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/1408",
+  "type": "Person",
+  "_label": "Jack Delano",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/262",
+      "type": "Name",
+      "_label": "Jack Delano"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/211",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born Russia. 1914–1997"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/262",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/524",
+      "type": "TimeSpan",
+      "_label": "Jack Delano Birth timespan",
+      "begin_of_the_begin": "1914",
+      "end_of_the_end": "1914"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/262",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/525",
+      "type": "TimeSpan",
+      "_label": "Jack Delano Death timespan",
+      "begin_of_the_begin": "1997",
+      "end_of_the_end": "1997"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/262",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/262",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17245",
+              "type": "Event",
+              "_label": "Events: En Foco, Heresies Collective",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-6 - 1983-20-7",
+                "begin_of_the_begin": "1983-11-6",
+                "end_of_the_end": "1983-20-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/925",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22024",
+              "type": "Event",
+              "_label": "Events: En Foco",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-6 - 1983-20-7",
+                "begin_of_the_begin": "1983-11-6",
+                "end_of_the_end": "1983-20-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/926",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/231",
+              "type": "Event",
+              "_label": "Road to Victory",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-21-5 - 1942-4-10",
+                "begin_of_the_begin": "1942-21-5",
+                "end_of_the_end": "1942-4-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/927",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

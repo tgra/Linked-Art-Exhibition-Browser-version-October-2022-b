@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60292",
+  "type": "Person",
+  "_label": "Nancy Friedemann",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11099",
+      "type": "Name",
+      "_label": "Nancy Friedemann"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11099",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22198",
+      "type": "TimeSpan",
+      "_label": "Nancy Friedemann Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11099",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22199",
+      "type": "TimeSpan",
+      "_label": "Nancy Friedemann Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11099",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11099",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3550",
+              "type": "Event",
+              "_label": "Emergency Room",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-8-2 - 2007-19-3",
+                "begin_of_the_begin": "2007-8-2",
+                "end_of_the_end": "2007-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23098",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/33130",
+  "type": "Person",
+  "_label": "Cynthia Carlson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5947",
+      "type": "Name",
+      "_label": "Cynthia Carlson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5947",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11894",
+      "type": "TimeSpan",
+      "_label": "Cynthia Carlson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5947",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11895",
+      "type": "TimeSpan",
+      "_label": "Cynthia Carlson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5947",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5947",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4179",
+              "type": "Event",
+              "_label": "The Topography of Nature",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-22-3 - 1972-27-4",
+                "begin_of_the_begin": "1972-22-3",
+                "end_of_the_end": "1972-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12013",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4146",
+              "type": "Event",
+              "_label": "Material Pleasures: The Fabric Workshop at ICA",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-13-6 - 1979-21-7",
+                "begin_of_the_begin": "1979-13-6",
+                "end_of_the_end": "1979-21-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12014",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4147",
+              "type": "Event",
+              "_label": "The Decorative Impulse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-13-6 - 1979-21-7",
+                "begin_of_the_begin": "1979-13-6",
+                "end_of_the_end": "1979-21-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12015",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3035",
+              "type": "Event",
+              "_label": "Pattern Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-14-11 - 1977-4-12",
+                "begin_of_the_begin": "1977-14-11",
+                "end_of_the_end": "1977-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12016",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

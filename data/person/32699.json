@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32699",
+  "type": "Person",
+  "_label": "Jane Hudson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5821",
+      "type": "Name",
+      "_label": "Jane Hudson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5821",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11642",
+      "type": "TimeSpan",
+      "_label": "Jane Hudson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5821",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11643",
+      "type": "TimeSpan",
+      "_label": "Jane Hudson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5821",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5821",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2722",
+              "type": "Event",
+              "_label": "Serious Fun Night",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-25-4 - 1982-25-4",
+                "begin_of_the_begin": "1982-25-4",
+                "end_of_the_end": "1982-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11633",
+                  "type": "Place",
+                  "_label": "Danceteria, 30 West 21st St., New York City",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18280",
+              "type": "Event",
+              "_label": "Dubbed in Glamour",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-21-11 - ",
+                "begin_of_the_begin": "1980-21-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11634",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/49364",
+  "type": "Person",
+  "_label": "Ari Marcopoulos",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6941",
+      "type": "Name",
+      "_label": "Ari Marcopoulos"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3310",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born the Netherlands 1957"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6941",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13882",
+      "type": "TimeSpan",
+      "_label": "Ari Marcopoulos Birth timespan",
+      "begin_of_the_begin": "1957",
+      "end_of_the_end": "1957"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6941",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13883",
+      "type": "TimeSpan",
+      "_label": "Ari Marcopoulos Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6941",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6941",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3438",
+              "type": "Event",
+              "_label": "Ari Marcopoulos",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-23-10 - 2006-23-1",
+                "begin_of_the_begin": "2005-23-10",
+                "end_of_the_end": "2006-23-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15726",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2927",
+              "type": "Event",
+              "_label": "International and National Projects Summer 2007: Victor Alimpiev, Jim Denevan and Ari Marcopoulos, Gandalf Gavan, Jonathan Hartshorn, Molly Larkey, Prema Murthy, and Adam Putnam",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-24-6 - 2007-24-9",
+                "begin_of_the_begin": "2007-24-6",
+                "end_of_the_end": "2007-24-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15727",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

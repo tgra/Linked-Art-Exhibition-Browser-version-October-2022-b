@@ -1,0 +1,148 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/61056",
+  "type": "Person",
+  "_label": "Gregory Sholette",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11884",
+      "type": "Name",
+      "_label": "Gregory Sholette"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11884",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23768",
+      "type": "TimeSpan",
+      "_label": "Gregory Sholette Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11884",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23769",
+      "type": "TimeSpan",
+      "_label": "Gregory Sholette Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11884",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11884",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4003",
+              "type": "Event",
+              "_label": "Traces in the Dark",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-4-2 - 2015-22-3",
+                "begin_of_the_begin": "2015-4-2",
+                "end_of_the_end": "2015-22-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24230",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21966",
+              "type": "Event",
+              "_label": "Keeping Track of the Joneses",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-19-3 - 1998-12-4",
+                "begin_of_the_begin": "1998-19-3",
+                "end_of_the_end": "1998-12-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24231",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21963",
+              "type": "Event",
+              "_label": "Whose History Is It Anyway?",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-30-4 - 1998-31-5",
+                "begin_of_the_begin": "1998-30-4",
+                "end_of_the_end": "1998-31-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24232",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21961",
+              "type": "Event",
+              "_label": "Urban Encounters",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-16-7 - 1998-20-9",
+                "begin_of_the_begin": "1998-16-7",
+                "end_of_the_end": "1998-20-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24233",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

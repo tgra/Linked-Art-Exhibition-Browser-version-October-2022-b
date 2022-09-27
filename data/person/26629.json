@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/26629",
+  "type": "Person",
+  "_label": "Frederick Cooper",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2182",
+      "type": "Name",
+      "_label": "Frederick Cooper"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1885",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Peruvian"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2182",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4364",
+      "type": "TimeSpan",
+      "_label": "Frederick Cooper Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2182",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4365",
+      "type": "TimeSpan",
+      "_label": "Frederick Cooper Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2182",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2182",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/250",
+              "type": "Event",
+              "_label": "United Hemisphere Poster Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-21-10 - 1942-24-11",
+                "begin_of_the_begin": "1942-21-10",
+                "end_of_the_end": "1942-24-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6111",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

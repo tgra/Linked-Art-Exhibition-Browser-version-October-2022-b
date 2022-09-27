@@ -1,0 +1,148 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/25773",
+  "type": "Person",
+  "_label": "Bill Bollinger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2056",
+      "type": "Name",
+      "_label": "Bill Bollinger"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2056",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4112",
+      "type": "TimeSpan",
+      "_label": "Bill Bollinger Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2056",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4113",
+      "type": "TimeSpan",
+      "_label": "Bill Bollinger Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2056",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2056",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4191",
+              "type": "Event",
+              "_label": "Between Object and Environment: Sculpture in an Extended Format",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1969-2-4 - 1969-3-5",
+                "begin_of_the_begin": "1969-2-4",
+                "end_of_the_end": "1969-3-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5797",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4165",
+              "type": "Event",
+              "_label": "Painting Drawing and Sculpture of the '60s and the '70s from the Dorthy and Herbert Vogel Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-7-10 - 1975-18-11",
+                "begin_of_the_begin": "1975-7-10",
+                "end_of_the_end": "1975-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5798",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3612",
+              "type": "Event",
+              "_label": "The Brooklyn Bridge Event",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1971-21-5 - 1971-24-5",
+                "begin_of_the_begin": "1971-21-5",
+                "end_of_the_end": "1971-24-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5799",
+                  "type": "Place",
+                  "_label": "The Brooklyn Bridge",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2702",
+              "type": "Event",
+              "_label": "5 Sculptors-7,000 Sq. Feet",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-10-6 - 1972-24-6",
+                "begin_of_the_begin": "1972-10-6",
+                "end_of_the_end": "1972-24-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5800",
+                  "type": "Place",
+                  "_label": "10 Bleecker Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

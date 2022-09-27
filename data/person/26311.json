@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/26311",
+  "type": "Person",
+  "_label": "Werner Herzog",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2130",
+      "type": "Name",
+      "_label": "Werner Herzog"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1837",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1942"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2130",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4260",
+      "type": "TimeSpan",
+      "_label": "Werner Herzog Birth timespan",
+      "begin_of_the_begin": "1942",
+      "end_of_the_end": "1942"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2130",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4261",
+      "type": "TimeSpan",
+      "_label": "Werner Herzog Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2130",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2130",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3507",
+              "type": "Event",
+              "_label": "Summer School (2011): Gus Van Sant and James Franco: My Own Private River",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-30-7 - 2011-29-8",
+                "begin_of_the_begin": "2011-30-7",
+                "end_of_the_end": "2011-29-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6002",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17055",
+              "type": "Event",
+              "_label": "After Nature",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-17-7 - 2008-5-10",
+                "begin_of_the_begin": "2008-17-7",
+                "end_of_the_end": "2008-5-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6003",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

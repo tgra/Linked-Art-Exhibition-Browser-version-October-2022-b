@@ -1,0 +1,172 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32628",
+  "type": "Person",
+  "_label": "Peter Rose",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5809",
+      "type": "Name",
+      "_label": "Peter Rose"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5809",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11618",
+      "type": "TimeSpan",
+      "_label": "Peter Rose Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5809",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11619",
+      "type": "TimeSpan",
+      "_label": "Peter Rose Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5809",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5809",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4117",
+              "type": "Event",
+              "_label": "Made in Philadelphia 6",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-10-3 - 1984-25-4",
+                "begin_of_the_begin": "1984-10-3",
+                "end_of_the_end": "1984-25-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11573",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4400",
+              "type": "Event",
+              "_label": "Philadelphia Art Now: Artists Choose Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-19-1 - 1991-3-3",
+                "begin_of_the_begin": "1991-19-1",
+                "end_of_the_end": "1991-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11574",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3295",
+              "type": "Event",
+              "_label": "Outdoor Cinema Series (Summer 1999)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-15-7 - 1999-29-7",
+                "begin_of_the_begin": "1999-15-7",
+                "end_of_the_end": "1999-29-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11575",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18173",
+              "type": "Event",
+              "_label": "Almost Dance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-16-11 - ",
+                "begin_of_the_begin": "1984-16-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11576",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/28423",
+              "type": "Event",
+              "_label": "Virtual Objects and Embodied Images",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-11-11 - 1998-24-11",
+                "begin_of_the_begin": "1998-11-11",
+                "end_of_the_end": "1998-24-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11577",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

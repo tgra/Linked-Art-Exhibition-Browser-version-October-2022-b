@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/29250",
+  "type": "Person",
+  "_label": "Kitty de Leeuw",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4332",
+      "type": "Name",
+      "_label": "Kitty de Leeuw"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4332",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8664",
+      "type": "TimeSpan",
+      "_label": "Kitty de Leeuw Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4332",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8665",
+      "type": "TimeSpan",
+      "_label": "Kitty de Leeuw Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4332",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4332",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/359",
+              "type": "Event",
+              "_label": "Textile Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-29-8 - 1945-23-9",
+                "begin_of_the_begin": "1945-29-8",
+                "end_of_the_end": "1945-23-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9428",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/33140",
+  "type": "Person",
+  "_label": "Cletus Johnson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5949",
+      "type": "Name",
+      "_label": "Cletus Johnson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5949",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11898",
+      "type": "TimeSpan",
+      "_label": "Cletus Johnson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5949",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11899",
+      "type": "TimeSpan",
+      "_label": "Cletus Johnson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5949",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5949",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3731",
+              "type": "Event",
+              "_label": "Habitats",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-9-3 - 1983-9-4",
+                "begin_of_the_begin": "1983-9-3",
+                "end_of_the_end": "1983-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12021",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

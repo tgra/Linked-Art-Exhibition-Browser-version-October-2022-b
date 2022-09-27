@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67334",
+  "type": "Person",
+  "_label": "Jim Jacobs",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13855",
+      "type": "Name",
+      "_label": "Jim Jacobs"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13855",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27710",
+      "type": "TimeSpan",
+      "_label": "Jim Jacobs Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13855",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27711",
+      "type": "TimeSpan",
+      "_label": "Jim Jacobs Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13855",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13855",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18591",
+              "type": "Event",
+              "_label": "The Anticipated Ruin",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-12-1 - ",
+                "begin_of_the_begin": "1985-12-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27672",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27846",
+  "type": "Person",
+  "_label": "Ignatz Wiemeler",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2953",
+      "type": "Name",
+      "_label": "Ignatz Wiemeler"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2953",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5906",
+      "type": "TimeSpan",
+      "_label": "Ignatz Wiemeler Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2953",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5907",
+      "type": "TimeSpan",
+      "_label": "Ignatz Wiemeler Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2953",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2953",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/68",
+              "type": "Event",
+              "_label": "Ignatz Wiemeler, Modern Bookbinder",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1935-30-9 - 1935-24-10",
+                "begin_of_the_begin": "1935-30-9",
+                "end_of_the_end": "1935-24-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7520",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

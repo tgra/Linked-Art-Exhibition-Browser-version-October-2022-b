@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65270",
+  "type": "Person",
+  "_label": "Jonathan Schnapp",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12909",
+      "type": "Name",
+      "_label": "Jonathan Schnapp"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12909",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25818",
+      "type": "TimeSpan",
+      "_label": "Jonathan Schnapp Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12909",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25819",
+      "type": "TimeSpan",
+      "_label": "Jonathan Schnapp Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12909",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12909",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17131",
+              "type": "Event",
+              "_label": "The Spatial Drive: Security and Admissions Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-27-9 - 1993-3-1",
+                "begin_of_the_begin": "1992-27-9",
+                "end_of_the_end": "1993-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26156",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

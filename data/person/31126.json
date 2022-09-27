@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/31126",
+  "type": "Person",
+  "_label": "Elizabeth Wells Robertson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5457",
+      "type": "Name",
+      "_label": "Elizabeth Wells Robertson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5457",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10914",
+      "type": "TimeSpan",
+      "_label": "Elizabeth Wells Robertson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5457",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10915",
+      "type": "TimeSpan",
+      "_label": "Elizabeth Wells Robertson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5457",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5457",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/249",
+              "type": "Event",
+              "_label": "Art of Two Cities: Chicago and New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-14-10 - 1942-15-11",
+                "begin_of_the_begin": "1942-14-10",
+                "end_of_the_end": "1942-15-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10914",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2826",
+  "type": "Person",
+  "_label": "Mervin Jules",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3321",
+      "type": "Name",
+      "_label": "Mervin Jules"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2170",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1912–1994"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3321",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/6642",
+      "type": "TimeSpan",
+      "_label": "Mervin Jules Birth timespan",
+      "begin_of_the_begin": "1912",
+      "end_of_the_end": "1912"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3321",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/6643",
+      "type": "TimeSpan",
+      "_label": "Mervin Jules Death timespan",
+      "begin_of_the_begin": "1994",
+      "end_of_the_end": "1994"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3321",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3321",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/166",
+              "type": "Event",
+              "_label": "We Like Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-27-12 - 1941-12-1",
+                "begin_of_the_begin": "1940-27-12",
+                "end_of_the_end": "1941-12-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8039",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/213",
+              "type": "Event",
+              "_label": "Pictures for Children",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-10-12 - 1942-25-1",
+                "begin_of_the_begin": "1941-10-12",
+                "end_of_the_end": "1942-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8040",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/245",
+              "type": "Event",
+              "_label": "How Modern Artists Paint People",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-22-9 - 1942-13-10",
+                "begin_of_the_begin": "1942-22-9",
+                "end_of_the_end": "1942-13-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8041",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/288",
+              "type": "Event",
+              "_label": "Art Shows for U.S.O. Centers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-4-8 - 1943-26-9",
+                "begin_of_the_begin": "1943-4-8",
+                "end_of_the_end": "1943-26-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8042",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/299",
+              "type": "Event",
+              "_label": "New Acquisitions: 12 American Paintings",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-19-1 - 1944-26-3",
+                "begin_of_the_begin": "1944-19-1",
+                "end_of_the_end": "1944-26-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8043",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/369",
+              "type": "Event",
+              "_label": "Creative Art by American Children",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-15-1 - 1946-3-3",
+                "begin_of_the_begin": "1946-15-1",
+                "end_of_the_end": "1946-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8044",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/384",
+              "type": "Event",
+              "_label": "Designed for Children",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-11-6 - 1946-6-10",
+                "begin_of_the_begin": "1946-11-6",
+                "end_of_the_end": "1946-6-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8045",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/428",
+              "type": "Event",
+              "_label": "Children's Holiday Fair of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1947-2-12 - 1948-4-1",
+                "begin_of_the_begin": "1947-2-12",
+                "end_of_the_end": "1948-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8046",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

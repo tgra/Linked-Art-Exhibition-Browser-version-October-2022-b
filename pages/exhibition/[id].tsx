@@ -46,8 +46,10 @@ const Exhibition = () => {
           <h3>{set._label}</h3>
           <ol>
          
-           { set.about.map((agent) => (
-              <li key={agent.id}>{agent._label}</li>
+           { 
+           
+           set.about.map((agent) => (
+              <li key={'/person/' + agent.id.split("/").pop()}><a href={'/person/' + agent.id.split("/").pop()}>{agent._label}</a></li>
             ))
            }
           </ol> 

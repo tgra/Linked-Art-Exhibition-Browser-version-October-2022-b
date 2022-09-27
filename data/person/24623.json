@@ -1,0 +1,139 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/24623",
+  "type": "Person",
+  "_label": "Haluk Akakçe",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1891",
+      "type": "Name",
+      "_label": "Haluk Akakçe"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1628",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Turkish, born 1970"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1891",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3782",
+      "type": "TimeSpan",
+      "_label": "Haluk Akakçe Birth timespan",
+      "begin_of_the_begin": "1970",
+      "end_of_the_end": "1970"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1891",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3783",
+      "type": "TimeSpan",
+      "_label": "Haluk Akakçe Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1891",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1891",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2885",
+              "type": "Event",
+              "_label": "Special Projects (Fall 2000)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-1-9 - 2000-30-11",
+                "begin_of_the_begin": "2000-1-9",
+                "end_of_the_end": "2000-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5403",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3465",
+              "type": "Event",
+              "_label": "Animations",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-14-10 - 2002-20-1",
+                "begin_of_the_begin": "2001-14-10",
+                "end_of_the_end": "2002-20-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5404",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21920",
+              "type": "Event",
+              "_label": "Out of Site: Fictional Architectural Spaces",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-28-6 - 2002-13-10",
+                "begin_of_the_begin": "2002-28-6",
+                "end_of_the_end": "2002-13-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5405",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

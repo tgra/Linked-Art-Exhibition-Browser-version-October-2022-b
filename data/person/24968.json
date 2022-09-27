@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/24968",
+  "type": "Person",
+  "_label": "Andrés Jaque",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1949",
+      "type": "Name",
+      "_label": "Andrés Jaque"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1681",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Spanish, born 1971"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1949",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3898",
+      "type": "TimeSpan",
+      "_label": "Andrés Jaque Birth timespan",
+      "begin_of_the_begin": "1971",
+      "end_of_the_end": "1971"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1949",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3899",
+      "type": "TimeSpan",
+      "_label": "Andrés Jaque Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1949",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1949",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3582",
+              "type": "Event",
+              "_label": "Young Architects Program 2015 (MoMA PS1): COSMO b y Andrés Jaque / Office for Political Innovation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-23-6 - 2015-31-8",
+                "begin_of_the_begin": "2015-23-6",
+                "end_of_the_end": "2015-31-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5539",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67371",
+  "type": "Person",
+  "_label": "Kipper Kids",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13894",
+      "type": "Name",
+      "_label": "Kipper Kids"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13894",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27788",
+      "type": "TimeSpan",
+      "_label": "Kipper Kids Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13894",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27789",
+      "type": "TimeSpan",
+      "_label": "Kipper Kids Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13894",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13894",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18224",
+              "type": "Event",
+              "_label": "Carefully Orchestrated Se…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-17-11 - ",
+                "begin_of_the_begin": "1978-17-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27723",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18508",
+              "type": "Event",
+              "_label": "Re Runs '79 Screening",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-11-9 - ",
+                "begin_of_the_begin": "1979-11-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27724",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18543",
+              "type": "Event",
+              "_label": "Silly Ceremonies",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-8-11 - ",
+                "begin_of_the_begin": "1979-8-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27725",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18367",
+              "type": "Event",
+              "_label": "Into the Box, Out of the …",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-3-2 - ",
+                "begin_of_the_begin": "1988-3-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27726",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

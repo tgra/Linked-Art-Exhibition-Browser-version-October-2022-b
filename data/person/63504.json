@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63504",
+  "type": "Person",
+  "_label": "Paul Chambers",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12190",
+      "type": "Name",
+      "_label": "Paul Chambers"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12190",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24380",
+      "type": "TimeSpan",
+      "_label": "Paul Chambers Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12190",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24381",
+      "type": "TimeSpan",
+      "_label": "Paul Chambers Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12190",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12190",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7329",
+              "type": "Event",
+              "_label": "Freddie Redd Quintet Jazz Concert",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-24-2 - ",
+                "begin_of_the_begin": "1963-24-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24979",
+                  "type": "Place",
+                  "_label": "106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

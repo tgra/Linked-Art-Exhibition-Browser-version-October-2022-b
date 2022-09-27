@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64209",
+  "type": "Person",
+  "_label": "Ciprian Muresan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12472",
+      "type": "Name",
+      "_label": "Ciprian Muresan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12472",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24944",
+      "type": "TimeSpan",
+      "_label": "Ciprian Muresan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12472",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24945",
+      "type": "TimeSpan",
+      "_label": "Ciprian Muresan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12472",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12472",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17048",
+              "type": "Event",
+              "_label": "The Generational Triennial: Younger Than Jesus",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-8-4 - 2009-14-6",
+                "begin_of_the_begin": "2009-8-4",
+                "end_of_the_end": "2009-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25431",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

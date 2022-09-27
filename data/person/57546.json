@@ -1,0 +1,173 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57546",
+  "type": "Person",
+  "_label": "Kristin Jones",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8253",
+      "type": "Name",
+      "_label": "Kristin Jones"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8253",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16506",
+      "type": "TimeSpan",
+      "_label": "Kristin Jones Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8253",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16507",
+      "type": "TimeSpan",
+      "_label": "Kristin Jones Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8253",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8253",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3741",
+              "type": "Event",
+              "_label": "National and International Studio Program Exhibition 1984–1985",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-25-1 - 1985-3-3",
+                "begin_of_the_begin": "1985-25-1",
+                "end_of_the_end": "1985-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18888",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3638",
+              "type": "Event",
+              "_label": "National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-21-11 - 1985-22-12",
+                "begin_of_the_begin": "1985-21-11",
+                "end_of_the_end": "1985-22-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18889",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2707",
+              "type": "Event",
+              "_label": "P.U.L.S.E. (People Who Use Light Sound and Energy)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-4-4 - 1987-23-5",
+                "begin_of_the_begin": "1987-4-4",
+                "end_of_the_end": "1987-23-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18890",
+                  "type": "Place",
+                  "_label": "420 West Broadway, NY",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3090",
+              "type": "Event",
+              "_label": "The Drowned World: Waterworks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-23-4 - 1989-12-6",
+                "begin_of_the_begin": "1989-23-4",
+                "end_of_the_end": "1989-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18891",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17196",
+              "type": "Event",
+              "_label": "Kristin Jones and Andrew Ginzel: Triptych",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-26-9 - 1986-30-11",
+                "begin_of_the_begin": "1986-26-9",
+                "end_of_the_end": "1986-30-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18892",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/16212",
+  "type": "Person",
+  "_label": "Yinka Shonibare",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/447",
+      "type": "Name",
+      "_label": "Yinka Shonibare"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/364",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1962"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/447",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/894",
+      "type": "TimeSpan",
+      "_label": "Yinka Shonibare Birth timespan",
+      "begin_of_the_begin": "1962",
+      "end_of_the_end": "1962"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/447",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/895",
+      "type": "TimeSpan",
+      "_label": "Yinka Shonibare Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/447",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/447",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3496",
+              "type": "Event",
+              "_label": "The Short Century: Independence and Liberation Movements in Africa, 1945–1994",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-10-2 - 2002-5-5",
+                "begin_of_the_begin": "2002-10-2",
+                "end_of_the_end": "2002-5-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1508",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17075",
+              "type": "Event",
+              "_label": "Black President: the Art and Legacy of Fela Anikulapo-Kuti",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-11-7 - 2003-19-10",
+                "begin_of_the_begin": "2003-11-7",
+                "end_of_the_end": "2003-19-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1509",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

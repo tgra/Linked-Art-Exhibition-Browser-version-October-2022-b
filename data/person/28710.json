@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/28710",
+  "type": "Person",
+  "_label": "David Breger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3782",
+      "type": "Name",
+      "_label": "David Breger"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3782",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7564",
+      "type": "TimeSpan",
+      "_label": "David Breger Birth timespan",
+      "begin_of_the_begin": "1908",
+      "end_of_the_end": "1908"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3782",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7565",
+      "type": "TimeSpan",
+      "_label": "David Breger Death timespan",
+      "begin_of_the_begin": "1970",
+      "end_of_the_end": "1970"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3782",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3782",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/271",
+              "type": "Event",
+              "_label": "Yank Illustrates the War",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-17-3 - 1943-18-4",
+                "begin_of_the_begin": "1943-17-3",
+                "end_of_the_end": "1943-18-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8650",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

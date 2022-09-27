@@ -1,0 +1,164 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/18545",
+  "type": "Person",
+  "_label": "Jeremy Deller",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/871",
+      "type": "Name",
+      "_label": "Jeremy Deller"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/764",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, born 1966"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/871",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1742",
+      "type": "TimeSpan",
+      "_label": "Jeremy Deller Birth timespan",
+      "begin_of_the_begin": "1966",
+      "end_of_the_end": "1966"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/871",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1743",
+      "type": "TimeSpan",
+      "_label": "Jeremy Deller Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/871",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/871",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4021",
+              "type": "Event",
+              "_label": "Jeremy Deller: Joy in People",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-19-9 - 2012-30-12",
+                "begin_of_the_begin": "2012-19-9",
+                "end_of_the_end": "2012-30-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2633",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3394",
+              "type": "Event",
+              "_label": "Romantic Detachment",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-18-10 - 2004-7-11",
+                "begin_of_the_begin": "2004-18-10",
+                "end_of_the_end": "2004-7-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2634",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3509",
+              "type": "Event",
+              "_label": "September 11",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-11-9 - 2012-9-1",
+                "begin_of_the_begin": "2011-11-9",
+                "end_of_the_end": "2012-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2635",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17049",
+              "type": "Event",
+              "_label": "New Commissions (Three M Project): Jeremy Deller: It Is What It Is: Conversations About Iraq",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-11-2 - 2009-22-3",
+                "begin_of_the_begin": "2009-11-2",
+                "end_of_the_end": "2009-22-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2636",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

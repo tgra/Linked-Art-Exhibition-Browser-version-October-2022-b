@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57584",
+  "type": "Person",
+  "_label": "Su-Chen Hung",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8293",
+      "type": "Name",
+      "_label": "Su-Chen Hung"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8293",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16586",
+      "type": "TimeSpan",
+      "_label": "Su-Chen Hung Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8293",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16587",
+      "type": "TimeSpan",
+      "_label": "Su-Chen Hung Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8293",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8293",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2977",
+              "type": "Event",
+              "_label": "National and International Studio Program Exhibition 1988–89",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-23-4 - 1989-12-6",
+                "begin_of_the_begin": "1989-23-4",
+                "end_of_the_end": "1989-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18959",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17189",
+              "type": "Event",
+              "_label": "Su-Chen Hung: Sweet Red-2",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-27-2 - 1987-27-4",
+                "begin_of_the_begin": "1987-27-2",
+                "end_of_the_end": "1987-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18960",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17190",
+              "type": "Event",
+              "_label": "Reading Art: William Anastasi, Su-Chen Hung, Larry Johnson",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-27-2 - 1987-12-4",
+                "begin_of_the_begin": "1987-27-2",
+                "end_of_the_end": "1987-12-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18961",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

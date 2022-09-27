@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59817",
+  "type": "Person",
+  "_label": "Stuart Netsky",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10603",
+      "type": "Name",
+      "_label": "Stuart Netsky"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10603",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21206",
+      "type": "TimeSpan",
+      "_label": "Stuart Netsky Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10603",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21207",
+      "type": "TimeSpan",
+      "_label": "Stuart Netsky Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10603",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10603",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4377",
+              "type": "Event",
+              "_label": "Stuart Netsky: Time Flies",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-12-11 - 1994-16-1",
+                "begin_of_the_begin": "1993-12-11",
+                "end_of_the_end": "1994-16-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22348",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4305",
+              "type": "Event",
+              "_label": "S(how): ICA Art History Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-3-5 - 2003-27-7",
+                "begin_of_the_begin": "2003-3-5",
+                "end_of_the_end": "2003-27-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22349",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3721",
+              "type": "Event",
+              "_label": "Model Home",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-8-2 - 1996-31-3",
+                "begin_of_the_begin": "1996-8-2",
+                "end_of_the_end": "1996-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22350",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

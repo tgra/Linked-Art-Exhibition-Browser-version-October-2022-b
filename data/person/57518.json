@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57518",
+  "type": "Person",
+  "_label": "Jorunn Irene Hanstvedt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8225",
+      "type": "Name",
+      "_label": "Jorunn Irene Hanstvedt"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8225",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16450",
+      "type": "TimeSpan",
+      "_label": "Jorunn Irene Hanstvedt Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8225",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16451",
+      "type": "TimeSpan",
+      "_label": "Jorunn Irene Hanstvedt Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8225",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8225",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3640",
+              "type": "Event",
+              "_label": "21st National and International Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-16-5 - 1997-14-6",
+                "begin_of_the_begin": "1997-16-5",
+                "end_of_the_end": "1997-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18845",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65277",
+  "type": "Person",
+  "_label": "José Antonio Hernández-Diez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12912",
+      "type": "Name",
+      "_label": "José Antonio Hernández-Diez"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12912",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25824",
+      "type": "TimeSpan",
+      "_label": "José Antonio Hernández-Diez Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12912",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25825",
+      "type": "TimeSpan",
+      "_label": "José Antonio Hernández-Diez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12912",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12912",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17125",
+              "type": "Event",
+              "_label": "The Final Frontier",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-7-5 - 1993-15-8",
+                "begin_of_the_begin": "1993-7-5",
+                "end_of_the_end": "1993-15-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26161",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21913",
+              "type": "Event",
+              "_label": "José Antonio Hernández-Diez",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-11-7 - 2003-21-9",
+                "begin_of_the_begin": "2003-11-7",
+                "end_of_the_end": "2003-21-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26162",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64866",
+  "type": "Person",
+  "_label": "Helaine Posner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12738",
+      "type": "Name",
+      "_label": "Helaine Posner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12738",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25476",
+      "type": "TimeSpan",
+      "_label": "Helaine Posner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12738",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25477",
+      "type": "TimeSpan",
+      "_label": "Helaine Posner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12738",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12738",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17229",
+              "type": "Event",
+              "_label": "Martin Puryear",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-28-7 - 1984-9-9",
+                "begin_of_the_begin": "1984-28-7",
+                "end_of_the_end": "1984-9-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25855",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59573",
+  "type": "Person",
+  "_label": "Craig Baumhofer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10350",
+      "type": "Name",
+      "_label": "Craig Baumhofer"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10350",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20700",
+      "type": "TimeSpan",
+      "_label": "Craig Baumhofer Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10350",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20701",
+      "type": "TimeSpan",
+      "_label": "Craig Baumhofer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10350",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10350",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3714",
+              "type": "Event",
+              "_label": "The Pop Project, Part II: Public Image",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-21-1 - 1988-28-2",
+                "begin_of_the_begin": "1988-21-1",
+                "end_of_the_end": "1988-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21966",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

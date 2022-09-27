@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4597",
+  "type": "Person",
+  "_label": "Markus Raetz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6782",
+      "type": "Name",
+      "_label": "Markus Raetz"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3167",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Swiss, born 1941"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6782",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13564",
+      "type": "TimeSpan",
+      "_label": "Markus Raetz Birth timespan",
+      "begin_of_the_begin": "1941",
+      "end_of_the_end": "1941"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6782",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13565",
+      "type": "TimeSpan",
+      "_label": "Markus Raetz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6782",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6782",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3695",
+              "type": "Event",
+              "_label": "Fri.Art: Made in Switzerland",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-26-4 - 1985-2-6",
+                "begin_of_the_begin": "1985-26-4",
+                "end_of_the_end": "1985-2-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15083",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17169",
+              "type": "Event",
+              "_label": "Markus Raetz: In the Realm of the Possible",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-13-5 - 1988-10-7",
+                "begin_of_the_begin": "1988-13-5",
+                "end_of_the_end": "1988-10-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15084",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

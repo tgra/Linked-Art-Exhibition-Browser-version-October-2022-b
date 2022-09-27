@@ -1,0 +1,139 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/6619",
+  "type": "Person",
+  "_label": "Ellen Brooks",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13312",
+      "type": "Name",
+      "_label": "Ellen Brooks"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3918",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1946"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13312",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26624",
+      "type": "TimeSpan",
+      "_label": "Ellen Brooks Birth timespan",
+      "begin_of_the_begin": "1946",
+      "end_of_the_end": "1946"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13312",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26625",
+      "type": "TimeSpan",
+      "_label": "Ellen Brooks Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13312",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13312",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4129",
+              "type": "Event",
+              "_label": "Image Scavengers: Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-8-12 - 1983-30-1",
+                "begin_of_the_begin": "1982-8-12",
+                "end_of_the_end": "1983-30-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26892",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17220",
+              "type": "Event",
+              "_label": "Ellen Brooks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-17-4 - 1985-23-6",
+                "begin_of_the_begin": "1985-17-4",
+                "end_of_the_end": "1985-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26893",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17154",
+              "type": "Event",
+              "_label": "Strange Attractors: Signs of Chaos",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-14-9 - 1989-26-11",
+                "begin_of_the_begin": "1989-14-9",
+                "end_of_the_end": "1989-26-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26894",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

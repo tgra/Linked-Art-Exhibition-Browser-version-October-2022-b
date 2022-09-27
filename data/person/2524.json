@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2524",
+  "type": "Person",
+  "_label": "Sheila Hicks",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1987",
+      "type": "Name",
+      "_label": "Sheila Hicks"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1715",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1934"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1987",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3974",
+      "type": "TimeSpan",
+      "_label": "Sheila Hicks Birth timespan",
+      "begin_of_the_begin": "1934",
+      "end_of_the_end": "1934"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1987",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3975",
+      "type": "TimeSpan",
+      "_label": "Sheila Hicks Death timespan",
+      "begin_of_the_begin": "2012",
+      "end_of_the_end": "2012"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1987",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1987",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4036",
+              "type": "Event",
+              "_label": "Sheila Hicks: 50 Years",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-24-3 - 2011-7-8",
+                "begin_of_the_begin": "2011-24-3",
+                "end_of_the_end": "2011-7-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5613",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

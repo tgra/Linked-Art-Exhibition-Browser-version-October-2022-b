@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/68303",
+  "type": "Person",
+  "_label": "Koen Wessing",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14284",
+      "type": "Name",
+      "_label": "Koen Wessing"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14284",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28568",
+      "type": "TimeSpan",
+      "_label": "Koen Wessing Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14284",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28569",
+      "type": "TimeSpan",
+      "_label": "Koen Wessing Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14284",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14284",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/22013",
+              "type": "Event",
+              "_label": "The Nicaragua Media Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-21-9 - 1984-25-11",
+                "begin_of_the_begin": "1984-21-9",
+                "end_of_the_end": "1984-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28259",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

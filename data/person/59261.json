@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59261",
+  "type": "Person",
+  "_label": "Cathy Cook",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10028",
+      "type": "Name",
+      "_label": "Cathy Cook"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10028",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20056",
+      "type": "TimeSpan",
+      "_label": "Cathy Cook Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10028",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20057",
+      "type": "TimeSpan",
+      "_label": "Cathy Cook Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10028",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10028",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3385",
+              "type": "Event",
+              "_label": "Dive-In Movies: Flix from the Great B-yond",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-17-8 - 2000-24-8",
+                "begin_of_the_begin": "2000-17-8",
+                "end_of_the_end": "2000-24-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21541",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

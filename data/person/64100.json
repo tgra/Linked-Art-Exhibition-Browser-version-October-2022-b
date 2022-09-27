@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64100",
+  "type": "Person",
+  "_label": "Carolyn Potter",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12431",
+      "type": "Name",
+      "_label": "Carolyn Potter"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12431",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24862",
+      "type": "TimeSpan",
+      "_label": "Carolyn Potter Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12431",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24863",
+      "type": "TimeSpan",
+      "_label": "Carolyn Potter Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12431",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12431",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21953",
+              "type": "Event",
+              "_label": "Home Fronts: Between the Public and the Private",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-1-9 - ",
+                "begin_of_the_begin": "2000-1-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25387",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

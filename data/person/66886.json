@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/66886",
+  "type": "Person",
+  "_label": "Tarikh Korula",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13610",
+      "type": "Name",
+      "_label": "Tarikh Korula"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13610",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27220",
+      "type": "TimeSpan",
+      "_label": "Tarikh Korula Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13610",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27221",
+      "type": "TimeSpan",
+      "_label": "Tarikh Korula Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13610",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13610",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17069",
+              "type": "Event",
+              "_label": "Transmission II: Airborne",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-9-4 - 2005-4-6",
+                "begin_of_the_begin": "2005-9-4",
+                "end_of_the_end": "2005-4-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27314",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

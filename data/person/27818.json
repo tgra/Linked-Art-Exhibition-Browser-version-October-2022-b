@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27818",
+  "type": "Person",
+  "_label": "Ernest Mundt",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2923",
+      "type": "Name",
+      "_label": "Ernest Mundt"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2923",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5846",
+      "type": "TimeSpan",
+      "_label": "Ernest Mundt Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2923",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5847",
+      "type": "TimeSpan",
+      "_label": "Ernest Mundt Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2923",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2923",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/533",
+              "type": "Event",
+              "_label": "New Talent Exhibition in the Penthouse: Bunce, Johnston, and Mundt",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-28-11 - 1951-14-1",
+                "begin_of_the_begin": "1950-28-11",
+                "end_of_the_end": "1951-14-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7478",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58972",
+  "type": "Person",
+  "_label": "Brad Tucker",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9728",
+      "type": "Name",
+      "_label": "Brad Tucker"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9728",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19456",
+      "type": "TimeSpan",
+      "_label": "Brad Tucker Birth timespan",
+      "begin_of_the_begin": "1965",
+      "end_of_the_end": "1965"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9728",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19457",
+      "type": "TimeSpan",
+      "_label": "Brad Tucker Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9728",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9728",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2890",
+              "type": "Event",
+              "_label": "Some New Minds",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-17-12 - 2001-28-2",
+                "begin_of_the_begin": "2000-17-12",
+                "end_of_the_end": "2001-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21084",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21906",
+              "type": "Event",
+              "_label": "Sixth Annual Altoids Curiously Strong Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-29-10 - 2004-20-11",
+                "begin_of_the_begin": "2004-29-10",
+                "end_of_the_end": "2004-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21085",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

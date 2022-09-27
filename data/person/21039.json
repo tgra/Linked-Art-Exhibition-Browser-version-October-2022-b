@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21039",
+  "type": "Person",
+  "_label": "Neil Goldberg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1300",
+      "type": "Name",
+      "_label": "Neil Goldberg"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1155",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1963"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1300",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2600",
+      "type": "TimeSpan",
+      "_label": "Neil Goldberg Birth timespan",
+      "begin_of_the_begin": "1963",
+      "end_of_the_end": "1963"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1300",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2601",
+      "type": "TimeSpan",
+      "_label": "Neil Goldberg Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1300",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1300",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17096",
+              "type": "Event",
+              "_label": "The Time of Our Lives",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-15-7 - 1999-17-10",
+                "begin_of_the_begin": "1999-15-7",
+                "end_of_the_end": "1999-17-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3741",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

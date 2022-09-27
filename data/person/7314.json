@@ -1,0 +1,164 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7314",
+  "type": "Person",
+  "_label": "Yukinori Yanagi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14623",
+      "type": "Name",
+      "_label": "Yukinori Yanagi"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4107",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, born 1959"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14623",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29246",
+      "type": "TimeSpan",
+      "_label": "Yukinori Yanagi Birth timespan",
+      "begin_of_the_begin": "1959",
+      "end_of_the_end": "1959"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14623",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29247",
+      "type": "TimeSpan",
+      "_label": "Yukinori Yanagi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14623",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14623",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3074",
+              "type": "Event",
+              "_label": "New York Diary: Almost Twenty-Five Different Things",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-14-4 - 1991-9-6",
+                "begin_of_the_begin": "1991-14-4",
+                "end_of_the_end": "1991-9-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29002",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3117",
+              "type": "Event",
+              "_label": "In Their Own Image: The 1992–1993 Studio Artists Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-14-2 - 1993-14-3",
+                "begin_of_the_begin": "1993-14-2",
+                "end_of_the_end": "1993-14-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29003",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3224",
+              "type": "Event",
+              "_label": "Animal.Anima.Animus",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-20-6 - 1999-29-8",
+                "begin_of_the_begin": "1999-20-6",
+                "end_of_the_end": "1999-29-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29004",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17123",
+              "type": "Event",
+              "_label": "Trade Routes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-10-9 - 1993-7-11",
+                "begin_of_the_begin": "1993-10-9",
+                "end_of_the_end": "1993-7-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29005",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

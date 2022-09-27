@@ -1,0 +1,121 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63470",
+  "type": "Person",
+  "_label": "Marcia Marcus",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12157",
+      "type": "Name",
+      "_label": "Marcia Marcus"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12157",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24314",
+      "type": "TimeSpan",
+      "_label": "Marcia Marcus Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12157",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24315",
+      "type": "TimeSpan",
+      "_label": "Marcia Marcus Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12157",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12157",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7277",
+              "type": "Event",
+              "_label": "Grooms, Jay Milder, Sheila Milder, Bob Thompson, Lester Johnson, Emilio Cruz, and Marcia Marcus",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1959-23-10 - ",
+                "begin_of_the_begin": "1959-23-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24919",
+                  "type": "Place",
+                  "_label": "148 Delancey Street, 3rd Floor",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7270",
+              "type": "Event",
+              "_label": "Marcia Marcus: A Garden",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-1-1 - ",
+                "begin_of_the_begin": "1960-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24920",
+                  "type": "Place",
+                  "_label": "148 Delancey Street, 3rd Floor",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7274",
+              "type": "Event",
+              "_label": "Marcia Marcus: Self Portraits",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1960-10-4 - 1960-30-4",
+                "begin_of_the_begin": "1960-10-4",
+                "end_of_the_end": "1960-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24921",
+                  "type": "Place",
+                  "_label": "148 Delancey Street, 3rd Floor",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

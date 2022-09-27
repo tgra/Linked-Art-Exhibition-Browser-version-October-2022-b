@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/22800",
+  "type": "Person",
+  "_label": "n ARCHITECTS",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1640",
+      "type": "Name",
+      "_label": "n ARCHITECTS"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1640",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3280",
+      "type": "TimeSpan",
+      "_label": "n ARCHITECTS Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1640",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3281",
+      "type": "TimeSpan",
+      "_label": "n ARCHITECTS Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1640",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1640",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3408",
+              "type": "Event",
+              "_label": "Young Architects Program 2004 (MoMA PS1): Canopy by nARCHITECTS",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-24-6 - 2004-5-9",
+                "begin_of_the_begin": "2004-24-6",
+                "end_of_the_end": "2004-5-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4801",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

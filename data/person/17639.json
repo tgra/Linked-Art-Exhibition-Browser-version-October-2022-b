@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/17639",
+  "type": "Person",
+  "_label": "Bjorn Copeland",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/681",
+      "type": "Name",
+      "_label": "Bjorn Copeland"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/581",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1975"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/681",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1362",
+      "type": "TimeSpan",
+      "_label": "Bjorn Copeland Birth timespan",
+      "begin_of_the_begin": "1975",
+      "end_of_the_end": "1975"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/681",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1363",
+      "type": "TimeSpan",
+      "_label": "Bjorn Copeland Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/681",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/681",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3389",
+              "type": "Event",
+              "_label": "Curious Crystals of Unusual Purity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-27-6 - 2004-27-9",
+                "begin_of_the_begin": "2004-27-6",
+                "end_of_the_end": "2004-27-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2126",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3553",
+              "type": "Event",
+              "_label": "Music is a Better Noise",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-29-10 - 2007-29-1",
+                "begin_of_the_begin": "2006-29-10",
+                "end_of_the_end": "2007-29-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2127",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

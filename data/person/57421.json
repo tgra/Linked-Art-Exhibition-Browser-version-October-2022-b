@@ -1,0 +1,97 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57421",
+  "type": "Person",
+  "_label": "Joost Romeu",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8126",
+      "type": "Name",
+      "_label": "Joost Romeu"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8126",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16252",
+      "type": "TimeSpan",
+      "_label": "Joost Romeu Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8126",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16253",
+      "type": "TimeSpan",
+      "_label": "Joost Romeu Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8126",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8126",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3831",
+              "type": "Event",
+              "_label": "Ideas at the Idea Warehouse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-16-6 - 1975-11-7",
+                "begin_of_the_begin": "1975-16-6",
+                "end_of_the_end": "1975-11-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18641",
+                  "type": "Place",
+                  "_label": "The Idea Warehouse",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18641",
+              "type": "Event",
+              "_label": "Videotapes and Performanc…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-18-2 - ",
+                "begin_of_the_begin": "1975-18-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18642",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

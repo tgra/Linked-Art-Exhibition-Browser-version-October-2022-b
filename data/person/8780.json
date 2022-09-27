@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/8780",
+  "type": "Person",
+  "_label": "Lalance & Grosjean Mfg. Co., Woodhaven, NY",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14983",
+      "type": "Name",
+      "_label": "Lalance & Grosjean Mfg. Co., Woodhaven, NY"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14983",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29966",
+      "type": "TimeSpan",
+      "_label": "Lalance & Grosjean Mfg. Co., Woodhaven, NY Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14983",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29967",
+      "type": "TimeSpan",
+      "_label": "Lalance & Grosjean Mfg. Co., Woodhaven, NY Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14983",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14983",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/47",
+              "type": "Event",
+              "_label": "Machine Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1934-5-3 - 1934-29-4",
+                "begin_of_the_begin": "1934-5-3",
+                "end_of_the_end": "1934-29-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30112",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/122",
+              "type": "Event",
+              "_label": "Useful Household Objects under $5.00",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-28-9 - 1938-28-10",
+                "begin_of_the_begin": "1938-28-9",
+                "end_of_the_end": "1938-28-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30113",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/364",
+              "type": "Event",
+              "_label": "Useful Objects",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-21-11 - 1946-6-1",
+                "begin_of_the_begin": "1945-21-11",
+                "end_of_the_end": "1946-6-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30114",
+                  "type": "Place",
+                  "_label": "1st Floor, Architecture and Industrial Design Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

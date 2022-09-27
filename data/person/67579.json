@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67579",
+  "type": "Person",
+  "_label": "Craig Harris",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14107",
+      "type": "Name",
+      "_label": "Craig Harris"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14107",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28214",
+      "type": "TimeSpan",
+      "_label": "Craig Harris Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14107",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28215",
+      "type": "TimeSpan",
+      "_label": "Craig Harris Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14107",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14107",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18347",
+              "type": "Event",
+              "_label": "Heat",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-22-9 - ",
+                "begin_of_the_begin": "1988-22-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28003",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

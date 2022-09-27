@@ -1,0 +1,139 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/26466",
+  "type": "Person",
+  "_label": "Jonathas de Andrade",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2160",
+      "type": "Name",
+      "_label": "Jonathas de Andrade"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1867",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Brazilian, born 1982"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2160",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4320",
+      "type": "TimeSpan",
+      "_label": "Jonathas de Andrade Birth timespan",
+      "begin_of_the_begin": "1982",
+      "end_of_the_end": "1982"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2160",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4321",
+      "type": "TimeSpan",
+      "_label": "Jonathas de Andrade Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2160",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2160",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4010",
+              "type": "Event",
+              "_label": "ICA@50: Pleasing Artists And Publics Since 1963",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-12-2 - 2014-17-8",
+                "begin_of_the_begin": "2014-12-2",
+                "end_of_the_end": "2014-17-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6061",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17026",
+              "type": "Event",
+              "_label": "The Ungovernables: 2012 New Museum Triennial",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-15-2 - 2012-22-4",
+                "begin_of_the_begin": "2012-15-2",
+                "end_of_the_end": "2012-22-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6062",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/16967",
+              "type": "Event",
+              "_label": "Jonathas de Andrade: O Peixe",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2017-25-1 - 2017-9-4",
+                "begin_of_the_begin": "2017-25-1",
+                "end_of_the_end": "2017-9-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6063",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

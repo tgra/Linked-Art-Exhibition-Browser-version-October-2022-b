@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/16333",
+  "type": "Person",
+  "_label": "Philip Webb",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/456",
+      "type": "Name",
+      "_label": "Philip Webb"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/373",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "British, 1831–1915"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/456",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/912",
+      "type": "TimeSpan",
+      "_label": "Philip Webb Birth timespan",
+      "begin_of_the_begin": "1831",
+      "end_of_the_end": "1831"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/456",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/913",
+      "type": "TimeSpan",
+      "_label": "Philip Webb Death timespan",
+      "begin_of_the_begin": "1915",
+      "end_of_the_end": "1915"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/456",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/456",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/401",
+              "type": "Event",
+              "_label": "Modern Rooms of the Last Fifty Years",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-26-11 - 1947-26-1",
+                "begin_of_the_begin": "1946-26-11",
+                "end_of_the_end": "1947-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/1533",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

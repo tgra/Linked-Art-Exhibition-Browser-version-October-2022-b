@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/35091",
+  "type": "Person",
+  "_label": "Evan Holloway",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6197",
+      "type": "Name",
+      "_label": "Evan Holloway"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2701",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1967"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6197",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12394",
+      "type": "TimeSpan",
+      "_label": "Evan Holloway Birth timespan",
+      "begin_of_the_begin": "1967",
+      "end_of_the_end": "1967"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6197",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12395",
+      "type": "TimeSpan",
+      "_label": "Evan Holloway Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6197",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6197",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4279",
+              "type": "Event",
+              "_label": "Gone Formalism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-21-1 - 2006-26-3",
+                "begin_of_the_begin": "2006-21-1",
+                "end_of_the_end": "2006-26-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12668",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4261",
+              "type": "Event",
+              "_label": "Ensemble",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-7-9 - 2007-16-12",
+                "begin_of_the_begin": "2007-7-9",
+                "end_of_the_end": "2007-16-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12669",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

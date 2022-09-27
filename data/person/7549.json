@@ -1,0 +1,189 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7549",
+  "type": "Person",
+  "_label": "Jonas Mekas",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14680",
+      "type": "Name",
+      "_label": "Jonas Mekas"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4162",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Lithuanian, born 1922"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14680",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29360",
+      "type": "TimeSpan",
+      "_label": "Jonas Mekas Birth timespan",
+      "begin_of_the_begin": "1922",
+      "end_of_the_end": "1922"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14680",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29361",
+      "type": "TimeSpan",
+      "_label": "Jonas Mekas Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14680",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14680",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2774",
+              "type": "Event",
+              "_label": "Film (Winter 1983): Films of the 60's",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-16-1 - 1983-6-3",
+                "begin_of_the_begin": "1983-16-1",
+                "end_of_the_end": "1983-6-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29204",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2935",
+              "type": "Event",
+              "_label": "Jonas Mekas: The Beauty of Friends Being Together Quartet",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-11-2 - 2007-23-4",
+                "begin_of_the_begin": "2007-11-2",
+                "end_of_the_end": "2007-23-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29205",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2858",
+              "type": "Event",
+              "_label": "Orpheus Selection: In Search of Darkness",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-24-6 - 2007-24-9",
+                "begin_of_the_begin": "2007-24-6",
+                "end_of_the_end": "2007-24-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29206",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3503",
+              "type": "Event",
+              "_label": "That was Then, This is Now",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-22-6 - 2008-5-10",
+                "begin_of_the_begin": "2008-22-6",
+                "end_of_the_end": "2008-5-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29207",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17032",
+              "type": "Event",
+              "_label": "Ostalgia",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-14-7 - 2011-15-9",
+                "begin_of_the_begin": "2011-14-7",
+                "end_of_the_end": "2011-15-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29208",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

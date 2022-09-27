@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27126",
+  "type": "Person",
+  "_label": "Mark Robbins",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2272",
+      "type": "Name",
+      "_label": "Mark Robbins"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2272",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4544",
+      "type": "TimeSpan",
+      "_label": "Mark Robbins Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2272",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4545",
+      "type": "TimeSpan",
+      "_label": "Mark Robbins Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2272",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2272",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3703",
+              "type": "Event",
+              "_label": "Mark Robbins: Framing American Cities",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-19-9 - 1991-20-10",
+                "begin_of_the_begin": "1991-19-9",
+                "end_of_the_end": "1991-20-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6478",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

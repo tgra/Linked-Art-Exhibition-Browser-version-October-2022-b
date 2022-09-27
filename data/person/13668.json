@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/13668",
+  "type": "Person",
+  "_label": "Peter Gourfain",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/238",
+      "type": "Name",
+      "_label": "Peter Gourfain"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/238",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/476",
+      "type": "TimeSpan",
+      "_label": "Peter Gourfain Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/238",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/477",
+      "type": "TimeSpan",
+      "_label": "Peter Gourfain Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/238",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/238",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4199",
+              "type": "Event",
+              "_label": "A Romantic Minimalism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1967-13-9 - 1967-11-10",
+                "begin_of_the_begin": "1967-13-9",
+                "end_of_the_end": "1967-11-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/835",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2702",
+              "type": "Event",
+              "_label": "5 Sculptors-7,000 Sq. Feet",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-10-6 - 1972-24-6",
+                "begin_of_the_begin": "1972-10-6",
+                "end_of_the_end": "1972-24-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/836",
+                  "type": "Place",
+                  "_label": "10 Bleecker Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3645",
+              "type": "Event",
+              "_label": "Artists Make Toys",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-1-1 - 1975-25-1",
+                "begin_of_the_begin": "1975-1-1",
+                "end_of_the_end": "1975-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/837",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

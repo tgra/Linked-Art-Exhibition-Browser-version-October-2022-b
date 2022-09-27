@@ -1,0 +1,166 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2481",
+  "type": "Person",
+  "_label": "Riva Helfond",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1914",
+      "type": "Name",
+      "_label": "Riva Helfond"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1648",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1910–2002"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1914",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3828",
+      "type": "TimeSpan",
+      "_label": "Riva Helfond Birth timespan",
+      "begin_of_the_begin": "1910",
+      "end_of_the_end": "1910"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1914",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3829",
+      "type": "TimeSpan",
+      "_label": "Riva Helfond Death timespan",
+      "begin_of_the_begin": "2002",
+      "end_of_the_end": "2002"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1914",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1914",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/164",
+              "type": "Event",
+              "_label": "American Color Prints under $10",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-26-11 - 1940-28-12",
+                "begin_of_the_begin": "1940-26-11",
+                "end_of_the_end": "1940-28-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5462",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/213",
+              "type": "Event",
+              "_label": "Pictures for Children",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1941-10-12 - 1942-25-1",
+                "begin_of_the_begin": "1941-10-12",
+                "end_of_the_end": "1942-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5463",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/384",
+              "type": "Event",
+              "_label": "Designed for Children",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-11-6 - 1946-6-10",
+                "begin_of_the_begin": "1946-11-6",
+                "end_of_the_end": "1946-6-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5464",
+                  "type": "Place",
+                  "_label": "Young People's Gallery, 3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/428",
+              "type": "Event",
+              "_label": "Children's Holiday Fair of Modern Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1947-2-12 - 1948-4-1",
+                "begin_of_the_begin": "1947-2-12",
+                "end_of_the_end": "1948-4-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5465",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

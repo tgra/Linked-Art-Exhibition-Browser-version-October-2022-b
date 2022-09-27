@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/35877",
+  "type": "Person",
+  "_label": "Julio Galán",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6318",
+      "type": "Name",
+      "_label": "Julio Galán"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6318",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12636",
+      "type": "TimeSpan",
+      "_label": "Julio Galán Birth timespan",
+      "begin_of_the_begin": "1958",
+      "end_of_the_end": "1958"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6318",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12637",
+      "type": "TimeSpan",
+      "_label": "Julio Galán Death timespan",
+      "begin_of_the_begin": "2006",
+      "end_of_the_end": "2006"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6318",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6318",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4387",
+              "type": "Event",
+              "_label": "El Corazón Sangrante (The Bleeding Heart)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-22-4 - 1992-5-7",
+                "begin_of_the_begin": "1992-22-4",
+                "end_of_the_end": "1992-5-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12935",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64699",
+  "type": "Person",
+  "_label": "Gary Allen Justis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12665",
+      "type": "Name",
+      "_label": "Gary Allen Justis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12665",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25330",
+      "type": "TimeSpan",
+      "_label": "Gary Allen Justis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12665",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25331",
+      "type": "TimeSpan",
+      "_label": "Gary Allen Justis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12665",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12665",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17286",
+              "type": "Event",
+              "_label": "Dimensions Variable",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-29-9 - 1979-29-11",
+                "begin_of_the_begin": "1979-29-9",
+                "end_of_the_end": "1979-29-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25738",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

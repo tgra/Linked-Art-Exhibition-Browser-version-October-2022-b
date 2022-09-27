@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/20885",
+  "type": "Person",
+  "_label": "Julius Shulman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1245",
+      "type": "Name",
+      "_label": "Julius Shulman"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1104",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1910–2009"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1245",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2490",
+      "type": "TimeSpan",
+      "_label": "Julius Shulman Birth timespan",
+      "begin_of_the_begin": "1910",
+      "end_of_the_end": "1910"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1245",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2491",
+      "type": "TimeSpan",
+      "_label": "Julius Shulman Death timespan",
+      "begin_of_the_begin": "2009",
+      "end_of_the_end": "2009"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1245",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1245",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/359",
+              "type": "Event",
+              "_label": "Textile Design",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-29-8 - 1945-23-9",
+                "begin_of_the_begin": "1945-29-8",
+                "end_of_the_end": "1945-23-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3556",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27547",
+  "type": "Person",
+  "_label": "Claude Lorraine",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2644",
+      "type": "Name",
+      "_label": "Claude Lorraine"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2644",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5288",
+      "type": "TimeSpan",
+      "_label": "Claude Lorraine Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2644",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5289",
+      "type": "TimeSpan",
+      "_label": "Claude Lorraine Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2644",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2644",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/13",
+              "type": "Event",
+              "_label": "Memorial Exhibition: The Collection of the Late Lillie P. Bliss",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1931-17-5 - 1931-6-10",
+                "begin_of_the_begin": "1931-17-5",
+                "end_of_the_end": "1931-6-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7135",
+                  "type": "Place",
+                  "_label": "Heckscher Building, 730 Fifth Ave at the corner of 57th St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

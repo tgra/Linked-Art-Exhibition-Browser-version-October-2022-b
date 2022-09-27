@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67578",
+  "type": "Person",
+  "_label": "Cook County Theatre Department",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14106",
+      "type": "Name",
+      "_label": "Cook County Theatre Department"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14106",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28212",
+      "type": "TimeSpan",
+      "_label": "Cook County Theatre Department Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14106",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28213",
+      "type": "TimeSpan",
+      "_label": "Cook County Theatre Department Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14106",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14106",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18235",
+              "type": "Event",
+              "_label": "Clowns Plus Wrestlers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-20-3 - ",
+                "begin_of_the_begin": "1996-20-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28002",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

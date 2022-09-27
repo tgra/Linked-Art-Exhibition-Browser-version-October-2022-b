@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/66633",
+  "type": "Person",
+  "_label": "Sarah Canright",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13503",
+      "type": "Name",
+      "_label": "Sarah Canright"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13503",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27006",
+      "type": "TimeSpan",
+      "_label": "Sarah Canright Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13503",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27007",
+      "type": "TimeSpan",
+      "_label": "Sarah Canright Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13503",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13503",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17301",
+              "type": "Event",
+              "_label": "Memory",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-10-5 - 1977-21-5",
+                "begin_of_the_begin": "1977-10-5",
+                "end_of_the_end": "1977-21-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27156",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22033",
+              "type": "Event",
+              "_label": "Double Take",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-15-7 - 1978-2-9",
+                "begin_of_the_begin": "1978-15-7",
+                "end_of_the_end": "1978-2-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27157",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

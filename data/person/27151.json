@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27151",
+  "type": "Person",
+  "_label": "Ingrid Sischy",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2273",
+      "type": "Name",
+      "_label": "Ingrid Sischy"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2273",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4546",
+      "type": "TimeSpan",
+      "_label": "Ingrid Sischy Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2273",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4547",
+      "type": "TimeSpan",
+      "_label": "Ingrid Sischy Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2273",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2273",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18482",
+              "type": "Event",
+              "_label": "Pictures Lie",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-14-5 - ",
+                "begin_of_the_begin": "1981-14-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6479",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60010",
+  "type": "Person",
+  "_label": "Wayne Gonzales",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10806",
+      "type": "Name",
+      "_label": "Wayne Gonzales"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10806",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21612",
+      "type": "TimeSpan",
+      "_label": "Wayne Gonzales Birth timespan",
+      "begin_of_the_begin": "1957",
+      "end_of_the_end": "1957"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10806",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21613",
+      "type": "TimeSpan",
+      "_label": "Wayne Gonzales Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10806",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10806",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3501",
+              "type": "Event",
+              "_label": "The Painted World",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-23-10 - 2006-13-3",
+                "begin_of_the_begin": "2005-23-10",
+                "end_of_the_end": "2006-13-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22661",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3555",
+              "type": "Event",
+              "_label": "The Gold Standard",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-29-10 - 2007-15-1",
+                "begin_of_the_begin": "2006-29-10",
+                "end_of_the_end": "2007-15-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22662",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/25021",
+  "type": "Person",
+  "_label": "Aleksandr Sokurov",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1957",
+      "type": "Name",
+      "_label": "Aleksandr Sokurov"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1689",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Russian, born 1951"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1957",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3914",
+      "type": "TimeSpan",
+      "_label": "Aleksandr Sokurov Birth timespan",
+      "begin_of_the_begin": "1951",
+      "end_of_the_end": "1951"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1957",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3915",
+      "type": "TimeSpan",
+      "_label": "Aleksandr Sokurov Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1957",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1957",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3472",
+              "type": "Event",
+              "_label": "Uniform: Order and Disorder",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-20-5 - 2001-23-9",
+                "begin_of_the_begin": "2001-20-5",
+                "end_of_the_end": "2001-23-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5559",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27423",
+  "type": "Person",
+  "_label": "Robert Janssen",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2514",
+      "type": "Name",
+      "_label": "Robert Janssen"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2514",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5028",
+      "type": "TimeSpan",
+      "_label": "Robert Janssen Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2514",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5029",
+      "type": "TimeSpan",
+      "_label": "Robert Janssen Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2514",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2514",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/386",
+              "type": "Event",
+              "_label": "New Photographers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-18-6 - 1946-15-9",
+                "begin_of_the_begin": "1946-18-6",
+                "end_of_the_end": "1946-15-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6933",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/523",
+              "type": "Event",
+              "_label": "Photographs by 51 Photographers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-1-8 - 1950-17-9",
+                "begin_of_the_begin": "1950-1-8",
+                "end_of_the_end": "1950-17-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6934",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

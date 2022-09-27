@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58991",
+  "type": "Person",
+  "_label": "Paul Ramirez Jonas",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9749",
+      "type": "Name",
+      "_label": "Paul Ramirez Jonas"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9749",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19498",
+      "type": "TimeSpan",
+      "_label": "Paul Ramirez Jonas Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9749",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19499",
+      "type": "TimeSpan",
+      "_label": "Paul Ramirez Jonas Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9749",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9749",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3238",
+              "type": "Event",
+              "_label": "Special Projects (Summer 2001): Paul Ramirez Jonas: A Longer Day",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-20-5 - 2001-3-9",
+                "begin_of_the_begin": "2001-20-5",
+                "end_of_the_end": "2001-3-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21108",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

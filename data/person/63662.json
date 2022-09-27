@@ -1,0 +1,372 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63662",
+  "type": "Person",
+  "_label": "Alice Yang",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12273",
+      "type": "Name",
+      "_label": "Alice Yang"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12273",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24546",
+      "type": "TimeSpan",
+      "_label": "Alice Yang Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12273",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24547",
+      "type": "TimeSpan",
+      "_label": "Alice Yang Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12273",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12273",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17189",
+              "type": "Event",
+              "_label": "Su-Chen Hung: Sweet Red-2",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-27-2 - 1987-27-4",
+                "begin_of_the_begin": "1987-27-2",
+                "end_of_the_end": "1987-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25115",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17190",
+              "type": "Event",
+              "_label": "Reading Art: William Anastasi, Su-Chen Hung, Larry Johnson",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-27-2 - 1987-12-4",
+                "begin_of_the_begin": "1987-27-2",
+                "end_of_the_end": "1987-12-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25116",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17164",
+              "type": "Event",
+              "_label": "An Installation by General Idea",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-9-12 - 1989-12-2",
+                "begin_of_the_begin": "1988-9-12",
+                "end_of_the_end": "1989-12-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25117",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17161",
+              "type": "Event",
+              "_label": "Overlooked/Underplayed: Videos on Women and AIDS",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-24-2 - 1989-16-4",
+                "begin_of_the_begin": "1989-24-2",
+                "end_of_the_end": "1989-16-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25118",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21997",
+              "type": "Event",
+              "_label": "From Receiver To Remote Control: The TV Set",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-12-9 - 1990-25-11",
+                "begin_of_the_begin": "1990-12-9",
+                "end_of_the_end": "1990-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25119",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21993",
+              "type": "Event",
+              "_label": "Perejaume: Pintura i Representació",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-11-5 - 1991-18-8",
+                "begin_of_the_begin": "1991-11-5",
+                "end_of_the_end": "1991-18-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25120",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21994",
+              "type": "Event",
+              "_label": "Embodying Faith",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-11-5 - 1991-18-8",
+                "begin_of_the_begin": "1991-11-5",
+                "end_of_the_end": "1991-18-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25121",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17133",
+              "type": "Event",
+              "_label": "Linda's Last Performance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-6-12 - ",
+                "begin_of_the_begin": "1991-6-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25122",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21992",
+              "type": "Event",
+              "_label": "1+1+1: Works by Alfredo Jaar",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-15-1 - 1992-19-4",
+                "begin_of_the_begin": "1992-15-1",
+                "end_of_the_end": "1992-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25123",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21985",
+              "type": "Event",
+              "_label": "Skin Deep",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-15-1 - 1993-11-4",
+                "begin_of_the_begin": "1993-15-1",
+                "end_of_the_end": "1993-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25124",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21986",
+              "type": "Event",
+              "_label": "Oliver Herring",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-15-1 - 1993-11-4",
+                "begin_of_the_begin": "1993-15-1",
+                "end_of_the_end": "1993-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25125",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17125",
+              "type": "Event",
+              "_label": "The Final Frontier",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-7-5 - 1993-15-8",
+                "begin_of_the_begin": "1993-7-5",
+                "end_of_the_end": "1993-15-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25126",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17126",
+              "type": "Event",
+              "_label": "Breeding Unit for Reassigning Flight: Andrea Zittel",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-7-5 - 1993-15-8",
+                "begin_of_the_begin": "1993-7-5",
+                "end_of_the_end": "1993-15-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25127",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

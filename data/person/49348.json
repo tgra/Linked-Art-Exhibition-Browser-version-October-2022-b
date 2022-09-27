@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/49348",
+  "type": "Person",
+  "_label": "Ferhat Özgür",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6938",
+      "type": "Name",
+      "_label": "Ferhat Özgür"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3307",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Turkish, born 1965"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6938",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13876",
+      "type": "TimeSpan",
+      "_label": "Ferhat Özgür Birth timespan",
+      "begin_of_the_begin": "1965",
+      "end_of_the_end": "1965"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6938",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13877",
+      "type": "TimeSpan",
+      "_label": "Ferhat Özgür Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6938",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6938",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3577",
+              "type": "Event",
+              "_label": "Ferhat Özgürr: I Can Sing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-25-10 - 2013-19-1",
+                "begin_of_the_begin": "2012-25-10",
+                "end_of_the_end": "2013-19-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15720",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

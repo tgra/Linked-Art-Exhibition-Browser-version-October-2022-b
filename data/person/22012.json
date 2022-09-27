@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/22012",
+  "type": "Person",
+  "_label": "Cheri Gaulke",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1478",
+      "type": "Name",
+      "_label": "Cheri Gaulke"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1478",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2956",
+      "type": "TimeSpan",
+      "_label": "Cheri Gaulke Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1478",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2957",
+      "type": "TimeSpan",
+      "_label": "Cheri Gaulke Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1478",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1478",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17105",
+              "type": "Event",
+              "_label": "alt.youth.media",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-6-9 - 1996-5-11",
+                "begin_of_the_begin": "1996-6-9",
+                "end_of_the_end": "1996-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4235",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21966",
+              "type": "Event",
+              "_label": "Keeping Track of the Joneses",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-19-3 - 1998-12-4",
+                "begin_of_the_begin": "1998-19-3",
+                "end_of_the_end": "1998-12-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4236",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

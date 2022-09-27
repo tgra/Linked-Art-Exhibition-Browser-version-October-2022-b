@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32847",
+  "type": "Person",
+  "_label": "Tony Ramos",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5866",
+      "type": "Name",
+      "_label": "Tony Ramos"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5866",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11732",
+      "type": "TimeSpan",
+      "_label": "Tony Ramos Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5866",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11733",
+      "type": "TimeSpan",
+      "_label": "Tony Ramos Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5866",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5866",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3147",
+              "type": "Event",
+              "_label": "Video (Winter 1979–1980)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-9-12 - 1980-20-1",
+                "begin_of_the_begin": "1979-9-12",
+                "end_of_the_end": "1980-20-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11814",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

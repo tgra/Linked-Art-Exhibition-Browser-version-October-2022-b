@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67664",
+  "type": "Person",
+  "_label": "Terry O'Reilly",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14187",
+      "type": "Name",
+      "_label": "Terry O'Reilly"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14187",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28374",
+      "type": "TimeSpan",
+      "_label": "Terry O'Reilly Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14187",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28375",
+      "type": "TimeSpan",
+      "_label": "Terry O'Reilly Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14187",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14187",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18462",
+              "type": "Event",
+              "_label": "One, Two...",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-16-3 - ",
+                "begin_of_the_begin": "1979-16-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28095",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65460",
+  "type": "Person",
+  "_label": "Kevin Wolff",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12989",
+      "type": "Name",
+      "_label": "Kevin Wolff"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12989",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25978",
+      "type": "TimeSpan",
+      "_label": "Kevin Wolff Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12989",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25979",
+      "type": "TimeSpan",
+      "_label": "Kevin Wolff Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12989",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12989",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17186",
+              "type": "Event",
+              "_label": "The Other Man: Alternative Representations of Masculinity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-8-5 - 1987-12-7",
+                "begin_of_the_begin": "1987-8-5",
+                "end_of_the_end": "1987-12-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26296",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60027",
+  "type": "Person",
+  "_label": "Remy Markowitsch",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10823",
+      "type": "Name",
+      "_label": "Remy Markowitsch"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10823",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21646",
+      "type": "TimeSpan",
+      "_label": "Remy Markowitsch Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10823",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21647",
+      "type": "TimeSpan",
+      "_label": "Remy Markowitsch Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10823",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10823",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3424",
+              "type": "Event",
+              "_label": "Reprocessing Reality",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-6-4 - 2006-29-5",
+                "begin_of_the_begin": "2006-6-4",
+                "end_of_the_end": "2006-29-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22684",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

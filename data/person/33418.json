@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/33418",
+  "type": "Person",
+  "_label": "GCC",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5977",
+      "type": "Name",
+      "_label": "GCC"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2521",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Founded 2013"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5977",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11954",
+      "type": "TimeSpan",
+      "_label": "GCC Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5977",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11955",
+      "type": "TimeSpan",
+      "_label": "GCC Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5977",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5977",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/16994",
+              "type": "Event",
+              "_label": "Here and Elsewhere",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-16-7 - 2014-28-9",
+                "begin_of_the_begin": "2014-16-7",
+                "end_of_the_end": "2014-28-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12092",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

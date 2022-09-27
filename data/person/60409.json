@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60409",
+  "type": "Person",
+  "_label": "Nobue Ishiki",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11220",
+      "type": "Name",
+      "_label": "Nobue Ishiki"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11220",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22440",
+      "type": "TimeSpan",
+      "_label": "Nobue Ishiki Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11220",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22441",
+      "type": "TimeSpan",
+      "_label": "Nobue Ishiki Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11220",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11220",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2818",
+              "type": "Event",
+              "_label": "Video (Winter 1984): Abstraction and Image Processing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-22-1 - 1984-18-3",
+                "begin_of_the_begin": "1984-22-1",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23250",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

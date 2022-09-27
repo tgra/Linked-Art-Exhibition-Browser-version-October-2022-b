@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63792",
+  "type": "Person",
+  "_label": "Anne-Marie Jugnet",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12329",
+      "type": "Name",
+      "_label": "Anne-Marie Jugnet"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12329",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24658",
+      "type": "TimeSpan",
+      "_label": "Anne-Marie Jugnet Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12329",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24659",
+      "type": "TimeSpan",
+      "_label": "Anne-Marie Jugnet Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12329",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12329",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21990",
+              "type": "Event",
+              "_label": "The Big Nothing or Le Presque Rien",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-15-1 - 1992-19-4",
+                "begin_of_the_begin": "1992-15-1",
+                "end_of_the_end": "1992-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25248",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

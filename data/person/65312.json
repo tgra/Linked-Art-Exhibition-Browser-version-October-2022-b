@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65312",
+  "type": "Person",
+  "_label": "Joyce Scott",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12927",
+      "type": "Name",
+      "_label": "Joyce Scott"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12927",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25854",
+      "type": "TimeSpan",
+      "_label": "Joyce Scott Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12927",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25855",
+      "type": "TimeSpan",
+      "_label": "Joyce Scott Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12927",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12927",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17118",
+              "type": "Event",
+              "_label": "Bad Girls (Part II)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-5-3 - 1994-10-4",
+                "begin_of_the_begin": "1994-5-3",
+                "end_of_the_end": "1994-10-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26186",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

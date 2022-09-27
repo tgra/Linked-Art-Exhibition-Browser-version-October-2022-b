@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2839",
+  "type": "Person",
+  "_label": "Louis I. Kahn",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3455",
+      "type": "Name",
+      "_label": "Louis I. Kahn"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2185",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born Estonia. 1901–1974"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3455",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/6910",
+      "type": "TimeSpan",
+      "_label": "Louis I. Kahn Birth timespan",
+      "begin_of_the_begin": "1901",
+      "end_of_the_end": "1901"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3455",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/6911",
+      "type": "TimeSpan",
+      "_label": "Louis I. Kahn Death timespan",
+      "begin_of_the_begin": "1974",
+      "end_of_the_end": "1974"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3455",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3455",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/77",
+              "type": "Event",
+              "_label": "Architecture in Government Housing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-8-6 - 1936-13-7",
+                "begin_of_the_begin": "1936-8-6",
+                "end_of_the_end": "1936-13-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8226",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/119",
+              "type": "Event",
+              "_label": "Wheaton College Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1938-28-6 - 1938-12-9",
+                "begin_of_the_begin": "1938-28-6",
+                "end_of_the_end": "1938-12-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8227",
+                  "type": "Place",
+                  "_label": "14 West 49 St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

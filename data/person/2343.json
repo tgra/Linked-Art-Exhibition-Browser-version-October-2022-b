@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/2343",
+  "type": "Person",
+  "_label": "Oswald Haerdtl",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1768",
+      "type": "Name",
+      "_label": "Oswald Haerdtl"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1525",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Austrian, 1899–1959"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1768",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3536",
+      "type": "TimeSpan",
+      "_label": "Oswald Haerdtl Birth timespan",
+      "begin_of_the_begin": "1899",
+      "end_of_the_end": "1899"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1768",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3537",
+      "type": "TimeSpan",
+      "_label": "Oswald Haerdtl Death timespan",
+      "begin_of_the_begin": "1959",
+      "end_of_the_end": "1959"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1768",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1768",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/78",
+              "type": "Event",
+              "_label": "Modern Exposition Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1936-8-6 - 1936-2-9",
+                "begin_of_the_begin": "1936-8-6",
+                "end_of_the_end": "1936-2-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5075",
+                  "type": "Place",
+                  "_label": "1st Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

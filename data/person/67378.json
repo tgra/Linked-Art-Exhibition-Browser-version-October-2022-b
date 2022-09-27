@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67378",
+  "type": "Person",
+  "_label": "Kyle deCamp",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13901",
+      "type": "Name",
+      "_label": "Kyle deCamp"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13901",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27802",
+      "type": "TimeSpan",
+      "_label": "Kyle deCamp Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13901",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27803",
+      "type": "TimeSpan",
+      "_label": "Kyle deCamp Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13901",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13901",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18654",
+              "type": "Event",
+              "_label": "When Women Had Tails",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-25-10 - ",
+                "begin_of_the_begin": "1990-25-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27735",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18650",
+              "type": "Event",
+              "_label": "We Could Be SHEROES",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-21-10 - ",
+                "begin_of_the_begin": "1992-21-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27736",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

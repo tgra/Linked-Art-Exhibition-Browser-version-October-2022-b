@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/66789",
+  "type": "Person",
+  "_label": "Stephen Whisler",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13567",
+      "type": "Name",
+      "_label": "Stephen Whisler"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13567",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27134",
+      "type": "TimeSpan",
+      "_label": "Stephen Whisler Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13567",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27135",
+      "type": "TimeSpan",
+      "_label": "Stephen Whisler Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13567",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13567",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17233",
+              "type": "Event",
+              "_label": "New Work: New York / Outside New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-2-6 - 1984-15-7",
+                "begin_of_the_begin": "1984-2-6",
+                "end_of_the_end": "1984-15-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27244",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

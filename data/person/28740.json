@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/28740",
+  "type": "Person",
+  "_label": "Harry A. Jackson",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3813",
+      "type": "Name",
+      "_label": "Harry A. Jackson"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3813",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7626",
+      "type": "TimeSpan",
+      "_label": "Harry A. Jackson Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3813",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7627",
+      "type": "TimeSpan",
+      "_label": "Harry A. Jackson Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3813",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3813",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/295",
+              "type": "Event",
+              "_label": "Marines Under Fire",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-10-11 - 1944-9-1",
+                "begin_of_the_begin": "1943-10-11",
+                "end_of_the_end": "1944-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8730",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

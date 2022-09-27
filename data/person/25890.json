@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/25890",
+  "type": "Person",
+  "_label": "Haroon Mirza",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2077",
+      "type": "Name",
+      "_label": "Haroon Mirza"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1792",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "English, born 1977"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2077",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4154",
+      "type": "TimeSpan",
+      "_label": "Haroon Mirza Birth timespan",
+      "begin_of_the_begin": "1977",
+      "end_of_the_end": "1977"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2077",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4155",
+      "type": "TimeSpan",
+      "_label": "Haroon Mirza Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2077",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2077",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17018",
+              "type": "Event",
+              "_label": "Haroon Mirza: Preoccupied Waveforms",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-19-9 - 2013-6-1",
+                "begin_of_the_begin": "2012-19-9",
+                "end_of_the_end": "2013-6-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5843",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

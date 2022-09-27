@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60768",
+  "type": "Person",
+  "_label": "Judith Schaechter",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11583",
+      "type": "Name",
+      "_label": "Judith Schaechter"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11583",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23166",
+      "type": "TimeSpan",
+      "_label": "Judith Schaechter Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11583",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23167",
+      "type": "TimeSpan",
+      "_label": "Judith Schaechter Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11583",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11583",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4367",
+              "type": "Event",
+              "_label": "Judith Schaechter: Heart Attacks",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-3-2 - 1995-16-4",
+                "begin_of_the_begin": "1995-3-2",
+                "end_of_the_end": "1995-16-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23853",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

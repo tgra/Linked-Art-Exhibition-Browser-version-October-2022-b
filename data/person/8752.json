@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/8752",
+  "type": "Person",
+  "_label": "Karhula Glassworks, Finland",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14978",
+      "type": "Name",
+      "_label": "Karhula Glassworks, Finland"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14978",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29956",
+      "type": "TimeSpan",
+      "_label": "Karhula Glassworks, Finland Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14978",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29957",
+      "type": "TimeSpan",
+      "_label": "Karhula Glassworks, Finland Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14978",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14978",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/498",
+              "type": "Event",
+              "_label": "Design Show: Christmas 1949",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-15-11 - 1950-8-1",
+                "begin_of_the_begin": "1949-15-11",
+                "end_of_the_end": "1950-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/30095",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59616",
+  "type": "Person",
+  "_label": "Tom Postma",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10395",
+      "type": "Name",
+      "_label": "Tom Postma"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10395",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20790",
+      "type": "TimeSpan",
+      "_label": "Tom Postma Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10395",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20791",
+      "type": "TimeSpan",
+      "_label": "Tom Postma Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10395",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10395",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2715",
+              "type": "Event",
+              "_label": "Concrete Waves: Homage to Skate Culture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-5-12 - 2007-9-12",
+                "begin_of_the_begin": "2007-5-12",
+                "end_of_the_end": "2007-9-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22020",
+                  "type": "Place",
+                  "_label": "Art Basel Miami Beach",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

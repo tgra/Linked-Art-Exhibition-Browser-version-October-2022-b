@@ -1,0 +1,194 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32780",
+  "type": "Person",
+  "_label": "David Tudor",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5844",
+      "type": "Name",
+      "_label": "David Tudor"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5844",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11688",
+      "type": "TimeSpan",
+      "_label": "David Tudor Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5844",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11689",
+      "type": "TimeSpan",
+      "_label": "David Tudor Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5844",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5844",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3838",
+              "type": "Event",
+              "_label": "Artists For New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-28-2 - 1979-28-2",
+                "begin_of_the_begin": "1979-28-2",
+                "end_of_the_end": "1979-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11742",
+                  "type": "Place",
+                  "_label": "Xenon Discotheque, 124 West 43rd St, NYC",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3746",
+              "type": "Event",
+              "_label": "Clocktower Concert Series Presents: New Solo Virtuoso",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-25-4 - 1986-27-4",
+                "begin_of_the_begin": "1986-25-4",
+                "end_of_the_end": "1986-27-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11743",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18506",
+              "type": "Event",
+              "_label": "Rainforest",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-19-4 - ",
+                "begin_of_the_begin": "1975-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11744",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18240",
+              "type": "Event",
+              "_label": "Composers Inside Electron…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-20-9 - ",
+                "begin_of_the_begin": "1978-20-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11745",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18199",
+              "type": "Event",
+              "_label": "Between Thought and Sound…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-7-9 - ",
+                "begin_of_the_begin": "2007-7-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11746",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18507",
+              "type": "Event",
+              "_label": "Rainforest IV",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-22-9 - ",
+                "begin_of_the_begin": "2007-22-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11747",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

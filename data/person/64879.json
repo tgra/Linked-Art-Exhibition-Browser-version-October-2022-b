@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64879",
+  "type": "Person",
+  "_label": "Henry Estrada",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12744",
+      "type": "Name",
+      "_label": "Henry Estrada"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12744",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25488",
+      "type": "TimeSpan",
+      "_label": "Henry Estrada Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12744",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25489",
+      "type": "TimeSpan",
+      "_label": "Henry Estrada Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12744",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12744",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21958",
+              "type": "Event",
+              "_label": "Anaida Hernandez: Juegos Ilegales/Illegal games",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-21-1 - 1999-11-4",
+                "begin_of_the_begin": "1999-21-1",
+                "end_of_the_end": "1999-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25874",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

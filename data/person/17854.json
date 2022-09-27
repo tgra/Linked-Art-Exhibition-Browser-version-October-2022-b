@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/17854",
+  "type": "Person",
+  "_label": "Frances Stark",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/781",
+      "type": "Name",
+      "_label": "Frances Stark"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/681",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1967"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/781",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1562",
+      "type": "TimeSpan",
+      "_label": "Frances Stark Birth timespan",
+      "begin_of_the_begin": "1967",
+      "end_of_the_end": "1967"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/781",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1563",
+      "type": "TimeSpan",
+      "_label": "Frances Stark Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/781",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/781",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4016",
+              "type": "Event",
+              "_label": "White Petals Surround Your Yellow Heart",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2013-6-2 - 2013-28-7",
+                "begin_of_the_begin": "2013-6-2",
+                "end_of_the_end": "2013-28-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2347",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3510",
+              "type": "Event",
+              "_label": "Frances Stark: My Best Thing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-14-10 - 2012-1-7",
+                "begin_of_the_begin": "2011-14-10",
+                "end_of_the_end": "2012-1-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2348",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

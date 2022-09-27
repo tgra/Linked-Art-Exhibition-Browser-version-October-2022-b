@@ -1,0 +1,170 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/29506",
+  "type": "Person",
+  "_label": "David Linton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4547",
+      "type": "Name",
+      "_label": "David Linton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4547",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9094",
+      "type": "TimeSpan",
+      "_label": "David Linton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4547",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9095",
+      "type": "TimeSpan",
+      "_label": "David Linton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4547",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4547",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2826",
+              "type": "Event",
+              "_label": "Performance (Spring 1983)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-5-6 - 1983-5-6",
+                "begin_of_the_begin": "1983-5-6",
+                "end_of_the_end": "1983-5-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9678",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3790",
+              "type": "Event",
+              "_label": "Music (Spring 1989): Music/Mapping New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-27-4 - 1989-29-4",
+                "begin_of_the_begin": "1989-27-4",
+                "end_of_the_end": "1989-29-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9679",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18679",
+              "type": "Event",
+              "_label": "The World Of Echo & …",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-19-3 - ",
+                "begin_of_the_begin": "1984-19-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9680",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18442",
+              "type": "Event",
+              "_label": "New Ice Nights",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-3-1 - ",
+                "begin_of_the_begin": "1986-3-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9681",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18654",
+              "type": "Event",
+              "_label": "When Women Had Tails",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-25-10 - ",
+                "begin_of_the_begin": "1990-25-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9682",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

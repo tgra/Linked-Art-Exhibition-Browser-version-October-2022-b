@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32819",
+  "type": "Person",
+  "_label": "Sonia Andrade",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5858",
+      "type": "Name",
+      "_label": "Sonia Andrade"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5858",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11716",
+      "type": "TimeSpan",
+      "_label": "Sonia Andrade Birth timespan",
+      "begin_of_the_begin": "1935",
+      "end_of_the_end": "1935"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5858",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11717",
+      "type": "TimeSpan",
+      "_label": "Sonia Andrade Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5858",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5858",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4170",
+              "type": "Event",
+              "_label": "Video Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-17-1 - 1975-28-2",
+                "begin_of_the_begin": "1975-17-1",
+                "end_of_the_end": "1975-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11803",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

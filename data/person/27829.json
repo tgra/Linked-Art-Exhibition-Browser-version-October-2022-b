@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27829",
+  "type": "Person",
+  "_label": "Sir John Soane",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2935",
+      "type": "Name",
+      "_label": "Sir John Soane"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2935",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5870",
+      "type": "TimeSpan",
+      "_label": "Sir John Soane Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2935",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5871",
+      "type": "TimeSpan",
+      "_label": "Sir John Soane Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2935",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2935",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/48",
+              "type": "Event",
+              "_label": "Early Museum Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1934-5-4 - 1934-5-5",
+                "begin_of_the_begin": "1934-5-4",
+                "end_of_the_end": "1934-5-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7494",
+                  "type": "Place",
+                  "_label": "4th Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

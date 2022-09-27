@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64648",
+  "type": "Person",
+  "_label": "Flux Factory",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12641",
+      "type": "Name",
+      "_label": "Flux Factory"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12641",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25282",
+      "type": "TimeSpan",
+      "_label": "Flux Factory Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12641",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25283",
+      "type": "TimeSpan",
+      "_label": "Flux Factory Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12641",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12641",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21909",
+              "type": "Event",
+              "_label": "Counter Culture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-10-7 - 2004-14-8",
+                "begin_of_the_begin": "2004-10-7",
+                "end_of_the_end": "2004-14-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25702",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4896",
+  "type": "Person",
+  "_label": "Reiner Ruthenbeck",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6916",
+      "type": "Name",
+      "_label": "Reiner Ruthenbeck"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3288",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1937"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6916",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13832",
+      "type": "TimeSpan",
+      "_label": "Reiner Ruthenbeck Birth timespan",
+      "begin_of_the_begin": "1937",
+      "end_of_the_end": "1937"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6916",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13833",
+      "type": "TimeSpan",
+      "_label": "Reiner Ruthenbeck Death timespan",
+      "begin_of_the_begin": "2016",
+      "end_of_the_end": "2016"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6916",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6916",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3085",
+              "type": "Event",
+              "_label": "Juxtapositions: Recent Sculpture from England and Germany",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-26-4 - 1987-21-6",
+                "begin_of_the_begin": "1987-26-4",
+                "end_of_the_end": "1987-21-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15633",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

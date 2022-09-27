@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/28903",
+  "type": "Person",
+  "_label": "Carlos O. Romero",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/3971",
+      "type": "Name",
+      "_label": "Carlos O. Romero"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/3971",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7942",
+      "type": "TimeSpan",
+      "_label": "Carlos O. Romero Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/3971",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/7943",
+      "type": "TimeSpan",
+      "_label": "Carlos O. Romero Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/3971",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/3971",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/152",
+              "type": "Event",
+              "_label": "Twenty Centuries of Mexican Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-15-5 - 1940-30-9",
+                "begin_of_the_begin": "1940-15-5",
+                "end_of_the_end": "1940-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/8965",
+                  "type": "Place",
+                  "_label": "Sculpture Garden, 1st, 2nd and 3rd Floors, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

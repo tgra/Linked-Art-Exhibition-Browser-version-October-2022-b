@@ -1,0 +1,122 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64680",
+  "type": "Person",
+  "_label": "Frieda Medin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12656",
+      "type": "Name",
+      "_label": "Frieda Medin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12656",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25312",
+      "type": "TimeSpan",
+      "_label": "Frieda Medin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12656",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25313",
+      "type": "TimeSpan",
+      "_label": "Frieda Medin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12656",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12656",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17245",
+              "type": "Event",
+              "_label": "Events: En Foco, Heresies Collective",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-6 - 1983-20-7",
+                "begin_of_the_begin": "1983-11-6",
+                "end_of_the_end": "1983-20-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25725",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22024",
+              "type": "Event",
+              "_label": "Events: En Foco",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-6 - 1983-20-7",
+                "begin_of_the_begin": "1983-11-6",
+                "end_of_the_end": "1983-20-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25726",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18650",
+              "type": "Event",
+              "_label": "We Could Be SHEROES",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-21-10 - ",
+                "begin_of_the_begin": "1992-21-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25727",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

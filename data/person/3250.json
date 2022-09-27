@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3250",
+  "type": "Person",
+  "_label": "Jacques-Henri Lartigue",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5801",
+      "type": "Name",
+      "_label": "Jacques-Henri Lartigue"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2459",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French, 1894–1986"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5801",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11602",
+      "type": "TimeSpan",
+      "_label": "Jacques-Henri Lartigue Birth timespan",
+      "begin_of_the_begin": "1894",
+      "end_of_the_end": "1894"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5801",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11603",
+      "type": "TimeSpan",
+      "_label": "Jacques-Henri Lartigue Death timespan",
+      "begin_of_the_begin": "1986",
+      "end_of_the_end": "1986"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5801",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5801",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4140",
+              "type": "Event",
+              "_label": "Fleeting Gestures: Treasures of Dance Photography",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-14-6 - 1980-27-7",
+                "begin_of_the_begin": "1980-14-6",
+                "end_of_the_end": "1980-27-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11552",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3441",
+              "type": "Event",
+              "_label": "Woman of Many Faces: Isabelle Huppert",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-30-10 - 2005-5-12",
+                "begin_of_the_begin": "2005-30-10",
+                "end_of_the_end": "2005-5-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11553",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

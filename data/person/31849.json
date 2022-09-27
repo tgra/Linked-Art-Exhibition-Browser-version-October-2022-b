@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/31849",
+  "type": "Person",
+  "_label": "Preston McClanahan",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5644",
+      "type": "Name",
+      "_label": "Preston McClanahan"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5644",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11288",
+      "type": "TimeSpan",
+      "_label": "Preston McClanahan Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5644",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11289",
+      "type": "TimeSpan",
+      "_label": "Preston McClanahan Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5644",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5644",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4405",
+              "type": "Event",
+              "_label": "Current Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1965-18-3 - 1965-10-5",
+                "begin_of_the_begin": "1965-18-3",
+                "end_of_the_end": "1965-10-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11274",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/22943",
+  "type": "Person",
+  "_label": "Kirk von Heflin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1669",
+      "type": "Name",
+      "_label": "Kirk von Heflin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1669",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3338",
+      "type": "TimeSpan",
+      "_label": "Kirk von Heflin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1669",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3339",
+      "type": "TimeSpan",
+      "_label": "Kirk von Heflin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1669",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1669",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2779",
+              "type": "Event",
+              "_label": "Video (Fall 1982): Animal Magnetism",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-17-10 - 1982-12-12",
+                "begin_of_the_begin": "1982-17-10",
+                "end_of_the_end": "1982-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4861",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

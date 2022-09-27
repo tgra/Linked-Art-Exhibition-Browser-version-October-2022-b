@@ -1,0 +1,164 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/20463",
+  "type": "Person",
+  "_label": "Aleksandra Mir",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1172",
+      "type": "Name",
+      "_label": "Aleksandra Mir"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1035",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American and Swedish, born Poland 1967"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1172",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2344",
+      "type": "TimeSpan",
+      "_label": "Aleksandra Mir Birth timespan",
+      "begin_of_the_begin": "1967",
+      "end_of_the_end": "1967"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1172",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2345",
+      "type": "TimeSpan",
+      "_label": "Aleksandra Mir Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1172",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1172",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4295",
+              "type": "Event",
+              "_label": "Naming Tokyo (Part III)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-24-1 - 2004-4-4",
+                "begin_of_the_begin": "2004-24-1",
+                "end_of_the_end": "2004-4-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3386",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3430",
+              "type": "Event",
+              "_label": "Aleksandra Mir: The Big Umbrella",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-24-10 - 2005-23-1",
+                "begin_of_the_begin": "2004-24-10",
+                "end_of_the_end": "2005-23-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3387",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21968",
+              "type": "Event",
+              "_label": "Installation: Aleksandra Mir",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-12-2 - 1997-18-4",
+                "begin_of_the_begin": "1997-12-2",
+                "end_of_the_end": "1997-18-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3388",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17041",
+              "type": "Event",
+              "_label": "The Last Newspaper: Contemporary Art, Curating Histories, Alternative Models",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-6-10 - 2011-9-1",
+                "begin_of_the_begin": "2010-6-10",
+                "end_of_the_end": "2011-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3389",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

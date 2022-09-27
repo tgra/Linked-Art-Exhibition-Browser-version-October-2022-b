@@ -1,0 +1,144 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/35722",
+  "type": "Person",
+  "_label": "Constance DeJong",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6293",
+      "type": "Name",
+      "_label": "Constance DeJong"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6293",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12586",
+      "type": "TimeSpan",
+      "_label": "Constance DeJong Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6293",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12587",
+      "type": "TimeSpan",
+      "_label": "Constance DeJong Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6293",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6293",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18381",
+              "type": "Event",
+              "_label": "Kathy Acker and Constance…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-25-1 - ",
+                "begin_of_the_begin": "1976-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12894",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18426",
+              "type": "Event",
+              "_label": "Modern Love and The Lucy …",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-21-10 - ",
+                "begin_of_the_begin": "1977-21-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12895",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18154",
+              "type": "Event",
+              "_label": "A Listening Room",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-1-4 - ",
+                "begin_of_the_begin": "1980-1-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12896",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18512",
+              "type": "Event",
+              "_label": "Relatives",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-3-3 - ",
+                "begin_of_the_begin": "1989-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12897",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

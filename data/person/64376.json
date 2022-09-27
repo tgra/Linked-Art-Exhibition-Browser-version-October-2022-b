@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64376",
+  "type": "Person",
+  "_label": "DD Dorvillier",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12542",
+      "type": "Name",
+      "_label": "DD Dorvillier"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12542",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25084",
+      "type": "TimeSpan",
+      "_label": "DD Dorvillier Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12542",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25085",
+      "type": "TimeSpan",
+      "_label": "DD Dorvillier Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12542",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12542",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18658",
+              "type": "Event",
+              "_label": "Wind (the Eternal Return …",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-21-3 - ",
+                "begin_of_the_begin": "2001-21-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25560",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18454",
+              "type": "Event",
+              "_label": "Nottthing Is Importanttt",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-10-2 - ",
+                "begin_of_the_begin": "2007-10-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25561",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

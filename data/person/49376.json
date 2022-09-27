@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/49376",
+  "type": "Person",
+  "_label": "Jessica Craig-Martin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6943",
+      "type": "Name",
+      "_label": "Jessica Craig-Martin"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3312",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6943",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13886",
+      "type": "TimeSpan",
+      "_label": "Jessica Craig-Martin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6943",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13887",
+      "type": "TimeSpan",
+      "_label": "Jessica Craig-Martin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6943",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6943",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21926",
+              "type": "Event",
+              "_label": "A Work in Progress: Selections from the New Museum Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-5-10 - 2001-25-11",
+                "begin_of_the_begin": "2001-5-10",
+                "end_of_the_end": "2001-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15730",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

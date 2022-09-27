@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/26842",
+  "type": "Person",
+  "_label": "Chim↑Pom",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2224",
+      "type": "Name",
+      "_label": "Chim↑Pom"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1914",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, founded 2005"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2224",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4448",
+      "type": "TimeSpan",
+      "_label": "Chim↑Pom Birth timespan",
+      "begin_of_the_begin": "2005",
+      "end_of_the_end": "2005"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2224",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4449",
+      "type": "TimeSpan",
+      "_label": "Chim↑Pom Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2224",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2224",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3240",
+              "type": "Event",
+              "_label": "Chim↑Pom",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-20-11 - 2012-23-4",
+                "begin_of_the_begin": "2011-20-11",
+                "end_of_the_end": "2012-23-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6184",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3241",
+              "type": "Event",
+              "_label": "Zero Tolerance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-26-10 - 2015-8-3",
+                "begin_of_the_begin": "2014-26-10",
+                "end_of_the_end": "2015-8-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6185",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

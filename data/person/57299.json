@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57299",
+  "type": "Person",
+  "_label": "Geoffrey Leather",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8002",
+      "type": "Name",
+      "_label": "Geoffrey Leather"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8002",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16004",
+      "type": "TimeSpan",
+      "_label": "Geoffrey Leather Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8002",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16005",
+      "type": "TimeSpan",
+      "_label": "Geoffrey Leather Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8002",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8002",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3818",
+              "type": "Event",
+              "_label": "Deborah Turbeville with Geoffrey Leather: \"L'Heure Entre Chien et Loup\"",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-11-2 - 1981-7-3",
+                "begin_of_the_begin": "1981-11-2",
+                "end_of_the_end": "1981-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18470",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/28982",
+  "type": "Person",
+  "_label": "C.D. Sternfels",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4052",
+      "type": "Name",
+      "_label": "C.D. Sternfels"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4052",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8104",
+      "type": "TimeSpan",
+      "_label": "C.D. Sternfels Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4052",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/8105",
+      "type": "TimeSpan",
+      "_label": "C.D. Sternfels Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4052",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4052",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/163",
+              "type": "Event",
+              "_label": "Useful Objects of American Design under $10",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1940-26-11 - 1940-24-12",
+                "begin_of_the_begin": "1940-26-11",
+                "end_of_the_end": "1940-24-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9075",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

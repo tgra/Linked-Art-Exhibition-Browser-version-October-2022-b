@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/17647",
+  "type": "Person",
+  "_label": "Henry Darger",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/686",
+      "type": "Name",
+      "_label": "Henry Darger"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/586",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1892–1973"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/686",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1372",
+      "type": "TimeSpan",
+      "_label": "Henry Darger Birth timespan",
+      "begin_of_the_begin": "1892",
+      "end_of_the_end": "1892"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/686",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1373",
+      "type": "TimeSpan",
+      "_label": "Henry Darger Death timespan",
+      "begin_of_the_begin": "1973",
+      "end_of_the_end": "1973"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/686",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/686",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2889",
+              "type": "Event",
+              "_label": "Disasters of War: Francisco de Goya, Henry Darger, Jake and Dinos Chapman",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-19-11 - 2001-25-2",
+                "begin_of_the_begin": "2000-19-11",
+                "end_of_the_end": "2001-25-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2133",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3559",
+              "type": "Event",
+              "_label": "Into Me/Out of Me",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-25-9",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-25-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2134",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

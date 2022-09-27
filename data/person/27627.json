@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27627",
+  "type": "Person",
+  "_label": "Molly Luce",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2727",
+      "type": "Name",
+      "_label": "Molly Luce"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2727",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5454",
+      "type": "TimeSpan",
+      "_label": "Molly Luce Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2727",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5455",
+      "type": "TimeSpan",
+      "_label": "Molly Luce Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2727",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2727",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/44",
+              "type": "Event",
+              "_label": "Painting and Sculpture from 16 American Cities",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1933-11-12 - 1934-7-1",
+                "begin_of_the_begin": "1933-11-12",
+                "end_of_the_end": "1934-7-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7246",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

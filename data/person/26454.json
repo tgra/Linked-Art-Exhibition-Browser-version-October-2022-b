@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/26454",
+  "type": "Person",
+  "_label": "Cinthia Marcelle",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2156",
+      "type": "Name",
+      "_label": "Cinthia Marcelle"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1863",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Brazilian, born 1974"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2156",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4312",
+      "type": "TimeSpan",
+      "_label": "Cinthia Marcelle Birth timespan",
+      "begin_of_the_begin": "1974",
+      "end_of_the_end": "1974"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2156",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4313",
+      "type": "TimeSpan",
+      "_label": "Cinthia Marcelle Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2156",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2156",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3264",
+              "type": "Event",
+              "_label": "Projects 105: Cinthia Marcelle",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-23-10 - 2017-5-3",
+                "begin_of_the_begin": "2016-23-10",
+                "end_of_the_end": "2017-5-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6054",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17026",
+              "type": "Event",
+              "_label": "The Ungovernables: 2012 New Museum Triennial",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2012-15-2 - 2012-22-4",
+                "begin_of_the_begin": "2012-15-2",
+                "end_of_the_end": "2012-22-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6055",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

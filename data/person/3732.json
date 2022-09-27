@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3732",
+  "type": "Person",
+  "_label": "John McLaughlin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6400",
+      "type": "Name",
+      "_label": "John McLaughlin"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2823",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1898–1976"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6400",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12800",
+      "type": "TimeSpan",
+      "_label": "John McLaughlin Birth timespan",
+      "begin_of_the_begin": "1898",
+      "end_of_the_end": "1898"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6400",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12801",
+      "type": "TimeSpan",
+      "_label": "John McLaughlin Death timespan",
+      "begin_of_the_begin": "1976",
+      "end_of_the_end": "1976"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6400",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6400",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2726",
+              "type": "Event",
+              "_label": "Underknown",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-14-10 - 1984-9-12",
+                "begin_of_the_begin": "1984-14-10",
+                "end_of_the_end": "1984-9-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13303",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3720",
+              "type": "Event",
+              "_label": "John McLaughlin",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1993-20-5 - 1993-19-6",
+                "begin_of_the_begin": "1993-20-5",
+                "end_of_the_end": "1993-19-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13304",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

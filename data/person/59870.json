@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59870",
+  "type": "Person",
+  "_label": "Laurie Ourlicht",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10659",
+      "type": "Name",
+      "_label": "Laurie Ourlicht"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10659",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21318",
+      "type": "TimeSpan",
+      "_label": "Laurie Ourlicht Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10659",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21319",
+      "type": "TimeSpan",
+      "_label": "Laurie Ourlicht Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10659",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10659",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3637",
+              "type": "Event",
+              "_label": "Progressions: A Cultural Legacy",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-13-2 - 1986-15-3",
+                "begin_of_the_begin": "1986-13-2",
+                "end_of_the_end": "1986-15-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22418",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

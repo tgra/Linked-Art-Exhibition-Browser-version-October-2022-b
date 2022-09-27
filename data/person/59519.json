@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59519",
+  "type": "Person",
+  "_label": "Fast Forward",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10294",
+      "type": "Name",
+      "_label": "Fast Forward"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10294",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20588",
+      "type": "TimeSpan",
+      "_label": "Fast Forward Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10294",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20589",
+      "type": "TimeSpan",
+      "_label": "Fast Forward Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10294",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10294",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3795",
+              "type": "Event",
+              "_label": "Thursdays Music",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-9-5 - 1985-20-6",
+                "begin_of_the_begin": "1985-9-5",
+                "end_of_the_end": "1985-20-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21881",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

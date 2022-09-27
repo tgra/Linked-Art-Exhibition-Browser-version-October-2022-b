@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58422",
+  "type": "Person",
+  "_label": "Jim Jennings",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9160",
+      "type": "Name",
+      "_label": "Jim Jennings"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9160",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18320",
+      "type": "TimeSpan",
+      "_label": "Jim Jennings Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9160",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18321",
+      "type": "TimeSpan",
+      "_label": "Jim Jennings Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9160",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9160",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3295",
+              "type": "Event",
+              "_label": "Outdoor Cinema Series (Summer 1999)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-15-7 - 1999-29-7",
+                "begin_of_the_begin": "1999-15-7",
+                "end_of_the_end": "1999-29-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20279",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

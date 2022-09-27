@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67350",
+  "type": "Person",
+  "_label": "Judith Sherman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13872",
+      "type": "Name",
+      "_label": "Judith Sherman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13872",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27744",
+      "type": "TimeSpan",
+      "_label": "Judith Sherman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13872",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27745",
+      "type": "TimeSpan",
+      "_label": "Judith Sherman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13872",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13872",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18299",
+              "type": "Event",
+              "_label": "Evening of New Music",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1972-9-10 - ",
+                "begin_of_the_begin": "1972-9-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27699",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

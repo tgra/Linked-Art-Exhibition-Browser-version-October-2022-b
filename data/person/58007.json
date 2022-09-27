@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58007",
+  "type": "Person",
+  "_label": "Curtis Mitchell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8731",
+      "type": "Name",
+      "_label": "Curtis Mitchell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8731",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17462",
+      "type": "TimeSpan",
+      "_label": "Curtis Mitchell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8731",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/17463",
+      "type": "TimeSpan",
+      "_label": "Curtis Mitchell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8731",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8731",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3021",
+              "type": "Event",
+              "_label": "7 Rooms/7 Shows",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-8-11 - 1993-10-1",
+                "begin_of_the_begin": "1992-8-11",
+                "end_of_the_end": "1993-10-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19637",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3422",
+              "type": "Event",
+              "_label": "International and National Projects Summer 2006: Joe Bradley, Drew Heitzler, Kalup Linzy, Curtis Mitchell, Taiyo Onorato & Nico Krebs, and Lisi Raskin",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-25-6 - 2006-9-10",
+                "begin_of_the_begin": "2006-25-6",
+                "end_of_the_end": "2006-9-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19638",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17138",
+              "type": "Event",
+              "_label": "Cadences: Icon and Abstraction in Context",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-16-2 - 1991-7-4",
+                "begin_of_the_begin": "1991-16-2",
+                "end_of_the_end": "1991-7-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/19639",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

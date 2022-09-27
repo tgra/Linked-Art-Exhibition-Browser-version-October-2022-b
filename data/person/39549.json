@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/39549",
+  "type": "Person",
+  "_label": "Sam Samore",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6493",
+      "type": "Name",
+      "_label": "Sam Samore"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6493",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12986",
+      "type": "TimeSpan",
+      "_label": "Sam Samore Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6493",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12987",
+      "type": "TimeSpan",
+      "_label": "Sam Samore Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6493",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6493",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21990",
+              "type": "Event",
+              "_label": "The Big Nothing or Le Presque Rien",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-15-1 - 1992-19-4",
+                "begin_of_the_begin": "1992-15-1",
+                "end_of_the_end": "1992-19-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13741",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

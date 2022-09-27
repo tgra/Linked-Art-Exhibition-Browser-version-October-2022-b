@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4601",
+  "type": "Person",
+  "_label": "Charles Rain",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6786",
+      "type": "Name",
+      "_label": "Charles Rain"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3170",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, 1911–1985"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6786",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13572",
+      "type": "TimeSpan",
+      "_label": "Charles Rain Birth timespan",
+      "begin_of_the_begin": "1911",
+      "end_of_the_end": "1911"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6786",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13573",
+      "type": "TimeSpan",
+      "_label": "Charles Rain Death timespan",
+      "begin_of_the_begin": "1985",
+      "end_of_the_end": "1985"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6786",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6786",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/266",
+              "type": "Event",
+              "_label": "Americans 1943: Realists and Magic-Realists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-10-2 - 1943-21-3",
+                "begin_of_the_begin": "1943-10-2",
+                "end_of_the_end": "1943-21-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15088",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/19503",
+  "type": "Person",
+  "_label": "Tom Kalin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1061",
+      "type": "Name",
+      "_label": "Tom Kalin"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/931",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1962"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1061",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2122",
+      "type": "TimeSpan",
+      "_label": "Tom Kalin Birth timespan",
+      "begin_of_the_begin": "1962",
+      "end_of_the_end": "1962"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1061",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2123",
+      "type": "TimeSpan",
+      "_label": "Tom Kalin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1061",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1061",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2913",
+              "type": "Event",
+              "_label": "The Winter of Love (L'Hiver de l'Amour)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-9-10 - 1995-8-1",
+                "begin_of_the_begin": "1994-9-10",
+                "end_of_the_end": "1995-8-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3069",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3342",
+              "type": "Event",
+              "_label": "Day Without Art 1994",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-1-12 - 1994-1-12",
+                "begin_of_the_begin": "1994-1-12",
+                "end_of_the_end": "1994-1-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3070",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

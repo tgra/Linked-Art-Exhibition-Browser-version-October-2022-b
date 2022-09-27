@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/61752",
+  "type": "Person",
+  "_label": "Pio Galbis",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11985",
+      "type": "Name",
+      "_label": "Pio Galbis"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11985",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23970",
+      "type": "TimeSpan",
+      "_label": "Pio Galbis Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11985",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23971",
+      "type": "TimeSpan",
+      "_label": "Pio Galbis Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11985",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11985",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/22014",
+              "type": "Event",
+              "_label": "Perry Bard, Richard Bloes, James Elaine, Pio Galbis",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-28-7 - 1984-11-8",
+                "begin_of_the_begin": "1984-28-7",
+                "end_of_the_end": "1984-11-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24431",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

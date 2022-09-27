@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67415",
+  "type": "Person",
+  "_label": "Metropolis Video",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13937",
+      "type": "Name",
+      "_label": "Metropolis Video"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13937",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27874",
+      "type": "TimeSpan",
+      "_label": "Metropolis Video Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13937",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27875",
+      "type": "TimeSpan",
+      "_label": "Metropolis Video Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13937",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13937",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18520",
+              "type": "Event",
+              "_label": "Rock From CBGB",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-6-10 - ",
+                "begin_of_the_begin": "1977-6-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27774",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

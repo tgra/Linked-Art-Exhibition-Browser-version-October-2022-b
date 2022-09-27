@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67400",
+  "type": "Person",
+  "_label": "Luke Stettner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13923",
+      "type": "Name",
+      "_label": "Luke Stettner"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13923",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27846",
+      "type": "TimeSpan",
+      "_label": "Luke Stettner Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13923",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27847",
+      "type": "TimeSpan",
+      "_label": "Luke Stettner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13923",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13923",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18685",
+              "type": "Event",
+              "_label": "This Single Monument",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-23-1 - ",
+                "begin_of_the_begin": "2014-23-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27760",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

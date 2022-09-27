@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27505",
+  "type": "Person",
+  "_label": "Seymour Drumlevitch",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2599",
+      "type": "Name",
+      "_label": "Seymour Drumlevitch"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2599",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5198",
+      "type": "TimeSpan",
+      "_label": "Seymour Drumlevitch Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2599",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/5199",
+      "type": "TimeSpan",
+      "_label": "Seymour Drumlevitch Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2599",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2599",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/513",
+              "type": "Event",
+              "_label": "New Talent Exhibition in the Penthouse: Drumlevitch, King, Parker",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1950-28-4 - 1950-7-6",
+                "begin_of_the_begin": "1950-28-4",
+                "end_of_the_end": "1950-7-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/7057",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59339",
+  "type": "Person",
+  "_label": "ROY",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10108",
+      "type": "Name",
+      "_label": "ROY"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10108",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20216",
+      "type": "TimeSpan",
+      "_label": "ROY Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10108",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20217",
+      "type": "TimeSpan",
+      "_label": "ROY Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10108",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10108",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3230",
+              "type": "Event",
+              "_label": "Young Architects Program 2001 (MoMA PS1): subWave by ROY",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-1-7 - 2001-20-9",
+                "begin_of_the_begin": "2001-1-7",
+                "end_of_the_end": "2001-20-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21636",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

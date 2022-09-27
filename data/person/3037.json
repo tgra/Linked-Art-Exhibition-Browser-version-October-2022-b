@@ -1,0 +1,186 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3037",
+  "type": "Person",
+  "_label": "Christopher Knowles",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5040",
+      "type": "Name",
+      "_label": "Christopher Knowles"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2340",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1959"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5040",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10080",
+      "type": "TimeSpan",
+      "_label": "Christopher Knowles Birth timespan",
+      "begin_of_the_begin": "1959",
+      "end_of_the_end": "1959"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5040",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10081",
+      "type": "TimeSpan",
+      "_label": "Christopher Knowles Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5040",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5040",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3998",
+              "type": "Event",
+              "_label": "Christopher Knowles: In a Word",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-16-9 - 2015-27-12",
+                "begin_of_the_begin": "2015-16-9",
+                "end_of_the_end": "2015-27-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10353",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2931",
+              "type": "Event",
+              "_label": "Not For Sale",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-11-2 - 2007-30-4",
+                "begin_of_the_begin": "2007-11-2",
+                "end_of_the_end": "2007-30-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10354",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18127",
+              "type": "Event",
+              "_label": "\"A Typing Work Show\" and …",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-4-5 - ",
+                "begin_of_the_begin": "1976-4-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10355",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18289",
+              "type": "Event",
+              "_label": "Emily Likes the TV",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-28-10 - ",
+                "begin_of_the_begin": "1976-28-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10356",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18335",
+              "type": "Event",
+              "_label": "Get Wreck",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-12-9 - ",
+                "begin_of_the_begin": "1978-12-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10357",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

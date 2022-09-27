@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67488",
+  "type": "Person",
+  "_label": "Sean Raspet",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14014",
+      "type": "Name",
+      "_label": "Sean Raspet"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14014",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28028",
+      "type": "TimeSpan",
+      "_label": "Sean Raspet Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14014",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28029",
+      "type": "TimeSpan",
+      "_label": "Sean Raspet Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14014",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14014",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18185",
+              "type": "Event",
+              "_label": "As If Written In",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-10-9 - ",
+                "begin_of_the_begin": "2010-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27871",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

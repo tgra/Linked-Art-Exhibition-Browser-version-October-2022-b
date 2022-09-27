@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59268",
+  "type": "Person",
+  "_label": "Daniel Oates",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10035",
+      "type": "Name",
+      "_label": "Daniel Oates"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10035",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20070",
+      "type": "TimeSpan",
+      "_label": "Daniel Oates Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10035",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20071",
+      "type": "TimeSpan",
+      "_label": "Daniel Oates Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10035",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10035",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4371",
+              "type": "Event",
+              "_label": "Face-Off: The Portrait in Recent Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1994-9-9 - 1994-30-10",
+                "begin_of_the_begin": "1994-9-9",
+                "end_of_the_end": "1994-30-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21548",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2886",
+              "type": "Event",
+              "_label": "Almost Warm & Fuzzy: Childhood and Contemporary Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-4-2 - 2001-8-4",
+                "begin_of_the_begin": "2001-4-2",
+                "end_of_the_end": "2001-8-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21549",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3472",
+              "type": "Event",
+              "_label": "Uniform: Order and Disorder",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2001-20-5 - 2001-23-9",
+                "begin_of_the_begin": "2001-20-5",
+                "end_of_the_end": "2001-23-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21550",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

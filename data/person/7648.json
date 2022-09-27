@@ -1,0 +1,139 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/7648",
+  "type": "Person",
+  "_label": "Hans-Peter Feldmann",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14713",
+      "type": "Name",
+      "_label": "Hans-Peter Feldmann"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4195",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born 1941"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14713",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29426",
+      "type": "TimeSpan",
+      "_label": "Hans-Peter Feldmann Birth timespan",
+      "begin_of_the_begin": "1941",
+      "end_of_the_end": "1941"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14713",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29427",
+      "type": "TimeSpan",
+      "_label": "Hans-Peter Feldmann Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14713",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14713",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2903",
+              "type": "Event",
+              "_label": "Deep Storage",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1998-5-7 - 1998-30-8",
+                "begin_of_the_begin": "1998-5-7",
+                "end_of_the_end": "1998-30-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29330",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3443",
+              "type": "Event",
+              "_label": "Hans-Peter Feldmann: 100 Years",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-24-10 - 2005-20-2",
+                "begin_of_the_begin": "2004-24-10",
+                "end_of_the_end": "2005-20-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29331",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/2859",
+              "type": "Event",
+              "_label": "Organizing Chaos",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-24-5 - 2007-8-10",
+                "begin_of_the_begin": "2007-24-5",
+                "end_of_the_end": "2007-8-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29332",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

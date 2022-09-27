@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59381",
+  "type": "Person",
+  "_label": "Karlis Rekevics",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10150",
+      "type": "Name",
+      "_label": "Karlis Rekevics"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10150",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20300",
+      "type": "TimeSpan",
+      "_label": "Karlis Rekevics Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10150",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20301",
+      "type": "TimeSpan",
+      "_label": "Karlis Rekevics Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10150",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10150",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3499",
+              "type": "Event",
+              "_label": "Building Structures",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-23-9 - 2003-31-1",
+                "begin_of_the_begin": "2002-23-9",
+                "end_of_the_end": "2003-31-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21688",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/19144",
+  "type": "Person",
+  "_label": "Alexandra Domanovic",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/996",
+      "type": "Name",
+      "_label": "Alexandra Domanovic"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/996",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1992",
+      "type": "TimeSpan",
+      "_label": "Alexandra Domanovic Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/996",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1993",
+      "type": "TimeSpan",
+      "_label": "Alexandra Domanovic Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/996",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/996",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17039",
+              "type": "Event",
+              "_label": "Free",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-20-10 - 2011-23-1",
+                "begin_of_the_begin": "2010-20-10",
+                "end_of_the_end": "2011-23-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2934",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/16990",
+              "type": "Event",
+              "_label": "2015 Triennial: Surround Audience",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-25-2 - 2015-24-5",
+                "begin_of_the_begin": "2015-25-2",
+                "end_of_the_end": "2015-24-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2935",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

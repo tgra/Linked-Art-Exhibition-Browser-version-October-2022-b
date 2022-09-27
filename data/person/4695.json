@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/4695",
+  "type": "Person",
+  "_label": "Antonio Reynoso",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6827",
+      "type": "Name",
+      "_label": "Antonio Reynoso"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3208",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Mexican,1919–1996"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6827",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13654",
+      "type": "TimeSpan",
+      "_label": "Antonio Reynoso Birth timespan",
+      "begin_of_the_begin": "1919",
+      "end_of_the_end": "1919"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6827",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13655",
+      "type": "TimeSpan",
+      "_label": "Antonio Reynoso Death timespan",
+      "begin_of_the_begin": "1996",
+      "end_of_the_end": "1996"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6827",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6827",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/386",
+              "type": "Event",
+              "_label": "New Photographers",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-18-6 - 1946-15-9",
+                "begin_of_the_begin": "1946-18-6",
+                "end_of_the_end": "1946-15-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15257",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

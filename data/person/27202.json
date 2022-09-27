@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27202",
+  "type": "Person",
+  "_label": "Franklin and Kump",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2289",
+      "type": "Name",
+      "_label": "Franklin and Kump"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2289",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4578",
+      "type": "TimeSpan",
+      "_label": "Franklin and Kump Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2289",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4579",
+      "type": "TimeSpan",
+      "_label": "Franklin and Kump Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2289",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2289",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/243",
+              "type": "Event",
+              "_label": "Modern Architecture for the Modern School",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-16-9 - 1942-30-9",
+                "begin_of_the_begin": "1942-16-9",
+                "end_of_the_end": "1942-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6517",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/312",
+              "type": "Event",
+              "_label": "Built in the U.S.A., 1932–44",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1944-24-5 - 1944-22-10",
+                "begin_of_the_begin": "1944-24-5",
+                "end_of_the_end": "1944-22-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6518",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

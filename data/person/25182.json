@@ -1,0 +1,114 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/25182",
+  "type": "Person",
+  "_label": "Ben Kinmont",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1983",
+      "type": "Name",
+      "_label": "Ben Kinmont"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1711",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1963"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1983",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3966",
+      "type": "TimeSpan",
+      "_label": "Ben Kinmont Birth timespan",
+      "begin_of_the_begin": "1963",
+      "end_of_the_end": "1963"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1983",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3967",
+      "type": "TimeSpan",
+      "_label": "Ben Kinmont Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1983",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1983",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3724",
+              "type": "Event",
+              "_label": "Parasite Artist Organization Group",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-1-11 - 1998-30-3",
+                "begin_of_the_begin": "1997-1-11",
+                "end_of_the_end": "1998-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5606",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21988",
+              "type": "Event",
+              "_label": "The Art Mall: A Social Space",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-16-5 - 1992-28-6",
+                "begin_of_the_begin": "1992-16-5",
+                "end_of_the_end": "1992-28-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5607",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

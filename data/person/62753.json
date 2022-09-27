@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/62753",
+  "type": "Person",
+  "_label": "Rigo 23",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12067",
+      "type": "Name",
+      "_label": "Rigo 23"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12067",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24134",
+      "type": "TimeSpan",
+      "_label": "Rigo 23 Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12067",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24135",
+      "type": "TimeSpan",
+      "_label": "Rigo 23 Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12067",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12067",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21851",
+              "type": "Event",
+              "_label": "The Deeper They Bury Me, The Louder My Voice Becomes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-15-7 - 2009-11-10",
+                "begin_of_the_begin": "2009-15-7",
+                "end_of_the_end": "2009-11-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24605",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67082",
+  "type": "Person",
+  "_label": "Verena Dengler",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13691",
+      "type": "Name",
+      "_label": "Verena Dengler"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13691",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27382",
+      "type": "TimeSpan",
+      "_label": "Verena Dengler Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13691",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27383",
+      "type": "TimeSpan",
+      "_label": "Verena Dengler Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13691",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13691",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/16990",
+              "type": "Event",
+              "_label": "2015 Triennial: Surround Audience",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-25-2 - 2015-24-5",
+                "begin_of_the_begin": "2015-25-2",
+                "end_of_the_end": "2015-24-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27458",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

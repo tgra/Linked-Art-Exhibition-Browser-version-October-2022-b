@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67663",
+  "type": "Person",
+  "_label": "Terry Moyemont",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14186",
+      "type": "Name",
+      "_label": "Terry Moyemont"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14186",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28372",
+      "type": "TimeSpan",
+      "_label": "Terry Moyemont Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14186",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/28373",
+      "type": "TimeSpan",
+      "_label": "Terry Moyemont Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14186",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14186",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18173",
+              "type": "Event",
+              "_label": "Almost Dance",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-16-11 - ",
+                "begin_of_the_begin": "1984-16-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/28094",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

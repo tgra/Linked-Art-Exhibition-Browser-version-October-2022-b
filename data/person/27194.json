@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27194",
+  "type": "Person",
+  "_label": "Carl F. Gromme",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2281",
+      "type": "Name",
+      "_label": "Carl F. Gromme"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2281",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4562",
+      "type": "TimeSpan",
+      "_label": "Carl F. Gromme Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2281",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4563",
+      "type": "TimeSpan",
+      "_label": "Carl F. Gromme Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2281",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2281",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/243",
+              "type": "Event",
+              "_label": "Modern Architecture for the Modern School",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-16-9 - 1942-30-9",
+                "begin_of_the_begin": "1942-16-9",
+                "end_of_the_end": "1942-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6502",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/336",
+              "type": "Event",
+              "_label": "The Lesson of War Housing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-16-1 - 1945-4-3",
+                "begin_of_the_begin": "1945-16-1",
+                "end_of_the_end": "1945-4-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6503",
+                  "type": "Place",
+                  "_label": "Auditorium Floor Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

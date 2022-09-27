@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3093",
+  "type": "Person",
+  "_label": "Takehisa Kosugi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5336",
+      "type": "Name",
+      "_label": "Takehisa Kosugi"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2374",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Japanese, born 1938"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5336",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10672",
+      "type": "TimeSpan",
+      "_label": "Takehisa Kosugi Birth timespan",
+      "begin_of_the_begin": "1938",
+      "end_of_the_end": "1938"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5336",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10673",
+      "type": "TimeSpan",
+      "_label": "Takehisa Kosugi Death timespan",
+      "begin_of_the_begin": "2018",
+      "end_of_the_end": "2018"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5336",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5336",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3256",
+              "type": "Event",
+              "_label": "Sound (Spring 1986): Takehisa Kosugi",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-13-4 - 1986-15-6",
+                "begin_of_the_begin": "1986-13-4",
+                "end_of_the_end": "1986-15-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10763",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/19399",
+  "type": "Person",
+  "_label": "Ant Farm",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1032",
+      "type": "Name",
+      "_label": "Ant Farm"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1032",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2064",
+      "type": "TimeSpan",
+      "_label": "Ant Farm Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1032",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2065",
+      "type": "TimeSpan",
+      "_label": "Ant Farm Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1032",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1032",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4169",
+              "type": "Event",
+              "_label": "Video Art (Ant Farm)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-10-1 - 1975-21-3",
+                "begin_of_the_begin": "1975-10-1",
+                "end_of_the_end": "1975-21-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3008",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4170",
+              "type": "Event",
+              "_label": "Video Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1975-17-1 - 1975-28-2",
+                "begin_of_the_begin": "1975-17-1",
+                "end_of_the_end": "1975-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3009",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4288",
+              "type": "Event",
+              "_label": "Ant Farm: 1968-1978",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-8-9 - 2004-12-12",
+                "begin_of_the_begin": "2004-8-9",
+                "end_of_the_end": "2004-12-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3010",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3727",
+              "type": "Event",
+              "_label": "The Pop Project, Part III: Present Tensions: 25 Years of Irreverence in Architecture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1988-21-3 - 1988-1-5",
+                "begin_of_the_begin": "1988-21-3",
+                "end_of_the_end": "1988-1-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3011",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18643",
+              "type": "Event",
+              "_label": "Videotapes from FIVF - Pa…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-22-4 - ",
+                "begin_of_the_begin": "1979-22-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/3012",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/23130",
+  "type": "Person",
+  "_label": "G. A. Berg",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1707",
+      "type": "Name",
+      "_label": "G. A. Berg"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1478",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Swedish, 1891–1971"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1707",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3414",
+      "type": "TimeSpan",
+      "_label": "G. A. Berg Birth timespan",
+      "begin_of_the_begin": "1891",
+      "end_of_the_end": "1891"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1707",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/3415",
+      "type": "TimeSpan",
+      "_label": "G. A. Berg Death timespan",
+      "begin_of_the_begin": "1971",
+      "end_of_the_end": "1971"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1707",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1707",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/340",
+              "type": "Event",
+              "_label": "Integrated Building: Kitchen, Bathroom, and Storage",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1945-21-2 - 1945-13-5",
+                "begin_of_the_begin": "1945-21-2",
+                "end_of_the_end": "1945-13-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4928",
+                  "type": "Place",
+                  "_label": "1st Floor, Architecture and Industrial Design Gallery, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/401",
+              "type": "Event",
+              "_label": "Modern Rooms of the Last Fifty Years",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1946-26-11 - 1947-26-1",
+                "begin_of_the_begin": "1946-26-11",
+                "end_of_the_end": "1947-26-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4929",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

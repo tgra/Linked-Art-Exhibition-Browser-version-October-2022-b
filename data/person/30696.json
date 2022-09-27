@@ -1,0 +1,214 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/30696",
+  "type": "Person",
+  "_label": "Donald Lipski",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5311",
+      "type": "Name",
+      "_label": "Donald Lipski"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2363",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "born 1947"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5311",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10622",
+      "type": "TimeSpan",
+      "_label": "Donald Lipski Birth timespan",
+      "begin_of_the_begin": "1947",
+      "end_of_the_end": "1947"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5311",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/10623",
+      "type": "TimeSpan",
+      "_label": "Donald Lipski Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5311",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5311",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3764",
+              "type": "Event",
+              "_label": "Donald Lipski",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-4-1 - 1986-2-2",
+                "begin_of_the_begin": "1986-4-1",
+                "end_of_the_end": "1986-2-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10690",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3120",
+              "type": "Event",
+              "_label": "Donald Lipski: The Bells",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1992-8-11 - 1993-10-1",
+                "begin_of_the_begin": "1992-8-11",
+                "end_of_the_end": "1993-10-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10691",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22028",
+              "type": "Event",
+              "_label": "Stay Tuned",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-25-7 - 1981-10-9",
+                "begin_of_the_begin": "1981-25-7",
+                "end_of_the_end": "1981-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10692",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17244",
+              "type": "Event",
+              "_label": "Language, Drama, Source and Vision",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-8-10 - 1983-27-11",
+                "begin_of_the_begin": "1983-8-10",
+                "end_of_the_end": "1983-27-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10693",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17241",
+              "type": "Event",
+              "_label": "The End of the World: Contemporary Visions of the Apocalypse",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-10-12 - 1984-22-1",
+                "begin_of_the_begin": "1983-10-12",
+                "end_of_the_end": "1984-22-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10694",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21970",
+              "type": "Event",
+              "_label": "20th-Century American Sculpture in the White House Garden",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1996-1-10 - 1996-31-10",
+                "begin_of_the_begin": "1996-1-10",
+                "end_of_the_end": "1996-31-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10695",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58309",
+  "type": "Person",
+  "_label": "Howard Goldkrand",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9043",
+      "type": "Name",
+      "_label": "Howard Goldkrand"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9043",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18086",
+      "type": "TimeSpan",
+      "_label": "Howard Goldkrand Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9043",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18087",
+      "type": "TimeSpan",
+      "_label": "Howard Goldkrand Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9043",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9043",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2909",
+              "type": "Event",
+              "_label": "1999: P.S.1 Studio Program Exhibition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1999-7-2 - 1999-3-4",
+                "begin_of_the_begin": "1999-7-2",
+                "end_of_the_end": "1999-3-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20105",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21902",
+              "type": "Event",
+              "_label": "Fresh Projects: Shimmer",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-10-11 - 2015-10-11",
+                "begin_of_the_begin": "2015-10-11",
+                "end_of_the_end": "2015-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20106",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

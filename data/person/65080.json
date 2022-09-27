@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65080",
+  "type": "Person",
+  "_label": "Jedediah Caesar",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12826",
+      "type": "Name",
+      "_label": "Jedediah Caesar"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12826",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25652",
+      "type": "TimeSpan",
+      "_label": "Jedediah Caesar Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12826",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25653",
+      "type": "TimeSpan",
+      "_label": "Jedediah Caesar Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12826",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12826",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21903",
+              "type": "Event",
+              "_label": "Seventh Annual Altoids Curiously Strong Collection",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-29-9 - 2005-29-10",
+                "begin_of_the_begin": "2005-29-9",
+                "end_of_the_end": "2005-29-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25982",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59392",
+  "type": "Person",
+  "_label": "Gebre Kristos Desta",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10162",
+      "type": "Name",
+      "_label": "Gebre Kristos Desta"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10162",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20324",
+      "type": "TimeSpan",
+      "_label": "Gebre Kristos Desta Birth timespan",
+      "begin_of_the_begin": "1932",
+      "end_of_the_end": "1932"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10162",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/20325",
+      "type": "TimeSpan",
+      "_label": "Gebre Kristos Desta Death timespan",
+      "begin_of_the_begin": "1981",
+      "end_of_the_end": "1981"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10162",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10162",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3496",
+              "type": "Event",
+              "_label": "The Short Century: Independence and Liberation Movements in Africa, 1945–1994",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2002-10-2 - 2002-5-5",
+                "begin_of_the_begin": "2002-10-2",
+                "end_of_the_end": "2002-5-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21706",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

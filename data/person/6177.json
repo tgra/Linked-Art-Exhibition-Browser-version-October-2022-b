@@ -1,0 +1,110 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/6177",
+  "type": "Person",
+  "_label": "Milton Wynne",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11986",
+      "type": "Name",
+      "_label": "Milton Wynne"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3812",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11986",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23972",
+      "type": "TimeSpan",
+      "_label": "Milton Wynne Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11986",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23973",
+      "type": "TimeSpan",
+      "_label": "Milton Wynne Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11986",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11986",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/493",
+              "type": "Event",
+              "_label": "New Posters from 16 Countries",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-11-10 - 1949-20-11",
+                "begin_of_the_begin": "1949-11-10",
+                "end_of_the_end": "1949-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24432",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/496",
+              "type": "Event",
+              "_label": "Polio Poster Competition",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1949-31-10 - 1949-20-11",
+                "begin_of_the_begin": "1949-31-10",
+                "end_of_the_end": "1949-20-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24433",
+                  "type": "Place",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

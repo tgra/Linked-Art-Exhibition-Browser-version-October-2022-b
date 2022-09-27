@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/59182",
+  "type": "Person",
+  "_label": "Pablo Delano",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9947",
+      "type": "Name",
+      "_label": "Pablo Delano"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9947",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19894",
+      "type": "TimeSpan",
+      "_label": "Pablo Delano Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9947",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/19895",
+      "type": "TimeSpan",
+      "_label": "Pablo Delano Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9947",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9947",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3793",
+              "type": "Event",
+              "_label": "CommuNYCations: Mixed-Use District",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-18-10 - 1990-18-11",
+                "begin_of_the_begin": "1990-18-10",
+                "end_of_the_end": "1990-18-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21445",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17245",
+              "type": "Event",
+              "_label": "Events: En Foco, Heresies Collective",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-6 - 1983-20-7",
+                "begin_of_the_begin": "1983-11-6",
+                "end_of_the_end": "1983-20-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21446",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22024",
+              "type": "Event",
+              "_label": "Events: En Foco",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-6 - 1983-20-7",
+                "begin_of_the_begin": "1983-11-6",
+                "end_of_the_end": "1983-20-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/21447",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

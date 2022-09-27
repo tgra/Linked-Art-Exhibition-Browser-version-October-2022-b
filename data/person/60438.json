@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60438",
+  "type": "Person",
+  "_label": "IM Heung-soon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11250",
+      "type": "Name",
+      "_label": "IM Heung-soon"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11250",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22500",
+      "type": "TimeSpan",
+      "_label": "IM Heung-soon Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11250",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/22501",
+      "type": "TimeSpan",
+      "_label": "IM Heung-soon Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11250",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11250",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3584",
+              "type": "Event",
+              "_label": "IM Heung-soon: Reincarnation",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2015-3-5 - 2015-10-9",
+                "begin_of_the_begin": "2015-3-5",
+                "end_of_the_end": "2015-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/23306",
+                  "type": "Place",
+                  "_label": "MoMAPS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

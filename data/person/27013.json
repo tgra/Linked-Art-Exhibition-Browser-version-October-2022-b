@@ -1,0 +1,373 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27013",
+  "type": "Person",
+  "_label": "Laura Hoptman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2250",
+      "type": "Name",
+      "_label": "Laura Hoptman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2250",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4500",
+      "type": "TimeSpan",
+      "_label": "Laura Hoptman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2250",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4501",
+      "type": "TimeSpan",
+      "_label": "Laura Hoptman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2250",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2250",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17062",
+              "type": "Event",
+              "_label": "Unmonumental: The Object in the 21st Century",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-1-12 - 2008-30-3",
+                "begin_of_the_begin": "2007-1-12",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6262",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21901",
+              "type": "Event",
+              "_label": "YOUNG-HAE CHANG HEAVY INDUSTRIES BLACK ON WHITE, GRAY ASCENDING",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-1-12 - 2008-23-3",
+                "begin_of_the_begin": "2007-1-12",
+                "end_of_the_end": "2008-23-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6263",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17061",
+              "type": "Event",
+              "_label": "Ugo Rondinone: Hell, Yes!",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-7-12 - 2010-12-11",
+                "begin_of_the_begin": "2007-7-12",
+                "end_of_the_end": "2010-12-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6264",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17060",
+              "type": "Event",
+              "_label": "Collage: The Unmonumental Picture",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-16-1 - 2008-30-3",
+                "begin_of_the_begin": "2008-16-1",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6265",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17058",
+              "type": "Event",
+              "_label": "The Sound of Things: Unmonumental Audio",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-13-2 - 2008-30-3",
+                "begin_of_the_begin": "2008-13-2",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6266",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21860",
+              "type": "Event",
+              "_label": "Tomma Abts",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-9-4 - 2008-29-6",
+                "begin_of_the_begin": "2008-9-4",
+                "end_of_the_end": "2008-29-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6267",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17054",
+              "type": "Event",
+              "_label": "Live Forever: Elizabeth Peyton",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-8-10 - 2009-11-1",
+                "begin_of_the_begin": "2008-8-10",
+                "end_of_the_end": "2009-11-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6268",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17049",
+              "type": "Event",
+              "_label": "New Commissions (Three M Project): Jeremy Deller: It Is What It Is: Conversations About Iraq",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-11-2 - 2009-22-3",
+                "begin_of_the_begin": "2009-11-2",
+                "end_of_the_end": "2009-22-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6269",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17048",
+              "type": "Event",
+              "_label": "The Generational Triennial: Younger Than Jesus",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-8-4 - 2009-14-6",
+                "begin_of_the_begin": "2009-8-4",
+                "end_of_the_end": "2009-14-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6270",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17046",
+              "type": "Event",
+              "_label": "Emory Douglas: Black Panther",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-22-7 - 2009-18-10",
+                "begin_of_the_begin": "2009-22-7",
+                "end_of_the_end": "2009-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6271",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21846",
+              "type": "Event",
+              "_label": "Amy Granat: Light 3 Ways",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-23-6 - 2010-19-9",
+                "begin_of_the_begin": "2010-23-6",
+                "end_of_the_end": "2010-19-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6272",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17042",
+              "type": "Event",
+              "_label": "Brion Gysin: Dream Machine",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-7-7 - 2010-3-10",
+                "begin_of_the_begin": "2010-7-7",
+                "end_of_the_end": "2010-3-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6273",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17037",
+              "type": "Event",
+              "_label": "George Condo: Mental States",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-26-1 - 2011-8-5",
+                "begin_of_the_begin": "2011-26-1",
+                "end_of_the_end": "2011-8-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6274",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

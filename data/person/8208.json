@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/8208",
+  "type": "Person",
+  "_label": "U.S. Coast Guard",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/14867",
+      "type": "Name",
+      "_label": "U.S. Coast Guard"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/4346",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/14867",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29734",
+      "type": "TimeSpan",
+      "_label": "U.S. Coast Guard Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/14867",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/29735",
+      "type": "TimeSpan",
+      "_label": "U.S. Coast Guard Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/14867",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/14867",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/285",
+              "type": "Event",
+              "_label": "Airways to Peace",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1943-2-7 - 1943-31-10",
+                "begin_of_the_begin": "1943-2-7",
+                "end_of_the_end": "1943-31-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/29737",
+                  "type": "Place",
+                  "_label": "2nd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

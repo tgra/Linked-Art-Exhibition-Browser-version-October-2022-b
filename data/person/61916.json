@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/61916",
+  "type": "Person",
+  "_label": "Connie Hatch",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11993",
+      "type": "Name",
+      "_label": "Connie Hatch"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11993",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23986",
+      "type": "TimeSpan",
+      "_label": "Connie Hatch Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11993",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23987",
+      "type": "TimeSpan",
+      "_label": "Connie Hatch Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11993",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11993",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/22013",
+              "type": "Event",
+              "_label": "The Nicaragua Media Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-21-9 - 1984-25-11",
+                "begin_of_the_begin": "1984-21-9",
+                "end_of_the_end": "1984-25-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24441",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22003",
+              "type": "Event",
+              "_label": "Connie Hatch, Jessica Diamond, Group Material",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-12-4 - 1986-12-6",
+                "begin_of_the_begin": "1986-12-4",
+                "end_of_the_end": "1986-12-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24442",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

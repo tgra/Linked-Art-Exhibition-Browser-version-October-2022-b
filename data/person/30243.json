@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/30243",
+  "type": "Person",
+  "_label": "W. Crabtree",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4912",
+      "type": "Name",
+      "_label": "W. Crabtree"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4912",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9824",
+      "type": "TimeSpan",
+      "_label": "W. Crabtree Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4912",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9825",
+      "type": "TimeSpan",
+      "_label": "W. Crabtree Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4912",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4912",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/87",
+              "type": "Event",
+              "_label": "Modern Architecture in England",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1937-10-2 - 1937-7-3",
+                "begin_of_the_begin": "1937-10-2",
+                "end_of_the_end": "1937-7-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/10201",
+                  "type": "Place",
+                  "_label": "3rd Floor, 11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

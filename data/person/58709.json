@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58709",
+  "type": "Person",
+  "_label": "Irene Stoeckwell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9458",
+      "type": "Name",
+      "_label": "Irene Stoeckwell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9458",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18916",
+      "type": "TimeSpan",
+      "_label": "Irene Stoeckwell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9458",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18917",
+      "type": "TimeSpan",
+      "_label": "Irene Stoeckwell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9458",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9458",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3151",
+              "type": "Event",
+              "_label": "Special Projects (Winter 1979–1980)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-9-12 - 1980-27-1",
+                "begin_of_the_begin": "1979-9-12",
+                "end_of_the_end": "1980-27-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20675",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

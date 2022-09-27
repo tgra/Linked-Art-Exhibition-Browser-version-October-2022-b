@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/29657",
+  "type": "Person",
+  "_label": "Sidney Gordin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/4556",
+      "type": "Name",
+      "_label": "Sidney Gordin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/4556",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9112",
+      "type": "TimeSpan",
+      "_label": "Sidney Gordin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/4556",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/9113",
+      "type": "TimeSpan",
+      "_label": "Sidney Gordin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/4556",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/4556",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4209",
+              "type": "Event",
+              "_label": "Sculpture by Becker, Geist, Gordin, King, Rocklin, Terris; Graphics by Bing, Brach, County, Haas, Hoehn, Ortman",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1954-2-4 - 1954-23-4",
+                "begin_of_the_begin": "1954-2-4",
+                "end_of_the_end": "1954-23-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9701",
+                  "type": "Place",
+                  "_label": "90 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4223",
+              "type": "Event",
+              "_label": "23 Sculptors",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1956-23-12 - 1956-19-1",
+                "begin_of_the_begin": "1956-23-12",
+                "end_of_the_end": "1956-19-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/9702",
+                  "type": "Place",
+                  "_label": "90 East 10th Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

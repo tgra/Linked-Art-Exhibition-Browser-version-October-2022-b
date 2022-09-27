@@ -1,0 +1,447 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/47407",
+  "type": "Person",
+  "_label": "Allan Schwartzman",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6849",
+      "type": "Name",
+      "_label": "Allan Schwartzman"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6849",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13698",
+      "type": "TimeSpan",
+      "_label": "Allan Schwartzman Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6849",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/13699",
+      "type": "TimeSpan",
+      "_label": "Allan Schwartzman Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6849",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6849",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17300",
+              "type": "Event",
+              "_label": "Early Work By Five Contemporary Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-11-11 - 1977-30-12",
+                "begin_of_the_begin": "1977-11-11",
+                "end_of_the_end": "1977-30-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15295",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22034",
+              "type": "Event",
+              "_label": "New Work / New York: Susan Dallas-Swann, Lynne Elton, Steve Keister, David Middaugh, Fred Smith, Jeff Way",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-13-5 - 1978-8-7",
+                "begin_of_the_begin": "1978-13-5",
+                "end_of_the_end": "1978-8-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15296",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17297",
+              "type": "Event",
+              "_label": "Outside New York",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-23-9 - 1978-11-11",
+                "begin_of_the_begin": "1978-23-9",
+                "end_of_the_end": "1978-11-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15297",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17294",
+              "type": "Event",
+              "_label": "Sustained Visions",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-23-4 - 1979-23-6",
+                "begin_of_the_begin": "1979-23-4",
+                "end_of_the_end": "1979-23-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15298",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17293",
+              "type": "Event",
+              "_label": "The 1970's: New American Painting",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-15-6 - 1981-10-2",
+                "begin_of_the_begin": "1979-15-6",
+                "end_of_the_end": "1981-10-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15299",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17291",
+              "type": "Event",
+              "_label": "Story Mann: Possumhead",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-30-6 - 1979-21-7",
+                "begin_of_the_begin": "1979-30-6",
+                "end_of_the_end": "1979-21-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15300",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17292",
+              "type": "Event",
+              "_label": "In A Pictorial Framework",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-30-6 - 1979-15-9",
+                "begin_of_the_begin": "1979-30-6",
+                "end_of_the_end": "1979-15-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15301",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17289",
+              "type": "Event",
+              "_label": "Finley Fryer: The Cat Band",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-28-7 - 1979-18-8",
+                "begin_of_the_begin": "1979-28-7",
+                "end_of_the_end": "1979-18-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15302",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17290",
+              "type": "Event",
+              "_label": "David Saunders: Scope",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-28-7 - 1979-18-8",
+                "begin_of_the_begin": "1979-28-7",
+                "end_of_the_end": "1979-18-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15303",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17288",
+              "type": "Event",
+              "_label": "Phyllis Bramson: Myths of Inspiration ",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-25-8 - 1979-15-9",
+                "begin_of_the_begin": "1979-25-8",
+                "end_of_the_end": "1979-15-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15304",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17287",
+              "type": "Event",
+              "_label": "Gundersen Clark: Dagar Λne",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-18-9 - ",
+                "begin_of_the_begin": "1979-18-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15305",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17286",
+              "type": "Event",
+              "_label": "Dimensions Variable",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-29-9 - 1979-29-11",
+                "begin_of_the_begin": "1979-29-9",
+                "end_of_the_end": "1979-29-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15306",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22032",
+              "type": "Event",
+              "_label": "New Work / New York: Nancy Arlen, Louisa Chase, Rudy Heintze, F.L. Schroder, David Wells",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-8-12 - 1980-8-2",
+                "begin_of_the_begin": "1979-8-12",
+                "end_of_the_end": "1980-8-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15307",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17283",
+              "type": "Event",
+              "_label": "Ree Morton: Retrospective 1971 – 1977",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-16-2 - 1980-17-4",
+                "begin_of_the_begin": "1980-16-2",
+                "end_of_the_end": "1980-17-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15308",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17281",
+              "type": "Event",
+              "_label": "Outside New York: The State of Ohio",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-26-4 - 1980-26-6",
+                "begin_of_the_begin": "1980-26-4",
+                "end_of_the_end": "1980-26-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15309",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22029",
+              "type": "Event",
+              "_label": "Investigations: Probe, Structure, Analysis",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1980-27-9 - 1980-4-12",
+                "begin_of_the_begin": "1980-27-9",
+                "end_of_the_end": "1980-4-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/15310",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63350",
+  "type": "Person",
+  "_label": "Sheryl Sutton",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12138",
+      "type": "Name",
+      "_label": "Sheryl Sutton"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12138",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24276",
+      "type": "TimeSpan",
+      "_label": "Sheryl Sutton Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12138",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24277",
+      "type": "TimeSpan",
+      "_label": "Sheryl Sutton Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12138",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12138",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18465",
+              "type": "Event",
+              "_label": "Paces",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1977-9-2 - ",
+                "begin_of_the_begin": "1977-9-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24859",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65674",
+  "type": "Person",
+  "_label": "Lowery Stokes Sims",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13091",
+      "type": "Name",
+      "_label": "Lowery Stokes Sims"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13091",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26182",
+      "type": "TimeSpan",
+      "_label": "Lowery Stokes Sims Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13091",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/26183",
+      "type": "TimeSpan",
+      "_label": "Lowery Stokes Sims Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13091",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13091",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17239",
+              "type": "Event",
+              "_label": "Art and Ideology",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-4-2 - 1984-18-3",
+                "begin_of_the_begin": "1984-4-2",
+                "end_of_the_end": "1984-18-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26462",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17160",
+              "type": "Event",
+              "_label": "Robert Colescott: A Retrospective",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-24-2 - 1989-16-4",
+                "begin_of_the_begin": "1989-24-2",
+                "end_of_the_end": "1989-16-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26463",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

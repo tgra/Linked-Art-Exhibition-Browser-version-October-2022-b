@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65240",
+  "type": "Person",
+  "_label": "John N. Valdez",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12898",
+      "type": "Name",
+      "_label": "John N. Valdez"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12898",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25796",
+      "type": "TimeSpan",
+      "_label": "John N. Valdez Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12898",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25797",
+      "type": "TimeSpan",
+      "_label": "John N. Valdez Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12898",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12898",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17245",
+              "type": "Event",
+              "_label": "Events: En Foco, Heresies Collective",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-6 - 1983-20-7",
+                "begin_of_the_begin": "1983-11-6",
+                "end_of_the_end": "1983-20-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26143",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/22024",
+              "type": "Event",
+              "_label": "Events: En Foco",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-11-6 - 1983-20-7",
+                "begin_of_the_begin": "1983-11-6",
+                "end_of_the_end": "1983-20-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/26144",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

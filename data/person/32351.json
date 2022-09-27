@@ -1,0 +1,123 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32351",
+  "type": "Person",
+  "_label": "Winifred Lutz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5780",
+      "type": "Name",
+      "_label": "Winifred Lutz"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5780",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11560",
+      "type": "TimeSpan",
+      "_label": "Winifred Lutz Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5780",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11561",
+      "type": "TimeSpan",
+      "_label": "Winifred Lutz Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5780",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5780",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4400",
+              "type": "Event",
+              "_label": "Philadelphia Art Now: Artists Choose Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1991-19-1 - 1991-3-3",
+                "begin_of_the_begin": "1991-19-1",
+                "end_of_the_end": "1991-3-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11491",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/4356",
+              "type": "Event",
+              "_label": "Winifred Lutz: Threshold/Interface/Transition (When)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1997-8-2 - 1997-13-4",
+                "begin_of_the_begin": "1997-8-2",
+                "end_of_the_end": "1997-13-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11492",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3485",
+              "type": "Event",
+              "_label": "Site and Insight: an Assemblage of Artists",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-29-6 - 2003-31-8",
+                "begin_of_the_begin": "2003-29-6",
+                "end_of_the_end": "2003-31-8"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11493",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

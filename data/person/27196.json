@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27196",
+  "type": "Person",
+  "_label": "Thomas B. Mulvin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2283",
+      "type": "Name",
+      "_label": "Thomas B. Mulvin"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2283",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4566",
+      "type": "TimeSpan",
+      "_label": "Thomas B. Mulvin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2283",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4567",
+      "type": "TimeSpan",
+      "_label": "Thomas B. Mulvin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2283",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2283",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/243",
+              "type": "Event",
+              "_label": "Modern Architecture for the Modern School",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-16-9 - 1942-30-9",
+                "begin_of_the_begin": "1942-16-9",
+                "end_of_the_end": "1942-30-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6505",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

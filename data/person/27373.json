@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/27373",
+  "type": "Person",
+  "_label": "Octavio Medellin",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2462",
+      "type": "Name",
+      "_label": "Octavio Medellin"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2023",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2462",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4924",
+      "type": "TimeSpan",
+      "_label": "Octavio Medellin Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2462",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4925",
+      "type": "TimeSpan",
+      "_label": "Octavio Medellin Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2462",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2462",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/217",
+              "type": "Event",
+              "_label": "Americans 1942: 18 Artists from 9 States",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1942-21-1 - 1942-8-3",
+                "begin_of_the_begin": "1942-21-1",
+                "end_of_the_end": "1942-8-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6862",
+                  "type": "Place",
+                  "_label": "11 West 53rd St.",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

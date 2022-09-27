@@ -1,0 +1,87 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/26583",
+  "type": "Person",
+  "_label": "Camille Henrot",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2177",
+      "type": "Name",
+      "_label": "Camille Henrot"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1881",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "French"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2177",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4354",
+      "type": "TimeSpan",
+      "_label": "Camille Henrot Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2177",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4355",
+      "type": "TimeSpan",
+      "_label": "Camille Henrot Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2177",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2177",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/16996",
+              "type": "Event",
+              "_label": "Camille Henrot: The Restless Earth",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-7-5 - 2014-29-6",
+                "begin_of_the_begin": "2014-7-5",
+                "end_of_the_end": "2014-29-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/6098",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

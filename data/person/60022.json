@@ -1,0 +1,75 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60022",
+  "type": "Person",
+  "_label": "Demetrius Oliver",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10818",
+      "type": "Name",
+      "_label": "Demetrius Oliver"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10818",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21636",
+      "type": "TimeSpan",
+      "_label": "Demetrius Oliver Birth timespan",
+      "begin_of_the_begin": "1975",
+      "end_of_the_end": "1975"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10818",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21637",
+      "type": "TimeSpan",
+      "_label": "Demetrius Oliver Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10818",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10818",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3426",
+              "type": "Event",
+              "_label": "International and National Projects Spring 2006: Johanna Billing, William Cordova, Sara Greenberger Rafferty, Yaron Leshem, Ohad Meromi, Demetrius Oliver, and Kon Trubkovich",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-26-2 - 2006-5-6",
+                "begin_of_the_begin": "2006-26-2",
+                "end_of_the_end": "2006-5-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22679",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

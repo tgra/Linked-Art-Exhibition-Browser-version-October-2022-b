@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/58293",
+  "type": "Person",
+  "_label": "Pat Ivers",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/9025",
+      "type": "Name",
+      "_label": "Pat Ivers"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/9025",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18050",
+      "type": "TimeSpan",
+      "_label": "Pat Ivers Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/9025",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/18051",
+      "type": "TimeSpan",
+      "_label": "Pat Ivers Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/9025",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/9025",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3346",
+              "type": "Event",
+              "_label": "Video (Winter 1979): Anthology Film Archives",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1979-11-2 - 1979-31-3",
+                "begin_of_the_begin": "1979-11-2",
+                "end_of_the_end": "1979-31-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/20066",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

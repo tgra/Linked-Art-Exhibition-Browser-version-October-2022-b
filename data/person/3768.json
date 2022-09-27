@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/3768",
+  "type": "Person",
+  "_label": "Alessandro Mendini",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6418",
+      "type": "Name",
+      "_label": "Alessandro Mendini"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2841",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Italian, born 1931"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6418",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12836",
+      "type": "TimeSpan",
+      "_label": "Alessandro Mendini Birth timespan",
+      "begin_of_the_begin": "1931",
+      "end_of_the_end": "1931"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6418",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12837",
+      "type": "TimeSpan",
+      "_label": "Alessandro Mendini Death timespan",
+      "begin_of_the_begin": "2019",
+      "end_of_the_end": "2019"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6418",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6418",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3819",
+              "type": "Event",
+              "_label": "Architecture (Spring 1981): Design By Circumstance: Episodes in Italian Architecture 1960–1980",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1981-18-3 - 1981-11-4",
+                "begin_of_the_begin": "1981-18-3",
+                "end_of_the_end": "1981-11-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/13354",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/25444",
+  "type": "Person",
+  "_label": "Julia Loktev",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/2005",
+      "type": "Name",
+      "_label": "Julia Loktev"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1732",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Russian, born 1969"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/2005",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4010",
+      "type": "TimeSpan",
+      "_label": "Julia Loktev Birth timespan",
+      "begin_of_the_begin": "1969",
+      "end_of_the_end": "1969"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/2005",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/4011",
+      "type": "TimeSpan",
+      "_label": "Julia Loktev Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/2005",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/2005",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/2890",
+              "type": "Event",
+              "_label": "Some New Minds",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-17-12 - 2001-28-2",
+                "begin_of_the_begin": "2000-17-12",
+                "end_of_the_end": "2001-28-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/5673",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

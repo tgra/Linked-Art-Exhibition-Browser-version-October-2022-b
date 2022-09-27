@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60935",
+  "type": "Person",
+  "_label": "Jade Gordon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11756",
+      "type": "Name",
+      "_label": "Jade Gordon"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11756",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23512",
+      "type": "TimeSpan",
+      "_label": "Jade Gordon Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11756",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23513",
+      "type": "TimeSpan",
+      "_label": "Jade Gordon Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11756",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11756",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4044",
+              "type": "Event",
+              "_label": "Video Art: Replay, Part 3. Ludicrous!",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-24-3 - 2010-6-6",
+                "begin_of_the_begin": "2010-24-3",
+                "end_of_the_end": "2010-6-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24075",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17059",
+              "type": "Event",
+              "_label": "My Barbarian: The Golden Age",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2008-6-2 - 2008-30-3",
+                "begin_of_the_begin": "2008-6-2",
+                "end_of_the_end": "2008-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24076",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

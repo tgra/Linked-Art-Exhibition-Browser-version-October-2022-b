@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/57535",
+  "type": "Person",
+  "_label": "Bobbi Cook-Bedell",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/8242",
+      "type": "Name",
+      "_label": "Bobbi Cook-Bedell"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/8242",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16484",
+      "type": "TimeSpan",
+      "_label": "Bobbi Cook-Bedell Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/8242",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/16485",
+      "type": "TimeSpan",
+      "_label": "Bobbi Cook-Bedell Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/8242",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/8242",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3740",
+              "type": "Event",
+              "_label": "San Francisco/Science Fiction",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1984-27-9 - 1984-28-10",
+                "begin_of_the_begin": "1984-27-9",
+                "end_of_the_end": "1984-28-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/18865",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

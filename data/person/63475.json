@@ -1,0 +1,290 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/63475",
+  "type": "Person",
+  "_label": "Elsa Tambellini",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12162",
+      "type": "Name",
+      "_label": "Elsa Tambellini"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12162",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24324",
+      "type": "TimeSpan",
+      "_label": "Elsa Tambellini Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12162",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24325",
+      "type": "TimeSpan",
+      "_label": "Elsa Tambellini Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12162",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12162",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/7332",
+              "type": "Event",
+              "_label": "Nighttime Art Gallery",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-1-1 - ",
+                "begin_of_the_begin": "1962-1-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24941",
+                  "type": "Place",
+                  "_label": "106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7333",
+              "type": "Event",
+              "_label": "The Event of the Screw",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-12-7 - ",
+                "begin_of_the_begin": "1962-12-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24942",
+                  "type": "Place",
+                  "_label": "Exterior of MoMA, Whitney, Guggenheim",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7333",
+              "type": "Event",
+              "_label": "The Event of the Screw",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1962-12-7 - ",
+                "begin_of_the_begin": "1962-12-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24943",
+                  "type": "Place",
+                  "_label": "Exterior of MoMA, Whitney, Guggenheim",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7334",
+              "type": "Event",
+              "_label": "Poetry Reading with Panel Discussion",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-7-1 - ",
+                "begin_of_the_begin": "1963-7-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24944",
+                  "type": "Place",
+                  "_label": "106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7335",
+              "type": "Event",
+              "_label": "Outdoor Sculpture Show and Indoor Painting/Drawing Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-14-2 - 1963-1-5",
+                "begin_of_the_begin": "1963-14-2",
+                "end_of_the_end": "1963-1-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24945",
+                  "type": "Place",
+                  "_label": "St. Mark's Church-in-the-Boewry, 106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7329",
+              "type": "Event",
+              "_label": "Freddie Redd Quintet Jazz Concert",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-24-2 - ",
+                "begin_of_the_begin": "1963-24-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24946",
+                  "type": "Place",
+                  "_label": "106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7330",
+              "type": "Event",
+              "_label": "Julian Beck and Judith Malina: Revolution as an Alternative",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-10-3 - ",
+                "begin_of_the_begin": "1963-10-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24947",
+                  "type": "Place",
+                  "_label": "106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7328",
+              "type": "Event",
+              "_label": "Outdoor Sculpture Show and Indoor Painting/Drawing Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-16-6 - ",
+                "begin_of_the_begin": "1963-16-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24948",
+                  "type": "Place",
+                  "_label": "St. Mark's Church-in-the-Boewry, 106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7336",
+              "type": "Event",
+              "_label": "Group Show",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-11-10 - 1963-10-11",
+                "begin_of_the_begin": "1963-11-10",
+                "end_of_the_end": "1963-10-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24949",
+                  "type": "Place",
+                  "_label": "St. Mark's Church-in-the-Boewry, 106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/7331",
+              "type": "Event",
+              "_label": "Ad Reinhardt: The New Revolution in Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1963-18-10 - ",
+                "begin_of_the_begin": "1963-18-10"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24950",
+                  "type": "Place",
+                  "_label": "106 Forsythe Street, 217 East 2nd Street",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

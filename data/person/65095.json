@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/65095",
+  "type": "Person",
+  "_label": "Jeffrey Inaba",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12829",
+      "type": "Name",
+      "_label": "Jeffrey Inaba"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12829",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25658",
+      "type": "TimeSpan",
+      "_label": "Jeffrey Inaba Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12829",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25659",
+      "type": "TimeSpan",
+      "_label": "Jeffrey Inaba Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12829",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12829",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21900",
+              "type": "Event",
+              "_label": "Donor Hall: Jeffrey Inaba",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-1-12 - 2011-30-7",
+                "begin_of_the_begin": "2007-1-12",
+                "end_of_the_end": "2011-30-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25986",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17041",
+              "type": "Event",
+              "_label": "The Last Newspaper: Contemporary Art, Curating Histories, Alternative Models",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2010-6-10 - 2011-9-1",
+                "begin_of_the_begin": "2010-6-10",
+                "end_of_the_end": "2011-9-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25987",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

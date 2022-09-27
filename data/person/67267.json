@@ -1,0 +1,96 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67267",
+  "type": "Person",
+  "_label": "Georgia Sagri",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13788",
+      "type": "Name",
+      "_label": "Georgia Sagri"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13788",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27576",
+      "type": "TimeSpan",
+      "_label": "Georgia Sagri Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13788",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27577",
+      "type": "TimeSpan",
+      "_label": "Georgia Sagri Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13788",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13788",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18461",
+              "type": "Event",
+              "_label": "One More Minute",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2009-10-9 - ",
+                "begin_of_the_begin": "2009-10-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27597",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/18623",
+              "type": "Event",
+              "_label": "The Rehearsal",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2014-25-6 - ",
+                "begin_of_the_begin": "2014-25-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27598",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

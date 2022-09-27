@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64543",
+  "type": "Person",
+  "_label": "Emily McDaniel",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12603",
+      "type": "Name",
+      "_label": "Emily McDaniel"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12603",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25206",
+      "type": "TimeSpan",
+      "_label": "Emily McDaniel Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12603",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25207",
+      "type": "TimeSpan",
+      "_label": "Emily McDaniel Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12603",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12603",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/16978",
+              "type": "Event",
+              "_label": "Cally Spooner: On False Tears and Outsourcing",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2016-27-4 - 2016-19-6",
+                "begin_of_the_begin": "2016-27-4",
+                "end_of_the_end": "2016-19-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25647",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

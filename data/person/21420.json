@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/21420",
+  "type": "Person",
+  "_label": "Jean Carlomusto",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/1382",
+      "type": "Name",
+      "_label": "Jean Carlomusto"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/1229",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1959"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/1382",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2764",
+      "type": "TimeSpan",
+      "_label": "Jean Carlomusto Birth timespan",
+      "begin_of_the_begin": "1959",
+      "end_of_the_end": "1959"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/1382",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/2765",
+      "type": "TimeSpan",
+      "_label": "Jean Carlomusto Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/1382",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/1382",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17161",
+              "type": "Event",
+              "_label": "Overlooked/Underplayed: Videos on Women and AIDS",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1989-24-2 - 1989-16-4",
+                "begin_of_the_begin": "1989-24-2",
+                "end_of_the_end": "1989-16-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/4001",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

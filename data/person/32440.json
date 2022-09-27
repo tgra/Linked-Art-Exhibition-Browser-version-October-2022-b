@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/32440",
+  "type": "Person",
+  "_label": "Alan Lande",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/5794",
+      "type": "Name",
+      "_label": "Alan Lande"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/5794",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11588",
+      "type": "TimeSpan",
+      "_label": "Alan Lande Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/5794",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/11589",
+      "type": "TimeSpan",
+      "_label": "Alan Lande Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/5794",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/5794",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3070",
+              "type": "Event",
+              "_label": "Video (Winter 1978–1979): Anthology Film Archives Video Program at P.S. 1",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1978-3-12 - 1979-21-1",
+                "begin_of_the_begin": "1978-3-12",
+                "end_of_the_end": "1979-21-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11533",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17247",
+              "type": "Event",
+              "_label": "Outside New York: Seattle",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1983-26-3 - 1983-1-6",
+                "begin_of_the_begin": "1983-26-3",
+                "end_of_the_end": "1983-1-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/11534",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

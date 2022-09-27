@@ -1,0 +1,73 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/64735",
+  "type": "Person",
+  "_label": "Geralyn Donohue",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12682",
+      "type": "Name",
+      "_label": "Geralyn Donohue"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12682",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25364",
+      "type": "TimeSpan",
+      "_label": "Geralyn Donohue Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12682",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/25365",
+      "type": "TimeSpan",
+      "_label": "Geralyn Donohue Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12682",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12682",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17207",
+              "type": "Event",
+              "_label": "Wallace and Donahue",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1986-1-2 - 1986-30-3",
+                "begin_of_the_begin": "1986-1-2",
+                "end_of_the_end": "1986-30-3"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/25782",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

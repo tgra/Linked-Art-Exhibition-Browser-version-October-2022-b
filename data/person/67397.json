@@ -1,0 +1,72 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67397",
+  "type": "Person",
+  "_label": "Louise Etra",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13920",
+      "type": "Name",
+      "_label": "Louise Etra"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13920",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27840",
+      "type": "TimeSpan",
+      "_label": "Louise Etra Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13920",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27841",
+      "type": "TimeSpan",
+      "_label": "Louise Etra Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13920",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13920",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/18334",
+              "type": "Event",
+              "_label": "Garden of Electronic Deli…",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1976-23-11 - ",
+                "begin_of_the_begin": "1976-23-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27757",
+                  "type": "Place",
+                  "_label": "The Kitchen",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

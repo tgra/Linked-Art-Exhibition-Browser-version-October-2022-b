@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/17521",
+  "type": "Person",
+  "_label": "Shirana Shahbazi",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/650",
+      "type": "Name",
+      "_label": "Shirana Shahbazi"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/551",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "German, born Iran 1974"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/650",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1300",
+      "type": "TimeSpan",
+      "_label": "Shirana Shahbazi Birth timespan",
+      "begin_of_the_begin": "1974",
+      "end_of_the_end": "1974"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/650",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/1301",
+      "type": "TimeSpan",
+      "_label": "Shirana Shahbazi Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/650",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/650",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/21843",
+              "type": "Event",
+              "_label": "Shirana Shahbazi",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2011-9-2 - 2011-19-6",
+                "begin_of_the_begin": "2011-9-2",
+                "end_of_the_end": "2011-19-6"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/2071",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

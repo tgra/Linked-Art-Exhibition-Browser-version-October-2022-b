@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/340",
+  "type": "Person",
+  "_label": "Joseph Bartscherer",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6047",
+      "type": "Name",
+      "_label": "Joseph Bartscherer"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/2581",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "American, born 1954"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6047",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12094",
+      "type": "TimeSpan",
+      "_label": "Joseph Bartscherer Birth timespan",
+      "begin_of_the_begin": "1954",
+      "end_of_the_end": "1954"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6047",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12095",
+      "type": "TimeSpan",
+      "_label": "Joseph Bartscherer Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6047",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6047",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4335",
+              "type": "Event",
+              "_label": "Wall Power (Joseph Bartscherer: Forest)",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2000-13-5 - 2000-30-7",
+                "begin_of_the_begin": "2000-13-5",
+                "end_of_the_end": "2000-30-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12308",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

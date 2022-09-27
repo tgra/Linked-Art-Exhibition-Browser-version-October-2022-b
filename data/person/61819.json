@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/61819",
+  "type": "Person",
+  "_label": "Lee Gordon",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/11988",
+      "type": "Name",
+      "_label": "Lee Gordon"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/11988",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23976",
+      "type": "TimeSpan",
+      "_label": "Lee Gordon Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/11988",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/23977",
+      "type": "TimeSpan",
+      "_label": "Lee Gordon Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/11988",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/11988",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17251",
+              "type": "Event",
+              "_label": "Extended Sensibilities: Homosexual Presence in Contemporary Art",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1982-16-10 - 1982-30-12",
+                "begin_of_the_begin": "1982-16-10",
+                "end_of_the_end": "1982-30-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24435",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17186",
+              "type": "Event",
+              "_label": "The Other Man: Alternative Representations of Masculinity",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1987-8-5 - 1987-12-7",
+                "begin_of_the_begin": "1987-8-5",
+                "end_of_the_end": "1987-12-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24436",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

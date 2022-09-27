@@ -1,0 +1,98 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/60016",
+  "type": "Person",
+  "_label": "Jay Heikes",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/10812",
+      "type": "Name",
+      "_label": "Jay Heikes"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/10812",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21624",
+      "type": "TimeSpan",
+      "_label": "Jay Heikes Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/10812",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/21625",
+      "type": "TimeSpan",
+      "_label": "Jay Heikes Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/10812",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/10812",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4262",
+              "type": "Event",
+              "_label": "Project Space: Jay Heikes",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2007-7-9 - 2007-16-12",
+                "begin_of_the_begin": "2007-7-9",
+                "end_of_the_end": "2007-16-12"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22669",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/3435",
+              "type": "Event",
+              "_label": "National Projects Fall 2005: Dianna Frid, Kira Lynn Harris, Mike Cloud, Jay Heikes, and Johannes VanDerBeek",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-30-10 - 2006-3-2",
+                "begin_of_the_begin": "2005-30-10",
+                "end_of_the_end": "2006-3-2"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/22670",
+                  "type": "Place",
+                  "_label": "MoMA PS1",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

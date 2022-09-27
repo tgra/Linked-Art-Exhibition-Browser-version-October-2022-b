@@ -1,0 +1,89 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/6340",
+  "type": "Person",
+  "_label": "Jac Leirner",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/12145",
+      "type": "Name",
+      "_label": "Jac Leirner"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/3861",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Brazilian, born 1961"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/12145",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24290",
+      "type": "TimeSpan",
+      "_label": "Jac Leirner Birth timespan",
+      "begin_of_the_begin": "1961",
+      "end_of_the_end": "1961"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/12145",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/24291",
+      "type": "TimeSpan",
+      "_label": "Jac Leirner Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/12145",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/12145",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4305",
+              "type": "Event",
+              "_label": "S(how): ICA Art History Project",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-3-5 - 2003-27-7",
+                "begin_of_the_begin": "2003-3-5",
+                "end_of_the_end": "2003-27-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/24877",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

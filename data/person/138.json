@@ -1,0 +1,91 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/138",
+  "type": "Person",
+  "_label": "Francisco Amighetti Ruiz",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/245",
+      "type": "Name",
+      "_label": "Francisco Amighetti Ruiz"
+    }
+  ],
+  "referred_to_by": [
+    {
+      "id": "https://linkedart.example.com/LinguisticObject/197",
+      "type": "LinguisticObject",
+      "classified_as": [
+        {
+          "id": "http://vocab.getty.edu/aat/300435422",
+          "type": "Type",
+          "_label": "Biography Statement"
+        }
+      ],
+      "content": "Costa Rican, 1907–1998"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/245",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/490",
+      "type": "TimeSpan",
+      "_label": "Francisco Amighetti Ruiz Birth timespan",
+      "begin_of_the_begin": "1907",
+      "end_of_the_end": "1907"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/245",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/491",
+      "type": "TimeSpan",
+      "_label": "Francisco Amighetti Ruiz Death timespan",
+      "begin_of_the_begin": "1998",
+      "end_of_the_end": "1998"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/245",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/245",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/3794",
+              "type": "Event",
+              "_label": "Contemporary Costa Rica",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1985-13-6 - 1985-14-7",
+                "begin_of_the_begin": "1985-13-6",
+                "end_of_the_end": "1985-14-7"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/849",
+                  "type": "Place",
+                  "_label": "The Clocktower",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/67031",
+  "type": "Person",
+  "_label": "Trevor Smith",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/13666",
+      "type": "Name",
+      "_label": "Trevor Smith"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/13666",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27332",
+      "type": "TimeSpan",
+      "_label": "Trevor Smith Birth timespan"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/13666",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/27333",
+      "type": "TimeSpan",
+      "_label": "Trevor Smith Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/13666",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/13666",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/17074",
+              "type": "Event",
+              "_label": "Trisha Brown: Dance and Art in Dialogue 1961-2001",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2003-10-10 - 2004-25-1",
+                "begin_of_the_begin": "2003-10-10",
+                "end_of_the_end": "2004-25-1"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27399",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/21908",
+              "type": "Event",
+              "_label": "Adaptive Behavior",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2004-18-9 - 2004-13-11",
+                "begin_of_the_begin": "2004-18-9",
+                "end_of_the_end": "2004-13-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27400",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17066",
+              "type": "Event",
+              "_label": "Brian Jungen",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2005-29-9 - ",
+                "begin_of_the_begin": "2005-29-9"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27401",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17065",
+              "type": "Event",
+              "_label": "Andrea Zittel: Critical Space",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "2006-26-1 - 2006-27-5",
+                "begin_of_the_begin": "2006-26-1",
+                "end_of_the_end": "2006-27-5"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/27402",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

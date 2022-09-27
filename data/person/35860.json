@@ -1,0 +1,125 @@
+{
+  "@context": "https://linked.art/ns/v1/linked-art.json",
+  "id": "http://linkedart.example.com/person/35860",
+  "type": "Person",
+  "_label": "Jana Sterback",
+  "identified_by": [
+    {
+      "id": "https://linkedart.example.com/Name/6317",
+      "type": "Name",
+      "_label": "Jana Sterback"
+    }
+  ],
+  "born": {
+    "id": "https://linkedart.example.com/Birth/6317",
+    "type": "Birth",
+    "_label": "Birth",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12634",
+      "type": "TimeSpan",
+      "_label": "Jana Sterback Birth timespan",
+      "begin_of_the_begin": "1955",
+      "end_of_the_end": "1955"
+    }
+  },
+  "died": {
+    "id": "https://linkedart.example.com/Death/6317",
+    "type": "Death",
+    "_label": "Death",
+    "timespan": {
+      "id": "https://linkedart.example.com/TimeSpan/12635",
+      "type": "TimeSpan",
+      "_label": "Jana Sterback Death timespan"
+    }
+  },
+  "assigned_by": [
+    {
+      "id": "https://linkedart.example.com/AttributeAssignment/6317",
+      "type": "AttributeAssignment",
+      "involved": [
+        {
+          "id": "https://linkedart.example.com/Set/6317",
+          "type": "Set",
+          "_label": "Exhibitions",
+          "about": [
+            {
+              "id": "http://linkedart.example.com/exhibition/4365",
+              "type": "Event",
+              "_label": "PerForms: Janine Antoni, Charles Ray, Jana Sterbak",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1995-9-9 - 1995-5-11",
+                "begin_of_the_begin": "1995-9-9",
+                "end_of_the_end": "1995-5-11"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12932",
+                  "type": "Place",
+                  "_label": "ICA Philadelphia",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17145",
+              "type": "Event",
+              "_label": "Jana Sterbak: Generic Man",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-16-2 - 1990-8-4",
+                "begin_of_the_begin": "1990-16-2",
+                "end_of_the_end": "1990-8-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12933",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "http://linkedart.example.com/exhibition/17146",
+              "type": "Event",
+              "_label": "Works by Jana Sterbak",
+              "timespan": {
+                "type": "TimeSpan",
+                "_label": "1990-16-2 - 1990-8-4",
+                "begin_of_the_begin": "1990-16-2",
+                "end_of_the_end": "1990-8-4"
+              },
+              "took_place_at": [
+                {
+                  "id": "https://linkedart.example.com/Place/12934",
+                  "type": "Place",
+                  "_label": "New Museum",
+                  "classified_as": [
+                    {
+                      "id": "http://vocab.getty.edu/aat/300005768",
+                      "type": "Type",
+                      "_label": "Museum (place)"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
