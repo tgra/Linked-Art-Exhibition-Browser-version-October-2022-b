@@ -3,118 +3,116 @@
   "id": "http://linkedart.example.com/exhibition/3297",
   "type": "Activity",
   "_label": "Out of Site",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Out of Site",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Out of Site",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1990-16-12",
     "end_of_the_end": "1991-10-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1978",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3676",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1978",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2682",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/18",
-              "type": "Person",
-              "_label": "Richard Artschwager"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3040",
-              "type": "Person",
-              "_label": "Win Knowlton"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4530",
-              "type": "Person",
-              "_label": "Lucio Pozzi"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4961",
-              "type": "Person",
-              "_label": "Alan Saret"
-            },
-            {
-              "id": "http://linkedart.example.com/person/18839",
-              "type": "Person",
-              "_label": "Renée Green"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7097",
-              "type": "Person",
-              "_label": "Kim Jones"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6006",
-              "type": "Person",
-              "_label": "Lawrence Weiner"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7298",
-              "type": "Person",
-              "_label": "Fred Tomaselli"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7252",
-              "type": "Person",
-              "_label": "Patrick Ireland"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57868",
-              "type": "Person",
-              "_label": "Maura Sheehan"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57869",
-              "type": "Person",
-              "_label": "Leslie Sharpe"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57870",
-              "type": "Person",
-              "_label": "Alex Streeter"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3676",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3676",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5233",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/18",
+            "type": "Person",
+            "_label": "Richard Artschwager"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3040",
+            "type": "Person",
+            "_label": "Win Knowlton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4530",
+            "type": "Person",
+            "_label": "Lucio Pozzi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4961",
+            "type": "Person",
+            "_label": "Alan Saret"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18839",
+            "type": "Person",
+            "_label": "Renée Green"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7097",
+            "type": "Person",
+            "_label": "Kim Jones"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6006",
+            "type": "Person",
+            "_label": "Lawrence Weiner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7298",
+            "type": "Person",
+            "_label": "Fred Tomaselli"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7252",
+            "type": "Person",
+            "_label": "Patrick Ireland"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57868",
+            "type": "Person",
+            "_label": "Maura Sheehan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57869",
+            "type": "Person",
+            "_label": "Leslie Sharpe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57870",
+            "type": "Person",
+            "_label": "Alex Streeter"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -3,205 +3,203 @@
   "id": "http://linkedart.example.com/exhibition/17055",
   "type": "Activity",
   "_label": "After Nature",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "After Nature",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "After Nature",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2008-17-7",
     "end_of_the_end": "2008-5-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/178",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/884",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/178",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/348",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/17624",
-              "type": "Person",
-              "_label": "Berlinde De Bruyckere"
-            },
-            {
-              "id": "http://linkedart.example.com/person/20658",
-              "type": "Person",
-              "_label": "Zoe Leonard"
-            },
-            {
-              "id": "http://linkedart.example.com/person/20522",
-              "type": "Person",
-              "_label": "Huma Bhabha"
-            },
-            {
-              "id": "http://linkedart.example.com/person/18887",
-              "type": "Person",
-              "_label": "Erik van Lieshout"
-            },
-            {
-              "id": "http://linkedart.example.com/person/18804",
-              "type": "Person",
-              "_label": "Roberto Cuoghi"
-            },
-            {
-              "id": "http://linkedart.example.com/person/18766",
-              "type": "Person",
-              "_label": "Pawel Althamer"
-            },
-            {
-              "id": "http://linkedart.example.com/person/1066",
-              "type": "Person",
-              "_label": "William Christenberry"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17833",
-              "type": "Person",
-              "_label": "Dana Schutz"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7914",
-              "type": "Person",
-              "_label": "Maurizio Cattelan"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7264",
-              "type": "Person",
-              "_label": "Roger Ballen"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5078",
-              "type": "Person",
-              "_label": "Thomas Schütte"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2216",
-              "type": "Person",
-              "_label": "Nancy Graves"
-            },
-            {
-              "id": "http://linkedart.example.com/person/1798",
-              "type": "Person",
-              "_label": "Howard Finster"
-            },
-            {
-              "id": "http://linkedart.example.com/person/20914",
-              "type": "Person",
-              "_label": "Tino Sehgal"
-            },
-            {
-              "id": "http://linkedart.example.com/person/18713",
-              "type": "Person",
-              "_label": "Artur Zmijewski"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65986",
-              "type": "Person",
-              "_label": "Micol Assaël"
-            },
-            {
-              "id": "http://linkedart.example.com/person/20779",
-              "type": "Person",
-              "_label": "Jennifer Allora"
-            },
-            {
-              "id": "http://linkedart.example.com/person/20780",
-              "type": "Person",
-              "_label": "Guillermo Calzadilla"
-            },
-            {
-              "id": "http://linkedart.example.com/person/66518",
-              "type": "Person",
-              "_label": "Robert Kusmirowski"
-            },
-            {
-              "id": "http://linkedart.example.com/person/64634",
-              "type": "Person",
-              "_label": "Fikret Atay"
-            },
-            {
-              "id": "http://linkedart.example.com/person/64412",
-              "type": "Person",
-              "_label": "Diego Perrone"
-            },
-            {
-              "id": "http://linkedart.example.com/person/63875",
-              "type": "Person",
-              "_label": "August Strindberg"
-            },
-            {
-              "id": "http://linkedart.example.com/person/60926",
-              "type": "Person",
-              "_label": "Eugene Von Bruenchenhein"
-            },
-            {
-              "id": "http://linkedart.example.com/person/26311",
-              "type": "Person",
-              "_label": "Werner Herzog"
-            },
-            {
-              "id": "http://linkedart.example.com/person/25557",
-              "type": "Person",
-              "_label": "Nathalie Djurberg"
-            },
-            {
-              "id": "http://linkedart.example.com/person/25165",
-              "type": "Person",
-              "_label": "Bill Daniel"
-            },
-            {
-              "id": "http://linkedart.example.com/person/21718",
-              "type": "Person",
-              "_label": "Klara Liden"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/349",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/65868",
-              "type": "Person",
-              "_label": "Massimiliano Gioni"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/884",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/884",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1638",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/17624",
+            "type": "Person",
+            "_label": "Berlinde De Bruyckere"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20658",
+            "type": "Person",
+            "_label": "Zoe Leonard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20522",
+            "type": "Person",
+            "_label": "Huma Bhabha"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18887",
+            "type": "Person",
+            "_label": "Erik van Lieshout"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18804",
+            "type": "Person",
+            "_label": "Roberto Cuoghi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18766",
+            "type": "Person",
+            "_label": "Pawel Althamer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1066",
+            "type": "Person",
+            "_label": "William Christenberry"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17833",
+            "type": "Person",
+            "_label": "Dana Schutz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7914",
+            "type": "Person",
+            "_label": "Maurizio Cattelan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7264",
+            "type": "Person",
+            "_label": "Roger Ballen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5078",
+            "type": "Person",
+            "_label": "Thomas Schütte"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2216",
+            "type": "Person",
+            "_label": "Nancy Graves"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1798",
+            "type": "Person",
+            "_label": "Howard Finster"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20914",
+            "type": "Person",
+            "_label": "Tino Sehgal"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18713",
+            "type": "Person",
+            "_label": "Artur Zmijewski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65986",
+            "type": "Person",
+            "_label": "Micol Assaël"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20779",
+            "type": "Person",
+            "_label": "Jennifer Allora"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20780",
+            "type": "Person",
+            "_label": "Guillermo Calzadilla"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66518",
+            "type": "Person",
+            "_label": "Robert Kusmirowski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64634",
+            "type": "Person",
+            "_label": "Fikret Atay"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64412",
+            "type": "Person",
+            "_label": "Diego Perrone"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63875",
+            "type": "Person",
+            "_label": "August Strindberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60926",
+            "type": "Person",
+            "_label": "Eugene Von Bruenchenhein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26311",
+            "type": "Person",
+            "_label": "Werner Herzog"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25557",
+            "type": "Person",
+            "_label": "Nathalie Djurberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/25165",
+            "type": "Person",
+            "_label": "Bill Daniel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21718",
+            "type": "Person",
+            "_label": "Klara Liden"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1639",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65868",
+            "type": "Person",
+            "_label": "Massimiliano Gioni"
+          }
+        ]
+      }
+    ]
+  }
 }

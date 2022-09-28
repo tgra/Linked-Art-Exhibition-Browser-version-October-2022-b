@@ -3,291 +3,289 @@
   "id": "http://linkedart.example.com/exhibition/515",
   "type": "Activity",
   "_label": "Prize Designs for Modern Furniture",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Prize Designs for Modern Furniture",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Prize Designs for Modern Furniture",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1950-16-5",
     "end_of_the_end": "1950-16-7"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3297",
-      "type": "Place",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/5362",
+    "type": "Place",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3297",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/4126",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/3035",
-              "type": "Person",
-              "_label": "Donald R. Knorr"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4534",
-              "type": "Person",
-              "_label": "Davis J. Pratt"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4540",
-              "type": "Person",
-              "_label": "James Prestini"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4592",
-              "type": "Person",
-              "_label": "Ernest Race"
-            },
-            {
-              "id": "http://linkedart.example.com/person/22118",
-              "type": "Person",
-              "_label": "Bjorn Engo"
-            },
-            {
-              "id": "http://linkedart.example.com/person/8556",
-              "type": "Person",
-              "_label": "Knoll Associates, New York, NY"
-            },
-            {
-              "id": "http://linkedart.example.com/person/21648",
-              "type": "Person",
-              "_label": "Joel D. Barber"
-            },
-            {
-              "id": "http://linkedart.example.com/person/21647",
-              "type": "Person",
-              "_label": "Junzo Sakakura"
-            },
-            {
-              "id": "http://linkedart.example.com/person/8482",
-              "type": "Person",
-              "_label": "Herman Miller Furniture Co., Zeeland, MI"
-            },
-            {
-              "id": "http://linkedart.example.com/person/21750",
-              "type": "Person",
-              "_label": "George Leowald"
-            },
-            {
-              "id": "http://linkedart.example.com/person/21764",
-              "type": "Person",
-              "_label": "Clive Latimer"
-            },
-            {
-              "id": "http://linkedart.example.com/person/21760",
-              "type": "Person",
-              "_label": "Willie Guhl"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6251",
-              "type": "Person",
-              "_label": "Marco Zanuso"
-            },
-            {
-              "id": "http://linkedart.example.com/person/21763",
-              "type": "Person",
-              "_label": "Robin Day"
-            },
-            {
-              "id": "http://linkedart.example.com/person/21752",
-              "type": "Person",
-              "_label": "Armour Research Foundation"
-            },
-            {
-              "id": "http://linkedart.example.com/person/22119",
-              "type": "Person",
-              "_label": "Clara Porset"
-            },
-            {
-              "id": "http://linkedart.example.com/person/21762",
-              "type": "Person",
-              "_label": "John O. Merrill Jr."
-            },
-            {
-              "id": "http://linkedart.example.com/person/21761",
-              "type": "Person",
-              "_label": "John B. McMorran Jr."
-            },
-            {
-              "id": "http://linkedart.example.com/person/21751",
-              "type": "Person",
-              "_label": "Robert E. Lewis"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5998",
-              "type": "Person",
-              "_label": "Harry Mohr Weese"
-            },
-            {
-              "id": "http://linkedart.example.com/person/8298",
-              "type": "Person",
-              "_label": "Massachusetts Institute of Technology"
-            },
-            {
-              "id": "http://linkedart.example.com/person/11683",
-              "type": "Person",
-              "_label": "Pierre Faucheux"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5949",
-              "type": "Person",
-              "_label": "Don Wallance"
-            },
-            {
-              "id": "http://linkedart.example.com/person/18463",
-              "type": "Person",
-              "_label": "Carl Koch"
-            },
-            {
-              "id": "http://linkedart.example.com/person/11830",
-              "type": "Person",
-              "_label": "University of California, Santa Barbara, CA"
-            },
-            {
-              "id": "http://linkedart.example.com/person/30006",
-              "type": "Person",
-              "_label": "Abel Sorensen"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31382",
-              "type": "Person",
-              "_label": "United States Forest Products Laboratory"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31383",
-              "type": "Person",
-              "_label": "Emil Guhl"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31379",
-              "type": "Person",
-              "_label": "Johnson-Carpenter Furniture Company"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31381",
-              "type": "Person",
-              "_label": "Yale University School of Forestry"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31380",
-              "type": "Person",
-              "_label": "Midwest Research Institute"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31378",
-              "type": "Person",
-              "_label": "Edmond J. Spence"
-            },
-            {
-              "id": "http://linkedart.example.com/person/737",
-              "type": "Person",
-              "_label": "Marcel Breuer"
-            },
-            {
-              "id": "http://linkedart.example.com/person/290",
-              "type": "Person",
-              "_label": "Benjamin Baldwin"
-            },
-            {
-              "id": "http://linkedart.example.com/person/756",
-              "type": "Person",
-              "_label": "Alexey Brodovitch"
-            },
-            {
-              "id": "http://linkedart.example.com/person/1595",
-              "type": "Person",
-              "_label": "Charles Eames"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4127",
-          "type": "Set",
-          "_label": "Competition Judge",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/32158",
-              "type": "Person",
-              "_label": "Luis de Florez"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32147",
-              "type": "Person",
-              "_label": "Hugh Lawson"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32156",
-              "type": "Person",
-              "_label": "Alfred Auerbach"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32159",
-              "type": "Person",
-              "_label": "Gordon Russell"
-            },
-            {
-              "id": "http://linkedart.example.com/person/9327",
-              "type": "Person",
-              "_label": "René d'Harnoncourt"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6846",
-              "type": "Person",
-              "_label": "Ludwig Mies van der Rohe"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32157",
-              "type": "Person",
-              "_label": "Catherine Bauer"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/4128",
-          "type": "Set",
-          "_label": "Organizer",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/27036",
-              "type": "Person",
-              "_label": "Edgar Kaufmann, Jr."
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/5362",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/5362",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/7072",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/3035",
+            "type": "Person",
+            "_label": "Donald R. Knorr"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4534",
+            "type": "Person",
+            "_label": "Davis J. Pratt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4540",
+            "type": "Person",
+            "_label": "James Prestini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4592",
+            "type": "Person",
+            "_label": "Ernest Race"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22118",
+            "type": "Person",
+            "_label": "Bjorn Engo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8556",
+            "type": "Person",
+            "_label": "Knoll Associates, New York, NY"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21648",
+            "type": "Person",
+            "_label": "Joel D. Barber"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21647",
+            "type": "Person",
+            "_label": "Junzo Sakakura"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8482",
+            "type": "Person",
+            "_label": "Herman Miller Furniture Co., Zeeland, MI"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21750",
+            "type": "Person",
+            "_label": "George Leowald"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21764",
+            "type": "Person",
+            "_label": "Clive Latimer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21760",
+            "type": "Person",
+            "_label": "Willie Guhl"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6251",
+            "type": "Person",
+            "_label": "Marco Zanuso"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21763",
+            "type": "Person",
+            "_label": "Robin Day"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21752",
+            "type": "Person",
+            "_label": "Armour Research Foundation"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22119",
+            "type": "Person",
+            "_label": "Clara Porset"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21762",
+            "type": "Person",
+            "_label": "John O. Merrill Jr."
+          },
+          {
+            "id": "http://linkedart.example.com/person/21761",
+            "type": "Person",
+            "_label": "John B. McMorran Jr."
+          },
+          {
+            "id": "http://linkedart.example.com/person/21751",
+            "type": "Person",
+            "_label": "Robert E. Lewis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5998",
+            "type": "Person",
+            "_label": "Harry Mohr Weese"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8298",
+            "type": "Person",
+            "_label": "Massachusetts Institute of Technology"
+          },
+          {
+            "id": "http://linkedart.example.com/person/11683",
+            "type": "Person",
+            "_label": "Pierre Faucheux"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5949",
+            "type": "Person",
+            "_label": "Don Wallance"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18463",
+            "type": "Person",
+            "_label": "Carl Koch"
+          },
+          {
+            "id": "http://linkedart.example.com/person/11830",
+            "type": "Person",
+            "_label": "University of California, Santa Barbara, CA"
+          },
+          {
+            "id": "http://linkedart.example.com/person/30006",
+            "type": "Person",
+            "_label": "Abel Sorensen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31382",
+            "type": "Person",
+            "_label": "United States Forest Products Laboratory"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31383",
+            "type": "Person",
+            "_label": "Emil Guhl"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31379",
+            "type": "Person",
+            "_label": "Johnson-Carpenter Furniture Company"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31381",
+            "type": "Person",
+            "_label": "Yale University School of Forestry"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31380",
+            "type": "Person",
+            "_label": "Midwest Research Institute"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31378",
+            "type": "Person",
+            "_label": "Edmond J. Spence"
+          },
+          {
+            "id": "http://linkedart.example.com/person/737",
+            "type": "Person",
+            "_label": "Marcel Breuer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/290",
+            "type": "Person",
+            "_label": "Benjamin Baldwin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/756",
+            "type": "Person",
+            "_label": "Alexey Brodovitch"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1595",
+            "type": "Person",
+            "_label": "Charles Eames"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7073",
+        "type": "Set",
+        "_label": "Competition Judge",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/32158",
+            "type": "Person",
+            "_label": "Luis de Florez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32147",
+            "type": "Person",
+            "_label": "Hugh Lawson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32156",
+            "type": "Person",
+            "_label": "Alfred Auerbach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32159",
+            "type": "Person",
+            "_label": "Gordon Russell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/9327",
+            "type": "Person",
+            "_label": "René d'Harnoncourt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6846",
+            "type": "Person",
+            "_label": "Ludwig Mies van der Rohe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32157",
+            "type": "Person",
+            "_label": "Catherine Bauer"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/7074",
+        "type": "Set",
+        "_label": "Organizer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/27036",
+            "type": "Person",
+            "_label": "Edgar Kaufmann, Jr."
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -3,153 +3,151 @@
   "id": "http://linkedart.example.com/exhibition/3800",
   "type": "Activity",
   "_label": "Poetry (Spring 1981): Sardines",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Poetry (Spring 1981): Sardines",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Poetry (Spring 1981): Sardines",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1981-22-4",
     "end_of_the_end": "1981-16-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2538",
-      "type": "Place",
-      "_label": "The Clocktower",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4236",
+    "type": "Place",
+    "_label": "The Clocktower",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2538",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3270",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/6061",
-              "type": "Person",
-              "_label": "Robert Whitman"
-            },
-            {
-              "id": "http://linkedart.example.com/person/855",
-              "type": "Person",
-              "_label": "Scott Burton"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2993",
-              "type": "Person",
-              "_label": "R. B. Kitaj"
-            },
-            {
-              "id": "http://linkedart.example.com/person/10631",
-              "type": "Person",
-              "_label": "Ted Greenwald"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5966",
-              "type": "Person",
-              "_label": "Andy Warhol"
-            },
-            {
-              "id": "http://linkedart.example.com/person/10625",
-              "type": "Person",
-              "_label": "Rene Ricard"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6294",
-              "type": "Person",
-              "_label": "Joe Zucker"
-            },
-            {
-              "id": "http://linkedart.example.com/person/10859",
-              "type": "Person",
-              "_label": "John Yau"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4845",
-              "type": "Person",
-              "_label": "Susan Rothenberg"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6512",
-              "type": "Person",
-              "_label": "John Ashbery"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7959",
-              "type": "Person",
-              "_label": "Billy Sullivan"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59149",
-              "type": "Person",
-              "_label": "George Schneeman"
-            },
-            {
-              "id": "http://linkedart.example.com/person/10624",
-              "type": "Person",
-              "_label": "Carter Ratcliff"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3392",
-              "type": "Person",
-              "_label": "Roy Lichtenstein"
-            },
-            {
-              "id": "http://linkedart.example.com/person/10626",
-              "type": "Person",
-              "_label": "Peter Schjeldahl"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59624",
-              "type": "Person",
-              "_label": "Jake Bertold"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57575",
-              "type": "Person",
-              "_label": "Gerrit Henry"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57945",
-              "type": "Person",
-              "_label": "Marjorie Welish"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58174",
-              "type": "Person",
-              "_label": "Rae Berolzheimer"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4236",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4236",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5821",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6061",
+            "type": "Person",
+            "_label": "Robert Whitman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/855",
+            "type": "Person",
+            "_label": "Scott Burton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2993",
+            "type": "Person",
+            "_label": "R. B. Kitaj"
+          },
+          {
+            "id": "http://linkedart.example.com/person/10631",
+            "type": "Person",
+            "_label": "Ted Greenwald"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5966",
+            "type": "Person",
+            "_label": "Andy Warhol"
+          },
+          {
+            "id": "http://linkedart.example.com/person/10625",
+            "type": "Person",
+            "_label": "Rene Ricard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6294",
+            "type": "Person",
+            "_label": "Joe Zucker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/10859",
+            "type": "Person",
+            "_label": "John Yau"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4845",
+            "type": "Person",
+            "_label": "Susan Rothenberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6512",
+            "type": "Person",
+            "_label": "John Ashbery"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7959",
+            "type": "Person",
+            "_label": "Billy Sullivan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59149",
+            "type": "Person",
+            "_label": "George Schneeman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/10624",
+            "type": "Person",
+            "_label": "Carter Ratcliff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3392",
+            "type": "Person",
+            "_label": "Roy Lichtenstein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/10626",
+            "type": "Person",
+            "_label": "Peter Schjeldahl"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59624",
+            "type": "Person",
+            "_label": "Jake Bertold"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57575",
+            "type": "Person",
+            "_label": "Gerrit Henry"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57945",
+            "type": "Person",
+            "_label": "Marjorie Welish"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58174",
+            "type": "Person",
+            "_label": "Rae Berolzheimer"
+          }
+        ]
+      }
+    ]
+  }
 }

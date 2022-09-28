@@ -3,112 +3,110 @@
   "id": "http://linkedart.example.com/exhibition/272",
   "type": "Activity",
   "_label": "Five California Houses",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Five California Houses",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Five California Houses",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1943-17-3",
     "end_of_the_end": "1943-18-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1331",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3018",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1331",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1993",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/4109",
-              "type": "Person",
-              "_label": "Richard Neutra"
-            },
-            {
-              "id": "http://linkedart.example.com/person/18459",
-              "type": "Person",
-              "_label": "Harwell Hamilton Harris"
-            },
-            {
-              "id": "http://linkedart.example.com/person/27850",
-              "type": "Person",
-              "_label": "William Wilson Wurster"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31130",
-              "type": "Person",
-              "_label": "John Ekin Dinwiddie"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31132",
-              "type": "Person",
-              "_label": "Hervey Parke Clark"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31131",
-              "type": "Person",
-              "_label": "Albert Henry Hill"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1994",
-          "type": "Set",
-          "_label": "Arranger",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/31132",
-              "type": "Person",
-              "_label": "Hervey Parke Clark"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1995",
-          "type": "Set",
-          "_label": "Designer",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/31133",
-              "type": "Person",
-              "_label": "Alice M. Carson"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3018",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3018",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4532",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4109",
+            "type": "Person",
+            "_label": "Richard Neutra"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18459",
+            "type": "Person",
+            "_label": "Harwell Hamilton Harris"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27850",
+            "type": "Person",
+            "_label": "William Wilson Wurster"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31130",
+            "type": "Person",
+            "_label": "John Ekin Dinwiddie"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31132",
+            "type": "Person",
+            "_label": "Hervey Parke Clark"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31131",
+            "type": "Person",
+            "_label": "Albert Henry Hill"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/4533",
+        "type": "Set",
+        "_label": "Arranger",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/31132",
+            "type": "Person",
+            "_label": "Hervey Parke Clark"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/4534",
+        "type": "Set",
+        "_label": "Designer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/31133",
+            "type": "Person",
+            "_label": "Alice M. Carson"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -20,26 +20,37 @@ const Exhibition = () => {
   // get file contents using id and api 
 
   return (
-    <div className="container">
-    <div></div>
-        <div><Link href="/">Back to home</Link> / <Link href="/exhibition">Exhibitions</Link></div>
+    <div>
+    
+  
       <Head>
         <title> Alternative New York Exhibition</title>
-        
+        <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous" />
       
+
       </Head>
 
 
+<main>
+<div class="nav"><Link  href="/">Back to home</Link>/<Link href="/exhibition">Exhibitions</Link></div>
+  
       <div>
         <h2>Title</h2>
         <h3>{data._label}</h3>
         <h2>Date</h2>
         <p>Start: {data.timespan.begin_of_the_begin}   End: {data.timespan.end_of_the_end}</p>
-        <h2>Location</h2>
-        <p>{data.took_place_at[0]._label}</p>
-        <h2>Agents associated with this exhibition</h2>
+       
+       <h2>Organisation</h2>
+       {data.carried_out_by._label}
+       <h2>Location/Address</h2>
+      {data.took_place_at._label}
+        <h2>Persons associated with this exhibition</h2>
+       
         {
-        data.part[0].involved.map((set) => (
+        data.part.involved.map((set) => (
           
           <span>
             
@@ -56,15 +67,24 @@ const Exhibition = () => {
           </span>    
         ))
         }
-        
-       
-     
-        </div>
-        </div>
 
+
+
+
+
+
+        </div>
+       
+</main>
+       
+</div>
 
   )
 }
 
 export default Exhibition
+
+
+
+
 

@@ -3,133 +3,131 @@
   "id": "http://linkedart.example.com/exhibition/3066",
   "type": "Activity",
   "_label": "Construction Drawings",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Construction Drawings",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Construction Drawings",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1998-26-4",
     "end_of_the_end": "1998-21-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1722",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3420",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1722",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2416",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/7875",
-              "type": "Person",
-              "_label": "Keith Edmier"
-            },
-            {
-              "id": "http://linkedart.example.com/person/18854",
-              "type": "Person",
-              "_label": "Carsten Höller"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7475",
-              "type": "Person",
-              "_label": "Rachel Harrison"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59038",
-              "type": "Person",
-              "_label": "David Galbraith"
-            },
-            {
-              "id": "http://linkedart.example.com/person/35186",
-              "type": "Person",
-              "_label": "Amy O'Neill"
-            },
-            {
-              "id": "http://linkedart.example.com/person/16487",
-              "type": "Person",
-              "_label": "Olafur Eliasson"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17616",
-              "type": "Person",
-              "_label": "Monica Bonvicini"
-            },
-            {
-              "id": "http://linkedart.example.com/person/14483",
-              "type": "Person",
-              "_label": "Manfred Pernice"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7177",
-              "type": "Person",
-              "_label": "Liam Gillick"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7575",
-              "type": "Person",
-              "_label": "Sarah Sze"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57540",
-              "type": "Person",
-              "_label": "Toland Grinnell"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58078",
-              "type": "Person",
-              "_label": "Teresa Seemann"
-            },
-            {
-              "id": "http://linkedart.example.com/person/60324",
-              "type": "Person",
-              "_label": "Thom Merrick"
-            },
-            {
-              "id": "http://linkedart.example.com/person/60323",
-              "type": "Person",
-              "_label": "Scott Lyall"
-            },
-            {
-              "id": "http://linkedart.example.com/person/56780",
-              "type": "Person",
-              "_label": "Seth Kelly"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3420",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3420",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4967",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/7875",
+            "type": "Person",
+            "_label": "Keith Edmier"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18854",
+            "type": "Person",
+            "_label": "Carsten Höller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7475",
+            "type": "Person",
+            "_label": "Rachel Harrison"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59038",
+            "type": "Person",
+            "_label": "David Galbraith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/35186",
+            "type": "Person",
+            "_label": "Amy O'Neill"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16487",
+            "type": "Person",
+            "_label": "Olafur Eliasson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17616",
+            "type": "Person",
+            "_label": "Monica Bonvicini"
+          },
+          {
+            "id": "http://linkedart.example.com/person/14483",
+            "type": "Person",
+            "_label": "Manfred Pernice"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7177",
+            "type": "Person",
+            "_label": "Liam Gillick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7575",
+            "type": "Person",
+            "_label": "Sarah Sze"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57540",
+            "type": "Person",
+            "_label": "Toland Grinnell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58078",
+            "type": "Person",
+            "_label": "Teresa Seemann"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60324",
+            "type": "Person",
+            "_label": "Thom Merrick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60323",
+            "type": "Person",
+            "_label": "Scott Lyall"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56780",
+            "type": "Person",
+            "_label": "Seth Kelly"
+          }
+        ]
+      }
+    ]
+  }
 }

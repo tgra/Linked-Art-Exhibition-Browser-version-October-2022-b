@@ -3,92 +3,90 @@
   "id": "http://linkedart.example.com/exhibition/18223",
   "type": "Activity",
   "_label": "Cafe Barbie",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Cafe Barbie",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Cafe Barbie",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1994-10-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/532",
-      "type": "Place",
-      "_label": "The Kitchen",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/1355",
+    "type": "Place",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/532",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/966",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/67574",
-              "type": "Person",
-              "_label": "Cindy Jackson"
-            },
-            {
-              "id": "http://linkedart.example.com/person/67464",
-              "type": "Person",
-              "_label": "Raquel Welch"
-            },
-            {
-              "id": "http://linkedart.example.com/person/67386",
-              "type": "Person",
-              "_label": "Lauren Hutton"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65221",
-              "type": "Person",
-              "_label": "John G. Hanhardt"
-            },
-            {
-              "id": "http://linkedart.example.com/person/67294",
-              "type": "Person",
-              "_label": "Holly Brubach"
-            },
-            {
-              "id": "http://linkedart.example.com/person/67562",
-              "type": "Person",
-              "_label": "Camille Paglia"
-            },
-            {
-              "id": "http://linkedart.example.com/person/67544",
-              "type": "Person",
-              "_label": "Betty Friedan"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/1355",
+    "type": "Group",
+    "_label": "The Kitchen",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/1355",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/2442",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67574",
+            "type": "Person",
+            "_label": "Cindy Jackson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67464",
+            "type": "Person",
+            "_label": "Raquel Welch"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67386",
+            "type": "Person",
+            "_label": "Lauren Hutton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65221",
+            "type": "Person",
+            "_label": "John G. Hanhardt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67294",
+            "type": "Person",
+            "_label": "Holly Brubach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67562",
+            "type": "Person",
+            "_label": "Camille Paglia"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67544",
+            "type": "Person",
+            "_label": "Betty Friedan"
+          }
+        ]
+      }
+    ]
+  }
 }

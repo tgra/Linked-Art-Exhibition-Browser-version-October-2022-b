@@ -3,222 +3,220 @@
   "id": "http://linkedart.example.com/exhibition/17137",
   "type": "Activity",
   "_label": "Africa Explores: 20th Century African Art",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Africa Explores: 20th Century African Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Africa Explores: 20th Century African Art",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1991-11-5",
     "end_of_the_end": "1991-18-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/261",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/975",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/261",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/541",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/67039",
-              "type": "Person",
-              "_label": "Tshyela Ntendu"
-            },
-            {
-              "id": "http://linkedart.example.com/person/66205",
-              "type": "Person",
-              "_label": "Nsedu"
-            },
-            {
-              "id": "http://linkedart.example.com/person/66594",
-              "type": "Person",
-              "_label": "S.T. Ngui"
-            },
-            {
-              "id": "http://linkedart.example.com/person/66613",
-              "type": "Person",
-              "_label": "Samba Sylla"
-            },
-            {
-              "id": "http://linkedart.example.com/person/66723",
-              "type": "Person",
-              "_label": "Sim Simaro"
-            },
-            {
-              "id": "http://linkedart.example.com/person/66745",
-              "type": "Person",
-              "_label": "Sokari Douglas Camp"
-            },
-            {
-              "id": "http://linkedart.example.com/person/66592",
-              "type": "Person",
-              "_label": "S. Rufisque"
-            },
-            {
-              "id": "http://linkedart.example.com/person/66824",
-              "type": "Person",
-              "_label": "Sunday Jack Akpan"
-            },
-            {
-              "id": "http://linkedart.example.com/person/67038",
-              "type": "Person",
-              "_label": "Tshibumba Kanda-Matulu"
-            },
-            {
-              "id": "http://linkedart.example.com/person/66036",
-              "type": "Person",
-              "_label": "Mode Muntu"
-            },
-            {
-              "id": "http://linkedart.example.com/person/64287",
-              "type": "Person",
-              "_label": "Dame Gueye"
-            },
-            {
-              "id": "http://linkedart.example.com/person/67034",
-              "type": "Person",
-              "_label": "Trigo Piula"
-            },
-            {
-              "id": "http://linkedart.example.com/person/63617",
-              "type": "Person",
-              "_label": "Albert Lubaki"
-            },
-            {
-              "id": "http://linkedart.example.com/person/16367",
-              "type": "Person",
-              "_label": "Chéri Samba"
-            },
-            {
-              "id": "http://linkedart.example.com/person/8140",
-              "type": "Person",
-              "_label": "Seydou Keïta"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65987",
-              "type": "Person",
-              "_label": "Middle Art"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58335",
-              "type": "Person",
-              "_label": "Ouattara"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59409",
-              "type": "Person",
-              "_label": "Malangatana Ngwenya"
-            },
-            {
-              "id": "http://linkedart.example.com/person/63601",
-              "type": "Person",
-              "_label": "Ajani"
-            },
-            {
-              "id": "http://linkedart.example.com/person/64649",
-              "type": "Person",
-              "_label": "Fode Camara"
-            },
-            {
-              "id": "http://linkedart.example.com/person/64768",
-              "type": "Person",
-              "_label": "Gora M'Bengue"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65367",
-              "type": "Person",
-              "_label": "Kane Kwei"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65494",
-              "type": "Person",
-              "_label": "Kivuthi Mbuno"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65498",
-              "type": "Person",
-              "_label": "Koffi Kouakou"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65501",
-              "type": "Person",
-              "_label": "Kojo Anokye"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65521",
-              "type": "Person",
-              "_label": "Kweku Kakanu"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65715",
-              "type": "Person",
-              "_label": "Magdelene Odundo"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59410",
-              "type": "Person",
-              "_label": "Iba N'Diaye"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/542",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/40841",
-              "type": "Person",
-              "_label": "The Museum of African Art"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/543",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/66841",
-              "type": "Person",
-              "_label": "Susan Vogel"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/975",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/975",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1844",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/67039",
+            "type": "Person",
+            "_label": "Tshyela Ntendu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66205",
+            "type": "Person",
+            "_label": "Nsedu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66594",
+            "type": "Person",
+            "_label": "S.T. Ngui"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66613",
+            "type": "Person",
+            "_label": "Samba Sylla"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66723",
+            "type": "Person",
+            "_label": "Sim Simaro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66745",
+            "type": "Person",
+            "_label": "Sokari Douglas Camp"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66592",
+            "type": "Person",
+            "_label": "S. Rufisque"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66824",
+            "type": "Person",
+            "_label": "Sunday Jack Akpan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67038",
+            "type": "Person",
+            "_label": "Tshibumba Kanda-Matulu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66036",
+            "type": "Person",
+            "_label": "Mode Muntu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64287",
+            "type": "Person",
+            "_label": "Dame Gueye"
+          },
+          {
+            "id": "http://linkedart.example.com/person/67034",
+            "type": "Person",
+            "_label": "Trigo Piula"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63617",
+            "type": "Person",
+            "_label": "Albert Lubaki"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16367",
+            "type": "Person",
+            "_label": "Chéri Samba"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8140",
+            "type": "Person",
+            "_label": "Seydou Keïta"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65987",
+            "type": "Person",
+            "_label": "Middle Art"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58335",
+            "type": "Person",
+            "_label": "Ouattara"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59409",
+            "type": "Person",
+            "_label": "Malangatana Ngwenya"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63601",
+            "type": "Person",
+            "_label": "Ajani"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64649",
+            "type": "Person",
+            "_label": "Fode Camara"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64768",
+            "type": "Person",
+            "_label": "Gora M'Bengue"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65367",
+            "type": "Person",
+            "_label": "Kane Kwei"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65494",
+            "type": "Person",
+            "_label": "Kivuthi Mbuno"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65498",
+            "type": "Person",
+            "_label": "Koffi Kouakou"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65501",
+            "type": "Person",
+            "_label": "Kojo Anokye"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65521",
+            "type": "Person",
+            "_label": "Kweku Kakanu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65715",
+            "type": "Person",
+            "_label": "Magdelene Odundo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59410",
+            "type": "Person",
+            "_label": "Iba N'Diaye"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1845",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/40841",
+            "type": "Person",
+            "_label": "The Museum of African Art"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1846",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66841",
+            "type": "Person",
+            "_label": "Susan Vogel"
+          }
+        ]
+      }
+    ]
+  }
 }

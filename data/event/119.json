@@ -3,247 +3,245 @@
   "id": "http://linkedart.example.com/exhibition/119",
   "type": "Activity",
   "_label": "Wheaton College Competition",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Wheaton College Competition",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Wheaton College Competition",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1938-28-6",
     "end_of_the_end": "1938-12-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/22",
-      "type": "Place",
-      "_label": "14 West 49 St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/212",
+    "type": "Place",
+    "_label": "14 West 49 St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/22",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/33",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/4902",
-              "type": "Person",
-              "_label": "Eero Saarinen"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4109",
-              "type": "Person",
-              "_label": "Richard Neutra"
-            },
-            {
-              "id": "http://linkedart.example.com/person/27199",
-              "type": "Person",
-              "_label": "Lyndon and Smith"
-            },
-            {
-              "id": "http://linkedart.example.com/person/8452",
-              "type": "Person",
-              "_label": "John B. Rodgers"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7761",
-              "type": "Person",
-              "_label": "Gordon Bunshaft"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7062",
-              "type": "Person",
-              "_label": "George Howe"
-            },
-            {
-              "id": "http://linkedart.example.com/person/16490",
-              "type": "Person",
-              "_label": "William Turk Priestley"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28376",
-              "type": "Person",
-              "_label": "G. Holmes Perkins"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28380",
-              "type": "Person",
-              "_label": "Rudolf Mock"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28379",
-              "type": "Person",
-              "_label": "Carter Edmund Hewitt"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28378",
-              "type": "Person",
-              "_label": "Robert T. Handren"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28377",
-              "type": "Person",
-              "_label": "Frances W. Hartwell"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28375",
-              "type": "Person",
-              "_label": "Carl F. Brauer"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28368",
-              "type": "Person",
-              "_label": "Richard M. Bennett"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28381",
-              "type": "Person",
-              "_label": "Oscar Stonorov"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28969",
-              "type": "Person",
-              "_label": "Maynard Lyndon"
-            },
-            {
-              "id": "http://linkedart.example.com/person/27503",
-              "type": "Person",
-              "_label": "Percival Goodman"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28369",
-              "type": "Person",
-              "_label": "Caleb Hornbostel"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28970",
-              "type": "Person",
-              "_label": "Eberle Smith"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28374",
-              "type": "Person",
-              "_label": "Robert Green"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28370",
-              "type": "Person",
-              "_label": "Pierre Bezy"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28371",
-              "type": "Person",
-              "_label": "John Stedman, Jr."
-            },
-            {
-              "id": "http://linkedart.example.com/person/28372",
-              "type": "Person",
-              "_label": "Paul Lester Wiener"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28373",
-              "type": "Person",
-              "_label": "Alexis Dukelski"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2264",
-              "type": "Person",
-              "_label": "Walter Gropius"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2839",
-              "type": "Person",
-              "_label": "Louis I. Kahn"
-            },
-            {
-              "id": "http://linkedart.example.com/person/737",
-              "type": "Person",
-              "_label": "Marcel Breuer"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/34",
-          "type": "Set",
-          "_label": "Competition Judge",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/32211",
-              "type": "Person",
-              "_label": "Roland A. Wank"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5455",
-              "type": "Person",
-              "_label": "Edward Durell Stone"
-            },
-            {
-              "id": "http://linkedart.example.com/person/30233",
-              "type": "Person",
-              "_label": "John Wellborn Root, Jr."
-            },
-            {
-              "id": "http://linkedart.example.com/person/16677",
-              "type": "Person",
-              "_label": "Gerhard Behrend"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32212",
-              "type": "Person",
-              "_label": "Stanley R. McCandless"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32213",
-              "type": "Person",
-              "_label": "Esther Isabelle Seaver"
-            },
-            {
-              "id": "http://linkedart.example.com/person/27073",
-              "type": "Person",
-              "_label": "John McAndrew"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/35",
-          "type": "Set",
-          "_label": "Advisor",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/4089",
-              "type": "Person",
-              "_label": "George Nelson"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/212",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/212",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/389",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4902",
+            "type": "Person",
+            "_label": "Eero Saarinen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4109",
+            "type": "Person",
+            "_label": "Richard Neutra"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27199",
+            "type": "Person",
+            "_label": "Lyndon and Smith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8452",
+            "type": "Person",
+            "_label": "John B. Rodgers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7761",
+            "type": "Person",
+            "_label": "Gordon Bunshaft"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7062",
+            "type": "Person",
+            "_label": "George Howe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16490",
+            "type": "Person",
+            "_label": "William Turk Priestley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28376",
+            "type": "Person",
+            "_label": "G. Holmes Perkins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28380",
+            "type": "Person",
+            "_label": "Rudolf Mock"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28379",
+            "type": "Person",
+            "_label": "Carter Edmund Hewitt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28378",
+            "type": "Person",
+            "_label": "Robert T. Handren"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28377",
+            "type": "Person",
+            "_label": "Frances W. Hartwell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28375",
+            "type": "Person",
+            "_label": "Carl F. Brauer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28368",
+            "type": "Person",
+            "_label": "Richard M. Bennett"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28381",
+            "type": "Person",
+            "_label": "Oscar Stonorov"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28969",
+            "type": "Person",
+            "_label": "Maynard Lyndon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27503",
+            "type": "Person",
+            "_label": "Percival Goodman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28369",
+            "type": "Person",
+            "_label": "Caleb Hornbostel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28970",
+            "type": "Person",
+            "_label": "Eberle Smith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28374",
+            "type": "Person",
+            "_label": "Robert Green"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28370",
+            "type": "Person",
+            "_label": "Pierre Bezy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28371",
+            "type": "Person",
+            "_label": "John Stedman, Jr."
+          },
+          {
+            "id": "http://linkedart.example.com/person/28372",
+            "type": "Person",
+            "_label": "Paul Lester Wiener"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28373",
+            "type": "Person",
+            "_label": "Alexis Dukelski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2264",
+            "type": "Person",
+            "_label": "Walter Gropius"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2839",
+            "type": "Person",
+            "_label": "Louis I. Kahn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/737",
+            "type": "Person",
+            "_label": "Marcel Breuer"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/390",
+        "type": "Set",
+        "_label": "Competition Judge",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/32211",
+            "type": "Person",
+            "_label": "Roland A. Wank"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5455",
+            "type": "Person",
+            "_label": "Edward Durell Stone"
+          },
+          {
+            "id": "http://linkedart.example.com/person/30233",
+            "type": "Person",
+            "_label": "John Wellborn Root, Jr."
+          },
+          {
+            "id": "http://linkedart.example.com/person/16677",
+            "type": "Person",
+            "_label": "Gerhard Behrend"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32212",
+            "type": "Person",
+            "_label": "Stanley R. McCandless"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32213",
+            "type": "Person",
+            "_label": "Esther Isabelle Seaver"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27073",
+            "type": "Person",
+            "_label": "John McAndrew"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/391",
+        "type": "Set",
+        "_label": "Advisor",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4089",
+            "type": "Person",
+            "_label": "George Nelson"
+          }
+        ]
+      }
+    ]
+  }
 }

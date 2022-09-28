@@ -3,255 +3,253 @@
   "id": "http://linkedart.example.com/exhibition/314",
   "type": "Activity",
   "_label": "Posters",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Posters",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Posters",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1944-24-5",
     "end_of_the_end": "1944-17-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1804",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3502",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1804",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2502",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/5181",
-              "type": "Person",
-              "_label": "Otis Shepard"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3025",
-              "type": "Person",
-              "_label": "Sergei Senkin"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4624",
-              "type": "Person",
-              "_label": "Rapier"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3493",
-              "type": "Person",
-              "_label": "Max Lutzbacher"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2911",
-              "type": "Person",
-              "_label": "Pat Keely"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5005",
-              "type": "Person",
-              "_label": "Xanti Schawinsky"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5159",
-              "type": "Person",
-              "_label": "Ben Shahn"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3056",
-              "type": "Person",
-              "_label": "Henry Koerner"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5293",
-              "type": "Person",
-              "_label": "Otto Soglow"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2894",
-              "type": "Person",
-              "_label": "E. McKnight Kauffer"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3689",
-              "type": "Person",
-              "_label": "Herbert Matter"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3419",
-              "type": "Person",
-              "_label": "El Lissitzky"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4186",
-              "type": "Person",
-              "_label": "Pablo O'Higgins"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4064",
-              "type": "Person",
-              "_label": "Ben Nason"
-            },
-            {
-              "id": "http://linkedart.example.com/person/9553",
-              "type": "Person",
-              "_label": "George Him"
-            },
-            {
-              "id": "http://linkedart.example.com/person/27356",
-              "type": "Person",
-              "_label": "Ucher"
-            },
-            {
-              "id": "http://linkedart.example.com/person/9554",
-              "type": "Person",
-              "_label": "Jan Lewitt"
-            },
-            {
-              "id": "http://linkedart.example.com/person/24063",
-              "type": "Person",
-              "_label": "Alois Carigiet"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5450",
-              "type": "Person",
-              "_label": "Niklaus Stoecklin"
-            },
-            {
-              "id": "http://linkedart.example.com/person/22962",
-              "type": "Person",
-              "_label": "Herbert Tomlinson"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5719",
-              "type": "Person",
-              "_label": "Jan Tschichold"
-            },
-            {
-              "id": "http://linkedart.example.com/person/22807",
-              "type": "Person",
-              "_label": "Kukryniksy"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5518",
-              "type": "Person",
-              "_label": "Ladislav Sutnar"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5959",
-              "type": "Person",
-              "_label": "Gene Walther"
-            },
-            {
-              "id": "http://linkedart.example.com/person/10257",
-              "type": "Person",
-              "_label": "Gustav Klutsis"
-            },
-            {
-              "id": "http://linkedart.example.com/person/1980",
-              "type": "Person",
-              "_label": "Abram Games"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2502",
-              "type": "Person",
-              "_label": "Hanns Herkendell"
-            },
-            {
-              "id": "http://linkedart.example.com/person/214",
-              "type": "Person",
-              "_label": "John Atherton"
-            },
-            {
-              "id": "http://linkedart.example.com/person/756",
-              "type": "Person",
-              "_label": "Alexey Brodovitch"
-            },
-            {
-              "id": "http://linkedart.example.com/person/376",
-              "type": "Person",
-              "_label": "Herbert Bayer"
-            },
-            {
-              "id": "http://linkedart.example.com/person/1601",
-              "type": "Person",
-              "_label": "Thomas Eckersley"
-            },
-            {
-              "id": "http://linkedart.example.com/person/173",
-              "type": "Person",
-              "_label": "Raúl Anguiano"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2647",
-              "type": "Person",
-              "_label": "Huller"
-            },
-            {
-              "id": "http://linkedart.example.com/person/386",
-              "type": "Person",
-              "_label": "Lester Beall"
-            },
-            {
-              "id": "http://linkedart.example.com/person/939",
-              "type": "Person",
-              "_label": "Jean Carlu"
-            },
-            {
-              "id": "http://linkedart.example.com/person/1874",
-              "type": "Person",
-              "_label": "Fougasse (Cyril Kenneth Bird)"
-            },
-            {
-              "id": "http://linkedart.example.com/person/975",
-              "type": "Person",
-              "_label": "A. M. Cassandre"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/2503",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/8740",
-              "type": "Person",
-              "_label": "Monroe Wheeler"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3502",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3502",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5053",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5181",
+            "type": "Person",
+            "_label": "Otis Shepard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3025",
+            "type": "Person",
+            "_label": "Sergei Senkin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4624",
+            "type": "Person",
+            "_label": "Rapier"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3493",
+            "type": "Person",
+            "_label": "Max Lutzbacher"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2911",
+            "type": "Person",
+            "_label": "Pat Keely"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5005",
+            "type": "Person",
+            "_label": "Xanti Schawinsky"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5159",
+            "type": "Person",
+            "_label": "Ben Shahn"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3056",
+            "type": "Person",
+            "_label": "Henry Koerner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5293",
+            "type": "Person",
+            "_label": "Otto Soglow"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2894",
+            "type": "Person",
+            "_label": "E. McKnight Kauffer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3689",
+            "type": "Person",
+            "_label": "Herbert Matter"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3419",
+            "type": "Person",
+            "_label": "El Lissitzky"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4186",
+            "type": "Person",
+            "_label": "Pablo O'Higgins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4064",
+            "type": "Person",
+            "_label": "Ben Nason"
+          },
+          {
+            "id": "http://linkedart.example.com/person/9553",
+            "type": "Person",
+            "_label": "George Him"
+          },
+          {
+            "id": "http://linkedart.example.com/person/27356",
+            "type": "Person",
+            "_label": "Ucher"
+          },
+          {
+            "id": "http://linkedart.example.com/person/9554",
+            "type": "Person",
+            "_label": "Jan Lewitt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/24063",
+            "type": "Person",
+            "_label": "Alois Carigiet"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5450",
+            "type": "Person",
+            "_label": "Niklaus Stoecklin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22962",
+            "type": "Person",
+            "_label": "Herbert Tomlinson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5719",
+            "type": "Person",
+            "_label": "Jan Tschichold"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22807",
+            "type": "Person",
+            "_label": "Kukryniksy"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5518",
+            "type": "Person",
+            "_label": "Ladislav Sutnar"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5959",
+            "type": "Person",
+            "_label": "Gene Walther"
+          },
+          {
+            "id": "http://linkedart.example.com/person/10257",
+            "type": "Person",
+            "_label": "Gustav Klutsis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1980",
+            "type": "Person",
+            "_label": "Abram Games"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2502",
+            "type": "Person",
+            "_label": "Hanns Herkendell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/214",
+            "type": "Person",
+            "_label": "John Atherton"
+          },
+          {
+            "id": "http://linkedart.example.com/person/756",
+            "type": "Person",
+            "_label": "Alexey Brodovitch"
+          },
+          {
+            "id": "http://linkedart.example.com/person/376",
+            "type": "Person",
+            "_label": "Herbert Bayer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1601",
+            "type": "Person",
+            "_label": "Thomas Eckersley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/173",
+            "type": "Person",
+            "_label": "Raúl Anguiano"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2647",
+            "type": "Person",
+            "_label": "Huller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/386",
+            "type": "Person",
+            "_label": "Lester Beall"
+          },
+          {
+            "id": "http://linkedart.example.com/person/939",
+            "type": "Person",
+            "_label": "Jean Carlu"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1874",
+            "type": "Person",
+            "_label": "Fougasse (Cyril Kenneth Bird)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/975",
+            "type": "Person",
+            "_label": "A. M. Cassandre"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/5054",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/8740",
+            "type": "Person",
+            "_label": "Monroe Wheeler"
+          }
+        ]
+      }
+    ]
+  }
 }

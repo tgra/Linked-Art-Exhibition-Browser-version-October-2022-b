@@ -3,183 +3,181 @@
   "id": "http://linkedart.example.com/exhibition/3237",
   "type": "Activity",
   "_label": "Open Studios",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Open Studios",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Open Studios",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1977-1-5",
     "end_of_the_end": "1977-29-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1912",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3610",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1912",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2614",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/4288",
-              "type": "Person",
-              "_label": "Nam June Paik"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31409",
-              "type": "Person",
-              "_label": "Ernst Benkert"
-            },
-            {
-              "id": "http://linkedart.example.com/person/563",
-              "type": "Person",
-              "_label": "Ronald Bladen"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4961",
-              "type": "Person",
-              "_label": "Alan Saret"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5659",
-              "type": "Person",
-              "_label": "Hap Tivey"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32777",
-              "type": "Person",
-              "_label": "Jared Bark"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5810",
-              "type": "Person",
-              "_label": "Richard Van Buren"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7329",
-              "type": "Person",
-              "_label": "Susan Weil"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6770",
-              "type": "Person",
-              "_label": "John Fekner"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6006",
-              "type": "Person",
-              "_label": "Lawrence Weiner"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57369",
-              "type": "Person",
-              "_label": "Rudolph Montanez"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58714",
-              "type": "Person",
-              "_label": "Allen Bertoldi"
-            },
-            {
-              "id": "http://linkedart.example.com/person/56894",
-              "type": "Person",
-              "_label": "Frances Hynes"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57368",
-              "type": "Person",
-              "_label": "Massimo Pierucci"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57007",
-              "type": "Person",
-              "_label": "Maryanne Amacher"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58566",
-              "type": "Person",
-              "_label": "Rochelle Wyner"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58563",
-              "type": "Person",
-              "_label": "Emilio Segares"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58565",
-              "type": "Person",
-              "_label": "Walter Weissman"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58562",
-              "type": "Person",
-              "_label": "Robert Rakita"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57928",
-              "type": "Person",
-              "_label": "Claudia Demonte"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57272",
-              "type": "Person",
-              "_label": "Helen DeMott"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58561",
-              "type": "Person",
-              "_label": "Jacqueline Freedman"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58564",
-              "type": "Person",
-              "_label": "Joan Weber"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57172",
-              "type": "Person",
-              "_label": "Jeffrey Lew"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57269",
-              "type": "Person",
-              "_label": "Don Leicht"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3610",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3610",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5165",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4288",
+            "type": "Person",
+            "_label": "Nam June Paik"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31409",
+            "type": "Person",
+            "_label": "Ernst Benkert"
+          },
+          {
+            "id": "http://linkedart.example.com/person/563",
+            "type": "Person",
+            "_label": "Ronald Bladen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4961",
+            "type": "Person",
+            "_label": "Alan Saret"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5659",
+            "type": "Person",
+            "_label": "Hap Tivey"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32777",
+            "type": "Person",
+            "_label": "Jared Bark"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5810",
+            "type": "Person",
+            "_label": "Richard Van Buren"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7329",
+            "type": "Person",
+            "_label": "Susan Weil"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6770",
+            "type": "Person",
+            "_label": "John Fekner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6006",
+            "type": "Person",
+            "_label": "Lawrence Weiner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57369",
+            "type": "Person",
+            "_label": "Rudolph Montanez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58714",
+            "type": "Person",
+            "_label": "Allen Bertoldi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56894",
+            "type": "Person",
+            "_label": "Frances Hynes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57368",
+            "type": "Person",
+            "_label": "Massimo Pierucci"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57007",
+            "type": "Person",
+            "_label": "Maryanne Amacher"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58566",
+            "type": "Person",
+            "_label": "Rochelle Wyner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58563",
+            "type": "Person",
+            "_label": "Emilio Segares"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58565",
+            "type": "Person",
+            "_label": "Walter Weissman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58562",
+            "type": "Person",
+            "_label": "Robert Rakita"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57928",
+            "type": "Person",
+            "_label": "Claudia Demonte"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57272",
+            "type": "Person",
+            "_label": "Helen DeMott"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58561",
+            "type": "Person",
+            "_label": "Jacqueline Freedman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58564",
+            "type": "Person",
+            "_label": "Joan Weber"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57172",
+            "type": "Person",
+            "_label": "Jeffrey Lew"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57269",
+            "type": "Person",
+            "_label": "Don Leicht"
+          }
+        ]
+      }
+    ]
+  }
 }

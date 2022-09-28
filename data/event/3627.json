@@ -3,173 +3,171 @@
   "id": "http://linkedart.example.com/exhibition/3627",
   "type": "Activity",
   "_label": "Discussions: Works/Words",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Discussions: Works/Words",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Discussions: Works/Words",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1974-11-5",
     "end_of_the_end": "1974-30-6"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2345",
-      "type": "Place",
-      "_label": "The Clocktower",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4043",
+    "type": "Place",
+    "_label": "The Clocktower",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2345",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3066",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/20854",
-              "type": "Person",
-              "_label": "Anthony McCall"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4941",
-              "type": "Person",
-              "_label": "Fred Sandback"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32777",
-              "type": "Person",
-              "_label": "Jared Bark"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7112",
-              "type": "Person",
-              "_label": "Richard Mock"
-            },
-            {
-              "id": "http://linkedart.example.com/person/26607",
-              "type": "Person",
-              "_label": "George Trakas"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32776",
-              "type": "Person",
-              "_label": "Charles Ross"
-            },
-            {
-              "id": "http://linkedart.example.com/person/405",
-              "type": "Person",
-              "_label": "Bill Beckley"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6341",
-              "type": "Person",
-              "_label": "Gordon Matta-Clark"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7252",
-              "type": "Person",
-              "_label": "Patrick Ireland"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4160",
-              "type": "Person",
-              "_label": "Richard Nonas"
-            },
-            {
-              "id": "http://linkedart.example.com/person/21890",
-              "type": "Person",
-              "_label": "Peter Downsbrough"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4241",
-              "type": "Person",
-              "_label": "Dennis Oppenheim"
-            },
-            {
-              "id": "http://linkedart.example.com/person/203",
-              "type": "Person",
-              "_label": "Siah Armajani"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2534",
-              "type": "Person",
-              "_label": "Jene Highstein"
-            },
-            {
-              "id": "http://linkedart.example.com/person/182",
-              "type": "Person",
-              "_label": "Stephen Antonakos"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32713",
-              "type": "Person",
-              "_label": "Brenda Miller"
-            },
-            {
-              "id": "http://linkedart.example.com/person/12625",
-              "type": "Person",
-              "_label": "Nancy Holt"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3368",
-              "type": "Person",
-              "_label": "Les Levine"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32429",
-              "type": "Person",
-              "_label": "Tina Girouard"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4530",
-              "type": "Person",
-              "_label": "Lucio Pozzi"
-            },
-            {
-              "id": "http://linkedart.example.com/person/56835",
-              "type": "Person",
-              "_label": "Robert Janz"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58824",
-              "type": "Person",
-              "_label": "Celia Shapiro"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57184",
-              "type": "Person",
-              "_label": "Rosemary Mayer"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4043",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4043",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5617",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/20854",
+            "type": "Person",
+            "_label": "Anthony McCall"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4941",
+            "type": "Person",
+            "_label": "Fred Sandback"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32777",
+            "type": "Person",
+            "_label": "Jared Bark"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7112",
+            "type": "Person",
+            "_label": "Richard Mock"
+          },
+          {
+            "id": "http://linkedart.example.com/person/26607",
+            "type": "Person",
+            "_label": "George Trakas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32776",
+            "type": "Person",
+            "_label": "Charles Ross"
+          },
+          {
+            "id": "http://linkedart.example.com/person/405",
+            "type": "Person",
+            "_label": "Bill Beckley"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6341",
+            "type": "Person",
+            "_label": "Gordon Matta-Clark"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7252",
+            "type": "Person",
+            "_label": "Patrick Ireland"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4160",
+            "type": "Person",
+            "_label": "Richard Nonas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/21890",
+            "type": "Person",
+            "_label": "Peter Downsbrough"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4241",
+            "type": "Person",
+            "_label": "Dennis Oppenheim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/203",
+            "type": "Person",
+            "_label": "Siah Armajani"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2534",
+            "type": "Person",
+            "_label": "Jene Highstein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/182",
+            "type": "Person",
+            "_label": "Stephen Antonakos"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32713",
+            "type": "Person",
+            "_label": "Brenda Miller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/12625",
+            "type": "Person",
+            "_label": "Nancy Holt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3368",
+            "type": "Person",
+            "_label": "Les Levine"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32429",
+            "type": "Person",
+            "_label": "Tina Girouard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4530",
+            "type": "Person",
+            "_label": "Lucio Pozzi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/56835",
+            "type": "Person",
+            "_label": "Robert Janz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58824",
+            "type": "Person",
+            "_label": "Celia Shapiro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57184",
+            "type": "Person",
+            "_label": "Rosemary Mayer"
+          }
+        ]
+      }
+    ]
+  }
 }

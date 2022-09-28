@@ -3,108 +3,106 @@
   "id": "http://linkedart.example.com/exhibition/3691",
   "type": "Activity",
   "_label": "Labor Intensive Abstraction: An Exhibition of Highly Detailed Abstract Paintings and Drawings",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Labor Intensive Abstraction: An Exhibition of Highly Detailed Abstract Paintings and Drawings",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Labor Intensive Abstraction: An Exhibition of Highly Detailed Abstract Paintings and Drawings",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1984-8-11",
     "end_of_the_end": "1984-8-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2416",
-      "type": "Place",
-      "_label": "The Clocktower",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4114",
+    "type": "Place",
+    "_label": "The Clocktower",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2416",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3141",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/1423",
-              "type": "Person",
-              "_label": "Agnes Denes"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4440",
-              "type": "Person",
-              "_label": "Howardena Pindell"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2480",
-              "type": "Person",
-              "_label": "Al Held"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58809",
-              "type": "Person",
-              "_label": "Craig Richardson"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58808",
-              "type": "Person",
-              "_label": "Robert Horvitz"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58807",
-              "type": "Person",
-              "_label": "Allyson Grey"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58706",
-              "type": "Person",
-              "_label": "Norman Tuck"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58812",
-              "type": "Person",
-              "_label": "Kes Zapkus"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58811",
-              "type": "Person",
-              "_label": "Andrea Way"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58810",
-              "type": "Person",
-              "_label": "Gregory Stone"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4114",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4114",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5692",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/1423",
+            "type": "Person",
+            "_label": "Agnes Denes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4440",
+            "type": "Person",
+            "_label": "Howardena Pindell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2480",
+            "type": "Person",
+            "_label": "Al Held"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58809",
+            "type": "Person",
+            "_label": "Craig Richardson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58808",
+            "type": "Person",
+            "_label": "Robert Horvitz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58807",
+            "type": "Person",
+            "_label": "Allyson Grey"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58706",
+            "type": "Person",
+            "_label": "Norman Tuck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58812",
+            "type": "Person",
+            "_label": "Kes Zapkus"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58811",
+            "type": "Person",
+            "_label": "Andrea Way"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58810",
+            "type": "Person",
+            "_label": "Gregory Stone"
+          }
+        ]
+      }
+    ]
+  }
 }

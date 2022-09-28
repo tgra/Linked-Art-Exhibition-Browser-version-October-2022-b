@@ -3,173 +3,171 @@
   "id": "http://linkedart.example.com/exhibition/3301",
   "type": "Activity",
   "_label": "Out of the Studio: Photography and Community",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Out of the Studio: Photography and Community",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Out of the Studio: Photography and Community",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1987-25-1",
     "end_of_the_end": "1987-22-3"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1984",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3682",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1984",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2689",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/35499",
-              "type": "Person",
-              "_label": "Shawn W. Walker"
-            },
-            {
-              "id": "http://linkedart.example.com/person/29503",
-              "type": "Person",
-              "_label": "Ken Wittenberg"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58651",
-              "type": "Person",
-              "_label": "Marilyn Anderson"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58652",
-              "type": "Person",
-              "_label": "Penny Coleman"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58653",
-              "type": "Person",
-              "_label": "Nanue Lelue"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58654",
-              "type": "Person",
-              "_label": "Madeleine Artenberg"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58655",
-              "type": "Person",
-              "_label": "Margaret Terrana"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58657",
-              "type": "Person",
-              "_label": "Cathy Hemenway"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58656",
-              "type": "Person",
-              "_label": "Peter Foly"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58644",
-              "type": "Person",
-              "_label": "Kirk Condyles"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57794",
-              "type": "Person",
-              "_label": "James Morse"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57793",
-              "type": "Person",
-              "_label": "Agnes Zellin"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57792",
-              "type": "Person",
-              "_label": "Mel Rosenthal"
-            },
-            {
-              "id": "http://linkedart.example.com/person/35783",
-              "type": "Person",
-              "_label": "Marilyn Nance"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58647",
-              "type": "Person",
-              "_label": "Sabine Matsushita"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58643",
-              "type": "Person",
-              "_label": "Lori Beth Blaikie"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58645",
-              "type": "Person",
-              "_label": "Patricia Nigro"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58646",
-              "type": "Person",
-              "_label": "Patrick O'Hare"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58648",
-              "type": "Person",
-              "_label": "Steven Avedisian"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59556",
-              "type": "Person",
-              "_label": "Empire State Photographers"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58649",
-              "type": "Person",
-              "_label": "Ed Bailey"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58650",
-              "type": "Person",
-              "_label": "Rita Barros"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57790",
-              "type": "Person",
-              "_label": "Michael Belenky"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3682",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3682",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5240",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/35499",
+            "type": "Person",
+            "_label": "Shawn W. Walker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/29503",
+            "type": "Person",
+            "_label": "Ken Wittenberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58651",
+            "type": "Person",
+            "_label": "Marilyn Anderson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58652",
+            "type": "Person",
+            "_label": "Penny Coleman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58653",
+            "type": "Person",
+            "_label": "Nanue Lelue"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58654",
+            "type": "Person",
+            "_label": "Madeleine Artenberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58655",
+            "type": "Person",
+            "_label": "Margaret Terrana"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58657",
+            "type": "Person",
+            "_label": "Cathy Hemenway"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58656",
+            "type": "Person",
+            "_label": "Peter Foly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58644",
+            "type": "Person",
+            "_label": "Kirk Condyles"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57794",
+            "type": "Person",
+            "_label": "James Morse"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57793",
+            "type": "Person",
+            "_label": "Agnes Zellin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57792",
+            "type": "Person",
+            "_label": "Mel Rosenthal"
+          },
+          {
+            "id": "http://linkedart.example.com/person/35783",
+            "type": "Person",
+            "_label": "Marilyn Nance"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58647",
+            "type": "Person",
+            "_label": "Sabine Matsushita"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58643",
+            "type": "Person",
+            "_label": "Lori Beth Blaikie"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58645",
+            "type": "Person",
+            "_label": "Patricia Nigro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58646",
+            "type": "Person",
+            "_label": "Patrick O'Hare"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58648",
+            "type": "Person",
+            "_label": "Steven Avedisian"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59556",
+            "type": "Person",
+            "_label": "Empire State Photographers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58649",
+            "type": "Person",
+            "_label": "Ed Bailey"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58650",
+            "type": "Person",
+            "_label": "Rita Barros"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57790",
+            "type": "Person",
+            "_label": "Michael Belenky"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -3,233 +3,231 @@
   "id": "http://linkedart.example.com/exhibition/3389",
   "type": "Activity",
   "_label": "Curious Crystals of Unusual Purity",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Curious Crystals of Unusual Purity",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Curious Crystals of Unusual Purity",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2004-27-6",
     "end_of_the_end": "2004-27-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2080",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3778",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2080",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2788",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/17880",
-              "type": "Person",
-              "_label": "Kelley Walker"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17839",
-              "type": "Person",
-              "_label": "David Shaw"
-            },
-            {
-              "id": "http://linkedart.example.com/person/18398",
-              "type": "Person",
-              "_label": "Jeff Davis"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17617",
-              "type": "Person",
-              "_label": "Carol Bove"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7298",
-              "type": "Person",
-              "_label": "Fred Tomaselli"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6708",
-              "type": "Person",
-              "_label": "Adrian Piper"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17620",
-              "type": "Person",
-              "_label": "Sebastiaan Bremer"
-            },
-            {
-              "id": "http://linkedart.example.com/person/18528",
-              "type": "Person",
-              "_label": "Matthew Brannon"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17622",
-              "type": "Person",
-              "_label": "Alex Brown"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6229",
-              "type": "Person",
-              "_label": "Peter Young"
-            },
-            {
-              "id": "http://linkedart.example.com/person/1161",
-              "type": "Person",
-              "_label": "Bruce Conner"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17676",
-              "type": "Person",
-              "_label": "Amy Gartrell"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17911",
-              "type": "Person",
-              "_label": "Michelle Segre"
-            },
-            {
-              "id": "http://linkedart.example.com/person/20521",
-              "type": "Person",
-              "_label": "Trisha Donnelly"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17656",
-              "type": "Person",
-              "_label": "Steve DiBenedetto"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17639",
-              "type": "Person",
-              "_label": "Bjorn Copeland"
-            },
-            {
-              "id": "http://linkedart.example.com/person/22351",
-              "type": "Person",
-              "_label": "Jutta Koether"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17659",
-              "type": "Person",
-              "_label": "Jim Drain"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57818",
-              "type": "Person",
-              "_label": "B. Wurtz"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59495",
-              "type": "Person",
-              "_label": "Barbara Sullivan"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59494",
-              "type": "Person",
-              "_label": "Stephen Sprott"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59493",
-              "type": "Person",
-              "_label": "Harry Smith"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59492",
-              "type": "Person",
-              "_label": "Joe Scanlan"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59489",
-              "type": "Person",
-              "_label": "Christopher Lucas"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59496",
-              "type": "Person",
-              "_label": "John Tremblay"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59481",
-              "type": "Person",
-              "_label": "Lisa Beck"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59482",
-              "type": "Person",
-              "_label": "Mary Brogger"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59483",
-              "type": "Person",
-              "_label": "Darinka"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59490",
-              "type": "Person",
-              "_label": "Billy Miller"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59488",
-              "type": "Person",
-              "_label": "Peter Huttinger"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59487",
-              "type": "Person",
-              "_label": "Erik Hanson"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59491",
-              "type": "Person",
-              "_label": "Christopher Myers"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59486",
-              "type": "Person",
-              "_label": "Joanne Greenbaum"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59484",
-              "type": "Person",
-              "_label": "Jeremy Davis"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59485",
-              "type": "Person",
-              "_label": "Mark Dwinell"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3778",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3778",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5339",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/17880",
+            "type": "Person",
+            "_label": "Kelley Walker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17839",
+            "type": "Person",
+            "_label": "David Shaw"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18398",
+            "type": "Person",
+            "_label": "Jeff Davis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17617",
+            "type": "Person",
+            "_label": "Carol Bove"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7298",
+            "type": "Person",
+            "_label": "Fred Tomaselli"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6708",
+            "type": "Person",
+            "_label": "Adrian Piper"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17620",
+            "type": "Person",
+            "_label": "Sebastiaan Bremer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/18528",
+            "type": "Person",
+            "_label": "Matthew Brannon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17622",
+            "type": "Person",
+            "_label": "Alex Brown"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6229",
+            "type": "Person",
+            "_label": "Peter Young"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1161",
+            "type": "Person",
+            "_label": "Bruce Conner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17676",
+            "type": "Person",
+            "_label": "Amy Gartrell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17911",
+            "type": "Person",
+            "_label": "Michelle Segre"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20521",
+            "type": "Person",
+            "_label": "Trisha Donnelly"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17656",
+            "type": "Person",
+            "_label": "Steve DiBenedetto"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17639",
+            "type": "Person",
+            "_label": "Bjorn Copeland"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22351",
+            "type": "Person",
+            "_label": "Jutta Koether"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17659",
+            "type": "Person",
+            "_label": "Jim Drain"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57818",
+            "type": "Person",
+            "_label": "B. Wurtz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59495",
+            "type": "Person",
+            "_label": "Barbara Sullivan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59494",
+            "type": "Person",
+            "_label": "Stephen Sprott"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59493",
+            "type": "Person",
+            "_label": "Harry Smith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59492",
+            "type": "Person",
+            "_label": "Joe Scanlan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59489",
+            "type": "Person",
+            "_label": "Christopher Lucas"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59496",
+            "type": "Person",
+            "_label": "John Tremblay"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59481",
+            "type": "Person",
+            "_label": "Lisa Beck"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59482",
+            "type": "Person",
+            "_label": "Mary Brogger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59483",
+            "type": "Person",
+            "_label": "Darinka"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59490",
+            "type": "Person",
+            "_label": "Billy Miller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59488",
+            "type": "Person",
+            "_label": "Peter Huttinger"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59487",
+            "type": "Person",
+            "_label": "Erik Hanson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59491",
+            "type": "Person",
+            "_label": "Christopher Myers"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59486",
+            "type": "Person",
+            "_label": "Joanne Greenbaum"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59484",
+            "type": "Person",
+            "_label": "Jeremy Davis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59485",
+            "type": "Person",
+            "_label": "Mark Dwinell"
+          }
+        ]
+      }
+    ]
+  }
 }

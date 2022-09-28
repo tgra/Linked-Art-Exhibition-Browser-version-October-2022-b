@@ -3,178 +3,176 @@
   "id": "http://linkedart.example.com/exhibition/3915",
   "type": "Activity",
   "_label": "24",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "24",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "24",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1958-3-11",
     "end_of_the_end": "1958-22-11"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2648",
-      "type": "Place",
-      "_label": "210 Central Park South",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4346",
+    "type": "Place",
+    "_label": "210 Central Park South",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2648",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3386",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/51849",
-              "type": "Person",
-              "_label": "Pat Passlof"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4932",
-              "type": "Person",
-              "_label": "Lucas Samaras"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6061",
-              "type": "Person",
-              "_label": "Robert Whitman"
-            },
-            {
-              "id": "http://linkedart.example.com/person/396",
-              "type": "Person",
-              "_label": "Robert Beauchamp"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3990",
-              "type": "Person",
-              "_label": "Jan Müller"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2250",
-              "type": "Person",
-              "_label": "John Grillo"
-            },
-            {
-              "id": "http://linkedart.example.com/person/1019",
-              "type": "Person",
-              "_label": "John Chamberlain"
-            },
-            {
-              "id": "http://linkedart.example.com/person/60527",
-              "type": "Person",
-              "_label": "Dody Müller"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59747",
-              "type": "Person",
-              "_label": "Jacques Beckwith"
-            },
-            {
-              "id": "http://linkedart.example.com/person/60519",
-              "type": "Person",
-              "_label": "Fay Lansner"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5462",
-              "type": "Person",
-              "_label": "Myron Stout"
-            },
-            {
-              "id": "http://linkedart.example.com/person/1845",
-              "type": "Person",
-              "_label": "Jean Follett"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2872",
-              "type": "Person",
-              "_label": "Allan Kaprow"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59745",
-              "type": "Person",
-              "_label": "Miles Forst"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3349",
-              "type": "Person",
-              "_label": "Alfred Leslie"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31231",
-              "type": "Person",
-              "_label": "Lilly Brody"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5112",
-              "type": "Person",
-              "_label": "George Segal"
-            },
-            {
-              "id": "http://linkedart.example.com/person/1891",
-              "type": "Person",
-              "_label": "Mary Frank"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4257",
-              "type": "Person",
-              "_label": "George Ortman"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5383",
-              "type": "Person",
-              "_label": "Richard Stankiewicz"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2802",
-              "type": "Person",
-              "_label": "Lester F. Johnson"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3621",
-              "type": "Person",
-              "_label": "Marisol (Marisol Escobar)"
-            },
-            {
-              "id": "http://linkedart.example.com/person/60511",
-              "type": "Person",
-              "_label": "Felix Pasilis"
-            },
-            {
-              "id": "http://linkedart.example.com/person/60526",
-              "type": "Person",
-              "_label": "Stephen Pace"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4346",
+    "type": "Group",
+    "_label": "Hansa Gallery",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4346",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5937",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/51849",
+            "type": "Person",
+            "_label": "Pat Passlof"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4932",
+            "type": "Person",
+            "_label": "Lucas Samaras"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6061",
+            "type": "Person",
+            "_label": "Robert Whitman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/396",
+            "type": "Person",
+            "_label": "Robert Beauchamp"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3990",
+            "type": "Person",
+            "_label": "Jan Müller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2250",
+            "type": "Person",
+            "_label": "John Grillo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1019",
+            "type": "Person",
+            "_label": "John Chamberlain"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60527",
+            "type": "Person",
+            "_label": "Dody Müller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59747",
+            "type": "Person",
+            "_label": "Jacques Beckwith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60519",
+            "type": "Person",
+            "_label": "Fay Lansner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5462",
+            "type": "Person",
+            "_label": "Myron Stout"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1845",
+            "type": "Person",
+            "_label": "Jean Follett"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2872",
+            "type": "Person",
+            "_label": "Allan Kaprow"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59745",
+            "type": "Person",
+            "_label": "Miles Forst"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3349",
+            "type": "Person",
+            "_label": "Alfred Leslie"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31231",
+            "type": "Person",
+            "_label": "Lilly Brody"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5112",
+            "type": "Person",
+            "_label": "George Segal"
+          },
+          {
+            "id": "http://linkedart.example.com/person/1891",
+            "type": "Person",
+            "_label": "Mary Frank"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4257",
+            "type": "Person",
+            "_label": "George Ortman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5383",
+            "type": "Person",
+            "_label": "Richard Stankiewicz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2802",
+            "type": "Person",
+            "_label": "Lester F. Johnson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3621",
+            "type": "Person",
+            "_label": "Marisol (Marisol Escobar)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60511",
+            "type": "Person",
+            "_label": "Felix Pasilis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60526",
+            "type": "Person",
+            "_label": "Stephen Pace"
+          }
+        ]
+      }
+    ]
+  }
 }

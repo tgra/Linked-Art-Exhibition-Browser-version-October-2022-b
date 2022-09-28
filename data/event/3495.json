@@ -3,138 +3,136 @@
   "id": "http://linkedart.example.com/exhibition/3495",
   "type": "Activity",
   "_label": "After Matisse/Picasso",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "After Matisse/Picasso",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "After Matisse/Picasso",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2003-16-2",
     "end_of_the_end": "2003-15-5"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2198",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3896",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2198",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2913",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/59036",
-              "type": "Person",
-              "_label": "David Remfry"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59433",
-              "type": "Person",
-              "_label": "Augusto Arbizo"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59438",
-              "type": "Person",
-              "_label": "David Nicholson"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59431",
-              "type": "Person",
-              "_label": "Steve Mumford"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59437",
-              "type": "Person",
-              "_label": "Jon Elliott"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59439",
-              "type": "Person",
-              "_label": "Oliver Lanz"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59432",
-              "type": "Person",
-              "_label": "Shoshana Dentz"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59443",
-              "type": "Person",
-              "_label": "Tim Doud"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59434",
-              "type": "Person",
-              "_label": "Elizabeth Russell"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59436",
-              "type": "Person",
-              "_label": "Cadence Giersbach"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59440",
-              "type": "Person",
-              "_label": "Leemour Pelli"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59441",
-              "type": "Person",
-              "_label": "Amy Kao"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59442",
-              "type": "Person",
-              "_label": "Katherine Parker"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58003",
-              "type": "Person",
-              "_label": "L.C. Armstrong"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58113",
-              "type": "Person",
-              "_label": "Anton Vidokle"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59435",
-              "type": "Person",
-              "_label": "Chie Fueki"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3896",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3896",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5464",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/59036",
+            "type": "Person",
+            "_label": "David Remfry"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59433",
+            "type": "Person",
+            "_label": "Augusto Arbizo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59438",
+            "type": "Person",
+            "_label": "David Nicholson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59431",
+            "type": "Person",
+            "_label": "Steve Mumford"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59437",
+            "type": "Person",
+            "_label": "Jon Elliott"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59439",
+            "type": "Person",
+            "_label": "Oliver Lanz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59432",
+            "type": "Person",
+            "_label": "Shoshana Dentz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59443",
+            "type": "Person",
+            "_label": "Tim Doud"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59434",
+            "type": "Person",
+            "_label": "Elizabeth Russell"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59436",
+            "type": "Person",
+            "_label": "Cadence Giersbach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59440",
+            "type": "Person",
+            "_label": "Leemour Pelli"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59441",
+            "type": "Person",
+            "_label": "Amy Kao"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59442",
+            "type": "Person",
+            "_label": "Katherine Parker"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58003",
+            "type": "Person",
+            "_label": "L.C. Armstrong"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58113",
+            "type": "Person",
+            "_label": "Anton Vidokle"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59435",
+            "type": "Person",
+            "_label": "Chie Fueki"
+          }
+        ]
+      }
+    ]
+  }
 }

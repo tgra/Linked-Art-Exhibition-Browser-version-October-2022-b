@@ -3,155 +3,153 @@
   "id": "http://linkedart.example.com/exhibition/428",
   "type": "Activity",
   "_label": "Children's Holiday Fair of Modern Art",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Children's Holiday Fair of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Children's Holiday Fair of Modern Art",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1947-2-12",
     "end_of_the_end": "1948-4-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/3049",
-      "type": "Place",
-      "_label": "11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4747",
+    "type": "Place",
+    "_label": "11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/3049",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3819",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/2939",
-              "type": "Person",
-              "_label": "György Kepes"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3669",
-              "type": "Person",
-              "_label": "John Masteller"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5431",
-              "type": "Person",
-              "_label": "Harry Sternberg"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5681",
-              "type": "Person",
-              "_label": "Henri de Toulouse-Lautrec"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6288",
-              "type": "Person",
-              "_label": "William Zorach"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6330",
-              "type": "Person",
-              "_label": "Saul Baizerman"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28829",
-              "type": "Person",
-              "_label": "Oronzio Maldarelli"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31161",
-              "type": "Person",
-              "_label": "Nahum Tschacbasov"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31042",
-              "type": "Person",
-              "_label": "Carol Blanchard"
-            },
-            {
-              "id": "http://linkedart.example.com/person/28827",
-              "type": "Person",
-              "_label": "Herman Cherry"
-            },
-            {
-              "id": "http://linkedart.example.com/person/30991",
-              "type": "Person",
-              "_label": "Elena Eleska"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31160",
-              "type": "Person",
-              "_label": "Margaret Stark"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2826",
-              "type": "Person",
-              "_label": "Mervin Jules"
-            },
-            {
-              "id": "http://linkedart.example.com/person/228",
-              "type": "Person",
-              "_label": "Darrel Austin"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2481",
-              "type": "Person",
-              "_label": "Riva Helfond"
-            },
-            {
-              "id": "http://linkedart.example.com/person/950",
-              "type": "Person",
-              "_label": "Mario Carreño"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2269",
-              "type": "Person",
-              "_label": "Chaim Gross"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/3820",
-          "type": "Set",
-          "_label": "Director",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/23900",
-              "type": "Person",
-              "_label": "Victor D'Amico"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4747",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4747",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/6370",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/2939",
+            "type": "Person",
+            "_label": "György Kepes"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3669",
+            "type": "Person",
+            "_label": "John Masteller"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5431",
+            "type": "Person",
+            "_label": "Harry Sternberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5681",
+            "type": "Person",
+            "_label": "Henri de Toulouse-Lautrec"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6288",
+            "type": "Person",
+            "_label": "William Zorach"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6330",
+            "type": "Person",
+            "_label": "Saul Baizerman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28829",
+            "type": "Person",
+            "_label": "Oronzio Maldarelli"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31161",
+            "type": "Person",
+            "_label": "Nahum Tschacbasov"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31042",
+            "type": "Person",
+            "_label": "Carol Blanchard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/28827",
+            "type": "Person",
+            "_label": "Herman Cherry"
+          },
+          {
+            "id": "http://linkedart.example.com/person/30991",
+            "type": "Person",
+            "_label": "Elena Eleska"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31160",
+            "type": "Person",
+            "_label": "Margaret Stark"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2826",
+            "type": "Person",
+            "_label": "Mervin Jules"
+          },
+          {
+            "id": "http://linkedart.example.com/person/228",
+            "type": "Person",
+            "_label": "Darrel Austin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2481",
+            "type": "Person",
+            "_label": "Riva Helfond"
+          },
+          {
+            "id": "http://linkedart.example.com/person/950",
+            "type": "Person",
+            "_label": "Mario Carreño"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2269",
+            "type": "Person",
+            "_label": "Chaim Gross"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/6371",
+        "type": "Set",
+        "_label": "Director",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/23900",
+            "type": "Person",
+            "_label": "Victor D'Amico"
+          }
+        ]
+      }
+    ]
+  }
 }

@@ -3,153 +3,151 @@
   "id": "http://linkedart.example.com/exhibition/201",
   "type": "Activity",
   "_label": "Modern Primitives: Artists of the People",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Modern Primitives: Artists of the People",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Modern Primitives: Artists of the People",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1941-21-10",
     "end_of_the_end": "1944-30-4"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1031",
-      "type": "Place",
-      "_label": "1st Floor, 11 West 53rd St.",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2041",
+    "type": "Place",
+    "_label": "1st Floor, 11 West 53rd St.",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1031",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1471",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/4311",
-              "type": "Person",
-              "_label": "Frederick Papsdorf"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4429",
-              "type": "Person",
-              "_label": "Joseph Pickett"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2857",
-              "type": "Person",
-              "_label": "John Kane"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4407",
-              "type": "Person",
-              "_label": "Dominique-Paul Peyronnet"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4957",
-              "type": "Person",
-              "_label": "Pasquale (Patsy) Santo"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4857",
-              "type": "Person",
-              "_label": "Henri Rousseau"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3295",
-              "type": "Person",
-              "_label": "Lawrence Lebduska"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5900",
-              "type": "Person",
-              "_label": "Louis Vivin"
-            },
-            {
-              "id": "http://linkedart.example.com/person/20771",
-              "type": "Person",
-              "_label": "Thorvald A Hoyer"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5950",
-              "type": "Person",
-              "_label": "Alfred Wallis"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7559",
-              "type": "Person",
-              "_label": "Patrocino Barela"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5503",
-              "type": "Person",
-              "_label": "Patrick J. Sullivan"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7866",
-              "type": "Person",
-              "_label": "Edward Hicks"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7560",
-              "type": "Person",
-              "_label": "Pedro Cervantez"
-            },
-            {
-              "id": "http://linkedart.example.com/person/624",
-              "type": "Person",
-              "_label": "Camille Bombois"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2562",
-              "type": "Person",
-              "_label": "Morris Hirshfield"
-            },
-            {
-              "id": "http://linkedart.example.com/person/362",
-              "type": "Person",
-              "_label": "André Bauchant"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2653",
-              "type": "Person",
-              "_label": "Edward C. (\"Pa\") Hunt"
-            },
-            {
-              "id": "http://linkedart.example.com/person/909",
-              "type": "Person",
-              "_label": "Vincent Canadé"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2041",
+    "type": "Group",
+    "_label": "The Museum of Modern Art",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2041",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3211",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/4311",
+            "type": "Person",
+            "_label": "Frederick Papsdorf"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4429",
+            "type": "Person",
+            "_label": "Joseph Pickett"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2857",
+            "type": "Person",
+            "_label": "John Kane"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4407",
+            "type": "Person",
+            "_label": "Dominique-Paul Peyronnet"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4957",
+            "type": "Person",
+            "_label": "Pasquale (Patsy) Santo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4857",
+            "type": "Person",
+            "_label": "Henri Rousseau"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3295",
+            "type": "Person",
+            "_label": "Lawrence Lebduska"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5900",
+            "type": "Person",
+            "_label": "Louis Vivin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20771",
+            "type": "Person",
+            "_label": "Thorvald A Hoyer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5950",
+            "type": "Person",
+            "_label": "Alfred Wallis"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7559",
+            "type": "Person",
+            "_label": "Patrocino Barela"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5503",
+            "type": "Person",
+            "_label": "Patrick J. Sullivan"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7866",
+            "type": "Person",
+            "_label": "Edward Hicks"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7560",
+            "type": "Person",
+            "_label": "Pedro Cervantez"
+          },
+          {
+            "id": "http://linkedart.example.com/person/624",
+            "type": "Person",
+            "_label": "Camille Bombois"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2562",
+            "type": "Person",
+            "_label": "Morris Hirshfield"
+          },
+          {
+            "id": "http://linkedart.example.com/person/362",
+            "type": "Person",
+            "_label": "André Bauchant"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2653",
+            "type": "Person",
+            "_label": "Edward C. (\"Pa\") Hunt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/909",
+            "type": "Person",
+            "_label": "Vincent Canadé"
+          }
+        ]
+      }
+    ]
+  }
 }

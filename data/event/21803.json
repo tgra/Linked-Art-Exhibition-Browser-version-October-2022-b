@@ -3,95 +3,93 @@
   "id": "http://linkedart.example.com/exhibition/21803",
   "type": "Activity",
   "_label": "The Black School x Kameelah Janan Rasheed",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Black School x Kameelah Janan Rasheed",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Black School x Kameelah Janan Rasheed",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "2018-23-5",
     "end_of_the_end": "2018-16-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1053",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/2234",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1053",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/1504",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/66681",
-              "type": "Person",
-              "_label": "Shani Peters"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65365",
-              "type": "Person",
-              "_label": "Kameelah Janan Rasheed"
-            },
-            {
-              "id": "http://linkedart.example.com/person/68715",
-              "type": "Person",
-              "_label": "The Black School"
-            },
-            {
-              "id": "http://linkedart.example.com/person/68531",
-              "type": "Person",
-              "_label": "Joseph Cuillier"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/1505",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/64544",
-              "type": "Person",
-              "_label": "Emily Mello"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65206",
-              "type": "Person",
-              "_label": "Johanna Burton"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/2234",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/2234",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/3463",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66681",
+            "type": "Person",
+            "_label": "Shani Peters"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65365",
+            "type": "Person",
+            "_label": "Kameelah Janan Rasheed"
+          },
+          {
+            "id": "http://linkedart.example.com/person/68715",
+            "type": "Person",
+            "_label": "The Black School"
+          },
+          {
+            "id": "http://linkedart.example.com/person/68531",
+            "type": "Person",
+            "_label": "Joseph Cuillier"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/3464",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64544",
+            "type": "Person",
+            "_label": "Emily Mello"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65206",
+            "type": "Person",
+            "_label": "Johanna Burton"
+          }
+        ]
+      }
+    ]
+  }
 }

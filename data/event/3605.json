@@ -3,263 +3,261 @@
   "id": "http://linkedart.example.com/exhibition/3605",
   "type": "Activity",
   "_label": "The Edge of Awareness",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Edge of Awareness",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Edge of Awareness",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1998-13-9",
     "end_of_the_end": "1998-18-10"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/2321",
-      "type": "Place",
-      "_label": "PS1 and the United Nations",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/4019",
+    "type": "Place",
+    "_label": "PS1 and the United Nations",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/2321",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/3041",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/5416",
-              "type": "Person",
-              "_label": "Pat Steir"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7791",
-              "type": "Person",
-              "_label": "Nari Ward"
-            },
-            {
-              "id": "http://linkedart.example.com/person/6338",
-              "type": "Person",
-              "_label": "Ilya Kabakov"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3381",
-              "type": "Person",
-              "_label": "Sol LeWitt"
-            },
-            {
-              "id": "http://linkedart.example.com/person/16964",
-              "type": "Person",
-              "_label": "Tatsuo Miyajima"
-            },
-            {
-              "id": "http://linkedart.example.com/person/34060",
-              "type": "Person",
-              "_label": "Henrik Håkansson"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7124",
-              "type": "Person",
-              "_label": "Kcho (Alexis Leyva Machado)"
-            },
-            {
-              "id": "http://linkedart.example.com/person/8024",
-              "type": "Person",
-              "_label": "Margherita Manzelli"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4000",
-              "type": "Person",
-              "_label": "Matt Mullican"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7111",
-              "type": "Person",
-              "_label": "Alfredo Jaar"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7890",
-              "type": "Person",
-              "_label": "Los Carpinteros"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7049",
-              "type": "Person",
-              "_label": "Miguel Angel Rios"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17513",
-              "type": "Person",
-              "_label": "Ghada Amer"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4632",
-              "type": "Person",
-              "_label": "Robert Rauschenberg"
-            },
-            {
-              "id": "http://linkedart.example.com/person/17296",
-              "type": "Person",
-              "_label": "Adriana Varejão"
-            },
-            {
-              "id": "http://linkedart.example.com/person/22422",
-              "type": "Person",
-              "_label": "Silvie Defraoui"
-            },
-            {
-              "id": "http://linkedart.example.com/person/52",
-              "type": "Person",
-              "_label": "Vito Acconci"
-            },
-            {
-              "id": "http://linkedart.example.com/person/7173",
-              "type": "Person",
-              "_label": "Mat Collishaw"
-            },
-            {
-              "id": "http://linkedart.example.com/person/34677",
-              "type": "Person",
-              "_label": "Chen Zhen"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58331",
-              "type": "Person",
-              "_label": "Fabrice Gygi"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58278",
-              "type": "Person",
-              "_label": "Willie Bester"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58279",
-              "type": "Person",
-              "_label": "Touhami Ennadre"
-            },
-            {
-              "id": "http://linkedart.example.com/person/60405",
-              "type": "Person",
-              "_label": "Alvin Reamillo"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58325",
-              "type": "Person",
-              "_label": "Teresa Serrano"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58326",
-              "type": "Person",
-              "_label": "Frank Thiel"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58327",
-              "type": "Person",
-              "_label": "Fabiana de Barros"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58328",
-              "type": "Person",
-              "_label": "Joe Ben, Jr."
-            },
-            {
-              "id": "http://linkedart.example.com/person/58277",
-              "type": "Person",
-              "_label": "Stefano Arienti"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58330",
-              "type": "Person",
-              "_label": "Juan Galdeano"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58332",
-              "type": "Person",
-              "_label": "Dimitris Kozaris"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58333",
-              "type": "Person",
-              "_label": "Salem Mekuria"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58334",
-              "type": "Person",
-              "_label": "Kaki Tree Project Committee"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58335",
-              "type": "Person",
-              "_label": "Ouattara"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58336",
-              "type": "Person",
-              "_label": "Maria Perlingeiro"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58337",
-              "type": "Person",
-              "_label": "Ricardo Ribenboim"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58338",
-              "type": "Person",
-              "_label": "Rekha Rodwittiya"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58339",
-              "type": "Person",
-              "_label": "Alma Suljevic"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58329",
-              "type": "Person",
-              "_label": "Montien Boonma"
-            },
-            {
-              "id": "http://linkedart.example.com/person/35976",
-              "type": "Person",
-              "_label": "Sophie Ristelhueber"
-            },
-            {
-              "id": "http://linkedart.example.com/person/58096",
-              "type": "Person",
-              "_label": "Olu Oguibe"
-            },
-            {
-              "id": "http://linkedart.example.com/person/60406",
-              "type": "Person",
-              "_label": "Juliet Lea"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/4019",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/4019",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5592",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5416",
+            "type": "Person",
+            "_label": "Pat Steir"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7791",
+            "type": "Person",
+            "_label": "Nari Ward"
+          },
+          {
+            "id": "http://linkedart.example.com/person/6338",
+            "type": "Person",
+            "_label": "Ilya Kabakov"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3381",
+            "type": "Person",
+            "_label": "Sol LeWitt"
+          },
+          {
+            "id": "http://linkedart.example.com/person/16964",
+            "type": "Person",
+            "_label": "Tatsuo Miyajima"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34060",
+            "type": "Person",
+            "_label": "Henrik Håkansson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7124",
+            "type": "Person",
+            "_label": "Kcho (Alexis Leyva Machado)"
+          },
+          {
+            "id": "http://linkedart.example.com/person/8024",
+            "type": "Person",
+            "_label": "Margherita Manzelli"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4000",
+            "type": "Person",
+            "_label": "Matt Mullican"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7111",
+            "type": "Person",
+            "_label": "Alfredo Jaar"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7890",
+            "type": "Person",
+            "_label": "Los Carpinteros"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7049",
+            "type": "Person",
+            "_label": "Miguel Angel Rios"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17513",
+            "type": "Person",
+            "_label": "Ghada Amer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4632",
+            "type": "Person",
+            "_label": "Robert Rauschenberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/17296",
+            "type": "Person",
+            "_label": "Adriana Varejão"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22422",
+            "type": "Person",
+            "_label": "Silvie Defraoui"
+          },
+          {
+            "id": "http://linkedart.example.com/person/52",
+            "type": "Person",
+            "_label": "Vito Acconci"
+          },
+          {
+            "id": "http://linkedart.example.com/person/7173",
+            "type": "Person",
+            "_label": "Mat Collishaw"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34677",
+            "type": "Person",
+            "_label": "Chen Zhen"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58331",
+            "type": "Person",
+            "_label": "Fabrice Gygi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58278",
+            "type": "Person",
+            "_label": "Willie Bester"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58279",
+            "type": "Person",
+            "_label": "Touhami Ennadre"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60405",
+            "type": "Person",
+            "_label": "Alvin Reamillo"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58325",
+            "type": "Person",
+            "_label": "Teresa Serrano"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58326",
+            "type": "Person",
+            "_label": "Frank Thiel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58327",
+            "type": "Person",
+            "_label": "Fabiana de Barros"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58328",
+            "type": "Person",
+            "_label": "Joe Ben, Jr."
+          },
+          {
+            "id": "http://linkedart.example.com/person/58277",
+            "type": "Person",
+            "_label": "Stefano Arienti"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58330",
+            "type": "Person",
+            "_label": "Juan Galdeano"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58332",
+            "type": "Person",
+            "_label": "Dimitris Kozaris"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58333",
+            "type": "Person",
+            "_label": "Salem Mekuria"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58334",
+            "type": "Person",
+            "_label": "Kaki Tree Project Committee"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58335",
+            "type": "Person",
+            "_label": "Ouattara"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58336",
+            "type": "Person",
+            "_label": "Maria Perlingeiro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58337",
+            "type": "Person",
+            "_label": "Ricardo Ribenboim"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58338",
+            "type": "Person",
+            "_label": "Rekha Rodwittiya"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58339",
+            "type": "Person",
+            "_label": "Alma Suljevic"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58329",
+            "type": "Person",
+            "_label": "Montien Boonma"
+          },
+          {
+            "id": "http://linkedart.example.com/person/35976",
+            "type": "Person",
+            "_label": "Sophie Ristelhueber"
+          },
+          {
+            "id": "http://linkedart.example.com/person/58096",
+            "type": "Person",
+            "_label": "Olu Oguibe"
+          },
+          {
+            "id": "http://linkedart.example.com/person/60406",
+            "type": "Person",
+            "_label": "Juliet Lea"
+          }
+        ]
+      }
+    ]
+  }
 }

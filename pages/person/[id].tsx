@@ -20,27 +20,33 @@ const Person = () => {
   // get file contents using id and api 
 
   return (
-    <div className="container">
-    <div></div>
-        <div><Link href="/">Back to home</Link> / <Link href="/person">Persons</Link></div>
+    <div>
+    
+        
       <Head>
         <title> Alternative New York Exhibition - Person</title>
-        
+        <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+    crossorigin="anonymous" />
       
       </Head>
 
-      <div>
+
+      <main>
+      <div class="nav"><Link href="/">Back to home</Link> / <Link href="/person">Persons</Link></div>
         <h2>{data._label}</h2>
 
         
         <h2>Exhibitions</h2>
 
+<ol>
 {
   
         data.assigned_by[0].involved[0].about.map((exhibition) => (
          
          
-          <p><a href={'/exhibition/' + exhibition.id.split("/").pop()}>{exhibition._label}</a></p>
+          <li><a href={'/exhibition/' + exhibition.id.split("/").pop()}>{exhibition._label}</a></li>
          
 
 
@@ -49,12 +55,11 @@ const Person = () => {
         
         }
         
-       
+        </ol>
      
-       
+       </main>
         </div>
-        </div>
-
+        
 
   )
 }

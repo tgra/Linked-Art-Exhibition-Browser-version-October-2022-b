@@ -3,99 +3,97 @@
   "id": "http://linkedart.example.com/exhibition/17100",
   "type": "Activity",
   "_label": "Sweet Oblivion: The Urban Landscape of Martin Wong",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Sweet Oblivion: The Urban Landscape of Martin Wong",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Sweet Oblivion: The Urban Landscape of Martin Wong",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1998-28-5",
     "end_of_the_end": "1998-13-9"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/224",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/935",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/224",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/458",
-          "type": "Set",
-          "_label": "Guest Curator",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/63906",
-              "type": "Person",
-              "_label": "Barry Blinderman"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/459",
-          "type": "Set",
-          "_label": "Organizer",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/64294",
-              "type": "Person",
-              "_label": "Dan Cameron"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/460",
-          "type": "Set",
-          "_label": "PartnerOrg",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/16157",
-              "type": "Person",
-              "_label": "University Galleries, Illinois State University, Normal, IL"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/461",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/6778",
-              "type": "Person",
-              "_label": "Martin Wong"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/935",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/935",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1757",
+        "type": "Set",
+        "_label": "Guest Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/63906",
+            "type": "Person",
+            "_label": "Barry Blinderman"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1758",
+        "type": "Set",
+        "_label": "Organizer",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/64294",
+            "type": "Person",
+            "_label": "Dan Cameron"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1759",
+        "type": "Set",
+        "_label": "PartnerOrg",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/16157",
+            "type": "Person",
+            "_label": "University Galleries, Illinois State University, Normal, IL"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1760",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6778",
+            "type": "Person",
+            "_label": "Martin Wong"
+          }
+        ]
+      }
+    ]
+  }
 }

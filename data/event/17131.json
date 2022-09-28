@@ -3,162 +3,160 @@
   "id": "http://linkedart.example.com/exhibition/17131",
   "type": "Activity",
   "_label": "The Spatial Drive: Security and Admissions Project",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "The Spatial Drive: Security and Admissions Project",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "The Spatial Drive: Security and Admissions Project",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1992-27-9",
     "end_of_the_end": "1993-3-1"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/255",
-      "type": "Place",
-      "_label": "New Museum",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/969",
+    "type": "Place",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/255",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/529",
-          "type": "Set",
-          "_label": "Participant",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/66701",
-              "type": "Person",
-              "_label": "Shelley Goldberg"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65323",
-              "type": "Person",
-              "_label": "Judith Daniel"
-            },
-            {
-              "id": "http://linkedart.example.com/person/61416",
-              "type": "Person",
-              "_label": "Emily Cheng"
-            },
-            {
-              "id": "http://linkedart.example.com/person/63568",
-              "type": "Person",
-              "_label": "Adam Glickman"
-            },
-            {
-              "id": "http://linkedart.example.com/person/63681",
-              "type": "Person",
-              "_label": "Alphonse Whitsett"
-            },
-            {
-              "id": "http://linkedart.example.com/person/63939",
-              "type": "Person",
-              "_label": "Bessie Bowens"
-            },
-            {
-              "id": "http://linkedart.example.com/person/64422",
-              "type": "Person",
-              "_label": "Dirk Glasgow"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65270",
-              "type": "Person",
-              "_label": "Jonathan Schnapp"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65478",
-              "type": "Person",
-              "_label": "Kimball Augustus"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65527",
-              "type": "Person",
-              "_label": "L. Daniel Vincent"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65687",
-              "type": "Person",
-              "_label": "Luis Burgos"
-            },
-            {
-              "id": "http://linkedart.example.com/person/66199",
-              "type": "Person",
-              "_label": "Nondas Sable"
-            },
-            {
-              "id": "http://linkedart.example.com/person/66862",
-              "type": "Person",
-              "_label": "Tadeo Ortiz"
-            },
-            {
-              "id": "http://linkedart.example.com/person/64530",
-              "type": "Person",
-              "_label": "Elon Joseph"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/530",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/65577",
-              "type": "Person",
-              "_label": "Laurie Parsons"
-            }
-          ]
-        },
-        {
-          "id": "https://linkedart.example.com/Set/531",
-          "type": "Set",
-          "_label": "Curator",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/65562",
-              "type": "Person",
-              "_label": "Laura Trippi"
-            },
-            {
-              "id": "http://linkedart.example.com/person/65577",
-              "type": "Person",
-              "_label": "Laurie Parsons"
-            },
-            {
-              "id": "http://linkedart.example.com/person/66830",
-              "type": "Person",
-              "_label": "Susan Cahan"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/969",
+    "type": "Group",
+    "_label": "New Museum",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/969",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/1832",
+        "type": "Set",
+        "_label": "Participant",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/66701",
+            "type": "Person",
+            "_label": "Shelley Goldberg"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65323",
+            "type": "Person",
+            "_label": "Judith Daniel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/61416",
+            "type": "Person",
+            "_label": "Emily Cheng"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63568",
+            "type": "Person",
+            "_label": "Adam Glickman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63681",
+            "type": "Person",
+            "_label": "Alphonse Whitsett"
+          },
+          {
+            "id": "http://linkedart.example.com/person/63939",
+            "type": "Person",
+            "_label": "Bessie Bowens"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64422",
+            "type": "Person",
+            "_label": "Dirk Glasgow"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65270",
+            "type": "Person",
+            "_label": "Jonathan Schnapp"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65478",
+            "type": "Person",
+            "_label": "Kimball Augustus"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65527",
+            "type": "Person",
+            "_label": "L. Daniel Vincent"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65687",
+            "type": "Person",
+            "_label": "Luis Burgos"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66199",
+            "type": "Person",
+            "_label": "Nondas Sable"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66862",
+            "type": "Person",
+            "_label": "Tadeo Ortiz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/64530",
+            "type": "Person",
+            "_label": "Elon Joseph"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1833",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65577",
+            "type": "Person",
+            "_label": "Laurie Parsons"
+          }
+        ]
+      },
+      {
+        "id": "https://linkedart.example.com/Set/1834",
+        "type": "Set",
+        "_label": "Curator",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/65562",
+            "type": "Person",
+            "_label": "Laura Trippi"
+          },
+          {
+            "id": "http://linkedart.example.com/person/65577",
+            "type": "Person",
+            "_label": "Laurie Parsons"
+          },
+          {
+            "id": "http://linkedart.example.com/person/66830",
+            "type": "Person",
+            "_label": "Susan Cahan"
+          }
+        ]
+      }
+    ]
+  }
 }

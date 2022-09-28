@@ -3,188 +3,186 @@
   "id": "http://linkedart.example.com/exhibition/3035",
   "type": "Activity",
   "_label": "Pattern Painting",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Pattern Painting",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Pattern Painting",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1977-14-11",
     "end_of_the_end": "1977-4-12"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1688",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3386",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1688",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2379",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/6232",
-              "type": "Person",
-              "_label": "Mario Yrisarry"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32781",
-              "type": "Person",
-              "_label": "Robert Zakanitch"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32786",
-              "type": "Person",
-              "_label": "Kim MacConnel"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3101",
-              "type": "Person",
-              "_label": "Joyce Kozloff"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2774",
-              "type": "Person",
-              "_label": "Valerie Jaudon"
-            },
-            {
-              "id": "http://linkedart.example.com/person/3176",
-              "type": "Person",
-              "_label": "Robert Kushner"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32755",
-              "type": "Person",
-              "_label": "Richard Kalina"
-            },
-            {
-              "id": "http://linkedart.example.com/person/33130",
-              "type": "Person",
-              "_label": "Cynthia Carlson"
-            },
-            {
-              "id": "http://linkedart.example.com/person/5001",
-              "type": "Person",
-              "_label": "Miriam Schapiro"
-            },
-            {
-              "id": "http://linkedart.example.com/person/32429",
-              "type": "Person",
-              "_label": "Tina Girouard"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57409",
-              "type": "Person",
-              "_label": "Jane Couch"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57416",
-              "type": "Person",
-              "_label": "Susan Michaud"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57418",
-              "type": "Person",
-              "_label": "Kendall Shaw"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57415",
-              "type": "Person",
-              "_label": "Madeline Metz"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57414",
-              "type": "Person",
-              "_label": "Robin Lehrer"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57413",
-              "type": "Person",
-              "_label": "Gloria Klein"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57420",
-              "type": "Person",
-              "_label": "Arlene Slavin"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57412",
-              "type": "Person",
-              "_label": "Rosalind Hodgkins"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57417",
-              "type": "Person",
-              "_label": "Tony Robbin"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57410",
-              "type": "Person",
-              "_label": "Susan Fortgang"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57419",
-              "type": "Person",
-              "_label": "Dee Shapiro"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57408",
-              "type": "Person",
-              "_label": "Jerry Clapsaddle"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57406",
-              "type": "Person",
-              "_label": "Jonathan Andrews"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57844",
-              "type": "Person",
-              "_label": "Arnold Wechsler"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57407",
-              "type": "Person",
-              "_label": "Ellen Cibula"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57411",
-              "type": "Person",
-              "_label": "Mary Grigoriadis"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3386",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3386",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/4930",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/6232",
+            "type": "Person",
+            "_label": "Mario Yrisarry"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32781",
+            "type": "Person",
+            "_label": "Robert Zakanitch"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32786",
+            "type": "Person",
+            "_label": "Kim MacConnel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3101",
+            "type": "Person",
+            "_label": "Joyce Kozloff"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2774",
+            "type": "Person",
+            "_label": "Valerie Jaudon"
+          },
+          {
+            "id": "http://linkedart.example.com/person/3176",
+            "type": "Person",
+            "_label": "Robert Kushner"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32755",
+            "type": "Person",
+            "_label": "Richard Kalina"
+          },
+          {
+            "id": "http://linkedart.example.com/person/33130",
+            "type": "Person",
+            "_label": "Cynthia Carlson"
+          },
+          {
+            "id": "http://linkedart.example.com/person/5001",
+            "type": "Person",
+            "_label": "Miriam Schapiro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/32429",
+            "type": "Person",
+            "_label": "Tina Girouard"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57409",
+            "type": "Person",
+            "_label": "Jane Couch"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57416",
+            "type": "Person",
+            "_label": "Susan Michaud"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57418",
+            "type": "Person",
+            "_label": "Kendall Shaw"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57415",
+            "type": "Person",
+            "_label": "Madeline Metz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57414",
+            "type": "Person",
+            "_label": "Robin Lehrer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57413",
+            "type": "Person",
+            "_label": "Gloria Klein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57420",
+            "type": "Person",
+            "_label": "Arlene Slavin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57412",
+            "type": "Person",
+            "_label": "Rosalind Hodgkins"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57417",
+            "type": "Person",
+            "_label": "Tony Robbin"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57410",
+            "type": "Person",
+            "_label": "Susan Fortgang"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57419",
+            "type": "Person",
+            "_label": "Dee Shapiro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57408",
+            "type": "Person",
+            "_label": "Jerry Clapsaddle"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57406",
+            "type": "Person",
+            "_label": "Jonathan Andrews"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57844",
+            "type": "Person",
+            "_label": "Arnold Wechsler"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57407",
+            "type": "Person",
+            "_label": "Ellen Cibula"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57411",
+            "type": "Person",
+            "_label": "Mary Grigoriadis"
+          }
+        ]
+      }
+    ]
+  }
 }

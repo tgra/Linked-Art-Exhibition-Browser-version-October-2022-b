@@ -3,162 +3,160 @@
   "id": "http://linkedart.example.com/exhibition/3315",
   "type": "Activity",
   "_label": "Special Projects (Winter 1978)",
-  "classified_as": [
-    {
-      "id": "http://vocab.getty.edu/aat/300054766",
+  "classified_as": {
+    "id": "http://vocab.getty.edu/aat/300054766",
+    "type": "Type",
+    "_label": "Exhibiting"
+  },
+  "identified_by": {
+    "type": "Name",
+    "_label": "Special Projects (Winter 1978)",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300404670",
       "type": "Type",
-      "_label": "Exhibiting"
+      "_label": "Owner-Assigned Title"
     }
-  ],
-  "identified_by": [
-    {
-      "type": "Name",
-      "_label": "Special Projects (Winter 1978)",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300404670",
-          "type": "Type",
-          "_label": "Owner-Assigned Title"
-        }
-      ]
-    }
-  ],
+  },
   "timespan": {
     "type": "TimeSpan",
     "begin_of_the_begin": "1978-15-1",
     "end_of_the_end": "1978-18-2"
   },
-  "took_place_at": [
-    {
-      "id": "https://linkedart.example.com/Place/1999",
-      "type": "Place",
-      "_label": "MoMA PS1",
-      "classified_as": [
-        {
-          "id": "http://vocab.getty.edu/aat/300005768",
-          "type": "Type",
-          "_label": "Museum (place)"
-        }
-      ]
+  "took_place_at": {
+    "id": "https://linkedart.example.com/Place/3697",
+    "type": "Place",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300005768",
+      "type": "Type",
+      "_label": "Museum (place)"
     }
-  ],
-  "part": [
-    {
-      "id": "https://linkedart.example.com/AttributeAssignment/1999",
-      "type": "AttributeAssignment",
-      "involved": [
-        {
-          "id": "https://linkedart.example.com/Set/2704",
-          "type": "Set",
-          "_label": "Artist",
-          "about": [
-            {
-              "id": "http://linkedart.example.com/person/5187",
-              "type": "Person",
-              "_label": "Alan Shields"
-            },
-            {
-              "id": "http://linkedart.example.com/person/34119",
-              "type": "Person",
-              "_label": "June Blum"
-            },
-            {
-              "id": "http://linkedart.example.com/person/990",
-              "type": "Person",
-              "_label": "Rosemarie Castoro"
-            },
-            {
-              "id": "http://linkedart.example.com/person/4085",
-              "type": "Person",
-              "_label": "Alice Neel"
-            },
-            {
-              "id": "http://linkedart.example.com/person/31730",
-              "type": "Person",
-              "_label": "Betty Holliday"
-            },
-            {
-              "id": "http://linkedart.example.com/person/20966",
-              "type": "Person",
-              "_label": "Joan La Barbara"
-            },
-            {
-              "id": "http://linkedart.example.com/person/22888",
-              "type": "Person",
-              "_label": "Sylvia Sleigh"
-            },
-            {
-              "id": "http://linkedart.example.com/person/22889",
-              "type": "Person",
-              "_label": "May Stevens"
-            },
-            {
-              "id": "http://linkedart.example.com/person/2604",
-              "type": "Person",
-              "_label": "Jenny Holzer"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57565",
-              "type": "Person",
-              "_label": "Zadik Zadikian"
-            },
-            {
-              "id": "http://linkedart.example.com/person/",
-              "type": "Person"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57964",
-              "type": "Person",
-              "_label": "Tony Kosloski"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57354",
-              "type": "Person",
-              "_label": "Jim Pavlicovic"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59801",
-              "type": "Person",
-              "_label": "Martha Edelheit"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59802",
-              "type": "Person",
-              "_label": "Elsa Goldsmith"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59803",
-              "type": "Person",
-              "_label": "Shirley Gorelick"
-            },
-            {
-              "id": "http://linkedart.example.com/person/57866",
-              "type": "Person",
-              "_label": "Richard Kostelanetz"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59804",
-              "type": "Person",
-              "_label": "Ilise Greenstein"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59805",
-              "type": "Person",
-              "_label": "Diana Kurz"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59806",
-              "type": "Person",
-              "_label": "Cynthia Mailman"
-            },
-            {
-              "id": "http://linkedart.example.com/person/59807",
-              "type": "Person",
-              "_label": "Sharon Wybrants"
-            }
-          ]
-        }
-      ]
+  },
+  "carried_out_by": {
+    "id": "https://linkedart.example.com/Group/3697",
+    "type": "Group",
+    "_label": "MoMA PS1",
+    "classified_as": {
+      "id": "http://vocab.getty.edu/aat/300312281",
+      "type": "Type",
+      "_label": "Museum"
     }
-  ]
+  },
+  "part": {
+    "id": "https://linkedart.example.com/AttributeAssignment/3697",
+    "type": "AttributeAssignment",
+    "involved": [
+      {
+        "id": "https://linkedart.example.com/Set/5255",
+        "type": "Set",
+        "_label": "Artist",
+        "about": [
+          {
+            "id": "http://linkedart.example.com/person/5187",
+            "type": "Person",
+            "_label": "Alan Shields"
+          },
+          {
+            "id": "http://linkedart.example.com/person/34119",
+            "type": "Person",
+            "_label": "June Blum"
+          },
+          {
+            "id": "http://linkedart.example.com/person/990",
+            "type": "Person",
+            "_label": "Rosemarie Castoro"
+          },
+          {
+            "id": "http://linkedart.example.com/person/4085",
+            "type": "Person",
+            "_label": "Alice Neel"
+          },
+          {
+            "id": "http://linkedart.example.com/person/31730",
+            "type": "Person",
+            "_label": "Betty Holliday"
+          },
+          {
+            "id": "http://linkedart.example.com/person/20966",
+            "type": "Person",
+            "_label": "Joan La Barbara"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22888",
+            "type": "Person",
+            "_label": "Sylvia Sleigh"
+          },
+          {
+            "id": "http://linkedart.example.com/person/22889",
+            "type": "Person",
+            "_label": "May Stevens"
+          },
+          {
+            "id": "http://linkedart.example.com/person/2604",
+            "type": "Person",
+            "_label": "Jenny Holzer"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57565",
+            "type": "Person",
+            "_label": "Zadik Zadikian"
+          },
+          {
+            "id": "http://linkedart.example.com/person/",
+            "type": "Person"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57964",
+            "type": "Person",
+            "_label": "Tony Kosloski"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57354",
+            "type": "Person",
+            "_label": "Jim Pavlicovic"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59801",
+            "type": "Person",
+            "_label": "Martha Edelheit"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59802",
+            "type": "Person",
+            "_label": "Elsa Goldsmith"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59803",
+            "type": "Person",
+            "_label": "Shirley Gorelick"
+          },
+          {
+            "id": "http://linkedart.example.com/person/57866",
+            "type": "Person",
+            "_label": "Richard Kostelanetz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59804",
+            "type": "Person",
+            "_label": "Ilise Greenstein"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59805",
+            "type": "Person",
+            "_label": "Diana Kurz"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59806",
+            "type": "Person",
+            "_label": "Cynthia Mailman"
+          },
+          {
+            "id": "http://linkedart.example.com/person/59807",
+            "type": "Person",
+            "_label": "Sharon Wybrants"
+          }
+        ]
+      }
+    ]
+  }
 }

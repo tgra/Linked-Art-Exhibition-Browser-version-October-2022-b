@@ -15,49 +15,71 @@ var path = require('path');
 
 
 
-export default function handler(_req: NextApiRequest, res: NextApiResponse) {
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
     
+  
+
+  // support paging of results
+    let { page } = req.query.page ? req.query : { page: 1 };
+    page = parseInt(page)
+
+    // number of records to display per page
+    let { pp } = req.query.pp ? req.query : { pp: 50 };
+    pp = parseInt(pp)
+
     let dir = "data/event";
     let events = [];
-    let perPage = 500;
     
-    let page = 1;
-
-    let counter = 1;
-
-    let meta = {
-      success: true,
-      totalCount: 4355,
-      pageCount: 208,
-      currentPage: page,
-      perPage: perPage,
-    }
+    
 
     fs.readdir(dir, function (err, files) { 
         if (err) {
             console.error("Could not list the directory.", err);
             process.exit(1);
           }
-          files.forEach(function (file) {
-            let filepath = dir + '/' + file;
 
-            let rawdata = fs.readFileSync(filepath);
-            let event = JSON.parse(rawdata);
-            
-            let label = event._label;
-            let filename = file;
-            let id = file.split('.')[0];
-            let start = event.timespan.begin_of_the_begin
-            let end = event.timespan.end_of_the_end
-            
-            events.push({id:id,filename:filename,label:label, start:start, end:end});
+          let meta = {
+            success: true,
+            totalCount: 0,
+            pageCount: 0,
+            currentPage: page,
+            perPage: pp,
+          }
+          // total number of files in dir
+          meta.totalCount = files.length;
+          let pageCount = files.length/pp;
+          meta.pageCount = Math.ceil(pageCount);
+
+          let counter = 0;
+          let startRecord = ((page - 1) * pp);
+
+          
+          files.forEach(function (file) {
+
             counter = counter + 1;
-            if (counter > perPage){
+            
+            if (counter > (startRecord + pp)){
               let all_events = { meta: meta, result: events };
               res.status(200).json(all_events);
-              exit
+              exit 
             }
-          });
+            
+            if (counter > startRecord){
+              let filepath = dir + '/' + file;
+              let rawdata = fs.readFileSync(filepath);
+              let event = JSON.parse(rawdata);
+              let label = event._label;
+              let filename = file;
+              let id = file.split('.')[0];
+              let start = event.timespan.begin_of_the_begin
+              let end = event.timespan.end_of_the_end
+              let location = event.took_place_at._label
+              let org = event.carried_out_by._label
+              
+              events.push({id:id,filename:filename,label:label, start:start, end:end, location:location, org:org});
+        }
+            
+      });
             
           
     
