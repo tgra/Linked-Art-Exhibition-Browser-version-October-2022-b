@@ -3,12 +3,14 @@ import Link from 'next/link';
 import Head from 'next/head';
 import type { Event } from '../../interfaces'
 import useSwr from 'swr'
-import { resolve } from 'path';
 
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import Table from 'react-bootstrap/Table';
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
 
 const Person = () => {
+
   const router = useRouter();
   const id = router.query;
   const { data, error } = useSwr<Event[]>('/api/person/' + id.id, fetcher)
@@ -16,9 +18,7 @@ const Person = () => {
   if (error) return <div>Failed to load person data</div>
   if (!data) return <div>Loading...</div>
   
-  console.log(data)
-  // get file contents using id and api 
-
+ 
   return (
     <div>
     
@@ -34,28 +34,37 @@ const Person = () => {
 
 
       <main>
-      <div class="nav"><Link href="/">Back to home</Link> / <Link href="/person">Persons</Link></div>
-        <h2>{data._label}</h2>
+      <Breadcrumb>
+      <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+      <Breadcrumb.Item href="/person">People</Breadcrumb.Item>
+      <Breadcrumb.Item active href="#">Person:{data._label}</Breadcrumb.Item>
+</Breadcrumb> 
 
-        
-        <h2>Exhibitions</h2>
+      <h1>Person:{data._label}</h1>
 
-<ol>
+      <Table striped borderless hover>
+        <tbody>
+            <tr><th>Name</th><td>{data._label}</td></tr>
+            <tr><th>Description</th><td>{"referred_to_by" in data ? data.referred_to_by[0].content : ''}</td></tr>
+            <tr><th>Born</th><td>{data.born.timespan.begin_of_the_begin}</td></tr>
+            <tr><th>Died</th><td>{data.died.timespan.begin_of_the_begin}</td></tr>
+            <tr><th>Identifiers</th><td><ol>{data.identified_by.map((id) => (
+              <li key={id.id}><a target="_new" href={id.id}>{id._label} ({id.id})</a></li>
+
+
+            ))}</ol></td></tr>
+            <tr><th>Exhibitions</th><td><ol>
 {
-  
         data.assigned_by[0].involved[0].about.map((exhibition) => (
-         
-         
-          <li><a href={'/exhibition/' + exhibition.id.split("/").pop()}>{exhibition._label}</a></li>
-         
+          <li key={exhibition.id}><a href={'/exhibition/' + exhibition.id.split("/").pop()}>{exhibition._label}</a></li>
+        )) }
+ </ol></td></tr></tbody></Table>
+      
+
+        
+       
 
 
-        ))
-        
-        
-        }
-        
-        </ol>
      
        </main>
         </div>

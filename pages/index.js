@@ -43,7 +43,7 @@ export default function Home({buildTimestamp}) {
         <Card.Text>
         
           </Card.Text>
-          <Link href="/exhibition?page=1&pp=10">Explore exhibitions</Link>
+          <Link href="/exhibition?page=1&pp=20">Explore exhibitions</Link>
           </Card.Body>
           </Card></Col>
         <Col>
@@ -55,7 +55,7 @@ export default function Home({buildTimestamp}) {
         <Card.Text>
        
           </Card.Text>
-          <Card.Link href="/person?page=1&pp=10">Explore people</Card.Link>
+          <Card.Link href="/person?page=1&pp=20">Explore people</Card.Link>
           </Card.Body>
           
           </Card></Col>

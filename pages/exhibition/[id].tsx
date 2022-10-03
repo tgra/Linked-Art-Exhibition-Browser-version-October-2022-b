@@ -3,8 +3,9 @@ import Link from 'next/link';
 import Head from 'next/head';
 import type { Event } from '../../interfaces'
 import useSwr from 'swr'
-import { resolve } from 'path';
 
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import Table from 'react-bootstrap/Table';
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
 
@@ -22,7 +23,6 @@ const Exhibition = () => {
   return (
     <div>
     
-  
       <Head>
         <title> Alternative New York Exhibition</title>
         <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
@@ -30,53 +30,60 @@ const Exhibition = () => {
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
     crossorigin="anonymous" />
       
-
+      
       </Head>
-
-
+      
+      
 <main>
-<div class="nav"><Link  href="/">Back to home</Link>/<Link href="/exhibition">Exhibitions</Link></div>
-  
-      <div>
-        <h2>Title</h2>
-        <h3>{data._label}</h3>
-        <h2>Date</h2>
-        <p>Start: {data.timespan.begin_of_the_begin}   End: {data.timespan.end_of_the_end}</p>
+<Breadcrumb>
+      <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+      <Breadcrumb.Item href="/exhibition">Exhibitions</Breadcrumb.Item>
+      <Breadcrumb.Item active href="#">Exhibition</Breadcrumb.Item>
+</Breadcrumb> 
+
+ 
        
-       <h2>Organisation</h2>
-       {data.carried_out_by._label}
-       <h2>Location/Address</h2>
-      {data.took_place_at._label}
-        <h2>Persons associated with this exhibition</h2>
+<h1>Exhibition:{data._label}</h1>
+<Table>
+      
+        <tr><th>Organisation</th> <td>{data.carried_out_by._label}</td></tr>
+        <tr><th>Location</th><td>{data.took_place_at._label}</td></tr>
+        <tr><th>Start</th><td>{data.timespan.begin_of_the_begin}</td></tr>
+        <tr><th>End</th><td>{data.timespan.end_of_the_end}</td></tr>
+          <tr><th>People Associated With Exhibition</th><td></td></tr>
+
        
         {
         data.part.involved.map((set) => (
           
-          <span>
+          <tr>
             
-          <h3>{set._label}</h3>
+          <td><b>Role</b> {set._label}</td>
+          <td>
           <ol>
          
            { 
            
            set.about.map((agent) => (
-              <li key={'/person/' + agent.id.split("/").pop()}><a href={'/person/' + agent.id.split("/").pop()}>{agent._label}</a></li>
+              <li  key={'/person/' + agent.id.split("/").pop()}><a href={'/person/' + agent.id.split("/").pop()}>{agent._label}</a></li>
             ))
            }
           </ol> 
-          </span>    
+          </td>
+          </tr>    
         ))
         }
 
+</Table>
 
 
 
 
 
-        </div>
+
+        
        
 </main>
-       
 </div>
 
   )

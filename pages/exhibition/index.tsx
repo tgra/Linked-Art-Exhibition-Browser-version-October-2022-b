@@ -6,6 +6,7 @@ import { useRouter } from 'next/router';
 import Pagination from 'react-bootstrap/Pagination';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Table from 'react-bootstrap/Table';
+import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
@@ -40,11 +41,17 @@ export default function Index(req: NextApiRequest) {
     crossorigin="anonymous" />
       
       </Head>
+
+  
 <main>
-      <Link href="/">Back to home</Link>
-      <div>
-        <h1 className="title">Exhibitions</h1>
-        <p className="description">
+<Breadcrumb>
+      <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+      <Breadcrumb.Item active href="/exhibition">Exhibitions</Breadcrumb.Item>
+    
+</Breadcrumb> 
+     
+        <h1 >Exhibitions</h1>
+        <p>
           List of alternative New York exhibitions
         </p>
         {pagination}
@@ -75,6 +82,8 @@ export default function Index(req: NextApiRequest) {
         
        
       {
+       
+
       data.result.map((event) => (
 
         
@@ -97,7 +106,7 @@ export default function Index(req: NextApiRequest) {
       </tbody>
       </Table>
         
-</div>
+
       </main>
     </div>
 
