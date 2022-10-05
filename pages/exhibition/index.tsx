@@ -4,7 +4,7 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { useRouter } from 'next/router';
 import Pagination from 'react-bootstrap/Pagination';
-import 'bootstrap/dist/css/bootstrap.min.css';
+
 import Table from 'react-bootstrap/Table';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
@@ -45,15 +45,13 @@ export default function Index(req: NextApiRequest) {
   
 <main>
 <Breadcrumb>
-      <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-      <Breadcrumb.Item active href="/exhibition">Exhibitions</Breadcrumb.Item>
+      <Breadcrumb.Item href="/">{process.env.NEXT_PUBLIC_APP_BREADCRUMB_HOME}</Breadcrumb.Item>
+      <Breadcrumb.Item active href="/exhibition">{process.env.NEXT_PUBLIC_ACTIVITY_BREADCRUMB_PLURAL}</Breadcrumb.Item>
     
 </Breadcrumb> 
      
-        <h1 >Exhibitions</h1>
-        <p>
-          List of alternative New York exhibitions
-        </p>
+        <h1>{process.env.NEXT_PUBLIC_ACTIVITY_TITLE}</h1>
+        <p>{process.env.NEXT_PUBLIC_ACTIVITY_DESCRIPTION}</p>
         {pagination}
        
 
@@ -68,15 +66,7 @@ export default function Index(req: NextApiRequest) {
           <th>End</th>
           
         </tr>
-        <tr>
-          
-          <th>asc dsc</th>
-          <th>asc dsc</th>
-          <th>asc dsc</th>
-          <th>asc dsc</th>
-          <th>asc dsc</th>
-          
-        </tr>
+       
       </thead>
       <tbody>
         

@@ -4,14 +4,18 @@ import Link from 'next/link'
 import Head from 'next/head'
 import { useRouter } from 'next/router';
 import Pagination from 'react-bootstrap/Pagination';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Table from 'react-bootstrap/Table';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+
+
 
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
 export default function Index() {
+
+ 
+
   const { isReady, query }: string | any = useRouter();
   let page = 1;
   let pp = 10;
@@ -24,7 +28,6 @@ export default function Index() {
   const { data, error } = useSwr<Event[]>('/api/persons?page=' + page + '&pp=' + pp, fetcher)
 
 
-  //console.log(data)
   if (error) return <div>Failed to load persons</div>
   if (!data) return <div>Loading...</div>
 
@@ -43,16 +46,14 @@ export default function Index() {
 
       <main>
       <Breadcrumb>
-      <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-      <Breadcrumb.Item active >People</Breadcrumb.Item>
+      <Breadcrumb.Item href="/">{process.env.NEXT_PUBLIC_APP_BREADCRUMB_HOME}</Breadcrumb.Item>
+      <Breadcrumb.Item active >{process.env.NEXT_PUBLIC_PERSON_BREADCRUMB_PLURAL}</Breadcrumb.Item>
      
 </Breadcrumb> 
 
-        <h1 className="title">People</h1>
+        <h1 className="title">{process.env.NEXT_PUBLIC_PERSON_TITLE}</h1>
 
-        <p className="description">
-          List of alternative New York exhibition - people
-        </p>
+        <p className="description">{process.env.NEXT_PUBLIC_PERSON_DESCRIPTION}</p>
         {pagination}
 
         <Table striped borderless hover >
@@ -60,15 +61,13 @@ export default function Index() {
             <tr>
               <th>Name</th>
             </tr>
-            <tr>
-              <th>asc dsc</th>
-            </tr>
+            
           </thead>
           <tbody>
             {
               data.result.map((person) => (
                 <tr key={person.id}>
-                  <td><Link href="/person/[id]" as={`/person/${person.id}`}>{person.label}</Link></td>
+                  <td><Link href="/person/[id]" as={`/person/${person.id}`}>{person.name}</Link></td>
                 </tr>
               ))
               }

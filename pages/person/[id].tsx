@@ -8,8 +8,9 @@ import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import Table from 'react-bootstrap/Table';
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
-
 const Person = () => {
+
+ 
 
   const router = useRouter();
   const id = router.query;
@@ -17,58 +18,91 @@ const Person = () => {
 
   if (error) return <div>Failed to load person data</div>
   if (!data) return <div>Loading...</div>
+
   
- 
+
+  let ids = data.identified_by
+  let names = [];
+  let identifiers = [];
+  for (var idx in ids) {
+
+    switch (ids[idx].type) {
+
+      case "Name":
+        names.push(ids[idx])
+        break
+
+        case "Identifier":
+          identifiers.push(ids[idx])
+          break
+    }
+
+
+  }
+
+  
+
+
   return (
     <div>
-    
-        
+
+
       <Head>
         <title> Alternative New York Exhibition - Person</title>
         <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
-    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-    crossorigin="anonymous" />
-      
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+          crossorigin="anonymous" />
+
       </Head>
 
 
       <main>
-      <Breadcrumb>
-      <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-      <Breadcrumb.Item href="/person">People</Breadcrumb.Item>
-      <Breadcrumb.Item active href="#">Person:{data._label}</Breadcrumb.Item>
-</Breadcrumb> 
+        <Breadcrumb>
+          <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
+          <Breadcrumb.Item href="/person">People</Breadcrumb.Item>
+          <Breadcrumb.Item active href="#">Person</Breadcrumb.Item>
+        </Breadcrumb>
 
-      <h1>Person:{data._label}</h1>
+        <h1>Person</h1>
+ 
+        <Table striped borderless hover>
+          <tbody>{names.map((ident) => (<tr><th>Name</th><td>{ident.content}</td></tr>))}
+            {"born" in data ? <tr><th>Born</th><td>{data.born.timespan.begin_of_the_begin}</td></tr> : ""}
+            {"died" in data ? <tr><th>Died</th><td>{data.died.timespan.begin_of_the_begin}</td></tr> : ""}
+            {"referred_to_by" in data ? <tr><th>Description</th><td></td></tr> : ""}
+          {"referred_to_by" in data ? data.referred_to_by.map((statement) => (<tr><td>{statement.classified_as[0]._label}</td><td>{statement.content}</td></tr>)): ""}
 
-      <Table striped borderless hover>
-        <tbody>
-            <tr><th>Name</th><td>{data._label}</td></tr>
-            <tr><th>Description</th><td>{"referred_to_by" in data ? data.referred_to_by[0].content : ''}</td></tr>
-            <tr><th>Born</th><td>{data.born.timespan.begin_of_the_begin}</td></tr>
-            <tr><th>Died</th><td>{data.died.timespan.begin_of_the_begin}</td></tr>
-            <tr><th>Identifiers</th><td><ol>{data.identified_by.map((id) => (
-              <li key={id.id}><a target="_new" href={id.id}>{id._label} ({id.id})</a></li>
+            <tr><th>Identifiers</th><td></td></tr>
+            {identifiers.map((ident) => (<tr><td></td><td>{ident.content} <sup>attributed by:<a href="{ident.attributed_by[0].carried_out_by[0].id}">{ident.attributed_by[0].carried_out_by[0].id}</a></sup></td></tr>))}
+         
+          {"equivalent" in data ? <tr><th>Equivalent Entities</th><td></td></tr> : ""}
+          {"equivalent" in data ? data.equivalent.map((entity) => (<tr><td></td><td><a target="_new" href={entity.id}>{entity.id}</a> <sup>{entity.type}</sup></td></tr>)): ""}
+
+          {"assigned_by" in data ?  <tr><th>Attribute Assignments</th><td></td></tr> : ""}
+          {"assigned_by" in data ? data.assigned_by.map((assign) => (<tr><th>Assignment</th><td>
+            {
+            assign.involved.map((set) => ( 
+              <div>
+              <h5>{set._label}</h5> 
+
+              <ol> {set.about.map((s) => (
+                <li key={s.id}><a href={'/exhibition/' + s.id.split("/").pop()}>{s._label}</a></li>
+              ))}</ol>
+            </div> ))}</td></tr>)): ""}
+
+           
+            </tbody></Table>
 
 
-            ))}</ol></td></tr>
-            <tr><th>Exhibitions</th><td><ol>
-{
-        data.assigned_by[0].involved[0].about.map((exhibition) => (
-          <li key={exhibition.id}><a href={'/exhibition/' + exhibition.id.split("/").pop()}>{exhibition._label}</a></li>
-        )) }
- </ol></td></tr></tbody></Table>
-      
-
-        
-       
 
 
-     
-       </main>
-        </div>
-        
+
+
+
+      </main>
+    </div>
+
 
   )
 }

@@ -1,7 +1,4 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import type { Event } from '../../interfaces'
-
-import useSWR from 'swr';
 import fetch from 'unfetch'
 import { exit } from 'process';
 
@@ -69,12 +66,14 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
               let person = JSON.parse(rawdata);
               
               let label = person._label;
+
+              let name = ("identified_by" in person && person.identified_by[0].type == 'Name' ) ? person.identified_by[0].content : ""
               let filename = file;
               let id = file.split('.')[0];
 
               let id_uri = person.id.split(/\:\d*/)[2]
               
-              persons.push({id:id,filename:filename,label:label, id_uri:id_uri});
+              persons.push({id:id,filename:filename,label:label, id_uri:id_uri, name:name});
              
             }
           });

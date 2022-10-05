@@ -17,8 +17,11 @@ const Exhibition = () => {
   if (error) return <div>Failed to load exhibitions</div>
   if (!data) return <div>Loading...</div>
   
-  console.log(data)
-  // get file contents using id and api 
+
+
+  let carried_out_by = (("carried_out_by" in data) && (("_label" in data.carried_out_by[0]) || ("id" in data.carried_out_by[0])) )  ? true : false;
+   
+        
 
   return (
     <div>
@@ -36,43 +39,22 @@ const Exhibition = () => {
       
 <main>
 <Breadcrumb>
-      <Breadcrumb.Item href="/">Home</Breadcrumb.Item>
-      <Breadcrumb.Item href="/exhibition">Exhibitions</Breadcrumb.Item>
-      <Breadcrumb.Item active href="#">Exhibition</Breadcrumb.Item>
+      <Breadcrumb.Item href="/">{process.env.NEXT_PUBLIC_APP_BREADCRUMB_HOME}</Breadcrumb.Item>
+      <Breadcrumb.Item href="/exhibition">{process.env.NEXT_PUBLIC_ACTIVITY_BREADCRUMB_PLURAL}</Breadcrumb.Item>
+      <Breadcrumb.Item active href="#">{process.env.NEXT_PUBLIC_ACTIVITY_BREADCRUMB_SINGULAR}</Breadcrumb.Item>
 </Breadcrumb> 
 
  
        
-<h1>Exhibition:{data._label}</h1>
+<h1>Exhibition</h1>
 <Table>
-      
-        <tr><th>Organisation</th> <td>{data.carried_out_by._label}</td></tr>
-        <tr><th>Location</th><td>{data.took_place_at._label}</td></tr>
-        <tr><th>Start</th><td>{data.timespan.begin_of_the_begin}</td></tr>
-        <tr><th>End</th><td>{data.timespan.end_of_the_end}</td></tr>
-          <tr><th>People Associated With Exhibition</th><td></td></tr>
+
+  { carried_out_by == true  ? <tr><th>Carried out by</th><td><ul>{data.carried_out_by.map((obj) => (<li key={obj.id}><a href={obj.id}>{"_label" in obj ? obj._label : obj.id}</a></li>))}</ul></td></tr> : ""}
+  
+
 
        
-        {
-        data.part.involved.map((set) => (
-          
-          <tr>
-            
-          <td><b>Role</b> {set._label}</td>
-          <td>
-          <ol>
-         
-           { 
-           
-           set.about.map((agent) => (
-              <li  key={'/person/' + agent.id.split("/").pop()}><a href={'/person/' + agent.id.split("/").pop()}>{agent._label}</a></li>
-            ))
-           }
-          </ol> 
-          </td>
-          </tr>    
-        ))
-        }
+  
 
 </Table>
 

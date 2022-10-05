@@ -27,7 +27,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     let { pp } = req.query.pp ? req.query : { pp: 50 };
     pp = parseInt(pp)
 
-    let dir = "data/event";
+    let dir = "data/activity";
     let events = [];
     
     
@@ -68,14 +68,21 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
               let filepath = dir + '/' + file;
               let rawdata = fs.readFileSync(filepath);
               let event = JSON.parse(rawdata);
-              let label = event._label;
+             // let label = event._label;
+
+             let label = ("_label" in event) ? event._label : "identified_by" in event && event.identified_by[0].type == 'Name' ? event.identified_by[0].content : "";
               let filename = file;
               let id = file.split('.')[0];
-              let start = event.timespan.begin_of_the_begin
-              let end = event.timespan.end_of_the_end
-              let location = event.took_place_at._label
-              let org = event.carried_out_by._label
-              
+              //let start = event.timespan.begin_of_the_begin
+            //  let end = event.timespan.end_of_the_end
+            //  let location = event.took_place_at._label
+            //  let org = event.carried_out_by._label
+             
+            let start = ""
+            let end = ""
+            let location = ""
+            let org = ""
+            
               events.push({id:id,filename:filename,label:label, start:start, end:end, location:location, org:org});
         }
             

@@ -2,6 +2,9 @@ import type { NextApiRequest, NextApiResponse } from 'next'
 
 var fs = require('fs');
 
+
+
+
 export default function eventHandler(req: NextApiRequest, res: NextApiResponse) {
   const {
     query: { id },
