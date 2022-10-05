@@ -22,7 +22,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     let { pp } = req.query.pp ? req.query : { pp: 50 };
     pp = parseInt(pp)
 
-    let dir = "data/person";
+    let dir = process.env.PERSON_DATA_PATH;
     let persons = [];
     let perPage = 500;
     
