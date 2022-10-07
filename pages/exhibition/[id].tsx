@@ -54,6 +54,40 @@ const Exhibition = () => {
   
 
 
+
+     
+          {("took_place_at" in data) ? <tr><th>Location</th><td>{data.took_place_at._label}</td></tr> : ""}
+
+          {"timespan" in data && "begin_of_the_begin" in data.timespan ? <tr><th>Start Date</th><td>{data.timespan.begin_of_the_begin}</td></tr> : ""}
+          {"timespan" in data && "end_of_the_end" in data.timespan ? <tr><th>End Date</th><td>{data.timespan.end_of_the_end}</td></tr> : ""}
+
+          {("part" in data) ?
+            <tr><th>People Associated With Exhibition</th><td></td></tr>
+            : ""}
+          {
+            ("part" in data) ?
+              data.part.involved.map((set) => (
+
+                <tr>
+                  <td><b>Role</b> {set._label}</td>
+                  <td>
+                    <ol>
+                      {
+                        set.about.map((agent) => (
+                          <li key={'/person/' + agent.id.split("/").pop()}><a href={'/person/' + agent.id.split("/").pop()}>{agent._label}</a></li>
+                        ))
+                      }
+                    </ol>
+                  </td>
+                </tr>
+              ))
+              : ""}
+
+
+
+
+
+
        
   
 
