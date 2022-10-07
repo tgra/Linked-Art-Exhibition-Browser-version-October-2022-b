@@ -8,17 +8,16 @@ import Pagination from 'react-bootstrap/Pagination';
 import Table from 'react-bootstrap/Table';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
-Object.defineProperty(String.prototype, 'capitalize', {
-  value: function() {
-    return this.charAt(0).toUpperCase() + this.slice(1);
-  },
-  enumerable: false
-});
+
+
 
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
 export default function Index(req: NextApiRequest) {
+
+
+  
   const { isReady, query }: string | any = useRouter();
   let page = 1;
   let pp = 10;
@@ -34,7 +33,13 @@ export default function Index(req: NextApiRequest) {
   if (error) return <div>Failed to load exhibitions</div>
   if (!data) return <div>Loading...</div>
 
-
+  Object.defineProperty(String.prototype, 'capitalize', {
+    value: function() {
+      return this.charAt(0).toUpperCase() + this.slice(1);
+    },
+    enumerable: false,
+    configurable: true
+  });
 
   return (
     <div>
