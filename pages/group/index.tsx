@@ -8,40 +8,32 @@ import Pagination from 'react-bootstrap/Pagination';
 import Table from 'react-bootstrap/Table';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
-Object.defineProperty(String.prototype, 'capitalize', {
-  value: function() {
-    return this.charAt(0).toUpperCase() + this.slice(1);
-  },
-  enumerable: false
-});
-
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
 export default function Index(req: NextApiRequest) {
   const { isReady, query }: string | any = useRouter();
   let page = 1;
-  let pp = 10;
+  let pp = process.env.NEXT_PUBLIC_RECORDS_PER_PAGE;;
   
   if (query.page){ page = query.page;}
-  if (query.pp){ pp = query.pp;}
+  
 
   let pagination = Paging(page,pp)
 
-  const { data, error } = useSwr<Event[]>('/api/events?page=' + page + '&pp=' + pp , fetcher)
+  const { data, error } = useSwr<Event[]>('/api/groups?page=' + page + '&pp=' + pp , fetcher)
 
   //console.log(data)
-  if (error) return <div>Failed to load exhibitions</div>
+  if (error) return <div>Failed to load</div>
   if (!data) return <div>Loading...</div>
 
-
-
+  
   return (
     <div>
     
         
       <Head>
-        <title> Alternative New York Exhibitions</title>
+        <title> Alternative New York Exhibitions - Groups</title>
         <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
@@ -53,51 +45,28 @@ export default function Index(req: NextApiRequest) {
 <main>
 <Breadcrumb>
       <Breadcrumb.Item href="/">{process.env.NEXT_PUBLIC_APP_BREADCRUMB_HOME}</Breadcrumb.Item>
-      <Breadcrumb.Item active href="/exhibition">{process.env.NEXT_PUBLIC_ACTIVITY_BREADCRUMB_PLURAL}</Breadcrumb.Item>
+      <Breadcrumb.Item active href="/exhibition">{process.env.NEXT_PUBLIC_GROUP_BREADCRUMB_PLURAL}</Breadcrumb.Item>
     
 </Breadcrumb> 
      
-        <h1>{process.env.NEXT_PUBLIC_ACTIVITY_TITLE}</h1>
-        <p>{process.env.NEXT_PUBLIC_ACTIVITY_DESCRIPTION}</p>
+        <h1>{process.env.NEXT_PUBLIC_GROUP_TITLE}</h1>
+        <p>{process.env.NEXT_PUBLIC_GROUP_DESCRIPTION}</p>
         {pagination}
        
+
         <Table  striped borderless hover size="sm">
       <thead>
-        <tr>
-        {JSON.parse(process.env.NEXT_PUBLIC_ACTIVITY_LIST_COLUMNS).columns.map((obj) => <th>{obj.label.capitalize()}</th>)}
- 
-          
-
-        </tr>
-       
+        <tr>    
+          <th>Title</th>
+</tr>  
       </thead>
       <tbody>
-        
-       
       {
-       
-
-      data.result.map((event) => (
-
-        
-        
-        
-
-        <tr key={event.id}>
-  
-          <td><Link href="/exhibition/[id]" as={`/exhibition/${event.id}`}>{event.label}</Link></td>
-
-
-          <td>{event.org}</td>
-          <td>{event.location}</td>
-          <td>{event.start}</td>
-          <td>{event.end}</td>
-         
+      data.result.map((obj) => (
+        <tr key={obj.id}>
+          <td><Link href={obj.id.replace(process.env.NEXT_PUBLIC_BASE_URI,'')} >{obj.label}</Link></td>
         </tr>
-       
       ))}
-    
-      
       </tbody>
       </Table>
         

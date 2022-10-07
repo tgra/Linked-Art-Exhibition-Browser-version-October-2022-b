@@ -21,7 +21,8 @@ const Exhibition = () => {
 
   let carried_out_by = (("carried_out_by" in data) && (("_label" in data.carried_out_by[0]) || ("id" in data.carried_out_by[0])) )  ? true : false;
    
- 
+  let influenced_by = (("influenced_by" in data) && (("_label" in data.influenced_by[0]) || ("id" in data.influenced_by[0])) )  ? true : false;
+  
   return (
     <div>
     
@@ -45,10 +46,11 @@ const Exhibition = () => {
 
  
        
-<h1>Exhibition</h1>
+<h1>{process.env.NEXT_PUBLIC_ACTIVITY_BREADCRUMB_SINGULAR}: {data._label}</h1>
 <Table>
 
-  { carried_out_by == true  ? <tr><th>Carried out by</th><td><ul>{data.carried_out_by.map((obj) => (<li key={obj.id.replace(process.env.NEXT_PUBLIC_BASE_URI, "")}><a href={obj.id.replace(process.env.NEXT_PUBLIC_BASE_URI, "")}>{"_label" in obj ? obj._label : obj.id}</a></li>))}</ul></td></tr> : ""}
+  { carried_out_by == true  ? <tr><th>{process.env.NEXT_PUBLIC_CARRIED_OUT_BY}</th><td><ul>{data.carried_out_by.map((obj) => (<li key={obj.id.replace(process.env.NEXT_PUBLIC_BASE_URI, "")}><a href={obj.id.replace(process.env.NEXT_PUBLIC_BASE_URI, "")}>{"_label" in obj ? obj._label : obj.id}</a></li>))}</ul></td></tr> : ""}
+  { influenced_by == true  ? <tr><th>{process.env.NEXT_PUBLIC_INFLUENCED_BY}</th><td><ul>{data.influenced_by.map((obj) => (<li key={obj.id.replace(process.env.NEXT_PUBLIC_BASE_URI, "")}><a href={obj.id.replace(process.env.NEXT_PUBLIC_BASE_URI, "")}>{"_label" in obj ? obj._label : obj.id}</a></li>))}</ul></td></tr> : ""}
   
 
 

@@ -14,6 +14,8 @@ export default function Home() {
 
   const person_link = "/person?page=1&pp=" + process.env.NEXT_PUBLIC_RECORDS_PER_PAGE;
 
+  const group_link = "/group?page=1&pp=" + process.env.NEXT_PUBLIC_RECORDS_PER_PAGE;
+
   return (
 
     <div>
@@ -41,15 +43,23 @@ export default function Home() {
                 <Card.Text>{process.env.NEXT_PUBLIC_ACTIVITY_DESCRIPTION}</Card.Text>
                 <Card.Link href={activity_link}>{process.env.NEXT_PUBLIC_ACTIVITY_LINK}</Card.Link>
               </Card.Body>
-            </Card></Col>
-            <Col>
+            </Card>
               <Card>
               <Card.Body>
                 <Card.Title>{process.env.NEXT_PUBLIC_PERSON_TITLE}</Card.Title>
                 <Card.Text>{process.env.NEXT_PUBLIC_PERSON_DESCRIPTION}</Card.Text>
                 <Card.Link href={person_link}>{process.env.NEXT_PUBLIC_PERSON_LINK}</Card.Link>
               </Card.Body>
-              </Card></Col>
+              </Card>
+              <Card>
+              <Card.Body>
+                <Card.Title>{process.env.NEXT_PUBLIC_GROUP_TITLE}</Card.Title>
+                <Card.Text>{process.env.NEXT_PUBLIC_GROUP_DESCRIPTION}</Card.Text>
+                <Card.Link href={group_link}>{process.env.NEXT_PUBLIC_GROUP_LINK}</Card.Link>
+              </Card.Body>
+              </Card>
+              
+              </Col>
           </Row>
         </Container>
       </main>
