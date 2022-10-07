@@ -1,12 +1,7 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import fetch from 'unfetch'
 import { exit } from 'process';
 
-const fetcher = url => fetch(url).then(r => r.json())
-
-
 var fs = require('fs');
-var path = require('path');
 
 
 

@@ -10,7 +10,7 @@ export default function eventHandler(req: NextApiRequest, res: NextApiResponse) 
 
   switch (method) {
     case 'GET':
-        let dir = "data/activity";
+        let dir = process.env.ACTIVITY_DATA_PATH;
         let filepath = dir + '/' + id + '.json';
         console.log(filepath);
         let rawdata = fs.readFileSync(filepath);

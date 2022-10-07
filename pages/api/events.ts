@@ -1,16 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import type { Event } from '../../interfaces'
 
-import useSWR from 'swr';
-import fetch from 'unfetch'
 import { exit } from 'process';
 
-const fetcher = url => fetch(url).then(r => r.json())
-
-
 var fs = require('fs');
-var path = require('path');
-
 
 
 
@@ -27,7 +19,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     let { pp } = req.query.pp ? req.query : { pp: 50 };
     pp = parseInt(pp)
 
-    let dir = "data/activity";
+    let dir = process.env.ACTIVITY_DATA_PATH;
     let events = [];
     
     
