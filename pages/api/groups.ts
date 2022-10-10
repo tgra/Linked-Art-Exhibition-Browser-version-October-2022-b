@@ -10,14 +10,20 @@ var fs = require('fs');
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
     
-  // support paging of results
-    let { page } = req.query.page ? req.query : { page: 1 };
 
+  let { page } = req.query.page ? req.query : { page: 1 };
     page = parseInt(page)
 
     // number of records to display per page
-    let  pp = process.env.NEXT_PUBLIC_RECORDS_PER_PAGE;
-   
+    let { pp } = req.query.pp ? req.query : { pp: process.env.NEXT_PUBLIC_RECORDS_PER_PAGE };
+    pp = parseInt(pp)
+
+    let { orderby } = req.query.orderby ? req.query : { orderby: "label" };
+  
+    let { sort } = req.query.sort ? req.query : { sort: "asc" };
+
+
+
     let dir = process.env.GROUP_DATA_PATH;
 
 
@@ -42,22 +48,13 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
           let pageCount = files.length/pp;
           meta.pageCount = Math.ceil(pageCount);
 
-          let counter = 0;
-          let startRecord = ((page - 1) * pp);
-
           
+          let startRecord = ((page - 1) * pp);
+ 
           files.forEach(function (file) {
 
-            counter = counter + 1;
-            
-            if (counter > (startRecord + parseInt(pp))){
-              let all_groups = { meta: meta, result: groups };
-              res.status(200).json(all_groups);
-              exit 
-            }
-            
-            if (counter > startRecord){
-                let filepath = dir + '/' + file;
+
+            let filepath = dir + '/' + file;
                 let rawdata = fs.readFileSync(filepath);
                 let group = JSON.parse(rawdata);
             
@@ -66,18 +63,47 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
                 let filename = file;
              
                 groups.push({id:group.id,filename:filename,label:label});
-        }
+        
             
       });
             
-          
-    
+      if (sort == "desc") {
+
+        groups.sort((g1, g2) => {
+          return compareObjects(g2, g1, orderby)
+        })
+      } else {
+        groups.sort((g1, g2) => {
+          return compareObjects(g1, g2, orderby)
+        })
+      }
+  
+      
+        let all_groups = { meta: meta, result: groups.slice(startRecord,startRecord + pp) };
+        res.status(200).json(all_groups);
+        exit       
+      
        
     });
-    
    
+   
+    
 
 }
 
+
+
+function compareObjects(object1, object2, key) {
+  const obj1 = object1[key].toUpperCase()
+  const obj2 = object2[key].toUpperCase()
+
+  if (obj1 < obj2) {
+    return -1
+  }
+  if (obj1 > obj2) {
+    return 1
+  }
+  return 0
+}
 
 

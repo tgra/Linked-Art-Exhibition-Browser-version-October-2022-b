@@ -64,12 +64,31 @@ const Person = () => {
           <Breadcrumb.Item active href="#">Person</Breadcrumb.Item>
         </Breadcrumb>
 
-        <h1>Person</h1>
+
+
+         
+<div class="container">
+<div class="row">
+<div class="col col-lg-3 facet-menu">
+<h2>{process.env.NEXT_PUBLIC_PERSON_TITLE}</h2>
+        <p>{process.env.NEXT_PUBLIC_PERSON_DESCRIPTION}</p>
+        
+
+      <span class="fs-5 fw-semibold">Facets</span>
+   
+    
+ 
+  
+</div>
+<div class="col">
+
+{pagination}
  
         <Table striped borderless hover>
           <tbody>{names.map((ident) => (<tr><th>Name</th><td>{ident.content}</td></tr>))}
             {"born" in data ? <tr><th>Born</th><td>{data.born.timespan.identified_by[0].content}</td></tr> : ""}
             {"died" in data ? <tr><th>Died</th><td>{data.died.timespan.identified_by[0].content}</td></tr> : ""}
+            
             {"referred_to_by" in data ? <tr><th>Description</th><td></td></tr> : ""}
           {"referred_to_by" in data ? data.referred_to_by.map((statement) => (<tr><td>{statement.classified_as[0]._label}</td><td>{statement.content}</td></tr>)): ""}
 
@@ -96,8 +115,8 @@ const Person = () => {
 
 
 
-
-
+</div>
+</div>
 
 
       </main>

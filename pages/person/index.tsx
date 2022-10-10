@@ -51,11 +51,19 @@ export default function Index() {
      
 </Breadcrumb> 
 
+
+
+<div class="container">
+<div class="row">
+<div class="col col-lg-3 facet-menu">
         <h1 className="title">{process.env.NEXT_PUBLIC_PERSON_TITLE}</h1>
 
         <p className="description">{process.env.NEXT_PUBLIC_PERSON_DESCRIPTION}</p>
-        {pagination}
+        
+</div>
 
+<div class="col">
+{pagination}
         <Table striped borderless hover >
           <thead>
             <tr>
@@ -81,6 +89,8 @@ export default function Index() {
               }
           </tbody>
         </Table>
+        </div>
+</div></div>
       </main>
     </div>
 

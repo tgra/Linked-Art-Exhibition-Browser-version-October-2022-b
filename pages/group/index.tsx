@@ -8,26 +8,52 @@ import Pagination from 'react-bootstrap/Pagination';
 import Table from 'react-bootstrap/Table';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
+// Import the FontAwesomeIcon component
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// import the icons you need
+import {
+
+  faSortAlphaUp ,
+  faSortAlphaDown
+} from "@fortawesome/free-solid-svg-icons";
+
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
 export default function Index(req: NextApiRequest) {
   const { isReady, query }: string | any = useRouter();
   let page = 1;
-  let pp = process.env.NEXT_PUBLIC_RECORDS_PER_PAGE;;
+  let pp = process.env.NEXT_PUBLIC_RECORDS_PER_PAGE;
+  
+  
+  let sort = "asc";
+  let orderby = "label";
+  
   
   if (query.page){ page = query.page;}
-  
+  if (query.pp){ pp = query.pp;}
 
-  let pagination = Paging(page,pp)
+  if (query.sort){ sort = query.sort;}
+  if (query.orderby){ orderby = query.orderby;}
+  let pagination = Paging(page,pp, sort, orderby)
 
-  const { data, error } = useSwr<Event[]>('/api/groups?page=' + page + '&pp=' + pp , fetcher)
+ 
+
+  const { data, error } = useSwr<Event[]>('/api/groups?page=' + page + '&pp=' + pp + '&sort=' + sort + '&orderby=' + orderby , fetcher)
 
   //console.log(data)
   if (error) return <div>Failed to load</div>
   if (!data) return <div>Loading...</div>
 
-  
+  Object.defineProperty(String.prototype, 'capitalize', {
+    value: function() {
+      return this.charAt(0).toUpperCase() + this.slice(1);
+    },
+    enumerable: false,
+    configurable: true
+  });
+
   return (
     <div>
     
@@ -42,16 +68,25 @@ export default function Index(req: NextApiRequest) {
       </Head>
 
   
-<main>
+      <main>
 <Breadcrumb>
       <Breadcrumb.Item href="/">{process.env.NEXT_PUBLIC_APP_BREADCRUMB_HOME}</Breadcrumb.Item>
       <Breadcrumb.Item active href="/exhibition">{process.env.NEXT_PUBLIC_GROUP_BREADCRUMB_PLURAL}</Breadcrumb.Item>
     
 </Breadcrumb> 
      
-        <h1>{process.env.NEXT_PUBLIC_GROUP_TITLE}</h1>
-        <p>{process.env.NEXT_PUBLIC_GROUP_DESCRIPTION}</p>
-        {pagination}
+<div class="container">
+<div class="row">
+<div class="col col-lg-3 facet-menu">
+        <h1 className="title">{process.env.NEXT_PUBLIC_GROUP_TITLE}</h1>
+
+        <p className="description">{process.env.NEXT_PUBLIC_GROUP_DESCRIPTION}</p>
+        
+</div>
+
+<div class="col">
+{pagination}
+        
        
 
         <Table  striped borderless hover size="sm">
@@ -59,6 +94,18 @@ export default function Index(req: NextApiRequest) {
         <tr>    
           <th>Title</th>
 </tr>  
+
+
+        <tr>
+        {JSON.parse(process.env.NEXT_PUBLIC_GROUP_LIST_COLUMNS).columns.map((obj) => <th>{obj.label.capitalize()}</th>)}
+ 
+        </tr>
+        <tr>
+        {JSON.parse(process.env.NEXT_PUBLIC_GROUP_LIST_COLUMNS).columns.map((obj) => <td><a href={"?orderby=" + obj.label + "&sort=asc"}><FontAwesomeIcon icon={faSortAlphaDown} /></a>&nbsp;&nbsp;<a href={"?orderby=" + obj.label + "&sort=desc"}><FontAwesomeIcon icon={faSortAlphaUp} /></a></td>)}
+ 
+        </tr>
+       
+     
       </thead>
       <tbody>
       {
@@ -70,6 +117,10 @@ export default function Index(req: NextApiRequest) {
       </tbody>
       </Table>
         
+
+      </div>
+</div>
+</div>
 
       </main>
     </div>

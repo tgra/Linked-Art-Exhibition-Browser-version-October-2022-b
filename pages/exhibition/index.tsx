@@ -13,9 +13,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 // import the icons you need
 import {
-  faSearch,
-  faAmbulance,
-  faAnchor,
+
   faSortAlphaUp ,
   faSortAlphaDown
 } from "@fortawesome/free-solid-svg-icons";
