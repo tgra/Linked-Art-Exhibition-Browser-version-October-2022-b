@@ -60,6 +60,10 @@ export default function Index() {
           <thead>
             <tr>
               <th>Name</th>
+              <th>Born</th>
+              <th>Died</th>
+              <th>Nationality</th>
+             
             </tr>
             
           </thead>
@@ -68,6 +72,10 @@ export default function Index() {
               data.result.map((person) => (
                 <tr key={person.id}>
                   <td><Link href="/person/[id]" as={`/person/${person.id}`}>{person.name}</Link></td>
+                  <td>{person.born}</td>
+                  <td>{person.died}</td>
+                  <td>{person.nationality}</td>
+                  
                 </tr>
               ))
               }

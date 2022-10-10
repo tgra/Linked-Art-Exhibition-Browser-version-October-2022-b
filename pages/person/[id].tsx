@@ -68,8 +68,8 @@ const Person = () => {
  
         <Table striped borderless hover>
           <tbody>{names.map((ident) => (<tr><th>Name</th><td>{ident.content}</td></tr>))}
-            {"born" in data ? <tr><th>Born</th><td>{data.born.timespan.begin_of_the_begin}</td></tr> : ""}
-            {"died" in data ? <tr><th>Died</th><td>{data.died.timespan.begin_of_the_begin}</td></tr> : ""}
+            {"born" in data ? <tr><th>Born</th><td>{data.born.timespan.identified_by[0].content}</td></tr> : ""}
+            {"died" in data ? <tr><th>Died</th><td>{data.died.timespan.identified_by[0].content}</td></tr> : ""}
             {"referred_to_by" in data ? <tr><th>Description</th><td></td></tr> : ""}
           {"referred_to_by" in data ? data.referred_to_by.map((statement) => (<tr><td>{statement.classified_as[0]._label}</td><td>{statement.content}</td></tr>)): ""}
 

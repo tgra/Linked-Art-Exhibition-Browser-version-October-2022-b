@@ -21,13 +21,17 @@ export default function Index(req: NextApiRequest) {
   const { isReady, query }: string | any = useRouter();
   let page = 1;
   let pp = 10;
+  let sort = "asc";
+  let orderby = "label";
   
   if (query.page){ page = query.page;}
   if (query.pp){ pp = query.pp;}
 
-  let pagination = Paging(page,pp)
+  if (query.sort){ sort = query.sort;}
+  if (query.orderby){ orderby = query.orderby;}
+  let pagination = Paging(page,pp, sort, orderby)
 
-  const { data, error } = useSwr<Event[]>('/api/events?page=' + page + '&pp=' + pp , fetcher)
+  const { data, error } = useSwr<Event[]>('/api/events?page=' + page + '&pp=' + pp + '&sort=' + sort + '&orderby=' + orderby , fetcher)
 
   //console.log(data)
   if (error) return <div>Failed to load exhibitions</div>
@@ -71,13 +75,15 @@ export default function Index(req: NextApiRequest) {
         <tr>
         {JSON.parse(process.env.NEXT_PUBLIC_ACTIVITY_LIST_COLUMNS).columns.map((obj) => <th>{obj.label.capitalize()}</th>)}
  
-          
-
+        </tr>
+        <tr>
+        {JSON.parse(process.env.NEXT_PUBLIC_ACTIVITY_LIST_COLUMNS).columns.map((obj) => <td><a href={"?orderby=" + obj.label + "&sort=asc"}><i class="fa fa-sort-alpha-asc" aria-hidden="true"></i></a> <a href={"?orderby=" + obj.label + "&sort=desc"}>desc</a></td>)}
+ 
         </tr>
        
       </thead>
       <tbody>
-        
+      
        
       {
        
@@ -95,8 +101,8 @@ export default function Index(req: NextApiRequest) {
 
           <td>{event.org}</td>
           <td>{event.location}</td>
-          <td>{new Date(event.start).toISOString().split('T')[0]}</td>
-          <td>{new Date (event.end).toISOString().split('T')[0]}</td>
+          <td>{event.start}</td>
+          <td>{event.end}</td>
          
         </tr>
        
@@ -118,22 +124,22 @@ export default function Index(req: NextApiRequest) {
 
 
 
-function Paging(page,pp) {
+function Paging(page,pp, sort, orderby) {
  
   page = parseInt(page);
   pp = parseInt(pp);
-  let first_url = "?page=1&pp="+ pp;
+  let first_url = "?page=1&pp="+ pp + "&sort=" + sort + "&orderby=" + orderby;
 
-  let prev_url = "?page=" + (page - 1) + "&pp="+ pp;
-  let next_url = "?page=" + (page + 1) + "&pp="+ pp;
-  let last_url = "?page=last&pp="+ pp;
+  let prev_url = "?page=" + (page - 1) + "&pp="+ pp+ "&sort=" + sort + "&orderby=" + orderby;
+  let next_url = "?page=" + (page + 1) + "&pp="+ pp+ "&sort=" + sort + "&orderby=" + orderby;
+  let last_url = "?page=last&pp="+ pp + "&sort=" + sort + "&orderby=" + orderby;
   let items = [<Pagination.First href={first_url}/>,<Pagination.Prev href={prev_url}/>];
 
   const s = page;
   const e = parseInt(s) + 9;
   for (let number = s; number <= e; number++) {
 
-    let url = "?page=" + (number) + "&pp="+ pp;
+    let url = "?page=" + (number) + "&pp="+ pp + "&sort=" + sort + "&orderby=" + orderby;
 
     items.push(
       <Pagination.Item key={number} href={url} active={number == page}>

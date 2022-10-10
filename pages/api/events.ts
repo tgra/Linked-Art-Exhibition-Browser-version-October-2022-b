@@ -5,7 +5,18 @@ import { exit } from 'process';
 var fs = require('fs');
 
 
+function compareObjects(object1, object2, key) {
+  const obj1 = object1[key].toUpperCase()
+  const obj2 = object2[key].toUpperCase()
 
+  if (obj1 < obj2) {
+    return -1
+  }
+  if (obj1 > obj2) {
+    return 1
+  }
+  return 0
+}
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
     
@@ -19,6 +30,10 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     let { pp } = req.query.pp ? req.query : { pp: 50 };
     pp = parseInt(pp)
 
+    let { orderby } = req.query.orderby ? req.query : { orderby: "label" };
+  
+    let { sort } = req.query.sort ? req.query : { sort: "asc" };
+  
     let dir = process.env.ACTIVITY_DATA_PATH;
     let events = [];
     
@@ -42,21 +57,13 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
           let pageCount = files.length/pp;
           meta.pageCount = Math.ceil(pageCount);
 
-          let counter = 0;
+          
           let startRecord = ((page - 1) * pp);
 
-          
+
+
           files.forEach(function (file) {
 
-            counter = counter + 1;
-            
-            if (counter > (startRecord + pp)){
-              let all_events = { meta: meta, result: events };
-              res.status(200).json(all_events);
-              exit 
-            }
-            
-            if (counter > startRecord){
               let filepath = dir + '/' + file;
               let rawdata = fs.readFileSync(filepath);
               let event = JSON.parse(rawdata);
@@ -67,15 +74,29 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
               let id = file.split('.')[0];
               let start = event.timespan.begin_of_the_begin
               let end = event.timespan.end_of_the_end
-              let venue = event.took_place_at[0]._label
+              let venue = "" ; //event.took_place_at[0]._label
               let org = event.carried_out_by[0]._label
-             
-           
-            
+
               events.push({id:id,filename:filename,label:label, start:start, end:end, location:venue, org:org});
-        }
-            
+  
       });
+
+      if (sort == "desc") {
+
+        events.sort((event1, event2) => {
+          return compareObjects(event2, event1, orderby)
+        })
+      } else {
+        events.sort((event1, event2) => {
+          return compareObjects(event1, event2, orderby)
+        })
+      }
+
+      
+        let all_events = { meta: meta, result: events.slice(startRecord,startRecord + pp) };
+        res.status(200).json(all_events);
+        exit 
+     
             
           
     
@@ -83,6 +104,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     });
     
    
+
 
 }
 

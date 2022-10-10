@@ -48,20 +48,16 @@ const Exhibition = () => {
        
 <h1>{process.env.NEXT_PUBLIC_ACTIVITY_BREADCRUMB_SINGULAR}: {data._label}</h1>
 <Table>
-
-  { carried_out_by == true  ? <tr><th>{process.env.NEXT_PUBLIC_CARRIED_OUT_BY}</th><td><ul>{data.carried_out_by.map((obj) => (<li key={obj.id.toLowerCase().replace(process.env.NEXT_PUBLIC_BASE_URI, "")}><a href={obj.id.toLowerCase().replace(process.env.NEXT_PUBLIC_BASE_URI, "")}>{"_label" in obj ? obj._label : obj.id}</a></li>))}</ul></td></tr> : ""}
-  { influenced_by == true  ? <tr><th>{process.env.NEXT_PUBLIC_INFLUENCED_BY}</th><td><ul>{data.influenced_by.map((obj) => (<li key={obj.id.toLowerCase().replace(process.env.NEXT_PUBLIC_BASE_URI, "")}><a href={obj.id.toLowerCase().replace(process.env.NEXT_PUBLIC_BASE_URI, "")}>{"_label" in obj ? obj._label : obj.id}</a></li>))}</ul></td></tr> : ""}
-  
-
-
-
      
-          {("took_place_at" in data) ? <tr><th>Location</th><td>{data.took_place_at._label}</td></tr> : ""}
+        {("took_place_at" in data) ? <tr><th>Location</th><td>{data.took_place_at._label}</td></tr> : ""}
 
-          {"timespan" in data && "begin_of_the_begin" in data.timespan ? <tr><th>Start Date</th><td>{new Date(data.timespan.begin_of_the_begin).toISOString().split('T')[0]}</td></tr> : ""}
-          {"timespan" in data && "end_of_the_end" in data.timespan ? <tr><th>End Date</th><td>{new Date(data.timespan.end_of_the_end).toISOString().split('T')[0]}</td></tr> : ""}
+        {"timespan" in data && "begin_of_the_begin" in data.timespan ? <tr><th>Start Date</th><td>{new Date(data.timespan.begin_of_the_begin).toISOString().split('T')[0]}</td></tr> : ""}
+        {"timespan" in data && "end_of_the_end" in data.timespan ? <tr><th>End Date</th><td>{new Date(data.timespan.end_of_the_end).toISOString().split('T')[0]}</td></tr> : ""}
 
-          {("part" in data) ?
+        { carried_out_by == true  ? <tr><th>{process.env.NEXT_PUBLIC_CARRIED_OUT_BY}</th><td><ol>{data.carried_out_by.map((obj) => (<li key={obj.id.toLowerCase().replace(process.env.NEXT_PUBLIC_BASE_URI, "")}><a href={obj.id.toLowerCase().replace(process.env.NEXT_PUBLIC_BASE_URI, "")}>{"_label" in obj ? obj._label : obj.id}</a></li>))}</ol></td></tr> : ""}
+        { influenced_by == true  ? <tr><th>{process.env.NEXT_PUBLIC_INFLUENCED_BY}</th><td><ol>{data.influenced_by.map((obj) => (<li key={obj.id.toLowerCase().replace(process.env.NEXT_PUBLIC_BASE_URI, "")}><a href={obj.id.toLowerCase().replace(process.env.NEXT_PUBLIC_BASE_URI, "")}>{"_label" in obj ? obj._label : obj.id}</a></li>))}</ol></td></tr> : ""}
+  
+        {("part" in data) ?
             <tr><th>People Associated With Exhibition</th><td></td></tr>
             : ""}
           {
