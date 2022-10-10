@@ -64,7 +64,7 @@ export default function Index(req: NextApiRequest) {
       {
       data.result.map((obj) => (
         <tr key={obj.id}>
-          <td><Link href={obj.id.replace(process.env.NEXT_PUBLIC_BASE_URI,'')} >{obj.label}</Link></td>
+          <td><Link href={obj.id.toLowerCase().replace(process.env.NEXT_PUBLIC_BASE_URI,'')} >{obj.label}</Link></td>
         </tr>
       ))}
       </tbody>

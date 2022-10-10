@@ -95,8 +95,8 @@ export default function Index(req: NextApiRequest) {
 
           <td>{event.org}</td>
           <td>{event.location}</td>
-          <td>{event.start}</td>
-          <td>{event.end}</td>
+          <td>{new Date(event.start).toISOString().split('T')[0]}</td>
+          <td>{new Date (event.end).toISOString().split('T')[0]}</td>
          
         </tr>
        

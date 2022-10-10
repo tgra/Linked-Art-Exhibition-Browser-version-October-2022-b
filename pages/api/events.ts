@@ -65,17 +65,14 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
              let label = ("_label" in event) ? event._label : "identified_by" in event && event.identified_by[0].type == 'Name' ? event.identified_by[0].content : "";
               let filename = file;
               let id = file.split('.')[0];
-              //let start = event.timespan.begin_of_the_begin
-            //  let end = event.timespan.end_of_the_end
-            //  let location = event.took_place_at._label
-            //  let org = event.carried_out_by._label
+              let start = event.timespan.begin_of_the_begin
+              let end = event.timespan.end_of_the_end
+              let venue = event.took_place_at[0]._label
+              let org = event.carried_out_by[0]._label
              
-            let start = ""
-            let end = ""
-            let location = ""
-            let org = ""
+           
             
-              events.push({id:id,filename:filename,label:label, start:start, end:end, location:location, org:org});
+              events.push({id:id,filename:filename,label:label, start:start, end:end, location:venue, org:org});
         }
             
       });

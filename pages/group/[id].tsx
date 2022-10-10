@@ -69,7 +69,7 @@ const Group = () => {
           {"referred_to_by" in data ? data.referred_to_by.map((statement) => (<tr><td>{statement.classified_as[0]._label}</td><td>{statement.content}</td></tr>)): ""}
 
             <tr><th>Identifiers</th><td></td></tr>
-            {identifiers.map((ident) => (<tr><td></td><td>{ident.content} <sup>attributed by:<a href={ident.attributed_by[0].carried_out_by[0].id.replace(process.env.NEXT_PUBLIC_BASE_URI,'')}>{ident.attributed_by[0].carried_out_by[0]._label}</a></sup></td></tr>))}
+            {identifiers.map((ident) => (<tr><td></td><td>{ident.content} <sup>attributed by:<a href={ident.attributed_by[0].carried_out_by[0].id.toLowerCase().replace(process.env.NEXT_PUBLIC_BASE_URI,'')}>{ident.attributed_by[0].carried_out_by[0]._label}</a></sup></td></tr>))}
          
           {"equivalent" in data ? <tr><th>Equivalent Entities</th><td></td></tr> : ""}
           {"equivalent" in data ? data.equivalent.map((entity) => (<tr><td></td><td><a target="_new" href={entity.id}>{entity.id}</a> <sup>{entity.type}</sup></td></tr>)): ""}
