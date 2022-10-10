@@ -8,6 +8,18 @@ import Pagination from 'react-bootstrap/Pagination';
 import Table from 'react-bootstrap/Table';
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 
+// Import the FontAwesomeIcon component
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+// import the icons you need
+import {
+  faSearch,
+  faAmbulance,
+  faAnchor,
+  faSortAlphaUp ,
+  faSortAlphaDown
+} from "@fortawesome/free-solid-svg-icons";
+
 
 
 
@@ -66,10 +78,24 @@ export default function Index(req: NextApiRequest) {
     
 </Breadcrumb> 
      
-        <h1>{process.env.NEXT_PUBLIC_ACTIVITY_TITLE}</h1>
-        <p>{process.env.NEXT_PUBLIC_ACTIVITY_DESCRIPTION}</p>
-        {pagination}
        
+       
+<div class="container">
+<div class="row">
+<div class="col col-lg-3 facet-menu">
+<h2>{process.env.NEXT_PUBLIC_ACTIVITY_TITLE}</h2>
+        <p>{process.env.NEXT_PUBLIC_ACTIVITY_DESCRIPTION}</p>
+        
+
+      <span class="fs-5 fw-semibold">Facets</span>
+   
+    
+ 
+  
+</div>
+<div class="col">
+
+{pagination}
         <Table  striped borderless hover size="sm">
       <thead>
         <tr>
@@ -77,7 +103,7 @@ export default function Index(req: NextApiRequest) {
  
         </tr>
         <tr>
-        {JSON.parse(process.env.NEXT_PUBLIC_ACTIVITY_LIST_COLUMNS).columns.map((obj) => <td><a href={"?orderby=" + obj.label + "&sort=asc"}><i class="fa fa-sort-alpha-asc" aria-hidden="true"></i></a> <a href={"?orderby=" + obj.label + "&sort=desc"}>desc</a></td>)}
+        {JSON.parse(process.env.NEXT_PUBLIC_ACTIVITY_LIST_COLUMNS).columns.map((obj) => <td><a href={"?orderby=" + obj.label + "&sort=asc"}><FontAwesomeIcon icon={faSortAlphaDown} /></a>&nbsp;&nbsp;<a href={"?orderby=" + obj.label + "&sort=desc"}><FontAwesomeIcon icon={faSortAlphaUp} /></a></td>)}
  
         </tr>
        
@@ -101,8 +127,8 @@ export default function Index(req: NextApiRequest) {
 
           <td>{event.org}</td>
           <td>{event.location}</td>
-          <td>{event.start}</td>
-          <td>{event.end}</td>
+          <td>{event.start == "" ?   "" : new Date(event.start).toISOString().split('T')[0]}</td>
+          <td>{ String(event.end).split("T")[0] == "undefined" ? event.end : String(event.end).split("T")[0]}</td>
          
         </tr>
        
@@ -112,7 +138,8 @@ export default function Index(req: NextApiRequest) {
       </tbody>
       </Table>
         
-
+      </div>
+</div></div>
       </main>
     </div>
 
@@ -136,7 +163,7 @@ function Paging(page,pp, sort, orderby) {
   let items = [<Pagination.First href={first_url}/>,<Pagination.Prev href={prev_url}/>];
 
   const s = page;
-  const e = parseInt(s) + 9;
+  const e = parseInt(s) + 4;
   for (let number = s; number <= e; number++) {
 
     let url = "?page=" + (number) + "&pp="+ pp + "&sort=" + sort + "&orderby=" + orderby;
