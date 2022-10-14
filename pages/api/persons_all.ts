@@ -1,10 +1,8 @@
 import type { NextApiRequest, NextApiResponse } from 'next'
-import { type } from 'os';
+
 import { exit } from 'process';
 
 var fs = require('fs');
-
-
 
 
 function get_gender(person){
@@ -28,61 +26,25 @@ function get_nationality(person){
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
     
-    // support paging of results
-    let { page } = req.query.page ? req.query : { page: 1 };
-    page = parseInt(page)
-
-    // number of records to display per page
-    let { pp } = req.query.pp ? req.query : { pp: 50 };
-    
-
     let dir = process.env.PERSON_DATA_PATH;
     let persons = [];
-    let perPage = 500;
+    let meta = {
+        success: true,
+        totalCount: 0,
+      }
     
     fs.readdir(dir, function (err, files) { 
         if (err) {
             console.error("Could not list the directory.", err);
             process.exit(1);
           }
-
-          let meta = {
-            success: true,
-            totalCount: 0,
-            pageCount: 0,
-            currentPage: page,
-            perPage: pp,
-          }
+          
           // total number of files in dir
           meta.totalCount = files.length;
 
-          let pageCount = 1;
 
-          if (pp == "all"){
-            pp = meta.totalCount;
-          } else {
-            pageCount = files.length/pp;
-          }
-
-          
-          meta.pageCount = Math.ceil(pageCount);
-      
-          let counter = 0;
-          let startRecord = ((page - 1) * pp);
-
-         
-          files.sort();
           files.forEach(function (file) {
 
-            counter = counter + 1;
-            
-            if (counter > (startRecord + pp)){
-              let all_persons = { meta: meta, result: persons };
-              res.status(200).json(all_persons);
-              exit 
-            }
-
-            if (counter > startRecord){
               let filepath = dir + '/' + file;
 
               let rawdata = fs.readFileSync(filepath);
@@ -96,8 +58,6 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
               let id_uri = person.id.split(/\:\d*/)[2]
 
-              
-              
               let gender = get_gender(person)
               let nationality = get_nationality(person)
               
@@ -110,11 +70,12 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
               
               persons.push({id:id,filename:filename,label:label, id_uri:id_uri, name:name, born: born, died: died, gender:gender,nationality:nationality});
                
-              
-            }
+
           });
             
-          
+          let all_persons = { meta: meta, result: persons };
+              res.status(200).json(all_persons);
+              exit 
     
        
     });

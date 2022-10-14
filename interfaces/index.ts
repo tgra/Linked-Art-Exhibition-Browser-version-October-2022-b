@@ -4,6 +4,6 @@ export type Event = {
     _label?: string
     start?: Date
     end?: Date
-    identified_by: string
+    identified_by?: string
   }
   

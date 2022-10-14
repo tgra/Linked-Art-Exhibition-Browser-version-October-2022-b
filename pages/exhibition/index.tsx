@@ -19,21 +19,18 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 
-
-
-
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
-export default function Index(req: NextApiRequest) {
+export default function Exhibition_index(req: NextApiRequest) {
 
 
-  
   const { isReady, query }: string | any = useRouter();
   let page = 1;
   let pp = 10;
   let sort = "asc";
   let orderby = "label";
   
+
   if (query.page){ page = query.page;}
   if (query.pp){ pp = query.pp;}
 
@@ -41,7 +38,7 @@ export default function Index(req: NextApiRequest) {
   if (query.orderby){ orderby = query.orderby;}
   let pagination = Paging(page,pp, sort, orderby)
 
-  const { data, error } = useSwr<Event[]>('/api/events?page=' + page + '&pp=' + pp + '&sort=' + sort + '&orderby=' + orderby , fetcher)
+  const { data, error } = useSwr<Event[]>('/api/events_all' , fetcher)
 
   //console.log(data)
   if (error) return <div>Failed to load exhibitions</div>
@@ -61,15 +58,16 @@ export default function Index(req: NextApiRequest) {
         
       <Head>
         <title> Alternative New York Exhibitions</title>
-        <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-    crossorigin="anonymous" />
+    crossOrigin="anonymous" />
       
       </Head>
 
   
 <main>
+
 <Breadcrumb>
       <Breadcrumb.Item href="/">{process.env.NEXT_PUBLIC_APP_BREADCRUMB_HOME}</Breadcrumb.Item>
       <Breadcrumb.Item active href="/exhibition">{process.env.NEXT_PUBLIC_ACTIVITY_BREADCRUMB_PLURAL}</Breadcrumb.Item>
@@ -84,7 +82,8 @@ export default function Index(req: NextApiRequest) {
 <h2>{process.env.NEXT_PUBLIC_ACTIVITY_TITLE}</h2>
         <p>{process.env.NEXT_PUBLIC_ACTIVITY_DESCRIPTION}</p>
         
-
+        <p>Number of records: {data.meta.totalCount}</p>
+  
       <span class="fs-5 fw-semibold">Facets</span>
    
     
@@ -92,7 +91,7 @@ export default function Index(req: NextApiRequest) {
   
 </div>
 <div class="col">
-
+Page {data.meta.currentPage} of {data.meta.pageCount}
 {pagination}
         <Table  striped borderless hover size="sm">
       <thead>
@@ -101,7 +100,7 @@ export default function Index(req: NextApiRequest) {
  
         </tr>
         <tr>
-        {JSON.parse(process.env.NEXT_PUBLIC_ACTIVITY_LIST_COLUMNS).columns.map((obj) => <td><a href={"?orderby=" + obj.label + "&sort=asc"}><FontAwesomeIcon icon={faSortAlphaDown} /></a>&nbsp;&nbsp;<a href={"?orderby=" + obj.label + "&sort=desc"}><FontAwesomeIcon icon={faSortAlphaUp} /></a></td>)}
+        {JSON.parse(process.env.NEXT_PUBLIC_ACTIVITY_LIST_COLUMNS).columns.map((obj) => <td><Link href={"?orderby=" + obj.label + "&sort=asc"}><FontAwesomeIcon icon={faSortAlphaDown} /></Link>&nbsp;&nbsp;<Link href={"?orderby=" + obj.label + "&sort=desc"}><FontAwesomeIcon icon={faSortAlphaUp} /></Link></td>)}
  
         </tr>
        

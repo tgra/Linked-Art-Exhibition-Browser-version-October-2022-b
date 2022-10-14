@@ -21,7 +21,7 @@ import {
 
 const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
-export default function Index(req: NextApiRequest) {
+export default function Gropu_index(req: NextApiRequest) {
   const { isReady, query }: string | any = useRouter();
   let page = 1;
   let pp = process.env.NEXT_PUBLIC_RECORDS_PER_PAGE;
@@ -40,7 +40,7 @@ export default function Index(req: NextApiRequest) {
 
  
 
-  const { data, error } = useSwr<Event[]>('/api/groups?page=' + page + '&pp=' + pp + '&sort=' + sort + '&orderby=' + orderby , fetcher)
+  const { data, error } = useSwr<Event[]>('/api/groups_all' , fetcher)
 
   //console.log(data)
   if (error) return <div>Failed to load</div>
@@ -60,10 +60,10 @@ export default function Index(req: NextApiRequest) {
         
       <Head>
         <title> Alternative New York Exhibitions - Groups</title>
-        <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-    crossorigin="anonymous" />
+    crossOrigin="anonymous" />
       
       </Head>
 
@@ -101,7 +101,7 @@ export default function Index(req: NextApiRequest) {
  
         </tr>
         <tr>
-        {JSON.parse(process.env.NEXT_PUBLIC_GROUP_LIST_COLUMNS).columns.map((obj) => <td><a href={"?orderby=" + obj.label + "&sort=asc"}><FontAwesomeIcon icon={faSortAlphaDown} /></a>&nbsp;&nbsp;<a href={"?orderby=" + obj.label + "&sort=desc"}><FontAwesomeIcon icon={faSortAlphaUp} /></a></td>)}
+        {JSON.parse(process.env.NEXT_PUBLIC_GROUP_LIST_COLUMNS).columns.map((obj) => <td><Link href={"?orderby=" + obj.label + "&sort=asc"}><FontAwesomeIcon icon={faSortAlphaDown} /></Link>&nbsp;&nbsp;<Link href={"?orderby=" + obj.label + "&sort=desc"}><FontAwesomeIcon icon={faSortAlphaUp} /></Link></td>)}
  
         </tr>
        

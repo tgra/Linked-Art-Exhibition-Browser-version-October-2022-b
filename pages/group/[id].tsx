@@ -1,21 +1,11 @@
-import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Head from 'next/head';
-import type { Event } from '../../interfaces'
-import useSwr from 'swr'
-
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
 import Table from 'react-bootstrap/Table';
-const fetcher = (url: string) => fetch(url).then((res) => res.json())
 
-const Group = () => {
-  const router = useRouter();
-  const id = router.query;
-  const { data, error } = useSwr<Event[]>('/api/group/' + id.id, fetcher)
-
-  if (error) return <div>Failed to load group data</div>
-  if (!data) return <div>Loading...</div>
-
+export default function Group({ data }) {
+  if (!data) return <div>No data...</div>
+  
   let ids = data.identified_by
   let names = [];
   let identifiers = [];
@@ -31,8 +21,6 @@ const Group = () => {
           identifiers.push(ids[idx])
           break
     }
-
-
   }
 
   
@@ -44,10 +32,10 @@ const Group = () => {
 
       <Head>
         <title> Alternative New York Exhibition - Group</title>
-        <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin></script>
+        <script src="https://unpkg.com/react/umd/react.production.min.js" crossOrigin></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
           integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
-          crossorigin="anonymous" />
+          crossOrigin="anonymous" />
 
       </Head>
 
@@ -69,10 +57,10 @@ const Group = () => {
           {"referred_to_by" in data ? data.referred_to_by.map((statement) => (<tr><td>{statement.classified_as[0]._label}</td><td>{statement.content}</td></tr>)): ""}
 
             <tr><th>Identifiers</th><td></td></tr>
-            {identifiers.map((ident) => (<tr><td></td><td>{ident.content} <sup>attributed by:<a href={ident.attributed_by[0].carried_out_by[0].id.toLowerCase().replace(process.env.NEXT_PUBLIC_BASE_URI,'')}>{ident.attributed_by[0].carried_out_by[0]._label}</a></sup></td></tr>))}
+            {identifiers.map((ident) => (<tr><td></td><td>{ident.content} <sup>attributed by:<Link href={ident.attributed_by[0].carried_out_by[0].id.toLowerCase().replace(process.env.NEXT_PUBLIC_BASE_URI,'')}>{ident.attributed_by[0].carried_out_by[0]._label}</Link></sup></td></tr>))}
          
           {"equivalent" in data ? <tr><th>Equivalent Entities</th><td></td></tr> : ""}
-          {"equivalent" in data ? data.equivalent.map((entity) => (<tr><td></td><td><a target="_new" href={entity.id}>{entity.id}</a> <sup>{entity.type}</sup></td></tr>)): ""}
+          {"equivalent" in data ? data.equivalent.map((entity) => (<tr><td></td><td><Link target="_new" href={entity.id}>{entity.id}</Link> <sup>{entity.type}</sup></td></tr>)): ""}
 
           {"assigned_by" in data ?  <tr><th>Attribute Assignments</th><td></td></tr> : ""}
           {"assigned_by" in data ? data.assigned_by.map((assign) => (<tr><th>Assignment</th><td>
@@ -82,17 +70,12 @@ const Group = () => {
               <h5>{set._label}</h5> 
 
               <ol> {set.about.map((s) => (
-                <li key={s.id}><a href={'/exhibition/' + s.id.split("/").pop()}>{s._label}</a></li>
+                <li key={s.id}><Link href={'/exhibition/' + s.id.split("/").pop()}>{s._label}</Link></li>
               ))}</ol>
             </div> ))}</td></tr>)): ""}
 
            
             </tbody></Table>
-
-
-
-
-
 
 
       </main>
@@ -102,5 +85,31 @@ const Group = () => {
   )
 }
 
-export default Group
 
+export async function getStaticPaths() {
+
+  const res = await fetch('http://localhost:3000/api/groups_all')
+  const data = await res.json()
+
+ 
+  const ids = data.result.map((group) => (
+    {params:{id:group.id.replace('https://www.moma.org/data/Group/','')},}))
+  return {
+    paths: [...ids],
+    fallback: false, // can also be true or 'blocking'
+  }
+}
+
+
+export async function getStaticProps({ params }) {
+  
+  const res = await fetch('http://localhost:3000/api/group/' + params.id )
+  const data = await res.json()
+
+  
+  return {
+    props: {
+      data,
+    },
+  }
+}
